@@ -1,6 +1,6 @@
 import {getSignature} from "../getSignature/getSignature";
 import fetch from 'node-fetch';
-import '../env'
+import '../../env'
 
 export const callApi = async (baseCall: string, params: string) => {
     const signature = getSignature(process.env.API_KEY, process.env.API_SECRET);
