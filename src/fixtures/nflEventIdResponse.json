@@ -1,0 +1,3453 @@
+{
+  "apiResults": [
+    {
+      "league": {
+        "abbreviation": "NFL",
+        "displayName": "National Football League",
+        "leagueId": 8,
+        "name": "National Football League",
+        "season": {
+          "eventType": [
+            {
+              "eventTypeId": 1,
+              "events": [
+                {
+                  "boxscores": [
+                    {
+                      "playerStats": {
+                        "blockedKickStats": [],
+                        "defenseStats": [
+                          {
+                            "assists": 0,
+                            "miscAssists": 0,
+                            "miscTackles": 0,
+                            "passesDefensed": 2,
+                            "player": {
+                              "firstName": "Kyle",
+                              "lastName": "Fuller",
+                              "playerId": 553623,
+                              "uniform": "23"
+                            },
+                            "sackYards": 0,
+                            "sacks": 0,
+                            "safeties": 0,
+                            "specialTeamsAssists": 0,
+                            "specialTeamsTackles": 0,
+                            "stuffYards": 0,
+                            "stuffs": 0,
+                            "tackles": 6
+                          },
+                          {
+                            "assists": 0,
+                            "miscAssists": 0,
+                            "miscTackles": 0,
+                            "passesDefensed": 0,
+                            "player": {
+                              "firstName": "Leonard",
+                              "lastName": "Floyd",
+                              "playerId": 734313,
+                              "uniform": "94"
+                            },
+                            "sackYards": 14,
+                            "sacks": 2,
+                            "safeties": 0,
+                            "specialTeamsAssists": 0,
+                            "specialTeamsTackles": 0,
+                            "stuffYards": 0,
+                            "stuffs": 0,
+                            "tackles": 4
+                          },
+                          {
+                            "assists": 0,
+                            "miscAssists": 0,
+                            "miscTackles": 0,
+                            "passesDefensed": 0,
+                            "player": {
+                              "firstName": "Ha Ha",
+                              "lastName": "Clinton-Dix",
+                              "playerId": 610962,
+                              "uniform": "21"
+                            },
+                            "sackYards": 0,
+                            "sacks": 0,
+                            "safeties": 0,
+                            "specialTeamsAssists": 0,
+                            "specialTeamsTackles": 0,
+                            "stuffYards": 0,
+                            "stuffs": 0,
+                            "tackles": 5
+                          },
+                          {
+                            "assists": 0,
+                            "miscAssists": 0,
+                            "miscTackles": 0,
+                            "passesDefensed": 0,
+                            "player": {
+                              "firstName": "Khalil",
+                              "lastName": "Mack",
+                              "playerId": 506500,
+                              "uniform": "52"
+                            },
+                            "sackYards": 0,
+                            "sacks": 0,
+                            "safeties": 0,
+                            "specialTeamsAssists": 0,
+                            "specialTeamsTackles": 0,
+                            "stuffYards": 0,
+                            "stuffs": 0,
+                            "tackles": 5
+                          },
+                          {
+                            "assists": 1,
+                            "miscAssists": 0,
+                            "miscTackles": 0,
+                            "passesDefensed": 0,
+                            "player": {
+                              "firstName": "Roquan",
+                              "lastName": "Smith",
+                              "playerId": 879092,
+                              "uniform": "58"
+                            },
+                            "sackYards": 0,
+                            "sacks": 0,
+                            "safeties": 0,
+                            "specialTeamsAssists": 0,
+                            "specialTeamsTackles": 0,
+                            "stuffYards": 2,
+                            "stuffs": 1,
+                            "tackles": 4
+                          },
+                          {
+                            "assists": 1,
+                            "miscAssists": 0,
+                            "miscTackles": 0,
+                            "passesDefensed": 0,
+                            "player": {
+                              "firstName": "Danny",
+                              "lastName": "Trevathan",
+                              "playerId": 465965,
+                              "uniform": "59"
+                            },
+                            "sackYards": 0,
+                            "sacks": 0,
+                            "safeties": 0,
+                            "specialTeamsAssists": 0,
+                            "specialTeamsTackles": 0,
+                            "stuffYards": 0,
+                            "stuffs": 0,
+                            "tackles": 4
+                          },
+                          {
+                            "assists": 1,
+                            "miscAssists": 0,
+                            "miscTackles": 0,
+                            "passesDefensed": 2,
+                            "player": {
+                              "firstName": "Prince",
+                              "lastName": "Amukamara",
+                              "playerId": 406346,
+                              "uniform": "20"
+                            },
+                            "sackYards": 0,
+                            "sacks": 0,
+                            "safeties": 0,
+                            "specialTeamsAssists": 0,
+                            "specialTeamsTackles": 0,
+                            "stuffYards": 0,
+                            "stuffs": 0,
+                            "tackles": 2
+                          },
+                          {
+                            "assists": 0,
+                            "miscAssists": 0,
+                            "miscTackles": 0,
+                            "passesDefensed": 0,
+                            "player": {
+                              "firstName": "Roy",
+                              "lastName": "Robertson-Harris",
+                              "playerId": 609989,
+                              "uniform": "95"
+                            },
+                            "sackYards": 10,
+                            "sacks": 1,
+                            "safeties": 0,
+                            "specialTeamsAssists": 0,
+                            "specialTeamsTackles": 0,
+                            "stuffYards": 1,
+                            "stuffs": 1,
+                            "tackles": 3
+                          },
+                          {
+                            "assists": 0,
+                            "miscAssists": 0,
+                            "miscTackles": 0,
+                            "passesDefensed": 0,
+                            "player": {
+                              "firstName": "Akiem",
+                              "lastName": "Hicks",
+                              "playerId": 498969,
+                              "uniform": "96"
+                            },
+                            "sackYards": 8,
+                            "sacks": 1,
+                            "safeties": 0,
+                            "specialTeamsAssists": 0,
+                            "specialTeamsTackles": 0,
+                            "stuffYards": 0,
+                            "stuffs": 0,
+                            "tackles": 2
+                          },
+                          {
+                            "assists": 0,
+                            "miscAssists": 0,
+                            "miscTackles": 0,
+                            "passesDefensed": 0,
+                            "player": {
+                              "firstName": "Eddie",
+                              "lastName": "Jackson",
+                              "playerId": 750841,
+                              "uniform": "39"
+                            },
+                            "sackYards": 0,
+                            "sacks": 0,
+                            "safeties": 0,
+                            "specialTeamsAssists": 0,
+                            "specialTeamsTackles": 0,
+                            "stuffYards": 2,
+                            "stuffs": 1,
+                            "tackles": 2
+                          },
+                          {
+                            "assists": 0,
+                            "miscAssists": 0,
+                            "miscTackles": 0,
+                            "passesDefensed": 0,
+                            "player": {
+                              "firstName": "Aaron",
+                              "lastName": "Lynch",
+                              "playerId": 592909,
+                              "uniform": "99"
+                            },
+                            "sackYards": 5,
+                            "sacks": 1,
+                            "safeties": 0,
+                            "specialTeamsAssists": 0,
+                            "specialTeamsTackles": 0,
+                            "stuffYards": 0,
+                            "stuffs": 0,
+                            "tackles": 1
+                          },
+                          {
+                            "assists": 0,
+                            "miscAssists": 0,
+                            "miscTackles": 0,
+                            "passesDefensed": 1,
+                            "player": {
+                              "firstName": "Buster",
+                              "lastName": "Skrine",
+                              "playerId": 387769,
+                              "uniform": "24"
+                            },
+                            "sackYards": 0,
+                            "sacks": 0,
+                            "safeties": 0,
+                            "specialTeamsAssists": 0,
+                            "specialTeamsTackles": 0,
+                            "stuffYards": 0,
+                            "stuffs": 0,
+                            "tackles": 1
+                          },
+                          {
+                            "assists": 0,
+                            "miscAssists": 0,
+                            "miscTackles": 0,
+                            "passesDefensed": 0,
+                            "player": {
+                              "firstName": "Eddie",
+                              "lastName": "Goldman",
+                              "playerId": 691519,
+                              "uniform": "91"
+                            },
+                            "sackYards": 0,
+                            "sacks": 0,
+                            "safeties": 0,
+                            "specialTeamsAssists": 0,
+                            "specialTeamsTackles": 0,
+                            "stuffYards": 0,
+                            "stuffs": 0,
+                            "tackles": 1
+                          },
+                          {
+                            "assists": 0,
+                            "miscAssists": 0,
+                            "miscTackles": 0,
+                            "passesDefensed": 0,
+                            "player": {
+                              "firstName": "Kevin",
+                              "lastName": "Pierre-Louis",
+                              "playerId": 542392,
+                              "uniform": "57"
+                            },
+                            "sackYards": 0,
+                            "sacks": 0,
+                            "safeties": 0,
+                            "specialTeamsAssists": 0,
+                            "specialTeamsTackles": 1,
+                            "stuffYards": 0,
+                            "stuffs": 0,
+                            "tackles": 0
+                          },
+                          {
+                            "assists": 1,
+                            "miscAssists": 0,
+                            "miscTackles": 0,
+                            "passesDefensed": 0,
+                            "player": {
+                              "firstName": "Bilal",
+                              "lastName": "Nichols",
+                              "playerId": 839685,
+                              "uniform": "98"
+                            },
+                            "sackYards": 0,
+                            "sacks": 0,
+                            "safeties": 0,
+                            "specialTeamsAssists": 0,
+                            "specialTeamsTackles": 0,
+                            "stuffYards": 0,
+                            "stuffs": 0,
+                            "tackles": 0
+                          }
+                        ],
+                        "fieldGoalStats": [
+                          {
+                            "attempts": 1,
+                            "blocked": 0,
+                            "long": 38,
+                            "made": 1,
+                            "madeDetails": [
+                              {
+                                "distance": 38
+                              }
+                            ],
+                            "missedDetails": [],
+                            "player": {
+                              "firstName": "Eddy",
+                              "lastName": "Pineiro",
+                              "playerId": 910383,
+                              "uniform": "15"
+                            }
+                          }
+                        ],
+                        "forcedFumbleStats": [
+                          {
+                            "number": 1,
+                            "player": {
+                              "firstName": "Khalil",
+                              "lastName": "Mack",
+                              "playerId": 506500,
+                              "uniform": "52"
+                            }
+                          }
+                        ],
+                        "inactives": [
+                          {
+                            "player": {
+                              "firstName": "Abdullah",
+                              "lastName": "Anderson",
+                              "playerId": 832993,
+                              "uniform": "76"
+                            }
+                          },
+                          {
+                            "player": {
+                              "firstName": "Trey",
+                              "lastName": "Burton",
+                              "playerId": 542788,
+                              "uniform": "80"
+                            }
+                          },
+                          {
+                            "player": {
+                              "firstName": "Rashaad",
+                              "lastName": "Coward",
+                              "playerId": 751560,
+                              "uniform": "69"
+                            }
+                          },
+                          {
+                            "player": {
+                              "firstName": "Riley",
+                              "lastName": "Ridley",
+                              "playerId": 914009,
+                              "uniform": "88"
+                            }
+                          },
+                          {
+                            "player": {
+                              "firstName": "Kevin",
+                              "lastName": "Toliver II",
+                              "playerId": 865534,
+                              "uniform": "22"
+                            }
+                          },
+                          {
+                            "player": {
+                              "firstName": "Kerrith",
+                              "lastName": "Whyte Jr.",
+                              "playerId": 866446,
+                              "uniform": "38"
+                            }
+                          },
+                          {
+                            "player": {
+                              "firstName": "Josh",
+                              "lastName": "Woods",
+                              "playerId": 836080,
+                              "uniform": "55"
+                            }
+                          }
+                        ],
+                        "interceptionStats": [],
+                        "kickReturnStats": [],
+                        "opponentFumbleRecoveredStats": [],
+                        "ownFumbleRecoveredStats": [],
+                        "ownFumbleStats": [],
+                        "participationStats": [
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": true,
+                            "player": {
+                              "firstName": "Prince",
+                              "lastName": "Amukamara",
+                              "playerId": 406346,
+                              "uniform": "20"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": false,
+                            "player": {
+                              "firstName": "Ben",
+                              "lastName": "Braunecker",
+                              "playerId": 679453,
+                              "uniform": "82"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": false,
+                            "player": {
+                              "firstName": "Deon",
+                              "lastName": "Bush",
+                              "playerId": 691572,
+                              "uniform": "26"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": true,
+                            "player": {
+                              "firstName": "Ha Ha",
+                              "lastName": "Clinton-Dix",
+                              "playerId": 610962,
+                              "uniform": "21"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": true,
+                            "player": {
+                              "firstName": "Tarik",
+                              "lastName": "Cohen",
+                              "playerId": 756928,
+                              "uniform": "29"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": true,
+                            "player": {
+                              "firstName": "James",
+                              "lastName": "Daniels",
+                              "playerId": 870156,
+                              "uniform": "68"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": true,
+                            "player": {
+                              "firstName": "Mike",
+                              "lastName": "Davis",
+                              "playerId": 694015,
+                              "uniform": "25"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": true,
+                            "player": {
+                              "firstName": "Leonard",
+                              "lastName": "Floyd",
+                              "playerId": 734313,
+                              "uniform": "94"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": true,
+                            "player": {
+                              "firstName": "Kyle",
+                              "lastName": "Fuller",
+                              "playerId": 553623,
+                              "uniform": "23"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": false,
+                            "player": {
+                              "firstName": "Taylor",
+                              "lastName": "Gabriel",
+                              "playerId": 752062,
+                              "uniform": "18"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": true,
+                            "player": {
+                              "firstName": "Eddie",
+                              "lastName": "Goldman",
+                              "playerId": 691519,
+                              "uniform": "91"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": true,
+                            "player": {
+                              "firstName": "Akiem",
+                              "lastName": "Hicks",
+                              "playerId": 498969,
+                              "uniform": "96"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": false,
+                            "player": {
+                              "firstName": "DeAndre",
+                              "lastName": "Houston-Carson",
+                              "playerId": 594725,
+                              "uniform": "36"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": false,
+                            "player": {
+                              "firstName": "Isaiah",
+                              "lastName": "Irving",
+                              "playerId": 728894,
+                              "uniform": "47"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": false,
+                            "player": {
+                              "firstName": "Joel",
+                              "lastName": "Iyiegbuniwe",
+                              "playerId": 835650,
+                              "uniform": "45"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": true,
+                            "player": {
+                              "firstName": "Eddie",
+                              "lastName": "Jackson",
+                              "playerId": 750841,
+                              "uniform": "39"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": false,
+                            "player": {
+                              "firstName": "Nick",
+                              "lastName": "Kwiatkoski",
+                              "playerId": 607006,
+                              "uniform": "44"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": false,
+                            "player": {
+                              "firstName": "Ted",
+                              "lastName": "Larsen",
+                              "playerId": 297434,
+                              "uniform": "62"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": true,
+                            "player": {
+                              "firstName": "Charles",
+                              "lastName": "Leno Jr.",
+                              "playerId": 499357,
+                              "uniform": "72"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": true,
+                            "player": {
+                              "firstName": "Kyle",
+                              "lastName": "Long",
+                              "playerId": 689725,
+                              "uniform": "75"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": false,
+                            "player": {
+                              "firstName": "Cornelius",
+                              "lastName": "Lucas",
+                              "playerId": 509214,
+                              "uniform": "73"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": false,
+                            "player": {
+                              "firstName": "Aaron",
+                              "lastName": "Lynch",
+                              "playerId": 592909,
+                              "uniform": "99"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": true,
+                            "player": {
+                              "firstName": "Khalil",
+                              "lastName": "Mack",
+                              "playerId": 506500,
+                              "uniform": "52"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": true,
+                            "player": {
+                              "firstName": "Bobby",
+                              "lastName": "Massie",
+                              "playerId": 512184,
+                              "uniform": "70"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": false,
+                            "player": {
+                              "firstName": "Sherrick",
+                              "lastName": "McManis",
+                              "playerId": 332244,
+                              "uniform": "27"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": false,
+                            "player": {
+                              "firstName": "Anthony",
+                              "lastName": "Miller",
+                              "playerId": 749136,
+                              "uniform": "17"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": true,
+                            "player": {
+                              "firstName": "David",
+                              "lastName": "Montgomery",
+                              "playerId": 946739,
+                              "uniform": "32"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": true,
+                            "player": {
+                              "firstName": "Bilal",
+                              "lastName": "Nichols",
+                              "playerId": 839685,
+                              "uniform": "98"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": false,
+                            "player": {
+                              "firstName": "Pat",
+                              "lastName": "O'Donnell",
+                              "playerId": 511734,
+                              "uniform": "16"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": false,
+                            "player": {
+                              "firstName": "Cordarrelle",
+                              "lastName": "Patterson",
+                              "playerId": 690153,
+                              "uniform": "84"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": false,
+                            "player": {
+                              "firstName": "Kevin",
+                              "lastName": "Pierre-Louis",
+                              "playerId": 542392,
+                              "uniform": "57"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": false,
+                            "player": {
+                              "firstName": "Eddy",
+                              "lastName": "Pineiro",
+                              "playerId": 910383,
+                              "uniform": "15"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": false,
+                            "player": {
+                              "firstName": "Roy",
+                              "lastName": "Robertson-Harris",
+                              "playerId": 609989,
+                              "uniform": "95"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": false,
+                            "player": {
+                              "firstName": "Allen",
+                              "lastName": "Robinson II",
+                              "playerId": 609496,
+                              "uniform": "12"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": false,
+                            "player": {
+                              "firstName": "Patrick",
+                              "lastName": "Scales",
+                              "playerId": 402162,
+                              "uniform": "48"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": true,
+                            "player": {
+                              "firstName": "Adam",
+                              "lastName": "Shaheen",
+                              "playerId": 1049770,
+                              "uniform": "87"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": false,
+                            "player": {
+                              "firstName": "Duke",
+                              "lastName": "Shelley",
+                              "playerId": 879946,
+                              "uniform": "33"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": false,
+                            "player": {
+                              "firstName": "Buster",
+                              "lastName": "Skrine",
+                              "playerId": 387769,
+                              "uniform": "24"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": true,
+                            "player": {
+                              "firstName": "Roquan",
+                              "lastName": "Smith",
+                              "playerId": 879092,
+                              "uniform": "58"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": true,
+                            "player": {
+                              "firstName": "Bradley",
+                              "lastName": "Sowell",
+                              "playerId": 396667,
+                              "uniform": "85"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": true,
+                            "player": {
+                              "firstName": "Danny",
+                              "lastName": "Trevathan",
+                              "playerId": 465965,
+                              "uniform": "59"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": true,
+                            "player": {
+                              "firstName": "Mitchell",
+                              "lastName": "Trubisky",
+                              "playerId": 728169,
+                              "uniform": "10"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": true,
+                            "player": {
+                              "firstName": "Cody",
+                              "lastName": "Whitehair",
+                              "playerId": 605254,
+                              "uniform": "65"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": false,
+                            "player": {
+                              "firstName": "Nick",
+                              "lastName": "Williams",
+                              "playerId": 459747,
+                              "uniform": "97"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": false,
+                            "player": {
+                              "firstName": "Javon",
+                              "lastName": "Wims",
+                              "playerId": 922039,
+                              "uniform": "83"
+                            }
+                          }
+                        ],
+                        "passingStats": [
+                          {
+                            "attempts": 45,
+                            "bigPlays": [
+                              {
+                                "number": 4,
+                                "touchdowns": 0,
+                                "value": 20
+                              },
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 30
+                              },
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 40
+                              },
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 50
+                              }
+                            ],
+                            "completions": 26,
+                            "firstDowns": 10,
+                            "fumbles": 0,
+                            "fumblesLost": 0,
+                            "interceptions": 1,
+                            "isLongTouchdown": false,
+                            "long": 27,
+                            "player": {
+                              "firstName": "Mitchell",
+                              "lastName": "Trubisky",
+                              "playerId": 728169,
+                              "uniform": "10"
+                            },
+                            "rating": 62.1,
+                            "sacked": 5,
+                            "sackedYardsLost": 20,
+                            "targets": 44,
+                            "touchdowns": 0,
+                            "yards": 228,
+                            "yardsPerAttempt": "4.62"
+                          }
+                        ],
+                        "patStats": [],
+                        "penaltyStats": [
+                          {
+                            "accepted": 1,
+                            "player": {
+                              "firstName": "Duke",
+                              "lastName": "Shelley",
+                              "playerId": 879946,
+                              "uniform": "33"
+                            },
+                            "yards": 10
+                          },
+                          {
+                            "accepted": 2,
+                            "player": {
+                              "firstName": "Charles",
+                              "lastName": "Leno Jr.",
+                              "playerId": 499357,
+                              "uniform": "72"
+                            },
+                            "yards": 20
+                          },
+                          {
+                            "accepted": 1,
+                            "player": {
+                              "firstName": "Joel",
+                              "lastName": "Iyiegbuniwe",
+                              "playerId": 835650,
+                              "uniform": "45"
+                            },
+                            "yards": 4
+                          },
+                          {
+                            "accepted": 1,
+                            "player": {
+                              "firstName": "Kyle",
+                              "lastName": "Fuller",
+                              "playerId": 553623,
+                              "uniform": "23"
+                            },
+                            "yards": 5
+                          },
+                          {
+                            "accepted": 1,
+                            "player": {
+                              "firstName": "Roquan",
+                              "lastName": "Smith",
+                              "playerId": 879092,
+                              "uniform": "58"
+                            },
+                            "yards": 38
+                          },
+                          {
+                            "accepted": 1,
+                            "player": {
+                              "firstName": "Taylor",
+                              "lastName": "Gabriel",
+                              "playerId": 752062,
+                              "uniform": "18"
+                            },
+                            "yards": 10
+                          },
+                          {
+                            "accepted": 1,
+                            "player": {
+                              "firstName": "Kyle",
+                              "lastName": "Long",
+                              "playerId": 689725,
+                              "uniform": "75"
+                            },
+                            "yards": 10
+                          }
+                        ],
+                        "puntReturnStats": [
+                          {
+                            "bigPlays": [
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 40
+                              }
+                            ],
+                            "fairCatches": 3,
+                            "isLongTouchdown": false,
+                            "long": 14,
+                            "player": {
+                              "firstName": "Tarik",
+                              "lastName": "Cohen",
+                              "playerId": 756928,
+                              "uniform": "29"
+                            },
+                            "returns": 4,
+                            "touchdowns": 0,
+                            "yards": 36
+                          }
+                        ],
+                        "puntingStats": [
+                          {
+                            "average": "42.6",
+                            "blocked": 0,
+                            "in20": 3,
+                            "long": 53,
+                            "netAverage": "42.5",
+                            "player": {
+                              "firstName": "Pat",
+                              "lastName": "O'Donnell",
+                              "playerId": 511734,
+                              "uniform": "16"
+                            },
+                            "punts": 8,
+                            "returnYards": 1,
+                            "returns": 1,
+                            "touchbacks": 0,
+                            "yards": 341
+                          }
+                        ],
+                        "receivingStats": [
+                          {
+                            "bigPlays": [
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 20
+                              },
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 40
+                              }
+                            ],
+                            "firstDowns": 2,
+                            "fumbles": 0,
+                            "fumblesLost": 0,
+                            "isLongTouchdown": false,
+                            "long": 9,
+                            "player": {
+                              "firstName": "Tarik",
+                              "lastName": "Cohen",
+                              "playerId": 756928,
+                              "uniform": "29"
+                            },
+                            "receptions": 8,
+                            "targets": 10,
+                            "touchdowns": 0,
+                            "yards": 49
+                          },
+                          {
+                            "bigPlays": [
+                              {
+                                "number": 3,
+                                "touchdowns": 0,
+                                "value": 20
+                              },
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 40
+                              }
+                            ],
+                            "firstDowns": 5,
+                            "fumbles": 0,
+                            "fumblesLost": 0,
+                            "isLongTouchdown": false,
+                            "long": 27,
+                            "player": {
+                              "firstName": "Allen",
+                              "lastName": "Robinson II",
+                              "playerId": 609496,
+                              "uniform": "12"
+                            },
+                            "receptions": 7,
+                            "targets": 13,
+                            "touchdowns": 0,
+                            "yards": 102
+                          },
+                          {
+                            "bigPlays": [
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 20
+                              },
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 40
+                              }
+                            ],
+                            "firstDowns": 1,
+                            "fumbles": 0,
+                            "fumblesLost": 0,
+                            "isLongTouchdown": false,
+                            "long": 7,
+                            "player": {
+                              "firstName": "Mike",
+                              "lastName": "Davis",
+                              "playerId": 694015,
+                              "uniform": "25"
+                            },
+                            "receptions": 6,
+                            "targets": 7,
+                            "touchdowns": 0,
+                            "yards": 17
+                          },
+                          {
+                            "bigPlays": [
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 20
+                              },
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 40
+                              }
+                            ],
+                            "firstDowns": 1,
+                            "fumbles": 0,
+                            "fumblesLost": 0,
+                            "isLongTouchdown": false,
+                            "long": 15,
+                            "player": {
+                              "firstName": "Taylor",
+                              "lastName": "Gabriel",
+                              "playerId": 752062,
+                              "uniform": "18"
+                            },
+                            "receptions": 2,
+                            "targets": 5,
+                            "touchdowns": 0,
+                            "yards": 24
+                          },
+                          {
+                            "bigPlays": [
+                              {
+                                "number": 1,
+                                "touchdowns": 0,
+                                "value": 20
+                              },
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 40
+                              }
+                            ],
+                            "firstDowns": 1,
+                            "fumbles": 0,
+                            "fumblesLost": 0,
+                            "isLongTouchdown": false,
+                            "long": 27,
+                            "player": {
+                              "firstName": "David",
+                              "lastName": "Montgomery",
+                              "playerId": 946739,
+                              "uniform": "32"
+                            },
+                            "receptions": 1,
+                            "targets": 1,
+                            "touchdowns": 0,
+                            "yards": 27
+                          },
+                          {
+                            "bigPlays": [
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 20
+                              },
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 40
+                              }
+                            ],
+                            "firstDowns": 0,
+                            "fumbles": 0,
+                            "fumblesLost": 0,
+                            "isLongTouchdown": false,
+                            "long": 6,
+                            "player": {
+                              "firstName": "Adam",
+                              "lastName": "Shaheen",
+                              "playerId": 1049770,
+                              "uniform": "87"
+                            },
+                            "receptions": 1,
+                            "targets": 2,
+                            "touchdowns": 0,
+                            "yards": 6
+                          },
+                          {
+                            "bigPlays": [
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 20
+                              },
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 40
+                              }
+                            ],
+                            "firstDowns": 0,
+                            "fumbles": 0,
+                            "fumblesLost": 0,
+                            "isLongTouchdown": false,
+                            "long": 3,
+                            "player": {
+                              "firstName": "Cordarrelle",
+                              "lastName": "Patterson",
+                              "playerId": 690153,
+                              "uniform": "84"
+                            },
+                            "receptions": 1,
+                            "targets": 3,
+                            "touchdowns": 0,
+                            "yards": 3
+                          },
+                          {
+                            "bigPlays": [
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 20
+                              },
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 40
+                              }
+                            ],
+                            "firstDowns": 0,
+                            "fumbles": 0,
+                            "fumblesLost": 0,
+                            "isLongTouchdown": false,
+                            "long": 0,
+                            "player": {
+                              "firstName": "Anthony",
+                              "lastName": "Miller",
+                              "playerId": 749136,
+                              "uniform": "17"
+                            },
+                            "receptions": 0,
+                            "targets": 1,
+                            "touchdowns": 0,
+                            "yards": 0
+                          },
+                          {
+                            "bigPlays": [
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 20
+                              },
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 40
+                              }
+                            ],
+                            "firstDowns": 0,
+                            "fumbles": 0,
+                            "fumblesLost": 0,
+                            "isLongTouchdown": false,
+                            "long": 0,
+                            "player": {
+                              "firstName": "Javon",
+                              "lastName": "Wims",
+                              "playerId": 922039,
+                              "uniform": "83"
+                            },
+                            "receptions": 0,
+                            "targets": 2,
+                            "touchdowns": 0,
+                            "yards": 0
+                          }
+                        ],
+                        "rushingStats": [
+                          {
+                            "attempts": 5,
+                            "bigPlays": [
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 20
+                              },
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 40
+                              }
+                            ],
+                            "firstDowns": 0,
+                            "fumbles": 0,
+                            "fumblesLost": 0,
+                            "isLongTouchdown": false,
+                            "long": 8,
+                            "player": {
+                              "firstName": "Mike",
+                              "lastName": "Davis",
+                              "playerId": 694015,
+                              "uniform": "25"
+                            },
+                            "touchdowns": 0,
+                            "yards": 19,
+                            "yardsPerAttempt": "3.8"
+                          },
+                          {
+                            "attempts": 6,
+                            "bigPlays": [
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 20
+                              },
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 40
+                              }
+                            ],
+                            "firstDowns": 2,
+                            "fumbles": 0,
+                            "fumblesLost": 0,
+                            "isLongTouchdown": false,
+                            "long": 6,
+                            "player": {
+                              "firstName": "David",
+                              "lastName": "Montgomery",
+                              "playerId": 946739,
+                              "uniform": "32"
+                            },
+                            "touchdowns": 0,
+                            "yards": 18,
+                            "yardsPerAttempt": "3.0"
+                          },
+                          {
+                            "attempts": 3,
+                            "bigPlays": [
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 20
+                              },
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 40
+                              }
+                            ],
+                            "firstDowns": 1,
+                            "fumbles": 0,
+                            "fumblesLost": 0,
+                            "isLongTouchdown": false,
+                            "long": 7,
+                            "player": {
+                              "firstName": "Mitchell",
+                              "lastName": "Trubisky",
+                              "playerId": 728169,
+                              "uniform": "10"
+                            },
+                            "touchdowns": 0,
+                            "yards": 11,
+                            "yardsPerAttempt": "3.7"
+                          },
+                          {
+                            "attempts": 1,
+                            "bigPlays": [
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 20
+                              },
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 40
+                              }
+                            ],
+                            "firstDowns": 0,
+                            "fumbles": 0,
+                            "fumblesLost": 0,
+                            "isLongTouchdown": false,
+                            "long": -2,
+                            "player": {
+                              "firstName": "Cordarrelle",
+                              "lastName": "Patterson",
+                              "playerId": 690153,
+                              "uniform": "84"
+                            },
+                            "touchdowns": 0,
+                            "yards": -2,
+                            "yardsPerAttempt": "-2.0"
+                          }
+                        ],
+                        "twoPointAfter4OTStats": [],
+                        "twoPointConversionStats": []
+                      },
+                      "teamId": 326,
+                      "teamStats": {
+                        "defense": {
+                          "assists": 4,
+                          "forcedFumbles": 1,
+                          "passesDefensed": 5,
+                          "sackYards": 37,
+                          "sacks": 5,
+                          "specialTeamsTackles": 1,
+                          "stuffYards": 5,
+                          "stuffs": 3,
+                          "tackles": 40
+                        },
+                        "extraPoints": {
+                          "attempts": 0,
+                          "blocked": 0,
+                          "made": 0,
+                          "percentage": null
+                        },
+                        "fieldGoals": {
+                          "attempts": 1,
+                          "blocked": 0,
+                          "made": 1,
+                          "percentage": "100"
+                        },
+                        "firstDowns": {
+                          "passing": 10,
+                          "penalty": 3,
+                          "rushing": 3,
+                          "total": 16
+                        },
+                        "fourthDownEfficiency": {
+                          "attempts": 2,
+                          "made": 0,
+                          "percentage": "0"
+                        },
+                        "gameTotals": {
+                          "average": "3.9",
+                          "netYards": 254,
+                          "plays": 65,
+                          "touchdowns": 0
+                        },
+                        "goalToGoEfficiency": {
+                          "attempts": 0,
+                          "made": 0,
+                          "percentage": null
+                        },
+                        "interceptions": {
+                          "isLongTouchdown": false,
+                          "long": 0,
+                          "number": 0,
+                          "touchdowns": 0,
+                          "yards": 0
+                        },
+                        "kickReturning": {
+                          "isLongTouchdown": false,
+                          "long": 0,
+                          "returns": 0,
+                          "touchdowns": 0,
+                          "yards": 0
+                        },
+                        "kickoffs": {
+                          "endZone": 1,
+                          "number": 2,
+                          "touchbacks": 1
+                        },
+                        "opponentFumbles": {
+                          "recovered": 0,
+                          "touchdowns": 0,
+                          "yards": 0
+                        },
+                        "ownFumbles": {
+                          "lost": 0,
+                          "number": 0,
+                          "recovered": 0,
+                          "touchdowns": 0,
+                          "yards": 0
+                        },
+                        "passing": {
+                          "attempts": 45,
+                          "completions": 26,
+                          "interceptions": 1,
+                          "netYards": 208,
+                          "netYardsPerAttempt": "4.16",
+                          "sacked": 5,
+                          "sackedYardsLost": 20,
+                          "touchdowns": 0,
+                          "yards": 228,
+                          "yardsPerAttempt": "5.07",
+                          "yardsPerGame": null
+                        },
+                        "penalties": {
+                          "number": 10,
+                          "yards": 107
+                        },
+                        "puntReturning": {
+                          "isLongTouchdown": false,
+                          "long": 14,
+                          "returns": 4,
+                          "touchdowns": 0,
+                          "yards": 36
+                        },
+                        "punting": {
+                          "average": "42.6",
+                          "punts": 8,
+                          "yards": 341
+                        },
+                        "redZoneEfficiency": {
+                          "attempts": 1,
+                          "made": 0,
+                          "percentage": "0"
+                        },
+                        "returnTotals": {
+                          "touchdowns": 0,
+                          "yards": 36
+                        },
+                        "rushing": {
+                          "attempts": 15,
+                          "average": "3.1",
+                          "touchdowns": 0,
+                          "yards": 46
+                        },
+                        "safeties": 0,
+                        "thirdDownEfficiency": {
+                          "attempts": 15,
+                          "made": 3,
+                          "percentage": "20.0"
+                        },
+                        "timeOfPossession": {
+                          "minutes": 28,
+                          "seconds": 57
+                        },
+                        "twoPointAfter4OT": {
+                          "attempts": 0,
+                          "made": 0
+                        },
+                        "twoPointConversions": {
+                          "attempts": 0,
+                          "made": 0
+                        }
+                      }
+                    },
+                    {
+                      "playerStats": {
+                        "blockedKickStats": [],
+                        "defenseStats": [
+                          {
+                            "assists": 2,
+                            "miscAssists": 0,
+                            "miscTackles": 0,
+                            "passesDefensed": 0,
+                            "player": {
+                              "firstName": "Blake",
+                              "lastName": "Martinez",
+                              "playerId": 691005,
+                              "uniform": "50"
+                            },
+                            "sackYards": 6,
+                            "sacks": 1,
+                            "safeties": 0,
+                            "specialTeamsAssists": 0,
+                            "specialTeamsTackles": 0,
+                            "stuffYards": 0,
+                            "stuffs": 0,
+                            "tackles": 5
+                          },
+                          {
+                            "assists": 3,
+                            "miscAssists": 0,
+                            "miscTackles": 0,
+                            "passesDefensed": 1,
+                            "player": {
+                              "firstName": "Preston",
+                              "lastName": "Smith",
+                              "playerId": 604798,
+                              "uniform": "91"
+                            },
+                            "sackYards": 11,
+                            "sacks": 1.5,
+                            "safeties": 0,
+                            "specialTeamsAssists": 0,
+                            "specialTeamsTackles": 0,
+                            "stuffYards": 0,
+                            "stuffs": 0,
+                            "tackles": 2
+                          },
+                          {
+                            "assists": 1,
+                            "miscAssists": 0,
+                            "miscTackles": 0,
+                            "passesDefensed": 1,
+                            "player": {
+                              "firstName": "Raven",
+                              "lastName": "Greene",
+                              "playerId": 750480,
+                              "uniform": "24"
+                            },
+                            "sackYards": 0,
+                            "sacks": 0,
+                            "safeties": 0,
+                            "specialTeamsAssists": 0,
+                            "specialTeamsTackles": 0,
+                            "stuffYards": 0,
+                            "stuffs": 0,
+                            "tackles": 5
+                          },
+                          {
+                            "assists": 0,
+                            "miscAssists": 0,
+                            "miscTackles": 0,
+                            "passesDefensed": 1,
+                            "player": {
+                              "firstName": "Kevin",
+                              "lastName": "King",
+                              "playerId": 747899,
+                              "uniform": "20"
+                            },
+                            "sackYards": 2,
+                            "sacks": 1,
+                            "safeties": 0,
+                            "specialTeamsAssists": 0,
+                            "specialTeamsTackles": 0,
+                            "stuffYards": 0,
+                            "stuffs": 0,
+                            "tackles": 5
+                          },
+                          {
+                            "assists": 2,
+                            "miscAssists": 0,
+                            "miscTackles": 0,
+                            "passesDefensed": 2,
+                            "player": {
+                              "firstName": "Jaire",
+                              "lastName": "Alexander",
+                              "playerId": 868006,
+                              "uniform": "23"
+                            },
+                            "sackYards": 0,
+                            "sacks": 0,
+                            "safeties": 0,
+                            "specialTeamsAssists": 0,
+                            "specialTeamsTackles": 0,
+                            "stuffYards": 0,
+                            "stuffs": 0,
+                            "tackles": 3
+                          },
+                          {
+                            "assists": 1,
+                            "miscAssists": 0,
+                            "miscTackles": 0,
+                            "passesDefensed": 1,
+                            "player": {
+                              "firstName": "Adrian",
+                              "lastName": "Amos",
+                              "playerId": 609401,
+                              "uniform": "31"
+                            },
+                            "sackYards": 0,
+                            "sacks": 0,
+                            "safeties": 0,
+                            "specialTeamsAssists": 0,
+                            "specialTeamsTackles": 2,
+                            "stuffYards": 1,
+                            "stuffs": 0.5,
+                            "tackles": 2
+                          },
+                          {
+                            "assists": 4,
+                            "miscAssists": 0,
+                            "miscTackles": 0,
+                            "passesDefensed": 0,
+                            "player": {
+                              "firstName": "Kenny",
+                              "lastName": "Clark",
+                              "playerId": 744698,
+                              "uniform": "97"
+                            },
+                            "sackYards": 0,
+                            "sacks": 0.5,
+                            "safeties": 0,
+                            "specialTeamsAssists": 0,
+                            "specialTeamsTackles": 0,
+                            "stuffYards": 1,
+                            "stuffs": 0.5,
+                            "tackles": 1
+                          },
+                          {
+                            "assists": 2,
+                            "miscAssists": 0,
+                            "miscTackles": 0,
+                            "passesDefensed": 0,
+                            "player": {
+                              "firstName": "Tony",
+                              "lastName": "Brown",
+                              "playerId": 824527,
+                              "uniform": "28"
+                            },
+                            "sackYards": 0,
+                            "sacks": 0,
+                            "safeties": 0,
+                            "specialTeamsAssists": 0,
+                            "specialTeamsTackles": 0,
+                            "stuffYards": 0,
+                            "stuffs": 0,
+                            "tackles": 3
+                          },
+                          {
+                            "assists": 0,
+                            "miscAssists": 0,
+                            "miscTackles": 0,
+                            "passesDefensed": 2,
+                            "player": {
+                              "firstName": "Tramon",
+                              "lastName": "Williams",
+                              "playerId": 231508,
+                              "uniform": "38"
+                            },
+                            "sackYards": 0,
+                            "sacks": 0,
+                            "safeties": 0,
+                            "specialTeamsAssists": 0,
+                            "specialTeamsTackles": 0,
+                            "stuffYards": 0,
+                            "stuffs": 0,
+                            "tackles": 3
+                          },
+                          {
+                            "assists": 0,
+                            "miscAssists": 0,
+                            "miscTackles": 0,
+                            "passesDefensed": 1,
+                            "player": {
+                              "firstName": "Darnell",
+                              "lastName": "Savage",
+                              "playerId": 877793,
+                              "uniform": "26"
+                            },
+                            "sackYards": 0,
+                            "sacks": 0,
+                            "safeties": 0,
+                            "specialTeamsAssists": 0,
+                            "specialTeamsTackles": 0,
+                            "stuffYards": 0,
+                            "stuffs": 0,
+                            "tackles": 3
+                          },
+                          {
+                            "assists": 0,
+                            "miscAssists": 0,
+                            "miscTackles": 0,
+                            "passesDefensed": 0,
+                            "player": {
+                              "firstName": "Za'Darius",
+                              "lastName": "Smith",
+                              "playerId": 732570,
+                              "uniform": "55"
+                            },
+                            "sackYards": 1,
+                            "sacks": 1,
+                            "safeties": 0,
+                            "specialTeamsAssists": 0,
+                            "specialTeamsTackles": 0,
+                            "stuffYards": 0,
+                            "stuffs": 0,
+                            "tackles": 3
+                          },
+                          {
+                            "assists": 2,
+                            "miscAssists": 0,
+                            "miscTackles": 0,
+                            "passesDefensed": 0,
+                            "player": {
+                              "firstName": "Dean",
+                              "lastName": "Lowry",
+                              "playerId": 691837,
+                              "uniform": "94"
+                            },
+                            "sackYards": 0,
+                            "sacks": 0,
+                            "safeties": 0,
+                            "specialTeamsAssists": 0,
+                            "specialTeamsTackles": 0,
+                            "stuffYards": 0,
+                            "stuffs": 0,
+                            "tackles": 1
+                          },
+                          {
+                            "assists": 1,
+                            "miscAssists": 0,
+                            "miscTackles": 0,
+                            "passesDefensed": 0,
+                            "player": {
+                              "firstName": "Kyler",
+                              "lastName": "Fackrell",
+                              "playerId": 602481,
+                              "uniform": "51"
+                            },
+                            "sackYards": 0,
+                            "sacks": 0,
+                            "safeties": 0,
+                            "specialTeamsAssists": 1,
+                            "specialTeamsTackles": 0,
+                            "stuffYards": 0,
+                            "stuffs": 0,
+                            "tackles": 0
+                          },
+                          {
+                            "assists": 0,
+                            "miscAssists": 0,
+                            "miscTackles": 0,
+                            "passesDefensed": 0,
+                            "player": {
+                              "firstName": "Montravius",
+                              "lastName": "Adams",
+                              "playerId": 744440,
+                              "uniform": "90"
+                            },
+                            "sackYards": 0,
+                            "sacks": 0,
+                            "safeties": 0,
+                            "specialTeamsAssists": 0,
+                            "specialTeamsTackles": 0,
+                            "stuffYards": 0,
+                            "stuffs": 0,
+                            "tackles": 1
+                          },
+                          {
+                            "assists": 0,
+                            "miscAssists": 0,
+                            "miscTackles": 0,
+                            "passesDefensed": 0,
+                            "player": {
+                              "firstName": "Jamaal",
+                              "lastName": "Williams",
+                              "playerId": 695311,
+                              "uniform": "30"
+                            },
+                            "sackYards": 0,
+                            "sacks": 0,
+                            "safeties": 0,
+                            "specialTeamsAssists": 0,
+                            "specialTeamsTackles": 1,
+                            "stuffYards": 0,
+                            "stuffs": 0,
+                            "tackles": 0
+                          },
+                          {
+                            "assists": 0,
+                            "miscAssists": 0,
+                            "miscTackles": 0,
+                            "passesDefensed": 0,
+                            "player": {
+                              "firstName": "Ty",
+                              "lastName": "Summers",
+                              "playerId": 822442,
+                              "uniform": "44"
+                            },
+                            "sackYards": 0,
+                            "sacks": 0,
+                            "safeties": 0,
+                            "specialTeamsAssists": 1,
+                            "specialTeamsTackles": 0,
+                            "stuffYards": 0,
+                            "stuffs": 0,
+                            "tackles": 0
+                          }
+                        ],
+                        "fieldGoalStats": [
+                          {
+                            "attempts": 1,
+                            "blocked": 0,
+                            "long": 39,
+                            "made": 1,
+                            "madeDetails": [
+                              {
+                                "distance": 39
+                              }
+                            ],
+                            "missedDetails": [],
+                            "player": {
+                              "firstName": "Mason",
+                              "lastName": "Crosby",
+                              "playerId": 214574,
+                              "uniform": "2"
+                            }
+                          }
+                        ],
+                        "forcedFumbleStats": [],
+                        "inactives": [
+                          {
+                            "player": {
+                              "firstName": "Oren",
+                              "lastName": "Burks",
+                              "playerId": 744650,
+                              "uniform": "42"
+                            }
+                          },
+                          {
+                            "player": {
+                              "firstName": "Ka'dar",
+                              "lastName": "Hollman",
+                              "playerId": 871187,
+                              "uniform": "29"
+                            }
+                          },
+                          {
+                            "player": {
+                              "firstName": "Kingsley",
+                              "lastName": "Keke",
+                              "playerId": 879793,
+                              "uniform": "96"
+                            }
+                          },
+                          {
+                            "player": {
+                              "firstName": "Alex",
+                              "lastName": "Light",
+                              "playerId": 830552,
+                              "uniform": "70"
+                            }
+                          },
+                          {
+                            "player": {
+                              "firstName": "Cole",
+                              "lastName": "Madison",
+                              "playerId": 749683,
+                              "uniform": "61"
+                            }
+                          },
+                          {
+                            "player": {
+                              "firstName": "Darrius",
+                              "lastName": "Shepherd",
+                              "playerId": 831003,
+                              "uniform": "10"
+                            }
+                          },
+                          {
+                            "player": {
+                              "firstName": "Dexter",
+                              "lastName": "Williams",
+                              "playerId": 884610,
+                              "uniform": "22"
+                            }
+                          }
+                        ],
+                        "interceptionStats": [
+                          {
+                            "isLongTouchdown": false,
+                            "long": 0,
+                            "number": 1,
+                            "player": {
+                              "firstName": "Adrian",
+                              "lastName": "Amos",
+                              "playerId": 609401,
+                              "uniform": "31"
+                            },
+                            "touchdowns": 0,
+                            "yards": 0
+                          }
+                        ],
+                        "kickReturnStats": [],
+                        "opponentFumbleRecoveredStats": [],
+                        "ownFumbleRecoveredStats": [
+                          {
+                            "player": {
+                              "firstName": "Aaron",
+                              "lastName": "Jones",
+                              "playerId": 741314,
+                              "uniform": "33"
+                            },
+                            "total": 1,
+                            "touchdowns": 0,
+                            "yards": 0
+                          }
+                        ],
+                        "ownFumbleStats": [
+                          {
+                            "player": {
+                              "firstName": "Aaron",
+                              "lastName": "Jones",
+                              "playerId": 741314,
+                              "uniform": "33"
+                            },
+                            "total": 1,
+                            "totalLost": 0,
+                            "units": [
+                              {
+                                "name": "defense",
+                                "number": 0,
+                                "numberLost": 0,
+                                "unitId": 1
+                              },
+                              {
+                                "name": "offense",
+                                "number": 1,
+                                "numberLost": 0,
+                                "unitId": 2
+                              },
+                              {
+                                "name": "special teams",
+                                "number": 0,
+                                "numberLost": 0,
+                                "unitId": 3
+                              }
+                            ]
+                          }
+                        ],
+                        "participationStats": [
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": true,
+                            "player": {
+                              "firstName": "Davante",
+                              "lastName": "Adams",
+                              "playerId": 611417,
+                              "uniform": "17"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": true,
+                            "player": {
+                              "firstName": "Montravius",
+                              "lastName": "Adams",
+                              "playerId": 744440,
+                              "uniform": "90"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": true,
+                            "player": {
+                              "firstName": "Jaire",
+                              "lastName": "Alexander",
+                              "playerId": 868006,
+                              "uniform": "23"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": false,
+                            "player": {
+                              "firstName": "Geronimo",
+                              "lastName": "Allison",
+                              "playerId": 821159,
+                              "uniform": "81"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": true,
+                            "player": {
+                              "firstName": "Adrian",
+                              "lastName": "Amos",
+                              "playerId": 609401,
+                              "uniform": "31"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": true,
+                            "player": {
+                              "firstName": "David",
+                              "lastName": "Bakhtiari",
+                              "playerId": 500557,
+                              "uniform": "69"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": false,
+                            "player": {
+                              "firstName": "Hunter",
+                              "lastName": "Bradley",
+                              "playerId": 694673,
+                              "uniform": "43"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": false,
+                            "player": {
+                              "firstName": "Fadol",
+                              "lastName": "Brown",
+                              "playerId": 697313,
+                              "uniform": "98"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": false,
+                            "player": {
+                              "firstName": "Tony",
+                              "lastName": "Brown",
+                              "playerId": 824527,
+                              "uniform": "28"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": true,
+                            "player": {
+                              "firstName": "Bryan",
+                              "lastName": "Bulaga",
+                              "playerId": 399244,
+                              "uniform": "75"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": true,
+                            "player": {
+                              "firstName": "Kenny",
+                              "lastName": "Clark",
+                              "playerId": 744698,
+                              "uniform": "97"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": false,
+                            "player": {
+                              "firstName": "Mason",
+                              "lastName": "Crosby",
+                              "playerId": 214574,
+                              "uniform": "2"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": false,
+                            "player": {
+                              "firstName": "Trevor",
+                              "lastName": "Davis",
+                              "playerId": 615494,
+                              "uniform": "11"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": false,
+                            "player": {
+                              "firstName": "Kyler",
+                              "lastName": "Fackrell",
+                              "playerId": 602481,
+                              "uniform": "51"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": false,
+                            "player": {
+                              "firstName": "Rashan",
+                              "lastName": "Gary",
+                              "playerId": 946020,
+                              "uniform": "52"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": false,
+                            "player": {
+                              "firstName": "B.J.",
+                              "lastName": "Goodson",
+                              "playerId": 602095,
+                              "uniform": "93"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": false,
+                            "player": {
+                              "firstName": "Jimmy",
+                              "lastName": "Graham",
+                              "playerId": 295918,
+                              "uniform": "80"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": true,
+                            "player": {
+                              "firstName": "Raven",
+                              "lastName": "Greene",
+                              "playerId": 750480,
+                              "uniform": "24"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": false,
+                            "player": {
+                              "firstName": "Josh",
+                              "lastName": "Jackson",
+                              "playerId": 868032,
+                              "uniform": "37"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": false,
+                            "player": {
+                              "firstName": "Elgton",
+                              "lastName": "Jenkins",
+                              "playerId": 835506,
+                              "uniform": "74"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": true,
+                            "player": {
+                              "firstName": "Aaron",
+                              "lastName": "Jones",
+                              "playerId": 741314,
+                              "uniform": "33"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": false,
+                            "player": {
+                              "firstName": "Kevin",
+                              "lastName": "King",
+                              "playerId": 747899,
+                              "uniform": "20"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": false,
+                            "player": {
+                              "firstName": "Jake",
+                              "lastName": "Kumerow",
+                              "playerId": 558619,
+                              "uniform": "16"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": false,
+                            "player": {
+                              "firstName": "Tyler",
+                              "lastName": "Lancaster",
+                              "playerId": 742455,
+                              "uniform": "95"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": false,
+                            "player": {
+                              "firstName": "Allen",
+                              "lastName": "Lazard",
+                              "playerId": 837958,
+                              "uniform": "13"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": true,
+                            "player": {
+                              "firstName": "Marcedes",
+                              "lastName": "Lewis",
+                              "playerId": 214197,
+                              "uniform": "89"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": true,
+                            "player": {
+                              "firstName": "Corey",
+                              "lastName": "Linsley",
+                              "playerId": 509107,
+                              "uniform": "63"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": true,
+                            "player": {
+                              "firstName": "Dean",
+                              "lastName": "Lowry",
+                              "playerId": 691837,
+                              "uniform": "94"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": true,
+                            "player": {
+                              "firstName": "Blake",
+                              "lastName": "Martinez",
+                              "playerId": 691005,
+                              "uniform": "50"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": false,
+                            "player": {
+                              "firstName": "Lucas",
+                              "lastName": "Patrick",
+                              "playerId": 599659,
+                              "uniform": "62"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": false,
+                            "player": {
+                              "firstName": "Will",
+                              "lastName": "Redmond",
+                              "playerId": 686835,
+                              "uniform": "25"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": true,
+                            "player": {
+                              "firstName": "Aaron",
+                              "lastName": "Rodgers",
+                              "playerId": 213957,
+                              "uniform": "12"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": true,
+                            "player": {
+                              "firstName": "Darnell",
+                              "lastName": "Savage",
+                              "playerId": 877793,
+                              "uniform": "26"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": false,
+                            "player": {
+                              "firstName": "JK",
+                              "lastName": "Scott",
+                              "playerId": 835815,
+                              "uniform": "6"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": true,
+                            "player": {
+                              "firstName": "Preston",
+                              "lastName": "Smith",
+                              "playerId": 604798,
+                              "uniform": "91"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": true,
+                            "player": {
+                              "firstName": "Za'Darius",
+                              "lastName": "Smith",
+                              "playerId": 732570,
+                              "uniform": "55"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": false,
+                            "player": {
+                              "firstName": "Chandon",
+                              "lastName": "Sullivan",
+                              "playerId": 833597,
+                              "uniform": "39"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": false,
+                            "player": {
+                              "firstName": "Ty",
+                              "lastName": "Summers",
+                              "playerId": 822442,
+                              "uniform": "44"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": true,
+                            "player": {
+                              "firstName": "Lane",
+                              "lastName": "Taylor",
+                              "playerId": 460308,
+                              "uniform": "65"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": false,
+                            "player": {
+                              "firstName": "Robert",
+                              "lastName": "Tonyan",
+                              "playerId": 660151,
+                              "uniform": "85"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": true,
+                            "player": {
+                              "firstName": "Billy",
+                              "lastName": "Turner",
+                              "playerId": 559877,
+                              "uniform": "77"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": true,
+                            "player": {
+                              "firstName": "Marquez",
+                              "lastName": "Valdes-Scantling",
+                              "playerId": 742382,
+                              "uniform": "83"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": true,
+                            "player": {
+                              "firstName": "Danny",
+                              "lastName": "Vitale",
+                              "playerId": 691856,
+                              "uniform": "45"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": false,
+                            "player": {
+                              "firstName": "Jamaal",
+                              "lastName": "Williams",
+                              "playerId": 695311,
+                              "uniform": "30"
+                            }
+                          },
+                          {
+                            "isGamePlayed": true,
+                            "isGameStarted": true,
+                            "player": {
+                              "firstName": "Tramon",
+                              "lastName": "Williams",
+                              "playerId": 231508,
+                              "uniform": "38"
+                            }
+                          }
+                        ],
+                        "passingStats": [
+                          {
+                            "attempts": 30,
+                            "bigPlays": [
+                              {
+                                "number": 3,
+                                "touchdowns": 0,
+                                "value": 20
+                              },
+                              {
+                                "number": 1,
+                                "touchdowns": 0,
+                                "value": 30
+                              },
+                              {
+                                "number": 1,
+                                "touchdowns": 0,
+                                "value": 40
+                              },
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 50
+                              }
+                            ],
+                            "completions": 18,
+                            "firstDowns": 10,
+                            "fumbles": 0,
+                            "fumblesLost": 0,
+                            "interceptions": 0,
+                            "isLongTouchdown": false,
+                            "long": 47,
+                            "player": {
+                              "firstName": "Aaron",
+                              "lastName": "Rodgers",
+                              "playerId": 213957,
+                              "uniform": "12"
+                            },
+                            "rating": 91.4,
+                            "sacked": 5,
+                            "sackedYardsLost": 37,
+                            "targets": 27,
+                            "touchdowns": 1,
+                            "yards": 203,
+                            "yardsPerAttempt": "5.53"
+                          }
+                        ],
+                        "patStats": [
+                          {
+                            "attempts": 1,
+                            "blocked": 0,
+                            "made": 1,
+                            "player": {
+                              "firstName": "Mason",
+                              "lastName": "Crosby",
+                              "playerId": 214574,
+                              "uniform": "2"
+                            }
+                          }
+                        ],
+                        "penaltyStats": [
+                          {
+                            "accepted": 1,
+                            "player": {
+                              "firstName": "Aaron",
+                              "lastName": "Rodgers",
+                              "playerId": 213957,
+                              "uniform": "12"
+                            },
+                            "yards": 5
+                          },
+                          {
+                            "accepted": 2,
+                            "player": {
+                              "firstName": "David",
+                              "lastName": "Bakhtiari",
+                              "playerId": 500557,
+                              "uniform": "69"
+                            },
+                            "yards": 20
+                          },
+                          {
+                            "accepted": 1,
+                            "player": {
+                              "firstName": "Trevor",
+                              "lastName": "Davis",
+                              "playerId": 615494,
+                              "uniform": "11"
+                            },
+                            "yards": 5
+                          },
+                          {
+                            "accepted": 2,
+                            "player": {
+                              "firstName": "Tramon",
+                              "lastName": "Williams",
+                              "playerId": 231508,
+                              "uniform": "38"
+                            },
+                            "yards": 21
+                          },
+                          {
+                            "accepted": 1,
+                            "player": {
+                              "firstName": "Kenny",
+                              "lastName": "Clark",
+                              "playerId": 744698,
+                              "uniform": "97"
+                            },
+                            "yards": 5
+                          },
+                          {
+                            "accepted": 2,
+                            "player": {
+                              "firstName": "Tony",
+                              "lastName": "Brown",
+                              "playerId": 824527,
+                              "uniform": "28"
+                            },
+                            "yards": 10
+                          }
+                        ],
+                        "puntReturnStats": [
+                          {
+                            "bigPlays": [
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 40
+                              }
+                            ],
+                            "fairCatches": 4,
+                            "isLongTouchdown": false,
+                            "long": 1,
+                            "player": {
+                              "firstName": "Trevor",
+                              "lastName": "Davis",
+                              "playerId": 615494,
+                              "uniform": "11"
+                            },
+                            "returns": 1,
+                            "touchdowns": 0,
+                            "yards": 1
+                          }
+                        ],
+                        "puntingStats": [
+                          {
+                            "average": "47.6",
+                            "blocked": 0,
+                            "in20": 5,
+                            "long": 63,
+                            "netAverage": "43.6",
+                            "player": {
+                              "firstName": "JK",
+                              "lastName": "Scott",
+                              "playerId": 835815,
+                              "uniform": "6"
+                            },
+                            "punts": 9,
+                            "returnYards": 36,
+                            "returns": 4,
+                            "touchbacks": 0,
+                            "yards": 428
+                          }
+                        ],
+                        "receivingStats": [
+                          {
+                            "bigPlays": [
+                              {
+                                "number": 1,
+                                "touchdowns": 0,
+                                "value": 20
+                              },
+                              {
+                                "number": 1,
+                                "touchdowns": 0,
+                                "value": 40
+                              }
+                            ],
+                            "firstDowns": 2,
+                            "fumbles": 0,
+                            "fumblesLost": 0,
+                            "isLongTouchdown": false,
+                            "long": 47,
+                            "player": {
+                              "firstName": "Marquez",
+                              "lastName": "Valdes-Scantling",
+                              "playerId": 742382,
+                              "uniform": "83"
+                            },
+                            "receptions": 4,
+                            "targets": 6,
+                            "touchdowns": 0,
+                            "yards": 52
+                          },
+                          {
+                            "bigPlays": [
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 20
+                              },
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 40
+                              }
+                            ],
+                            "firstDowns": 3,
+                            "fumbles": 0,
+                            "fumblesLost": 0,
+                            "isLongTouchdown": false,
+                            "long": 11,
+                            "player": {
+                              "firstName": "Davante",
+                              "lastName": "Adams",
+                              "playerId": 611417,
+                              "uniform": "17"
+                            },
+                            "receptions": 4,
+                            "targets": 8,
+                            "touchdowns": 0,
+                            "yards": 36
+                          },
+                          {
+                            "bigPlays": [
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 20
+                              },
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 40
+                              }
+                            ],
+                            "firstDowns": 2,
+                            "fumbles": 0,
+                            "fumblesLost": 0,
+                            "isLongTouchdown": false,
+                            "long": 16,
+                            "player": {
+                              "firstName": "Jimmy",
+                              "lastName": "Graham",
+                              "playerId": 295918,
+                              "uniform": "80"
+                            },
+                            "receptions": 3,
+                            "targets": 5,
+                            "touchdowns": 1,
+                            "yards": 30
+                          },
+                          {
+                            "bigPlays": [
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 20
+                              },
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 40
+                              }
+                            ],
+                            "firstDowns": 1,
+                            "fumbles": 0,
+                            "fumblesLost": 0,
+                            "isLongTouchdown": false,
+                            "long": 10,
+                            "player": {
+                              "firstName": "Jamaal",
+                              "lastName": "Williams",
+                              "playerId": 695311,
+                              "uniform": "30"
+                            },
+                            "receptions": 2,
+                            "targets": 2,
+                            "touchdowns": 0,
+                            "yards": 15
+                          },
+                          {
+                            "bigPlays": [
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 20
+                              },
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 40
+                              }
+                            ],
+                            "firstDowns": 0,
+                            "fumbles": 0,
+                            "fumblesLost": 0,
+                            "isLongTouchdown": false,
+                            "long": 9,
+                            "player": {
+                              "firstName": "Marcedes",
+                              "lastName": "Lewis",
+                              "playerId": 214197,
+                              "uniform": "89"
+                            },
+                            "receptions": 2,
+                            "targets": 3,
+                            "touchdowns": 0,
+                            "yards": 14
+                          },
+                          {
+                            "bigPlays": [
+                              {
+                                "number": 1,
+                                "touchdowns": 0,
+                                "value": 20
+                              },
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 40
+                              }
+                            ],
+                            "firstDowns": 1,
+                            "fumbles": 0,
+                            "fumblesLost": 0,
+                            "isLongTouchdown": false,
+                            "long": 28,
+                            "player": {
+                              "firstName": "Trevor",
+                              "lastName": "Davis",
+                              "playerId": 615494,
+                              "uniform": "11"
+                            },
+                            "receptions": 1,
+                            "targets": 1,
+                            "touchdowns": 0,
+                            "yards": 28
+                          },
+                          {
+                            "bigPlays": [
+                              {
+                                "number": 1,
+                                "touchdowns": 0,
+                                "value": 20
+                              },
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 40
+                              }
+                            ],
+                            "firstDowns": 1,
+                            "fumbles": 0,
+                            "fumblesLost": 0,
+                            "isLongTouchdown": false,
+                            "long": 28,
+                            "player": {
+                              "firstName": "Robert",
+                              "lastName": "Tonyan",
+                              "playerId": 660151,
+                              "uniform": "85"
+                            },
+                            "receptions": 1,
+                            "targets": 1,
+                            "touchdowns": 0,
+                            "yards": 28
+                          },
+                          {
+                            "bigPlays": [
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 20
+                              },
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 40
+                              }
+                            ],
+                            "firstDowns": 0,
+                            "fumbles": 0,
+                            "fumblesLost": 0,
+                            "isLongTouchdown": false,
+                            "long": 0,
+                            "player": {
+                              "firstName": "Aaron",
+                              "lastName": "Jones",
+                              "playerId": 741314,
+                              "uniform": "33"
+                            },
+                            "receptions": 1,
+                            "targets": 1,
+                            "touchdowns": 0,
+                            "yards": 0
+                          }
+                        ],
+                        "rushingStats": [
+                          {
+                            "attempts": 13,
+                            "bigPlays": [
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 20
+                              },
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 40
+                              }
+                            ],
+                            "firstDowns": 1,
+                            "fumbles": 1,
+                            "fumblesLost": 0,
+                            "isLongTouchdown": false,
+                            "long": 9,
+                            "player": {
+                              "firstName": "Aaron",
+                              "lastName": "Jones",
+                              "playerId": 741314,
+                              "uniform": "33"
+                            },
+                            "touchdowns": 0,
+                            "yards": 39,
+                            "yardsPerAttempt": "3.0"
+                          },
+                          {
+                            "attempts": 3,
+                            "bigPlays": [
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 20
+                              },
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 40
+                              }
+                            ],
+                            "firstDowns": 0,
+                            "fumbles": 0,
+                            "fumblesLost": 0,
+                            "isLongTouchdown": false,
+                            "long": 10,
+                            "player": {
+                              "firstName": "Aaron",
+                              "lastName": "Rodgers",
+                              "playerId": 213957,
+                              "uniform": "12"
+                            },
+                            "touchdowns": 0,
+                            "yards": 8,
+                            "yardsPerAttempt": "2.7"
+                          },
+                          {
+                            "attempts": 5,
+                            "bigPlays": [
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 20
+                              },
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 40
+                              }
+                            ],
+                            "firstDowns": 0,
+                            "fumbles": 0,
+                            "fumblesLost": 0,
+                            "isLongTouchdown": false,
+                            "long": 5,
+                            "player": {
+                              "firstName": "Jamaal",
+                              "lastName": "Williams",
+                              "playerId": 695311,
+                              "uniform": "30"
+                            },
+                            "touchdowns": 0,
+                            "yards": 0,
+                            "yardsPerAttempt": "0.0"
+                          },
+                          {
+                            "attempts": 1,
+                            "bigPlays": [
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 20
+                              },
+                              {
+                                "number": 0,
+                                "touchdowns": 0,
+                                "value": 40
+                              }
+                            ],
+                            "firstDowns": 0,
+                            "fumbles": 0,
+                            "fumblesLost": 0,
+                            "isLongTouchdown": false,
+                            "long": 0,
+                            "player": {
+                              "firstName": "Marquez",
+                              "lastName": "Valdes-Scantling",
+                              "playerId": 742382,
+                              "uniform": "83"
+                            },
+                            "touchdowns": 0,
+                            "yards": 0,
+                            "yardsPerAttempt": "0.0"
+                          }
+                        ],
+                        "twoPointAfter4OTStats": [],
+                        "twoPointConversionStats": []
+                      },
+                      "teamId": 335,
+                      "teamStats": {
+                        "defense": {
+                          "assists": 18,
+                          "forcedFumbles": 0,
+                          "passesDefensed": 9,
+                          "sackYards": 20,
+                          "sacks": 5,
+                          "specialTeamsTackles": 3,
+                          "stuffYards": 2,
+                          "stuffs": 1,
+                          "tackles": 37
+                        },
+                        "extraPoints": {
+                          "attempts": 1,
+                          "blocked": 0,
+                          "made": 1,
+                          "percentage": "100"
+                        },
+                        "fieldGoals": {
+                          "attempts": 1,
+                          "blocked": 0,
+                          "made": 1,
+                          "percentage": "100"
+                        },
+                        "firstDowns": {
+                          "passing": 10,
+                          "penalty": 2,
+                          "rushing": 1,
+                          "total": 13
+                        },
+                        "gameTotals": {
+                          "average": "3.7",
+                          "netYards": 213,
+                          "plays": 57,
+                          "touchdowns": 1
+                        },
+                        "goalToGoEfficiency": {
+                          "attempts": 2,
+                          "made": 1,
+                          "percentage": "50.0"
+                        },
+                        "interceptions": {
+                          "isLongTouchdown": false,
+                          "long": 0,
+                          "number": 1,
+                          "touchdowns": 0,
+                          "yards": 0
+                        },
+                        "kickReturning": {
+                          "isLongTouchdown": false,
+                          "long": 0,
+                          "returns": 0,
+                          "touchdowns": 0,
+                          "yards": 0
+                        },
+                        "kickoffs": {
+                          "endZone": 3,
+                          "number": 3,
+                          "touchbacks": 3
+                        },
+                        "opponentFumbles": {
+                          "recovered": 0,
+                          "touchdowns": 0,
+                          "yards": 0
+                        },
+                        "ownFumbles": {
+                          "lost": 0,
+                          "number": 1,
+                          "recovered": 1,
+                          "touchdowns": 0,
+                          "yards": 0
+                        },
+                        "passing": {
+                          "attempts": 30,
+                          "completions": 18,
+                          "interceptions": 0,
+                          "netYards": 166,
+                          "netYardsPerAttempt": "4.74",
+                          "sacked": 5,
+                          "sackedYardsLost": 37,
+                          "touchdowns": 1,
+                          "yards": 203,
+                          "yardsPerAttempt": "6.77",
+                          "yardsPerGame": null
+                        },
+                        "penalties": {
+                          "number": 10,
+                          "yards": 71
+                        },
+                        "puntReturning": {
+                          "isLongTouchdown": false,
+                          "long": 1,
+                          "returns": 1,
+                          "touchdowns": 0,
+                          "yards": 1
+                        },
+                        "punting": {
+                          "average": "47.6",
+                          "punts": 9,
+                          "yards": 428
+                        },
+                        "redZoneEfficiency": {
+                          "attempts": 2,
+                          "made": 1,
+                          "percentage": "50.0"
+                        },
+                        "returnTotals": {
+                          "touchdowns": 0,
+                          "yards": 1
+                        },
+                        "rushing": {
+                          "attempts": 22,
+                          "average": "2.1",
+                          "touchdowns": 0,
+                          "yards": 47
+                        },
+                        "safeties": 0,
+                        "thirdDownEfficiency": {
+                          "attempts": 12,
+                          "made": 2,
+                          "percentage": "16.7"
+                        },
+                        "timeOfPossession": {
+                          "minutes": 31,
+                          "seconds": 3
+                        },
+                        "twoPointAfter4OT": {
+                          "attempts": 0,
+                          "made": 0
+                        },
+                        "twoPointConversions": {
+                          "attempts": 0,
+                          "made": 0
+                        }
+                      }
+                    }
+                  ],
+                  "coverageLevel": {
+                    "coverageLevelId": 8,
+                    "details": "STATS Primary Feed",
+                    "name": "Level 1"
+                  },
+                  "eventId": 2142040,
+                  "eventStatus": {
+                    "eventStatusId": 4,
+                    "isActive": false,
+                    "name": "Final",
+                    "period": 4
+                  },
+                  "gameDetail": {
+                    "attendance": "62435",
+                    "officiatingCrew": [
+                      {
+                        "firstName": "Tony",
+                        "lastName": "Corrente",
+                        "positionName": "referee",
+                        "refereeId": 40392
+                      },
+                      {
+                        "firstName": "Bill",
+                        "lastName": "Schuster",
+                        "positionName": "umpire",
+                        "refereeId": 40450
+                      },
+                      {
+                        "firstName": "Dana",
+                        "lastName": "McKenzie",
+                        "positionName": "head-linesman",
+                        "refereeId": 468039
+                      },
+                      {
+                        "firstName": "Tim",
+                        "lastName": "Podraza",
+                        "positionName": "line-judge",
+                        "refereeId": 468029
+                      },
+                      {
+                        "firstName": "Anthony",
+                        "lastName": "Jeffries",
+                        "positionName": "field-judge",
+                        "refereeId": 1072536
+                      },
+                      {
+                        "firstName": "Boris",
+                        "lastName": "Cheek",
+                        "positionName": "side-judge",
+                        "refereeId": 40404
+                      },
+                      {
+                        "firstName": "Todd",
+                        "lastName": "Prukop",
+                        "positionName": "back-judge",
+                        "refereeId": 512337
+                      },
+                      {
+                        "firstName": "Charles",
+                        "lastName": "Stewart",
+                        "positionName": "replay-official",
+                        "refereeId": 40347
+                      }
+                    ],
+                    "timeOfGame": {
+                      "hours": 3,
+                      "minutes": 7
+                    },
+                    "weather": {
+                      "clouds": {
+                        "cloudId": 1,
+                        "name": "Clear"
+                      },
+                      "humidity": 69,
+                      "isIndoor": false,
+                      "temperature": 65,
+                      "wind": {
+                        "direction": {
+                          "directionId": 3,
+                          "name": "Out of the East"
+                        },
+                        "velocity": [
+                          {
+                            "abbreviation": "MPH",
+                            "name": "Miles Per Hour",
+                            "speed": "10",
+                            "speedUnitId": 1
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "isDataConfirmed": {
+                    "box": true,
+                    "participationStats": true,
+                    "score": true
+                  },
+                  "isTba": false,
+                  "scoringSummaries": [
+                    {
+                      "period": 1,
+                      "scores": [
+                        {
+                          "currentScore": {
+                            "leaderTeamId": 326,
+                            "leadingScore": 3,
+                            "trailingScore": 0
+                          },
+                          "distance": 38,
+                          "drive": {
+                            "driveId": 4,
+                            "minutes": 3,
+                            "plays": 6,
+                            "seconds": 44,
+                            "yards": 16
+                          },
+                          "scoreType": {
+                            "name": "Field Goal Attempt",
+                            "scoreTypeId": 3
+                          },
+                          "scoringPlayerId": 910383,
+                          "summaryText": "Eddy Pineiro 38 yd FG",
+                          "teamId": 326,
+                          "time": {
+                            "minutes": 4,
+                            "seconds": 9
+                          },
+                          "unit": {
+                            "name": "Special Teams",
+                            "unitId": 3
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "period": 2,
+                      "scores": [
+                        {
+                          "currentScore": {
+                            "leaderTeamId": 335,
+                            "leadingScore": 7,
+                            "trailingScore": 3
+                          },
+                          "distance": 8,
+                          "drive": {
+                            "driveId": 7,
+                            "minutes": 1,
+                            "plays": 4,
+                            "seconds": 35,
+                            "yards": 74
+                          },
+                          "passerId": 213957,
+                          "pat": {
+                            "isGood": true,
+                            "patPlayerId": 214574,
+                            "patTypeId": 14,
+                            "points": 1
+                          },
+                          "scoreType": {
+                            "name": "Passing TD",
+                            "scoreTypeId": 2
+                          },
+                          "scoringPlayerId": 295918,
+                          "summaryText": "Jimmy Graham 8 yd pass from Aaron Rodgers (Mason Crosby kick)",
+                          "teamId": 335,
+                          "time": {
+                            "minutes": 13,
+                            "seconds": 8
+                          },
+                          "unit": {
+                            "name": "Offense",
+                            "unitId": 1
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "period": 4,
+                      "scores": [
+                        {
+                          "currentScore": {
+                            "leaderTeamId": 335,
+                            "leadingScore": 10,
+                            "trailingScore": 3
+                          },
+                          "distance": 39,
+                          "drive": {
+                            "driveId": 21,
+                            "minutes": 6,
+                            "plays": 10,
+                            "seconds": 33,
+                            "yards": 73
+                          },
+                          "scoreType": {
+                            "name": "Field Goal Attempt",
+                            "scoreTypeId": 3
+                          },
+                          "scoringPlayerId": 214574,
+                          "summaryText": "Mason Crosby 39 yd FG",
+                          "teamId": 335,
+                          "time": {
+                            "minutes": 5,
+                            "seconds": 15
+                          },
+                          "unit": {
+                            "name": "Special Teams",
+                            "unitId": 3
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "startDate": [
+                    {
+                      "date": 5,
+                      "dateType": "Local",
+                      "full": "2019-09-05T19:20:00",
+                      "hour": 19,
+                      "minute": 20,
+                      "month": 9,
+                      "year": 2019
+                    },
+                    {
+                      "date": 6,
+                      "dateType": "UTC",
+                      "full": "2019-09-06T00:20:00",
+                      "hour": 0,
+                      "minute": 20,
+                      "month": 9,
+                      "year": 2019
+                    }
+                  ],
+                  "teams": [
+                    {
+                      "abbreviation": "Chi",
+                      "isWinner": false,
+                      "location": "Chicago",
+                      "nickname": "Bears",
+                      "record": {
+                        "losses": 1,
+                        "percentage": ".000",
+                        "ties": 0,
+                        "wins": 0
+                      },
+                      "score": 3,
+                      "teamId": 326,
+                      "teamLocationType": {
+                        "name": "home",
+                        "teamLocationTypeId": 1
+                      }
+                    },
+                    {
+                      "abbreviation": "GB",
+                      "isWinner": true,
+                      "location": "Green Bay",
+                      "nickname": "Packers",
+                      "record": {
+                        "losses": 0,
+                        "percentage": "1.000",
+                        "ties": 0,
+                        "wins": 1
+                      },
+                      "score": 10,
+                      "teamId": 335,
+                      "teamLocationType": {
+                        "name": "away",
+                        "teamLocationTypeId": 2
+                      }
+                    }
+                  ],
+                  "tvStations": [
+                    {
+                      "callLetters": "NBC",
+                      "country": {
+                        "abbreviation": "USA",
+                        "countryId": 1,
+                        "name": "United States"
+                      },
+                      "name": "NBC",
+                      "networkType": {
+                        "name": "National",
+                        "networkTypeId": 1
+                      },
+                      "tvStationId": 279
+                    }
+                  ],
+                  "venue": {
+                    "city": "Chicago",
+                    "country": {
+                      "abbreviation": "USA",
+                      "countryId": 1,
+                      "name": "United States"
+                    },
+                    "name": "Soldier Field",
+                    "state": {
+                      "abbreviation": "IL",
+                      "name": "Illinois",
+                      "stateId": 13
+                    },
+                    "venueId": 507
+                  },
+                  "week": 1
+                }
+              ],
+              "name": "Regular Season"
+            }
+          ],
+          "isActive": false,
+          "name": "2019-2020 NFL Season",
+          "season": 2019
+        }
+      },
+      "name": "Football",
+      "sportId": 4
+    }
+  ],
+  "endTimestamp": "2020-06-10T16:43:53.3625628Z",
+  "recordCount": 1,
+  "startTimestamp": "2020-06-10T16:43:53.3313096Z",
+  "status": "OK",
+  "timeTaken": 0.0312532
+}

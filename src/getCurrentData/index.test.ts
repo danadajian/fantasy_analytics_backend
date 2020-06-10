@@ -1,6 +1,6 @@
 import {getCurrentData} from "./index";
-import {getCurrentWeek} from "../helpers/getCurrentWeek";
-import {getCurrentSeason} from "../helpers/getCurrentSeason";
+import {getCurrentWeek} from "../helpers/getCurrentWeek/getCurrentWeek";
+import {getCurrentSeason} from "../helpers/getCurrentSeason/getCurrentSeason";
 
 jest.mock('../helpers/getCurrentWeek');
 jest.mock('../helpers/getCurrentSeason');

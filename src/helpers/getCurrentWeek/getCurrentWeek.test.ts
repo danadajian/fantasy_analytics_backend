@@ -1,7 +1,7 @@
-import {getCurrentSeason} from "./index";
+import {getCurrentWeek} from "./getCurrentWeek";
 import {callApi} from "../callApi/callApi";
 
-const mockSeasonResponse = require('../../fixtures/seasonResponse.json');
+const mockEventsResponse = require('../../fixtures/eventsResponse.json');
 
 jest.mock('../callApi/callApi');
 
@@ -11,16 +11,16 @@ describe('getCurrentWeek', () => {
         const sport = 'nfl';
 
         beforeEach(async () => {
-            (callApi as jest.Mock).mockResolvedValue(mockSeasonResponse);
-            result = await getCurrentSeason(sport)
+            (callApi as jest.Mock).mockResolvedValue(mockEventsResponse);
+            result = await getCurrentWeek(sport)
         });
 
         it('should call callApi with correct params', () => {
-            expect(callApi).toHaveBeenCalledWith("decode/football/nfl/seasonStructure/", "")
+            expect(callApi).toHaveBeenCalledWith("stats/football/nfl/events/", "")
         });
 
         it('should return expected result', () => {
-            expect(result).toEqual(1969)
+            expect(result).toEqual(1)
         });
     });
 
@@ -30,11 +30,11 @@ describe('getCurrentWeek', () => {
 
         beforeEach(async () => {
             (callApi as jest.Mock).mockResolvedValue({an: 'error'});
-            result = await getCurrentSeason(sport)
+            result = await getCurrentWeek(sport)
         });
 
         it('should call callApi with correct params', () => {
-            expect(callApi).toHaveBeenCalledWith("decode/football/nfl/seasonStructure/", "")
+            expect(callApi).toHaveBeenCalledWith("stats/football/nfl/events/", "")
         });
 
         it('should return expected result', () => {

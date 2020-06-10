@@ -1,5 +1,5 @@
-import {getCurrentWeek} from "../helpers/getCurrentWeek";
-import {getCurrentSeason} from "../helpers/getCurrentSeason";
+import {getCurrentWeek} from "../helpers/getCurrentWeek/getCurrentWeek";
+import {getCurrentSeason} from "../helpers/getCurrentSeason/getCurrentSeason";
 
 export const getCurrentData = async (event: any) => {
     const {sport} = event;
