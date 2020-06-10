@@ -11,9 +11,10 @@ jest.mock('../helpers/getCurrentSeason');
 describe('getCurrentData', () => {
     let result: any;
     const sport = 'sport';
+    const event = {sport};
 
     beforeEach(async () => {
-        result = await getCurrentData(sport)
+        result = await getCurrentData(event)
     });
 
     it('should call getCurrentWeek with correct params', () => {
