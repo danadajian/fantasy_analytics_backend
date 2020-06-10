@@ -21,7 +21,1736 @@
             {
               "eventTypeId": 1,
               "name": "Regular Season",
-              "events": []
+              "events": [
+                {
+                  "eventId": 2142040,
+                  "startDate": [
+                    {
+                      "year": 2019,
+                      "month": 9,
+                      "date": 5,
+                      "hour": 19,
+                      "minute": 20,
+                      "full": "2019-09-05T19:20:00",
+                      "dateType": "Local"
+                    },
+                    {
+                      "year": 2019,
+                      "month": 9,
+                      "date": 6,
+                      "hour": 0,
+                      "minute": 20,
+                      "full": "2019-09-06T00:20:00",
+                      "dateType": "UTC"
+                    }
+                  ],
+                  "isTba": false,
+                  "isDataConfirmed": {
+                    "score": true
+                  },
+                  "eventStatus": {
+                    "eventStatusId": 4,
+                    "period": 4,
+                    "isActive": false,
+                    "name": "Final"
+                  },
+                  "venue": {
+                    "venueId": 507,
+                    "name": "Soldier Field",
+                    "city": "Chicago",
+                    "state": {
+                      "stateId": 13,
+                      "name": "Illinois",
+                      "abbreviation": "IL"
+                    },
+                    "country": {
+                      "countryId": 1,
+                      "name": "United States",
+                      "abbreviation": "USA"
+                    }
+                  },
+                  "tvStations": [
+                    {
+                      "tvStationId": 279,
+                      "name": "NBC",
+                      "callLetters": "NBC",
+                      "networkType": {
+                        "networkTypeId": 1,
+                        "name": "National"
+                      },
+                      "country": {
+                        "countryId": 1,
+                        "name": "United States",
+                        "abbreviation": "USA"
+                      }
+                    }
+                  ],
+                  "teams": [
+                    {
+                      "teamId": 326,
+                      "location": "Chicago",
+                      "nickname": "Bears",
+                      "abbreviation": "Chi",
+                      "teamLocationType": {
+                        "teamLocationTypeId": 1,
+                        "name": "home"
+                      },
+                      "record": {
+                        "wins": 0,
+                        "losses": 1,
+                        "ties": 0,
+                        "percentage": ".000"
+                      },
+                      "score": 3,
+                      "isWinner": false
+                    },
+                    {
+                      "teamId": 335,
+                      "location": "Green Bay",
+                      "nickname": "Packers",
+                      "abbreviation": "GB",
+                      "teamLocationType": {
+                        "teamLocationTypeId": 2,
+                        "name": "away"
+                      },
+                      "record": {
+                        "wins": 1,
+                        "losses": 0,
+                        "ties": 0,
+                        "percentage": "1.000"
+                      },
+                      "score": 10,
+                      "isWinner": true
+                    }
+                  ],
+                  "week": 1,
+                  "coverageLevel": {
+                    "coverageLevelId": 8,
+                    "details": "STATS Primary Feed",
+                    "name": "Level 1"
+                  }
+                },
+                {
+                  "eventId": 2142064,
+                  "startDate": [
+                    {
+                      "year": 2019,
+                      "month": 9,
+                      "date": 8,
+                      "hour": 12,
+                      "minute": 0,
+                      "full": "2019-09-08T12:00:00",
+                      "dateType": "Local"
+                    },
+                    {
+                      "year": 2019,
+                      "month": 9,
+                      "date": 8,
+                      "hour": 17,
+                      "minute": 0,
+                      "full": "2019-09-08T17:00:00",
+                      "dateType": "UTC"
+                    }
+                  ],
+                  "isTba": false,
+                  "isDataConfirmed": {
+                    "score": true
+                  },
+                  "eventStatus": {
+                    "eventStatusId": 4,
+                    "period": 4,
+                    "isActive": false,
+                    "name": "Final"
+                  },
+                  "venue": {
+                    "venueId": 15139,
+                    "name": "U.S. Bank Stadium",
+                    "city": "Minneapolis",
+                    "state": {
+                      "stateId": 23,
+                      "name": "Minnesota",
+                      "abbreviation": "MN"
+                    },
+                    "country": {
+                      "countryId": 1,
+                      "name": "United States",
+                      "abbreviation": "USA"
+                    }
+                  },
+                  "tvStations": [
+                    {
+                      "tvStationId": 278,
+                      "name": "FOX",
+                      "callLetters": "FOX",
+                      "networkType": {
+                        "networkTypeId": 1,
+                        "name": "National"
+                      },
+                      "country": {
+                        "countryId": 1,
+                        "name": "United States",
+                        "abbreviation": "USA"
+                      }
+                    }
+                  ],
+                  "teams": [
+                    {
+                      "teamId": 347,
+                      "location": "Minnesota",
+                      "nickname": "Vikings",
+                      "abbreviation": "Min",
+                      "teamLocationType": {
+                        "teamLocationTypeId": 1,
+                        "name": "home"
+                      },
+                      "record": {
+                        "wins": 1,
+                        "losses": 0,
+                        "ties": 0,
+                        "percentage": "1.000"
+                      },
+                      "score": 28,
+                      "isWinner": true
+                    },
+                    {
+                      "teamId": 323,
+                      "location": "Atlanta",
+                      "nickname": "Falcons",
+                      "abbreviation": "Atl",
+                      "teamLocationType": {
+                        "teamLocationTypeId": 2,
+                        "name": "away"
+                      },
+                      "record": {
+                        "wins": 0,
+                        "losses": 1,
+                        "ties": 0,
+                        "percentage": ".000"
+                      },
+                      "score": 12,
+                      "isWinner": false
+                    }
+                  ],
+                  "week": 1,
+                  "coverageLevel": {
+                    "coverageLevelId": 8,
+                    "details": "STATS Primary Feed",
+                    "name": "Level 1"
+                  }
+                },
+                {
+                  "eventId": 2142044,
+                  "startDate": [
+                    {
+                      "year": 2019,
+                      "month": 9,
+                      "date": 8,
+                      "hour": 13,
+                      "minute": 0,
+                      "full": "2019-09-08T13:00:00",
+                      "dateType": "Local"
+                    },
+                    {
+                      "year": 2019,
+                      "month": 9,
+                      "date": 8,
+                      "hour": 17,
+                      "minute": 0,
+                      "full": "2019-09-08T17:00:00",
+                      "dateType": "UTC"
+                    }
+                  ],
+                  "isTba": false,
+                  "isDataConfirmed": {
+                    "score": true
+                  },
+                  "eventStatus": {
+                    "eventStatusId": 4,
+                    "period": 4,
+                    "isActive": false,
+                    "name": "Final"
+                  },
+                  "venue": {
+                    "venueId": 536,
+                    "name": "Bank of America Stadium",
+                    "city": "Charlotte",
+                    "state": {
+                      "stateId": 33,
+                      "name": "North Carolina",
+                      "abbreviation": "NC"
+                    },
+                    "country": {
+                      "countryId": 1,
+                      "name": "United States",
+                      "abbreviation": "USA"
+                    }
+                  },
+                  "tvStations": [
+                    {
+                      "tvStationId": 278,
+                      "name": "FOX",
+                      "callLetters": "FOX",
+                      "networkType": {
+                        "networkTypeId": 1,
+                        "name": "National"
+                      },
+                      "country": {
+                        "countryId": 1,
+                        "name": "United States",
+                        "abbreviation": "USA"
+                      }
+                    }
+                  ],
+                  "teams": [
+                    {
+                      "teamId": 364,
+                      "location": "Carolina",
+                      "nickname": "Panthers",
+                      "abbreviation": "Car",
+                      "teamLocationType": {
+                        "teamLocationTypeId": 1,
+                        "name": "home"
+                      },
+                      "record": {
+                        "wins": 0,
+                        "losses": 1,
+                        "ties": 0,
+                        "percentage": ".000"
+                      },
+                      "score": 27,
+                      "isWinner": false
+                    },
+                    {
+                      "teamId": 343,
+                      "location": "Los Angeles",
+                      "nickname": "Rams",
+                      "abbreviation": "LAR",
+                      "teamLocationType": {
+                        "teamLocationTypeId": 2,
+                        "name": "away"
+                      },
+                      "record": {
+                        "wins": 1,
+                        "losses": 0,
+                        "ties": 0,
+                        "percentage": "1.000"
+                      },
+                      "score": 30,
+                      "isWinner": true
+                    }
+                  ],
+                  "week": 1,
+                  "coverageLevel": {
+                    "coverageLevelId": 8,
+                    "details": "STATS Primary Feed",
+                    "name": "Level 1"
+                  }
+                },
+                {
+                  "eventId": 2142048,
+                  "startDate": [
+                    {
+                      "year": 2019,
+                      "month": 9,
+                      "date": 8,
+                      "hour": 13,
+                      "minute": 0,
+                      "full": "2019-09-08T13:00:00",
+                      "dateType": "Local"
+                    },
+                    {
+                      "year": 2019,
+                      "month": 9,
+                      "date": 8,
+                      "hour": 17,
+                      "minute": 0,
+                      "full": "2019-09-08T17:00:00",
+                      "dateType": "UTC"
+                    }
+                  ],
+                  "isTba": false,
+                  "isDataConfirmed": {
+                    "score": true
+                  },
+                  "eventStatus": {
+                    "eventStatusId": 4,
+                    "period": 4,
+                    "isActive": false,
+                    "name": "Final"
+                  },
+                  "venue": {
+                    "venueId": 548,
+                    "name": "FirstEnergy Stadium",
+                    "city": "Cleveland",
+                    "state": {
+                      "stateId": 35,
+                      "name": "Ohio",
+                      "abbreviation": "OH"
+                    },
+                    "country": {
+                      "countryId": 1,
+                      "name": "United States",
+                      "abbreviation": "USA"
+                    }
+                  },
+                  "tvStations": [
+                    {
+                      "tvStationId": 275,
+                      "name": "CBS",
+                      "callLetters": "CBS",
+                      "networkType": {
+                        "networkTypeId": 1,
+                        "name": "National"
+                      },
+                      "country": {
+                        "countryId": 1,
+                        "name": "United States",
+                        "abbreviation": "USA"
+                      }
+                    }
+                  ],
+                  "teams": [
+                    {
+                      "teamId": 329,
+                      "location": "Cleveland",
+                      "nickname": "Browns",
+                      "abbreviation": "Cle",
+                      "teamLocationType": {
+                        "teamLocationTypeId": 1,
+                        "name": "home"
+                      },
+                      "record": {
+                        "wins": 0,
+                        "losses": 1,
+                        "ties": 0,
+                        "percentage": ".000"
+                      },
+                      "score": 13,
+                      "isWinner": false
+                    },
+                    {
+                      "teamId": 336,
+                      "location": "Tennessee",
+                      "nickname": "Titans",
+                      "abbreviation": "Ten",
+                      "teamLocationType": {
+                        "teamLocationTypeId": 2,
+                        "name": "away"
+                      },
+                      "record": {
+                        "wins": 1,
+                        "losses": 0,
+                        "ties": 0,
+                        "percentage": "1.000"
+                      },
+                      "score": 43,
+                      "isWinner": true
+                    }
+                  ],
+                  "week": 1,
+                  "coverageLevel": {
+                    "coverageLevelId": 8,
+                    "details": "STATS Primary Feed",
+                    "name": "Level 1"
+                  }
+                },
+                {
+                  "eventId": 2142053,
+                  "startDate": [
+                    {
+                      "year": 2019,
+                      "month": 9,
+                      "date": 8,
+                      "hour": 13,
+                      "minute": 0,
+                      "full": "2019-09-08T13:00:00",
+                      "dateType": "Local"
+                    },
+                    {
+                      "year": 2019,
+                      "month": 9,
+                      "date": 8,
+                      "hour": 17,
+                      "minute": 0,
+                      "full": "2019-09-08T17:00:00",
+                      "dateType": "UTC"
+                    }
+                  ],
+                  "isTba": false,
+                  "isDataConfirmed": {
+                    "score": true
+                  },
+                  "eventStatus": {
+                    "eventStatusId": 4,
+                    "period": 4,
+                    "isActive": false,
+                    "name": "Final"
+                  },
+                  "venue": {
+                    "venueId": 538,
+                    "name": "TIAA Bank Field",
+                    "city": "Jacksonville",
+                    "state": {
+                      "stateId": 9,
+                      "name": "Florida",
+                      "abbreviation": "FL"
+                    },
+                    "country": {
+                      "countryId": 1,
+                      "name": "United States",
+                      "abbreviation": "USA"
+                    }
+                  },
+                  "tvStations": [
+                    {
+                      "tvStationId": 275,
+                      "name": "CBS",
+                      "callLetters": "CBS",
+                      "networkType": {
+                        "networkTypeId": 1,
+                        "name": "National"
+                      },
+                      "country": {
+                        "countryId": 1,
+                        "name": "United States",
+                        "abbreviation": "USA"
+                      }
+                    }
+                  ],
+                  "teams": [
+                    {
+                      "teamId": 365,
+                      "location": "Jacksonville",
+                      "nickname": "Jaguars",
+                      "abbreviation": "Jax",
+                      "teamLocationType": {
+                        "teamLocationTypeId": 1,
+                        "name": "home"
+                      },
+                      "record": {
+                        "wins": 0,
+                        "losses": 1,
+                        "ties": 0,
+                        "percentage": ".000"
+                      },
+                      "score": 26,
+                      "isWinner": false
+                    },
+                    {
+                      "teamId": 339,
+                      "location": "Kansas City",
+                      "nickname": "Chiefs",
+                      "abbreviation": "KC",
+                      "teamLocationType": {
+                        "teamLocationTypeId": 2,
+                        "name": "away"
+                      },
+                      "record": {
+                        "wins": 1,
+                        "losses": 0,
+                        "ties": 0,
+                        "percentage": "1.000"
+                      },
+                      "score": 40,
+                      "isWinner": true
+                    }
+                  ],
+                  "week": 1,
+                  "coverageLevel": {
+                    "coverageLevelId": 8,
+                    "details": "STATS Primary Feed",
+                    "name": "Level 1"
+                  }
+                },
+                {
+                  "eventId": 2142057,
+                  "startDate": [
+                    {
+                      "year": 2019,
+                      "month": 9,
+                      "date": 8,
+                      "hour": 13,
+                      "minute": 0,
+                      "full": "2019-09-08T13:00:00",
+                      "dateType": "Local"
+                    },
+                    {
+                      "year": 2019,
+                      "month": 9,
+                      "date": 8,
+                      "hour": 17,
+                      "minute": 0,
+                      "full": "2019-09-08T17:00:00",
+                      "dateType": "UTC"
+                    }
+                  ],
+                  "isTba": false,
+                  "isDataConfirmed": {
+                    "score": true
+                  },
+                  "eventStatus": {
+                    "eventStatusId": 4,
+                    "period": 4,
+                    "isActive": false,
+                    "name": "Final"
+                  },
+                  "venue": {
+                    "venueId": 519,
+                    "name": "Hard Rock Stadium",
+                    "city": "Miami Gardens",
+                    "state": {
+                      "stateId": 9,
+                      "name": "Florida",
+                      "abbreviation": "FL"
+                    },
+                    "country": {
+                      "countryId": 1,
+                      "name": "United States",
+                      "abbreviation": "USA"
+                    }
+                  },
+                  "tvStations": [
+                    {
+                      "tvStationId": 275,
+                      "name": "CBS",
+                      "callLetters": "CBS",
+                      "networkType": {
+                        "networkTypeId": 1,
+                        "name": "National"
+                      },
+                      "country": {
+                        "countryId": 1,
+                        "name": "United States",
+                        "abbreviation": "USA"
+                      }
+                    }
+                  ],
+                  "teams": [
+                    {
+                      "teamId": 345,
+                      "location": "Miami",
+                      "nickname": "Dolphins",
+                      "abbreviation": "Mia",
+                      "teamLocationType": {
+                        "teamLocationTypeId": 1,
+                        "name": "home"
+                      },
+                      "record": {
+                        "wins": 0,
+                        "losses": 1,
+                        "ties": 0,
+                        "percentage": ".000"
+                      },
+                      "score": 10,
+                      "isWinner": false
+                    },
+                    {
+                      "teamId": 366,
+                      "location": "Baltimore",
+                      "nickname": "Ravens",
+                      "abbreviation": "Bal",
+                      "teamLocationType": {
+                        "teamLocationTypeId": 2,
+                        "name": "away"
+                      },
+                      "record": {
+                        "wins": 1,
+                        "losses": 0,
+                        "ties": 0,
+                        "percentage": "1.000"
+                      },
+                      "score": 59,
+                      "isWinner": true
+                    }
+                  ],
+                  "week": 1,
+                  "coverageLevel": {
+                    "coverageLevelId": 8,
+                    "details": "STATS Primary Feed",
+                    "name": "Level 1"
+                  }
+                },
+                {
+                  "eventId": 2142072,
+                  "startDate": [
+                    {
+                      "year": 2019,
+                      "month": 9,
+                      "date": 8,
+                      "hour": 13,
+                      "minute": 0,
+                      "full": "2019-09-08T13:00:00",
+                      "dateType": "Local"
+                    },
+                    {
+                      "year": 2019,
+                      "month": 9,
+                      "date": 8,
+                      "hour": 17,
+                      "minute": 0,
+                      "full": "2019-09-08T17:00:00",
+                      "dateType": "UTC"
+                    }
+                  ],
+                  "isTba": false,
+                  "isDataConfirmed": {
+                    "score": true
+                  },
+                  "eventStatus": {
+                    "eventStatusId": 4,
+                    "period": 4,
+                    "isActive": false,
+                    "name": "Final"
+                  },
+                  "venue": {
+                    "venueId": 9286,
+                    "name": "MetLife Stadium",
+                    "city": "East Rutherford",
+                    "state": {
+                      "stateId": 30,
+                      "name": "New Jersey",
+                      "abbreviation": "NJ"
+                    },
+                    "country": {
+                      "countryId": 1,
+                      "name": "United States",
+                      "abbreviation": "USA"
+                    }
+                  },
+                  "tvStations": [
+                    {
+                      "tvStationId": 275,
+                      "name": "CBS",
+                      "callLetters": "CBS",
+                      "networkType": {
+                        "networkTypeId": 1,
+                        "name": "National"
+                      },
+                      "country": {
+                        "countryId": 1,
+                        "name": "United States",
+                        "abbreviation": "USA"
+                      }
+                    }
+                  ],
+                  "teams": [
+                    {
+                      "teamId": 352,
+                      "location": "New York",
+                      "nickname": "Jets",
+                      "abbreviation": "NYJ",
+                      "teamLocationType": {
+                        "teamLocationTypeId": 1,
+                        "name": "home"
+                      },
+                      "record": {
+                        "wins": 0,
+                        "losses": 1,
+                        "ties": 0,
+                        "percentage": ".000"
+                      },
+                      "score": 16,
+                      "isWinner": false
+                    },
+                    {
+                      "teamId": 324,
+                      "location": "Buffalo",
+                      "nickname": "Bills",
+                      "abbreviation": "Buf",
+                      "teamLocationType": {
+                        "teamLocationTypeId": 2,
+                        "name": "away"
+                      },
+                      "record": {
+                        "wins": 1,
+                        "losses": 0,
+                        "ties": 0,
+                        "percentage": "1.000"
+                      },
+                      "score": 17,
+                      "isWinner": true
+                    }
+                  ],
+                  "week": 1,
+                  "coverageLevel": {
+                    "coverageLevelId": 8,
+                    "details": "STATS Primary Feed",
+                    "name": "Level 1"
+                  }
+                },
+                {
+                  "eventId": 2142076,
+                  "startDate": [
+                    {
+                      "year": 2019,
+                      "month": 9,
+                      "date": 8,
+                      "hour": 13,
+                      "minute": 0,
+                      "full": "2019-09-08T13:00:00",
+                      "dateType": "Local"
+                    },
+                    {
+                      "year": 2019,
+                      "month": 9,
+                      "date": 8,
+                      "hour": 17,
+                      "minute": 0,
+                      "full": "2019-09-08T17:00:00",
+                      "dateType": "UTC"
+                    }
+                  ],
+                  "isTba": false,
+                  "isDataConfirmed": {
+                    "score": true
+                  },
+                  "eventStatus": {
+                    "eventStatusId": 4,
+                    "period": 4,
+                    "isActive": false,
+                    "name": "Final"
+                  },
+                  "venue": {
+                    "venueId": 3494,
+                    "name": "Lincoln Financial Field",
+                    "city": "Philadelphia",
+                    "state": {
+                      "stateId": 38,
+                      "name": "Pennsylvania",
+                      "abbreviation": "PA"
+                    },
+                    "country": {
+                      "countryId": 1,
+                      "name": "United States",
+                      "abbreviation": "USA"
+                    }
+                  },
+                  "tvStations": [
+                    {
+                      "tvStationId": 278,
+                      "name": "FOX",
+                      "callLetters": "FOX",
+                      "networkType": {
+                        "networkTypeId": 1,
+                        "name": "National"
+                      },
+                      "country": {
+                        "countryId": 1,
+                        "name": "United States",
+                        "abbreviation": "USA"
+                      }
+                    }
+                  ],
+                  "teams": [
+                    {
+                      "teamId": 354,
+                      "location": "Philadelphia",
+                      "nickname": "Eagles",
+                      "abbreviation": "Phi",
+                      "teamLocationType": {
+                        "teamLocationTypeId": 1,
+                        "name": "home"
+                      },
+                      "record": {
+                        "wins": 1,
+                        "losses": 0,
+                        "ties": 0,
+                        "percentage": "1.000"
+                      },
+                      "score": 32,
+                      "isWinner": true
+                    },
+                    {
+                      "teamId": 363,
+                      "location": "Washington",
+                      "nickname": "Redskins",
+                      "abbreviation": "Was",
+                      "teamLocationType": {
+                        "teamLocationTypeId": 2,
+                        "name": "away"
+                      },
+                      "record": {
+                        "wins": 0,
+                        "losses": 1,
+                        "ties": 0,
+                        "percentage": ".000"
+                      },
+                      "score": 27,
+                      "isWinner": false
+                    }
+                  ],
+                  "week": 1,
+                  "coverageLevel": {
+                    "coverageLevelId": 8,
+                    "details": "STATS Primary Feed",
+                    "name": "Level 1"
+                  }
+                },
+                {
+                  "eventId": 2142082,
+                  "startDate": [
+                    {
+                      "year": 2019,
+                      "month": 9,
+                      "date": 8,
+                      "hour": 13,
+                      "minute": 5,
+                      "full": "2019-09-08T13:05:00",
+                      "dateType": "Local"
+                    },
+                    {
+                      "year": 2019,
+                      "month": 9,
+                      "date": 8,
+                      "hour": 20,
+                      "minute": 5,
+                      "full": "2019-09-08T20:05:00",
+                      "dateType": "UTC"
+                    }
+                  ],
+                  "isTba": false,
+                  "isDataConfirmed": {
+                    "score": true
+                  },
+                  "eventStatus": {
+                    "eventStatusId": 4,
+                    "period": 5,
+                    "isActive": false,
+                    "name": "Final"
+                  },
+                  "venue": {
+                    "venueId": 4315,
+                    "name": "Dignity Health Sports Park",
+                    "city": "Carson",
+                    "state": {
+                      "stateId": 5,
+                      "name": "California",
+                      "abbreviation": "CA"
+                    },
+                    "country": {
+                      "countryId": 1,
+                      "name": "United States",
+                      "abbreviation": "USA"
+                    }
+                  },
+                  "tvStations": [
+                    {
+                      "tvStationId": 275,
+                      "name": "CBS",
+                      "callLetters": "CBS",
+                      "networkType": {
+                        "networkTypeId": 1,
+                        "name": "National"
+                      },
+                      "country": {
+                        "countryId": 1,
+                        "name": "United States",
+                        "abbreviation": "USA"
+                      }
+                    }
+                  ],
+                  "teams": [
+                    {
+                      "teamId": 357,
+                      "location": "Los Angeles",
+                      "nickname": "Chargers",
+                      "abbreviation": "LAC",
+                      "teamLocationType": {
+                        "teamLocationTypeId": 1,
+                        "name": "home"
+                      },
+                      "record": {
+                        "wins": 1,
+                        "losses": 0,
+                        "ties": 0,
+                        "percentage": "1.000"
+                      },
+                      "score": 30,
+                      "isWinner": true
+                    },
+                    {
+                      "teamId": 338,
+                      "location": "Indianapolis",
+                      "nickname": "Colts",
+                      "abbreviation": "Ind",
+                      "teamLocationType": {
+                        "teamLocationTypeId": 2,
+                        "name": "away"
+                      },
+                      "record": {
+                        "wins": 0,
+                        "losses": 1,
+                        "ties": 0,
+                        "percentage": ".000"
+                      },
+                      "score": 24,
+                      "isWinner": false
+                    }
+                  ],
+                  "week": 1,
+                  "coverageLevel": {
+                    "coverageLevelId": 8,
+                    "details": "STATS Primary Feed",
+                    "name": "Level 1"
+                  }
+                },
+                {
+                  "eventId": 2142086,
+                  "startDate": [
+                    {
+                      "year": 2019,
+                      "month": 9,
+                      "date": 8,
+                      "hour": 13,
+                      "minute": 5,
+                      "full": "2019-09-08T13:05:00",
+                      "dateType": "Local"
+                    },
+                    {
+                      "year": 2019,
+                      "month": 9,
+                      "date": 8,
+                      "hour": 20,
+                      "minute": 5,
+                      "full": "2019-09-08T20:05:00",
+                      "dateType": "UTC"
+                    }
+                  ],
+                  "isTba": false,
+                  "isDataConfirmed": {
+                    "score": true
+                  },
+                  "eventStatus": {
+                    "eventStatusId": 4,
+                    "period": 4,
+                    "isActive": false,
+                    "name": "Final"
+                  },
+                  "venue": {
+                    "venueId": 3395,
+                    "name": "CenturyLink Field",
+                    "city": "Seattle",
+                    "state": {
+                      "stateId": 47,
+                      "name": "Washington",
+                      "abbreviation": "WA"
+                    },
+                    "country": {
+                      "countryId": 1,
+                      "name": "United States",
+                      "abbreviation": "USA"
+                    }
+                  },
+                  "tvStations": [
+                    {
+                      "tvStationId": 275,
+                      "name": "CBS",
+                      "callLetters": "CBS",
+                      "networkType": {
+                        "networkTypeId": 1,
+                        "name": "National"
+                      },
+                      "country": {
+                        "countryId": 1,
+                        "name": "United States",
+                        "abbreviation": "USA"
+                      }
+                    }
+                  ],
+                  "teams": [
+                    {
+                      "teamId": 361,
+                      "location": "Seattle",
+                      "nickname": "Seahawks",
+                      "abbreviation": "Sea",
+                      "teamLocationType": {
+                        "teamLocationTypeId": 1,
+                        "name": "home"
+                      },
+                      "record": {
+                        "wins": 1,
+                        "losses": 0,
+                        "ties": 0,
+                        "percentage": "1.000"
+                      },
+                      "score": 21,
+                      "isWinner": true
+                    },
+                    {
+                      "teamId": 327,
+                      "location": "Cincinnati",
+                      "nickname": "Bengals",
+                      "abbreviation": "Cin",
+                      "teamLocationType": {
+                        "teamLocationTypeId": 2,
+                        "name": "away"
+                      },
+                      "record": {
+                        "wins": 0,
+                        "losses": 1,
+                        "ties": 0,
+                        "percentage": ".000"
+                      },
+                      "score": 20,
+                      "isWinner": false
+                    }
+                  ],
+                  "week": 1,
+                  "coverageLevel": {
+                    "coverageLevelId": 8,
+                    "details": "STATS Primary Feed",
+                    "name": "Level 1"
+                  }
+                },
+                {
+                  "eventId": 2142091,
+                  "startDate": [
+                    {
+                      "year": 2019,
+                      "month": 9,
+                      "date": 8,
+                      "hour": 13,
+                      "minute": 25,
+                      "full": "2019-09-08T13:25:00",
+                      "dateType": "Local"
+                    },
+                    {
+                      "year": 2019,
+                      "month": 9,
+                      "date": 8,
+                      "hour": 20,
+                      "minute": 25,
+                      "full": "2019-09-08T20:25:00",
+                      "dateType": "UTC"
+                    }
+                  ],
+                  "isTba": false,
+                  "isDataConfirmed": {
+                    "score": true
+                  },
+                  "eventStatus": {
+                    "eventStatusId": 4,
+                    "period": 5,
+                    "isActive": false,
+                    "name": "Final"
+                  },
+                  "venue": {
+                    "venueId": 4943,
+                    "name": "State Farm Stadium",
+                    "city": "Glendale",
+                    "state": {
+                      "stateId": 3,
+                      "name": "Arizona",
+                      "abbreviation": "AZ"
+                    },
+                    "country": {
+                      "countryId": 1,
+                      "name": "United States",
+                      "abbreviation": "USA"
+                    }
+                  },
+                  "tvStations": [
+                    {
+                      "tvStationId": 278,
+                      "name": "FOX",
+                      "callLetters": "FOX",
+                      "networkType": {
+                        "networkTypeId": 1,
+                        "name": "National"
+                      },
+                      "country": {
+                        "countryId": 1,
+                        "name": "United States",
+                        "abbreviation": "USA"
+                      }
+                    }
+                  ],
+                  "teams": [
+                    {
+                      "teamId": 355,
+                      "location": "Arizona",
+                      "nickname": "Cardinals",
+                      "abbreviation": "Ari",
+                      "teamLocationType": {
+                        "teamLocationTypeId": 1,
+                        "name": "home"
+                      },
+                      "record": {
+                        "wins": 0,
+                        "losses": 0,
+                        "ties": 1,
+                        "percentage": ".500"
+                      },
+                      "score": 27,
+                      "isWinner": false
+                    },
+                    {
+                      "teamId": 334,
+                      "location": "Detroit",
+                      "nickname": "Lions",
+                      "abbreviation": "Det",
+                      "teamLocationType": {
+                        "teamLocationTypeId": 2,
+                        "name": "away"
+                      },
+                      "record": {
+                        "wins": 0,
+                        "losses": 0,
+                        "ties": 1,
+                        "percentage": ".500"
+                      },
+                      "score": 27,
+                      "isWinner": false
+                    }
+                  ],
+                  "week": 1,
+                  "coverageLevel": {
+                    "coverageLevelId": 8,
+                    "details": "STATS Primary Feed",
+                    "name": "Level 1"
+                  }
+                },
+                {
+                  "eventId": 2142101,
+                  "startDate": [
+                    {
+                      "year": 2019,
+                      "month": 9,
+                      "date": 8,
+                      "hour": 15,
+                      "minute": 25,
+                      "full": "2019-09-08T15:25:00",
+                      "dateType": "Local"
+                    },
+                    {
+                      "year": 2019,
+                      "month": 9,
+                      "date": 8,
+                      "hour": 20,
+                      "minute": 25,
+                      "full": "2019-09-08T20:25:00",
+                      "dateType": "UTC"
+                    }
+                  ],
+                  "isTba": false,
+                  "isDataConfirmed": {
+                    "score": true
+                  },
+                  "eventStatus": {
+                    "eventStatusId": 4,
+                    "period": 4,
+                    "isActive": false,
+                    "name": "Final"
+                  },
+                  "venue": {
+                    "venueId": 8087,
+                    "name": "AT&T Stadium",
+                    "city": "Arlington",
+                    "state": {
+                      "stateId": 43,
+                      "name": "Texas",
+                      "abbreviation": "TX"
+                    },
+                    "country": {
+                      "countryId": 1,
+                      "name": "United States",
+                      "abbreviation": "USA"
+                    }
+                  },
+                  "tvStations": [
+                    {
+                      "tvStationId": 278,
+                      "name": "FOX",
+                      "callLetters": "FOX",
+                      "networkType": {
+                        "networkTypeId": 1,
+                        "name": "National"
+                      },
+                      "country": {
+                        "countryId": 1,
+                        "name": "United States",
+                        "abbreviation": "USA"
+                      }
+                    }
+                  ],
+                  "teams": [
+                    {
+                      "teamId": 331,
+                      "location": "Dallas",
+                      "nickname": "Cowboys",
+                      "abbreviation": "Dal",
+                      "teamLocationType": {
+                        "teamLocationTypeId": 1,
+                        "name": "home"
+                      },
+                      "record": {
+                        "wins": 1,
+                        "losses": 0,
+                        "ties": 0,
+                        "percentage": "1.000"
+                      },
+                      "score": 35,
+                      "isWinner": true
+                    },
+                    {
+                      "teamId": 351,
+                      "location": "New York",
+                      "nickname": "Giants",
+                      "abbreviation": "NYG",
+                      "teamLocationType": {
+                        "teamLocationTypeId": 2,
+                        "name": "away"
+                      },
+                      "record": {
+                        "wins": 0,
+                        "losses": 1,
+                        "ties": 0,
+                        "percentage": ".000"
+                      },
+                      "score": 17,
+                      "isWinner": false
+                    }
+                  ],
+                  "week": 1,
+                  "coverageLevel": {
+                    "coverageLevelId": 8,
+                    "details": "STATS Primary Feed",
+                    "name": "Level 1"
+                  }
+                },
+                {
+                  "eventId": 2142107,
+                  "startDate": [
+                    {
+                      "year": 2019,
+                      "month": 9,
+                      "date": 8,
+                      "hour": 16,
+                      "minute": 25,
+                      "full": "2019-09-08T16:25:00",
+                      "dateType": "Local"
+                    },
+                    {
+                      "year": 2019,
+                      "month": 9,
+                      "date": 8,
+                      "hour": 20,
+                      "minute": 25,
+                      "full": "2019-09-08T20:25:00",
+                      "dateType": "UTC"
+                    }
+                  ],
+                  "isTba": false,
+                  "isDataConfirmed": {
+                    "score": true
+                  },
+                  "eventStatus": {
+                    "eventStatusId": 4,
+                    "period": 4,
+                    "isActive": false,
+                    "name": "Final"
+                  },
+                  "venue": {
+                    "venueId": 546,
+                    "name": "Raymond James Stadium",
+                    "city": "Tampa",
+                    "state": {
+                      "stateId": 9,
+                      "name": "Florida",
+                      "abbreviation": "FL"
+                    },
+                    "country": {
+                      "countryId": 1,
+                      "name": "United States",
+                      "abbreviation": "USA"
+                    }
+                  },
+                  "tvStations": [
+                    {
+                      "tvStationId": 278,
+                      "name": "FOX",
+                      "callLetters": "FOX",
+                      "networkType": {
+                        "networkTypeId": 1,
+                        "name": "National"
+                      },
+                      "country": {
+                        "countryId": 1,
+                        "name": "United States",
+                        "abbreviation": "USA"
+                      }
+                    }
+                  ],
+                  "teams": [
+                    {
+                      "teamId": 362,
+                      "location": "Tampa Bay",
+                      "nickname": "Buccaneers",
+                      "abbreviation": "TB",
+                      "teamLocationType": {
+                        "teamLocationTypeId": 1,
+                        "name": "home"
+                      },
+                      "record": {
+                        "wins": 0,
+                        "losses": 1,
+                        "ties": 0,
+                        "percentage": ".000"
+                      },
+                      "score": 17,
+                      "isWinner": false
+                    },
+                    {
+                      "teamId": 359,
+                      "location": "San Francisco",
+                      "nickname": "49ers",
+                      "abbreviation": "SF",
+                      "teamLocationType": {
+                        "teamLocationTypeId": 2,
+                        "name": "away"
+                      },
+                      "record": {
+                        "wins": 1,
+                        "losses": 0,
+                        "ties": 0,
+                        "percentage": "1.000"
+                      },
+                      "score": 31,
+                      "isWinner": true
+                    }
+                  ],
+                  "week": 1,
+                  "coverageLevel": {
+                    "coverageLevelId": 8,
+                    "details": "STATS Primary Feed",
+                    "name": "Level 1"
+                  }
+                },
+                {
+                  "eventId": 2142112,
+                  "startDate": [
+                    {
+                      "year": 2019,
+                      "month": 9,
+                      "date": 8,
+                      "hour": 20,
+                      "minute": 20,
+                      "full": "2019-09-08T20:20:00",
+                      "dateType": "Local"
+                    },
+                    {
+                      "year": 2019,
+                      "month": 9,
+                      "date": 9,
+                      "hour": 0,
+                      "minute": 20,
+                      "full": "2019-09-09T00:20:00",
+                      "dateType": "UTC"
+                    }
+                  ],
+                  "isTba": false,
+                  "isDataConfirmed": {
+                    "score": true
+                  },
+                  "eventStatus": {
+                    "eventStatusId": 4,
+                    "period": 4,
+                    "isActive": false,
+                    "name": "Final"
+                  },
+                  "venue": {
+                    "venueId": 3392,
+                    "name": "Gillette Stadium",
+                    "city": "Foxborough",
+                    "state": {
+                      "stateId": 21,
+                      "name": "Massachusetts",
+                      "abbreviation": "MA"
+                    },
+                    "country": {
+                      "countryId": 1,
+                      "name": "United States",
+                      "abbreviation": "USA"
+                    }
+                  },
+                  "tvStations": [
+                    {
+                      "tvStationId": 279,
+                      "name": "NBC",
+                      "callLetters": "NBC",
+                      "networkType": {
+                        "networkTypeId": 1,
+                        "name": "National"
+                      },
+                      "country": {
+                        "countryId": 1,
+                        "name": "United States",
+                        "abbreviation": "USA"
+                      }
+                    }
+                  ],
+                  "teams": [
+                    {
+                      "teamId": 348,
+                      "location": "New England",
+                      "nickname": "Patriots",
+                      "abbreviation": "NE",
+                      "teamLocationType": {
+                        "teamLocationTypeId": 1,
+                        "name": "home"
+                      },
+                      "record": {
+                        "wins": 1,
+                        "losses": 0,
+                        "ties": 0,
+                        "percentage": "1.000"
+                      },
+                      "score": 33,
+                      "isWinner": true
+                    },
+                    {
+                      "teamId": 356,
+                      "location": "Pittsburgh",
+                      "nickname": "Steelers",
+                      "abbreviation": "Pit",
+                      "teamLocationType": {
+                        "teamLocationTypeId": 2,
+                        "name": "away"
+                      },
+                      "record": {
+                        "wins": 0,
+                        "losses": 1,
+                        "ties": 0,
+                        "percentage": ".000"
+                      },
+                      "score": 3,
+                      "isWinner": false
+                    }
+                  ],
+                  "week": 1,
+                  "coverageLevel": {
+                    "coverageLevelId": 8,
+                    "details": "STATS Primary Feed",
+                    "name": "Level 1"
+                  }
+                },
+                {
+                  "eventId": 2142117,
+                  "startDate": [
+                    {
+                      "year": 2019,
+                      "month": 9,
+                      "date": 9,
+                      "hour": 18,
+                      "minute": 10,
+                      "full": "2019-09-09T18:10:00",
+                      "dateType": "Local"
+                    },
+                    {
+                      "year": 2019,
+                      "month": 9,
+                      "date": 9,
+                      "hour": 23,
+                      "minute": 10,
+                      "full": "2019-09-09T23:10:00",
+                      "dateType": "UTC"
+                    }
+                  ],
+                  "isTba": false,
+                  "isDataConfirmed": {
+                    "score": true
+                  },
+                  "eventStatus": {
+                    "eventStatusId": 4,
+                    "period": 4,
+                    "isActive": false,
+                    "name": "Final"
+                  },
+                  "venue": {
+                    "venueId": 522,
+                    "name": "Mercedes-Benz Superdome",
+                    "city": "New Orleans",
+                    "state": {
+                      "stateId": 18,
+                      "name": "Louisiana",
+                      "abbreviation": "LA"
+                    },
+                    "country": {
+                      "countryId": 1,
+                      "name": "United States",
+                      "abbreviation": "USA"
+                    }
+                  },
+                  "tvStations": [
+                    {
+                      "tvStationId": 276,
+                      "name": "ESPN",
+                      "callLetters": "ESPN",
+                      "networkType": {
+                        "networkTypeId": 1,
+                        "name": "National"
+                      },
+                      "country": {
+                        "countryId": 1,
+                        "name": "United States",
+                        "abbreviation": "USA"
+                      }
+                    }
+                  ],
+                  "teams": [
+                    {
+                      "teamId": 350,
+                      "location": "New Orleans",
+                      "nickname": "Saints",
+                      "abbreviation": "NO",
+                      "teamLocationType": {
+                        "teamLocationTypeId": 1,
+                        "name": "home"
+                      },
+                      "record": {
+                        "wins": 1,
+                        "losses": 0,
+                        "ties": 0,
+                        "percentage": "1.000"
+                      },
+                      "score": 30,
+                      "isWinner": true
+                    },
+                    {
+                      "teamId": 325,
+                      "location": "Houston",
+                      "nickname": "Texans",
+                      "abbreviation": "Hou",
+                      "teamLocationType": {
+                        "teamLocationTypeId": 2,
+                        "name": "away"
+                      },
+                      "record": {
+                        "wins": 0,
+                        "losses": 1,
+                        "ties": 0,
+                        "percentage": ".000"
+                      },
+                      "score": 28,
+                      "isWinner": false
+                    }
+                  ],
+                  "week": 1,
+                  "coverageLevel": {
+                    "coverageLevelId": 8,
+                    "details": "STATS Primary Feed",
+                    "name": "Level 1"
+                  }
+                },
+                {
+                  "eventId": 2142124,
+                  "startDate": [
+                    {
+                      "year": 2019,
+                      "month": 9,
+                      "date": 9,
+                      "hour": 19,
+                      "minute": 20,
+                      "full": "2019-09-09T19:20:00",
+                      "dateType": "Local"
+                    },
+                    {
+                      "year": 2019,
+                      "month": 9,
+                      "date": 10,
+                      "hour": 2,
+                      "minute": 20,
+                      "full": "2019-09-10T02:20:00",
+                      "dateType": "UTC"
+                    }
+                  ],
+                  "isTba": false,
+                  "isDataConfirmed": {
+                    "score": true
+                  },
+                  "eventStatus": {
+                    "eventStatusId": 4,
+                    "period": 4,
+                    "isActive": false,
+                    "name": "Final"
+                  },
+                  "venue": {
+                    "venueId": 537,
+                    "name": "RingCentral Coliseum",
+                    "city": "Oakland",
+                    "state": {
+                      "stateId": 5,
+                      "name": "California",
+                      "abbreviation": "CA"
+                    },
+                    "country": {
+                      "countryId": 1,
+                      "name": "United States",
+                      "abbreviation": "USA"
+                    }
+                  },
+                  "tvStations": [
+                    {
+                      "tvStationId": 276,
+                      "name": "ESPN",
+                      "callLetters": "ESPN",
+                      "networkType": {
+                        "networkTypeId": 1,
+                        "name": "National"
+                      },
+                      "country": {
+                        "countryId": 1,
+                        "name": "United States",
+                        "abbreviation": "USA"
+                      }
+                    }
+                  ],
+                  "teams": [
+                    {
+                      "teamId": 341,
+                      "location": "Oakland",
+                      "nickname": "Raiders",
+                      "abbreviation": "Oak",
+                      "teamLocationType": {
+                        "teamLocationTypeId": 1,
+                        "name": "home"
+                      },
+                      "record": {
+                        "wins": 1,
+                        "losses": 0,
+                        "ties": 0,
+                        "percentage": "1.000"
+                      },
+                      "score": 24,
+                      "isWinner": true
+                    },
+                    {
+                      "teamId": 332,
+                      "location": "Denver",
+                      "nickname": "Broncos",
+                      "abbreviation": "Den",
+                      "teamLocationType": {
+                        "teamLocationTypeId": 2,
+                        "name": "away"
+                      },
+                      "record": {
+                        "wins": 0,
+                        "losses": 1,
+                        "ties": 0,
+                        "percentage": ".000"
+                      },
+                      "score": 16,
+                      "isWinner": false
+                    }
+                  ],
+                  "week": 1,
+                  "coverageLevel": {
+                    "coverageLevelId": 8,
+                    "details": "STATS Primary Feed",
+                    "name": "Level 1"
+                  }
+                }
+              ]
             }
           ]
         }

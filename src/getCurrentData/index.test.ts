@@ -2,8 +2,8 @@ import {getCurrentData} from "./index";
 import {getCurrentWeek} from "../helpers/getCurrentWeek/getCurrentWeek";
 import {getCurrentSeason} from "../helpers/getCurrentSeason/getCurrentSeason";
 
-jest.mock('../helpers/getCurrentWeek');
-jest.mock('../helpers/getCurrentSeason');
+jest.mock('../helpers/getCurrentWeek/getCurrentWeek');
+jest.mock('../helpers/getCurrentSeason/getCurrentSeason');
 
 (getCurrentWeek as jest.Mock).mockResolvedValue(69);
 (getCurrentSeason as jest.Mock).mockResolvedValue(1969);

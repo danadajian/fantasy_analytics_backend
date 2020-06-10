@@ -12,6 +12,14 @@ Globals:
     Timeout: 900
 
 Resources:
+  GetFantasyDataFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri:
+        Bucket: !Ref BucketName
+        Key: !Ref CodeKey
+      Handler: build/getFantasyData/index.getFantasyData
+      Runtime: nodejs12.x
   GetCurrentDataFunction:
     Type: AWS::Serverless::Function
     Properties:
@@ -19,4 +27,12 @@ Resources:
         Bucket: !Ref BucketName
         Key: !Ref CodeKey
       Handler: build/getCurrentData/index.getCurrentData
+      Runtime: nodejs12.x
+  GetRollingFantasyPointAveragesFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri:
+        Bucket: !Ref BucketName
+        Key: !Ref CodeKey
+      Handler: build/getRollingFantasyPointAverages/index.getRollingFantasyPointAverages
       Runtime: nodejs12.x
