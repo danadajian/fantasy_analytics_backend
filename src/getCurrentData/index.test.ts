@@ -24,7 +24,7 @@ describe('getCurrentData', () => {
         expect(getCurrentSeason).toHaveBeenCalledWith(sport)
     });
 
-    it('should return expected result', function () {
+    it('should return expected result', () => {
         expect(result).toEqual({
             currentWeek: 69,
             currentSeason: 1969
