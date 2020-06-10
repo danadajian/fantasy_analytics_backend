@@ -1,0 +1,138 @@
+{
+  "status": "OK",
+  "recordCount": 1,
+  "startTimestamp": "2020-06-10T13:11:51.2495918Z",
+  "endTimestamp": "2020-06-10T13:11:51.2593578Z",
+  "timeTaken": 0.009766,
+  "apiResults": [
+    {
+      "sportId": 4,
+      "name": "Football",
+      "league": {
+        "leagueId": 8,
+        "name": "National Football League",
+        "abbreviation": "NFL",
+        "displayName": "National Football League",
+        "season": {
+          "season": 2020,
+          "name": "2020-2021 NFL Season",
+          "isActive": true,
+          "eventType": [
+            {
+              "eventTypeId": 0,
+              "name": "Preseason",
+              "events": [
+                {
+                  "eventId": 2239861,
+                  "eventTitle": "Hall of Fame Game",
+                  "startDate": [
+                    {
+                      "year": 2020,
+                      "month": 8,
+                      "date": 6,
+                      "hour": 20,
+                      "minute": 0,
+                      "full": "2020-08-06T20:00:00",
+                      "dateType": "Local"
+                    },
+                    {
+                      "year": 2020,
+                      "month": 8,
+                      "date": 7,
+                      "hour": 0,
+                      "minute": 0,
+                      "full": "2020-08-07T00:00:00",
+                      "dateType": "UTC"
+                    }
+                  ],
+                  "isTba": false,
+                  "isDataConfirmed": {
+                    "score": false
+                  },
+                  "eventStatus": {
+                    "eventStatusId": 1,
+                    "isActive": false,
+                    "name": "Pre-Game"
+                  },
+                  "venue": {
+                    "venueId": 4213,
+                    "name": "Tom Benson Hall of Fame Stadium",
+                    "city": "Canton",
+                    "state": {
+                      "stateId": 35,
+                      "name": "Ohio",
+                      "abbreviation": "OH"
+                    },
+                    "country": {
+                      "countryId": 1,
+                      "name": "United States",
+                      "abbreviation": "USA"
+                    }
+                  },
+                  "tvStations": [
+                    {
+                      "tvStationId": 279,
+                      "name": "NBC",
+                      "callLetters": "NBC",
+                      "networkType": {
+                        "networkTypeId": 1,
+                        "name": "National"
+                      },
+                      "country": {
+                        "countryId": 1,
+                        "name": "United States",
+                        "abbreviation": "USA"
+                      }
+                    }
+                  ],
+                  "teams": [
+                    {
+                      "teamId": 331,
+                      "location": "Dallas",
+                      "nickname": "Cowboys",
+                      "abbreviation": "Dal",
+                      "teamLocationType": {
+                        "teamLocationTypeId": 1,
+                        "name": "home"
+                      },
+                      "record": {
+                        "wins": 0,
+                        "losses": 0,
+                        "ties": 0
+                      },
+                      "score": 0,
+                      "isWinner": false
+                    },
+                    {
+                      "teamId": 356,
+                      "location": "Pittsburgh",
+                      "nickname": "Steelers",
+                      "abbreviation": "Pit",
+                      "teamLocationType": {
+                        "teamLocationTypeId": 2,
+                        "name": "away"
+                      },
+                      "record": {
+                        "wins": 0,
+                        "losses": 0,
+                        "ties": 0
+                      },
+                      "score": 0,
+                      "isWinner": false
+                    }
+                  ],
+                  "week": 1,
+                  "coverageLevel": {
+                    "coverageLevelId": 8,
+                    "details": "STATS Primary Feed",
+                    "name": "Level 1"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

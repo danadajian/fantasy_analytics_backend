@@ -1,0 +1,24 @@
+{
+  "status": "OK",
+  "recordCount": 1,
+  "startTimestamp": "2020-06-10T13:11:51.2495918Z",
+  "endTimestamp": "2020-06-10T13:11:51.2593578Z",
+  "timeTaken": 0.009766,
+  "apiResults": [
+    {
+      "sportId": 4,
+      "name": "Football",
+      "league": {
+        "leagueId": 8,
+        "name": "National Football League",
+        "abbreviation": "NFL",
+        "displayName": "National Football League",
+        "seasons": [
+          {
+            "season": 1969
+          }
+        ]
+      }
+    }
+  ]
+}
