@@ -1,45 +1,86 @@
 import {getFantasyData} from "./index";
-import {getEventIdsByWeek} from "../helpers/getEventIdsByWeek/getEventIdsByWeek";
+import {getEventIds} from "../helpers/getEventIds/getEventIds";
 import {getFantasyDataFromNFLGame} from "../helpers/getFantasyDataFromNFLGame/getFantasyDataFromNFLGame";
+import {getFantasyDataFromMLBGame} from "../helpers/getFantasyDataFromMLBGame/getFantasyDataFromMLBGame";
 
-jest.mock('../helpers/getEventIdsByWeek/getEventIdsByWeek');
+jest.mock('../helpers/getEventIds/getEventIds');
+jest.mock('../helpers/getFantasyDataFromMLBGame/getFantasyDataFromMLBGame');
 jest.mock('../helpers/getFantasyDataFromNFLGame/getFantasyDataFromNFLGame');
 
-(getEventIdsByWeek as jest.Mock).mockResolvedValue([1, 2, 3]);
+(getEventIds as jest.Mock).mockResolvedValue([1, 2, 3]);
+(getFantasyDataFromMLBGame as jest.Mock).mockResolvedValue([
+    {some: 'stuff'},
+    {some: 'other stuff'}
+]);
 (getFantasyDataFromNFLGame as jest.Mock).mockResolvedValue([
     {some: 'stuff'},
     {some: 'other stuff'}
 ]);
 
 describe('getFantasyData', () => {
-    let result: any;
-    const sport = 'sport';
-    const week = 'week';
-    const season = 'season';
-    const event = {sport, week, season};
+    describe('non-nfl case', () => {
+        let result: any;
+        const sport = 'mlb';
+        const season = 'season';
+        const date = 'date';
+        const event = {sport, season, date};
 
-    beforeEach(async () => {
-        result = await getFantasyData(event)
+        beforeEach(async () => {
+            result = await getFantasyData(event)
+        });
+
+        it('should call getEventIdsByWeek with correct params', () => {
+            expect(getEventIds).toHaveBeenCalledWith(sport, season, date, undefined)
+        });
+
+        it.each([1, 2, 3])(
+            'should call getFantasyDataFromNFLGame with correct params', (eventId) => {
+                expect(getFantasyDataFromMLBGame).toHaveBeenCalledWith(eventId)
+            }
+        );
+
+        it('should return expected result', () => {
+            expect(result).toEqual([
+                {some: 'stuff'},
+                {some: 'other stuff'},
+                {some: 'stuff'},
+                {some: 'other stuff'},
+                {some: 'stuff'},
+                {some: 'other stuff'}
+            ])
+        });
     });
 
-    it('should call getEventIdsByWeek with correct params', () => {
-        expect(getEventIdsByWeek).toHaveBeenCalledWith(week, season)
-    });
+    describe('nfl case', () => {
+        let result: any;
+        const sport = 'nfl';
+        const season = 'season';
+        const week = 'week';
+        const event = {sport, season, week};
 
-    it.each([1, 2, 3])(
-        'should call getFantasyDataFromNFLGame with correct params', (eventId) => {
-            expect(getFantasyDataFromNFLGame).toHaveBeenCalledWith(eventId)
-        }
-    );
+        beforeEach(async () => {
+            result = await getFantasyData(event)
+        });
 
-    it('should return expected result', () => {
-        expect(result).toEqual([
-            {some: 'stuff'},
-            {some: 'other stuff'},
-            {some: 'stuff'},
-            {some: 'other stuff'},
-            {some: 'stuff'},
-            {some: 'other stuff'}
-        ])
+        it('should call getEventIdsByWeek with correct params', () => {
+            expect(getEventIds).toHaveBeenCalledWith(sport, season, undefined, week)
+        });
+
+        it.each([1, 2, 3])(
+            'should call getFantasyDataFromNFLGame with correct params', (eventId) => {
+                expect(getFantasyDataFromNFLGame).toHaveBeenCalledWith(eventId)
+            }
+        );
+
+        it('should return expected result', () => {
+            expect(result).toEqual([
+                {some: 'stuff'},
+                {some: 'other stuff'},
+                {some: 'stuff'},
+                {some: 'other stuff'},
+                {some: 'stuff'},
+                {some: 'other stuff'}
+            ])
+        });
     });
 });
