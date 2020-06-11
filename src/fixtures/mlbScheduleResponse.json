@@ -1,0 +1,1860 @@
+{
+  "apiResults": [
+    {
+      "league": {
+        "abbreviation": "MLB",
+        "displayName": "Major League Baseball",
+        "leagueId": 7,
+        "name": "Major League Baseball",
+        "season": {
+          "eventType": [
+            {
+              "eventTypeId": 1,
+              "events": [
+                {
+                  "coverageLevel": {
+                    "coverageLevelId": 2,
+                    "details": "STATS Feed",
+                    "name": "Level 2"
+                  },
+                  "eventConference": {
+                    "abbreviation": "AL",
+                    "conferenceId": 5,
+                    "isInterleague": false,
+                    "name": "American League"
+                  },
+                  "eventId": 2103976,
+                  "eventStatus": {
+                    "balls": null,
+                    "currentBatter": null,
+                    "eventStatusId": 4,
+                    "inning": 9,
+                    "inningDivision": null,
+                    "isActive": false,
+                    "name": "Final",
+                    "outs": null,
+                    "runnersOnBase": [],
+                    "strikes": null
+                  },
+                  "isDataConfirmed": {
+                    "score": true
+                  },
+                  "isDoubleheader": false,
+                  "isTba": false,
+                  "seriesId": 195,
+                  "startDate": [
+                    {
+                      "date": 8,
+                      "dateType": "Local",
+                      "full": "2019-08-08T19:07:00",
+                      "hour": 19,
+                      "minute": 7,
+                      "month": 8,
+                      "year": 2019
+                    },
+                    {
+                      "date": 8,
+                      "dateType": "UTC",
+                      "full": "2019-08-08T23:07:00",
+                      "hour": 23,
+                      "minute": 7,
+                      "month": 8,
+                      "year": 2019
+                    }
+                  ],
+                  "teams": [
+                    {
+                      "abbreviation": "Tor",
+                      "conference": {
+                        "abbreviation": "AL",
+                        "conferenceId": 5,
+                        "name": "American League"
+                      },
+                      "isSplitSquad": false,
+                      "isWinner": false,
+                      "linescoreTotals": {
+                        "errors": 1,
+                        "hits": 12,
+                        "runs": 6
+                      },
+                      "liveState": {
+                        "currentPitcher": null,
+                        "nextUpBatters": []
+                      },
+                      "location": "Toronto",
+                      "nickname": "Blue Jays",
+                      "pitchers": [
+                        {
+                          "earnedRunAverage": "6.83",
+                          "losses": 5,
+                          "player": {
+                            "firstName": "Thomas",
+                            "lastName": "Pannone",
+                            "playerId": 658922,
+                            "uniform": "45"
+                          },
+                          "type": {
+                            "name": "lose",
+                            "typeId": 3
+                          },
+                          "wins": 2
+                        },
+                        {
+                          "earnedRunAverage": "6.83",
+                          "losses": 5,
+                          "player": {
+                            "firstName": "Thomas",
+                            "lastName": "Pannone",
+                            "playerId": 658922,
+                            "uniform": "45"
+                          },
+                          "type": {
+                            "name": "starter",
+                            "typeId": 1
+                          },
+                          "wins": 2
+                        }
+                      ],
+                      "record": {
+                        "losses": 71,
+                        "percentage": ".398",
+                        "wins": 47
+                      },
+                      "teamId": 238,
+                      "teamLocationType": {
+                        "name": "home",
+                        "teamLocationTypeId": 1
+                      }
+                    },
+                    {
+                      "abbreviation": "NYY",
+                      "conference": {
+                        "abbreviation": "AL",
+                        "conferenceId": 5,
+                        "name": "American League"
+                      },
+                      "isSplitSquad": false,
+                      "isWinner": true,
+                      "linescoreTotals": {
+                        "errors": 1,
+                        "hits": 15,
+                        "runs": 12
+                      },
+                      "liveState": {
+                        "currentPitcher": null,
+                        "nextUpBatters": []
+                      },
+                      "location": "New York",
+                      "nickname": "Yankees",
+                      "pitchers": [
+                        {
+                          "earnedRunAverage": "4.05",
+                          "losses": 2,
+                          "player": {
+                            "firstName": "Domingo",
+                            "lastName": "German",
+                            "playerId": 548637,
+                            "uniform": "55"
+                          },
+                          "type": {
+                            "name": "win",
+                            "typeId": 2
+                          },
+                          "wins": 15
+                        },
+                        {
+                          "earnedRunAverage": "3.70",
+                          "player": {
+                            "firstName": "Luis",
+                            "lastName": "Cessa",
+                            "playerId": 506912,
+                            "uniform": "85"
+                          },
+                          "saves": 1,
+                          "type": {
+                            "name": "save",
+                            "typeId": 4
+                          }
+                        },
+                        {
+                          "earnedRunAverage": "4.05",
+                          "losses": 2,
+                          "player": {
+                            "firstName": "Domingo",
+                            "lastName": "German",
+                            "playerId": 548637,
+                            "uniform": "55"
+                          },
+                          "type": {
+                            "name": "starter",
+                            "typeId": 1
+                          },
+                          "wins": 15
+                        }
+                      ],
+                      "record": {
+                        "losses": 39,
+                        "percentage": ".661",
+                        "wins": 76
+                      },
+                      "teamId": 234,
+                      "teamLocationType": {
+                        "name": "away",
+                        "teamLocationTypeId": 2
+                      }
+                    }
+                  ],
+                  "tvStations": [
+                    {
+                      "callLetters": "YES",
+                      "country": {
+                        "abbreviation": "USA",
+                        "countryId": 1,
+                        "name": "United States"
+                      },
+                      "name": "YES TV - New York",
+                      "networkType": {
+                        "name": "Regional",
+                        "networkTypeId": 2
+                      },
+                      "tvStationId": 691
+                    },
+                    {
+                      "callLetters": "RSN",
+                      "country": {
+                        "abbreviation": "CAN",
+                        "countryId": 2,
+                        "name": "Canada"
+                      },
+                      "name": "Rogers SportsNet",
+                      "networkType": {
+                        "name": "Regional",
+                        "networkTypeId": 2
+                      },
+                      "tvStationId": 686
+                    }
+                  ],
+                  "venue": {
+                    "city": "Toronto",
+                    "country": {
+                      "abbreviation": "CAN",
+                      "countryId": 2,
+                      "name": "Canada"
+                    },
+                    "name": "Rogers Centre",
+                    "state": {
+                      "abbreviation": "ON",
+                      "name": "Ontario",
+                      "stateId": 60
+                    },
+                    "venueId": 405
+                  }
+                },
+                {
+                  "coverageLevel": {
+                    "coverageLevelId": 2,
+                    "details": "STATS Feed",
+                    "name": "Level 2"
+                  },
+                  "eventConference": {
+                    "abbreviation": "AL",
+                    "conferenceId": 5,
+                    "isInterleague": false,
+                    "name": "American League"
+                  },
+                  "eventId": 2103415,
+                  "eventStatus": {
+                    "balls": null,
+                    "currentBatter": null,
+                    "eventStatusId": 4,
+                    "inning": 9,
+                    "inningDivision": null,
+                    "isActive": false,
+                    "name": "Final",
+                    "outs": null,
+                    "runnersOnBase": [],
+                    "strikes": null
+                  },
+                  "isDataConfirmed": {
+                    "score": true
+                  },
+                  "isDoubleheader": false,
+                  "isTba": false,
+                  "seriesId": 20,
+                  "startDate": [
+                    {
+                      "date": 8,
+                      "dateType": "Local",
+                      "full": "2019-08-08T19:10:00",
+                      "hour": 19,
+                      "minute": 10,
+                      "month": 8,
+                      "year": 2019
+                    },
+                    {
+                      "date": 8,
+                      "dateType": "UTC",
+                      "full": "2019-08-08T23:10:00",
+                      "hour": 23,
+                      "minute": 10,
+                      "month": 8,
+                      "year": 2019
+                    }
+                  ],
+                  "teams": [
+                    {
+                      "abbreviation": "Bos",
+                      "conference": {
+                        "abbreviation": "AL",
+                        "conferenceId": 5,
+                        "name": "American League"
+                      },
+                      "isSplitSquad": false,
+                      "isWinner": true,
+                      "linescoreTotals": {
+                        "errors": 0,
+                        "hits": 5,
+                        "runs": 3
+                      },
+                      "liveState": {
+                        "currentPitcher": null,
+                        "nextUpBatters": []
+                      },
+                      "location": "Boston",
+                      "nickname": "Red Sox",
+                      "pitchers": [
+                        {
+                          "earnedRunAverage": "4.41",
+                          "losses": 11,
+                          "player": {
+                            "firstName": "Chris",
+                            "lastName": "Sale",
+                            "playerId": 392121,
+                            "uniform": "41"
+                          },
+                          "type": {
+                            "name": "win",
+                            "typeId": 2
+                          },
+                          "wins": 6
+                        },
+                        {
+                          "earnedRunAverage": "1.92",
+                          "player": {
+                            "firstName": "Brandon",
+                            "lastName": "Workman",
+                            "playerId": 390373,
+                            "uniform": "44"
+                          },
+                          "saves": 7,
+                          "type": {
+                            "name": "save",
+                            "typeId": 4
+                          }
+                        },
+                        {
+                          "earnedRunAverage": "4.41",
+                          "losses": 11,
+                          "player": {
+                            "firstName": "Chris",
+                            "lastName": "Sale",
+                            "playerId": 392121,
+                            "uniform": "41"
+                          },
+                          "type": {
+                            "name": "starter",
+                            "typeId": 1
+                          },
+                          "wins": 6
+                        }
+                      ],
+                      "record": {
+                        "losses": 56,
+                        "percentage": ".525",
+                        "wins": 62
+                      },
+                      "teamId": 226,
+                      "teamLocationType": {
+                        "name": "home",
+                        "teamLocationTypeId": 1
+                      }
+                    },
+                    {
+                      "abbreviation": "LAA",
+                      "conference": {
+                        "abbreviation": "AL",
+                        "conferenceId": 5,
+                        "name": "American League"
+                      },
+                      "isSplitSquad": false,
+                      "isWinner": false,
+                      "linescoreTotals": {
+                        "errors": 0,
+                        "hits": 2,
+                        "runs": 0
+                      },
+                      "liveState": {
+                        "currentPitcher": null,
+                        "nextUpBatters": []
+                      },
+                      "location": "Los Angeles",
+                      "nickname": "Angels",
+                      "pitchers": [
+                        {
+                          "earnedRunAverage": "3.45",
+                          "losses": 1,
+                          "player": {
+                            "firstName": "Dillon",
+                            "lastName": "Peters",
+                            "playerId": 599187,
+                            "uniform": "52"
+                          },
+                          "type": {
+                            "name": "lose",
+                            "typeId": 3
+                          },
+                          "wins": 2
+                        },
+                        {
+                          "earnedRunAverage": "3.45",
+                          "losses": 1,
+                          "player": {
+                            "firstName": "Dillon",
+                            "lastName": "Peters",
+                            "playerId": 599187,
+                            "uniform": "52"
+                          },
+                          "type": {
+                            "name": "starter",
+                            "typeId": 1
+                          },
+                          "wins": 2
+                        }
+                      ],
+                      "record": {
+                        "losses": 60,
+                        "percentage": ".483",
+                        "wins": 56
+                      },
+                      "teamId": 227,
+                      "teamLocationType": {
+                        "name": "away",
+                        "teamLocationTypeId": 2
+                      }
+                    }
+                  ],
+                  "tvStations": [
+                    {
+                      "callLetters": "NESN",
+                      "country": {
+                        "abbreviation": "USA",
+                        "countryId": 1,
+                        "name": "United States"
+                      },
+                      "name": "NESN",
+                      "networkType": {
+                        "name": "Regional",
+                        "networkTypeId": 2
+                      },
+                      "tvStationId": 576
+                    },
+                    {
+                      "callLetters": "FSW",
+                      "country": {
+                        "abbreviation": "USA",
+                        "countryId": 1,
+                        "name": "United States"
+                      },
+                      "name": "Fox Sports West",
+                      "networkType": {
+                        "name": "Regional",
+                        "networkTypeId": 2
+                      },
+                      "tvStationId": 633
+                    }
+                  ],
+                  "venue": {
+                    "city": "Boston",
+                    "country": {
+                      "abbreviation": "USA",
+                      "countryId": 1,
+                      "name": "United States"
+                    },
+                    "name": "Fenway Park",
+                    "state": {
+                      "abbreviation": "MA",
+                      "name": "Massachusetts",
+                      "stateId": 21
+                    },
+                    "venueId": 393
+                  }
+                },
+                {
+                  "coverageLevel": {
+                    "coverageLevelId": 2,
+                    "details": "STATS Feed",
+                    "name": "Level 2"
+                  },
+                  "eventConference": {
+                    "abbreviation": "NL",
+                    "conferenceId": 6,
+                    "isInterleague": false,
+                    "name": "National League"
+                  },
+                  "eventId": 2104169,
+                  "eventStatus": {
+                    "balls": null,
+                    "currentBatter": null,
+                    "eventStatusId": 4,
+                    "inning": 9,
+                    "inningDivision": null,
+                    "isActive": false,
+                    "name": "Final",
+                    "outs": null,
+                    "runnersOnBase": [],
+                    "strikes": null
+                  },
+                  "isDataConfirmed": {
+                    "score": true
+                  },
+                  "isDoubleheader": false,
+                  "isTba": false,
+                  "seriesId": 258,
+                  "startDate": [
+                    {
+                      "date": 8,
+                      "dateType": "Local",
+                      "full": "2019-08-08T19:10:00",
+                      "hour": 19,
+                      "minute": 10,
+                      "month": 8,
+                      "year": 2019
+                    },
+                    {
+                      "date": 8,
+                      "dateType": "UTC",
+                      "full": "2019-08-08T23:10:00",
+                      "hour": 23,
+                      "minute": 10,
+                      "month": 8,
+                      "year": 2019
+                    }
+                  ],
+                  "teams": [
+                    {
+                      "abbreviation": "Cin",
+                      "conference": {
+                        "abbreviation": "NL",
+                        "conferenceId": 6,
+                        "name": "National League"
+                      },
+                      "isSplitSquad": false,
+                      "isWinner": false,
+                      "linescoreTotals": {
+                        "errors": 0,
+                        "hits": 11,
+                        "runs": 5
+                      },
+                      "liveState": {
+                        "currentPitcher": null,
+                        "nextUpBatters": []
+                      },
+                      "location": "Cincinnati",
+                      "nickname": "Reds",
+                      "pitchers": [
+                        {
+                          "earnedRunAverage": "6.26",
+                          "losses": 8,
+                          "player": {
+                            "firstName": "Kevin",
+                            "lastName": "Gausman",
+                            "playerId": 548347,
+                            "uniform": "46"
+                          },
+                          "type": {
+                            "name": "lose",
+                            "typeId": 3
+                          },
+                          "wins": 3
+                        },
+                        {
+                          "earnedRunAverage": "5.65",
+                          "losses": 0,
+                          "player": {
+                            "firstName": "Alex",
+                            "lastName": "Wood",
+                            "playerId": 621049,
+                            "uniform": "40"
+                          },
+                          "type": {
+                            "name": "starter",
+                            "typeId": 1
+                          },
+                          "wins": 1
+                        }
+                      ],
+                      "record": {
+                        "losses": 59,
+                        "percentage": ".478",
+                        "wins": 54
+                      },
+                      "teamId": 241,
+                      "teamLocationType": {
+                        "name": "home",
+                        "teamLocationTypeId": 1
+                      }
+                    },
+                    {
+                      "abbreviation": "ChC",
+                      "conference": {
+                        "abbreviation": "NL",
+                        "conferenceId": 6,
+                        "name": "National League"
+                      },
+                      "isSplitSquad": false,
+                      "isWinner": true,
+                      "linescoreTotals": {
+                        "errors": 2,
+                        "hits": 19,
+                        "runs": 12
+                      },
+                      "liveState": {
+                        "currentPitcher": null,
+                        "nextUpBatters": []
+                      },
+                      "location": "Chicago",
+                      "nickname": "Cubs",
+                      "pitchers": [
+                        {
+                          "earnedRunAverage": "3.92",
+                          "losses": 1,
+                          "player": {
+                            "firstName": "Tyler",
+                            "lastName": "Chatwood",
+                            "playerId": 456036,
+                            "uniform": "32"
+                          },
+                          "type": {
+                            "name": "win",
+                            "typeId": 2
+                          },
+                          "wins": 5
+                        },
+                        {
+                          "earnedRunAverage": "3.09",
+                          "losses": 3,
+                          "player": {
+                            "firstName": "Cole",
+                            "lastName": "Hamels",
+                            "playerId": 202810,
+                            "uniform": "35"
+                          },
+                          "type": {
+                            "name": "starter",
+                            "typeId": 1
+                          },
+                          "wins": 6
+                        }
+                      ],
+                      "record": {
+                        "losses": 52,
+                        "percentage": ".548",
+                        "wins": 63
+                      },
+                      "teamId": 240,
+                      "teamLocationType": {
+                        "name": "away",
+                        "teamLocationTypeId": 2
+                      }
+                    }
+                  ],
+                  "tvStations": [
+                    {
+                      "callLetters": "NSCH",
+                      "country": {
+                        "abbreviation": "USA",
+                        "countryId": 1,
+                        "name": "United States"
+                      },
+                      "name": "NBC Sports - Chicago",
+                      "networkType": {
+                        "name": "Regional",
+                        "networkTypeId": 2
+                      },
+                      "tvStationId": 880
+                    },
+                    {
+                      "callLetters": "FSOH",
+                      "country": {
+                        "abbreviation": "USA",
+                        "countryId": 1,
+                        "name": "United States"
+                      },
+                      "name": "Fox Sports Ohio",
+                      "networkType": {
+                        "name": "Regional",
+                        "networkTypeId": 2
+                      },
+                      "tvStationId": 656
+                    }
+                  ],
+                  "venue": {
+                    "city": "Cincinnati",
+                    "country": {
+                      "abbreviation": "USA",
+                      "countryId": 1,
+                      "name": "United States"
+                    },
+                    "name": "Great American Ball Park",
+                    "state": {
+                      "abbreviation": "OH",
+                      "name": "Ohio",
+                      "stateId": 35
+                    },
+                    "venueId": 3454
+                  }
+                },
+                {
+                  "coverageLevel": {
+                    "coverageLevelId": 2,
+                    "details": "STATS Feed",
+                    "name": "Level 2"
+                  },
+                  "eventConference": {
+                    "abbreviation": "AL",
+                    "conferenceId": 5,
+                    "isInterleague": false,
+                    "name": "American League"
+                  },
+                  "eventId": 2104235,
+                  "eventStatus": {
+                    "balls": null,
+                    "currentBatter": null,
+                    "eventStatusId": 4,
+                    "inning": 9,
+                    "inningDivision": null,
+                    "isActive": false,
+                    "name": "Final",
+                    "outs": null,
+                    "runnersOnBase": [],
+                    "strikes": null
+                  },
+                  "isDataConfirmed": {
+                    "score": true
+                  },
+                  "isDoubleheader": false,
+                  "isTba": false,
+                  "seriesId": 280,
+                  "startDate": [
+                    {
+                      "date": 8,
+                      "dateType": "Local",
+                      "full": "2019-08-08T19:10:00",
+                      "hour": 19,
+                      "minute": 10,
+                      "month": 8,
+                      "year": 2019
+                    },
+                    {
+                      "date": 8,
+                      "dateType": "UTC",
+                      "full": "2019-08-08T23:10:00",
+                      "hour": 23,
+                      "minute": 10,
+                      "month": 8,
+                      "year": 2019
+                    }
+                  ],
+                  "teams": [
+                    {
+                      "abbreviation": "Det",
+                      "conference": {
+                        "abbreviation": "AL",
+                        "conferenceId": 5,
+                        "name": "American League"
+                      },
+                      "isSplitSquad": false,
+                      "isWinner": true,
+                      "linescoreTotals": {
+                        "errors": 0,
+                        "hits": 8,
+                        "runs": 10
+                      },
+                      "liveState": {
+                        "currentPitcher": null,
+                        "nextUpBatters": []
+                      },
+                      "location": "Detroit",
+                      "nickname": "Tigers",
+                      "pitchers": [
+                        {
+                          "earnedRunAverage": "4.91",
+                          "losses": 6,
+                          "player": {
+                            "firstName": "Joe",
+                            "lastName": "Jimenez",
+                            "playerId": 740519,
+                            "uniform": "77"
+                          },
+                          "type": {
+                            "name": "win",
+                            "typeId": 2
+                          },
+                          "wins": 3
+                        },
+                        {
+                          "earnedRunAverage": "4.16",
+                          "losses": 8,
+                          "player": {
+                            "firstName": "Matthew",
+                            "lastName": "Boyd",
+                            "playerId": 621603,
+                            "uniform": "48"
+                          },
+                          "type": {
+                            "name": "starter",
+                            "typeId": 1
+                          },
+                          "wins": 6
+                        }
+                      ],
+                      "record": {
+                        "losses": 79,
+                        "percentage": ".301",
+                        "wins": 34
+                      },
+                      "teamId": 230,
+                      "teamLocationType": {
+                        "name": "home",
+                        "teamLocationTypeId": 1
+                      }
+                    },
+                    {
+                      "abbreviation": "KC",
+                      "conference": {
+                        "abbreviation": "AL",
+                        "conferenceId": 5,
+                        "name": "American League"
+                      },
+                      "isSplitSquad": false,
+                      "isWinner": false,
+                      "linescoreTotals": {
+                        "errors": 2,
+                        "hits": 9,
+                        "runs": 8
+                      },
+                      "liveState": {
+                        "currentPitcher": null,
+                        "nextUpBatters": []
+                      },
+                      "location": "Kansas City",
+                      "nickname": "Royals",
+                      "pitchers": [
+                        {
+                          "earnedRunAverage": "6.63",
+                          "losses": 3,
+                          "player": {
+                            "firstName": "Richard",
+                            "lastName": "Lovelady",
+                            "playerId": 918199,
+                            "uniform": "55"
+                          },
+                          "type": {
+                            "name": "lose",
+                            "typeId": 3
+                          },
+                          "wins": 0
+                        },
+                        {
+                          "earnedRunAverage": "6.51",
+                          "losses": 7,
+                          "player": {
+                            "firstName": "Jorge",
+                            "lastName": "Lopez",
+                            "playerId": 597780,
+                            "uniform": "28"
+                          },
+                          "type": {
+                            "name": "starter",
+                            "typeId": 1
+                          },
+                          "wins": 1
+                        }
+                      ],
+                      "record": {
+                        "losses": 76,
+                        "percentage": ".350",
+                        "wins": 41
+                      },
+                      "teamId": 231,
+                      "teamLocationType": {
+                        "name": "away",
+                        "teamLocationTypeId": 2
+                      }
+                    }
+                  ],
+                  "tvStations": [
+                    {
+                      "callLetters": "FSKC",
+                      "country": {
+                        "abbreviation": "USA",
+                        "countryId": 1,
+                        "name": "United States"
+                      },
+                      "name": "Fox Sports Kansas City",
+                      "networkType": {
+                        "name": "Regional",
+                        "networkTypeId": 2
+                      },
+                      "tvStationId": 856
+                    },
+                    {
+                      "callLetters": "FSDT",
+                      "country": {
+                        "abbreviation": "USA",
+                        "countryId": 1,
+                        "name": "United States"
+                      },
+                      "name": "Fox Sports Detroit",
+                      "networkType": {
+                        "name": "Regional",
+                        "networkTypeId": 2
+                      },
+                      "tvStationId": 647
+                    }
+                  ],
+                  "venue": {
+                    "city": "Detroit",
+                    "country": {
+                      "abbreviation": "USA",
+                      "countryId": 1,
+                      "name": "United States"
+                    },
+                    "name": "Comerica Park",
+                    "state": {
+                      "abbreviation": "MI",
+                      "name": "Michigan",
+                      "stateId": 22
+                    },
+                    "venueId": 436
+                  }
+                },
+                {
+                  "coverageLevel": {
+                    "coverageLevelId": 2,
+                    "details": "STATS Feed",
+                    "name": "Level 2"
+                  },
+                  "eventConference": {
+                    "abbreviation": "NL",
+                    "conferenceId": 6,
+                    "isInterleague": false,
+                    "name": "National League"
+                  },
+                  "eventId": 2104352,
+                  "eventStatus": {
+                    "balls": null,
+                    "currentBatter": null,
+                    "eventStatusId": 4,
+                    "inning": 9,
+                    "inningDivision": null,
+                    "isActive": false,
+                    "name": "Final",
+                    "outs": null,
+                    "runnersOnBase": [],
+                    "strikes": null
+                  },
+                  "isDataConfirmed": {
+                    "score": true
+                  },
+                  "isDoubleheader": false,
+                  "isTba": false,
+                  "seriesId": 317,
+                  "startDate": [
+                    {
+                      "date": 8,
+                      "dateType": "Local",
+                      "full": "2019-08-08T19:10:00",
+                      "hour": 19,
+                      "minute": 10,
+                      "month": 8,
+                      "year": 2019
+                    },
+                    {
+                      "date": 8,
+                      "dateType": "UTC",
+                      "full": "2019-08-08T23:10:00",
+                      "hour": 23,
+                      "minute": 10,
+                      "month": 8,
+                      "year": 2019
+                    }
+                  ],
+                  "teams": [
+                    {
+                      "abbreviation": "Mia",
+                      "conference": {
+                        "abbreviation": "NL",
+                        "conferenceId": 6,
+                        "name": "National League"
+                      },
+                      "isSplitSquad": false,
+                      "isWinner": true,
+                      "linescoreTotals": {
+                        "errors": 0,
+                        "hits": 15,
+                        "runs": 9
+                      },
+                      "liveState": {
+                        "currentPitcher": null,
+                        "nextUpBatters": []
+                      },
+                      "location": "Miami",
+                      "nickname": "Marlins",
+                      "pitchers": [
+                        {
+                          "earnedRunAverage": "4.94",
+                          "losses": 4,
+                          "player": {
+                            "firstName": "Elieser",
+                            "lastName": "Hernandez",
+                            "playerId": 658203,
+                            "uniform": "57"
+                          },
+                          "type": {
+                            "name": "win",
+                            "typeId": 2
+                          },
+                          "wins": 2
+                        },
+                        {
+                          "earnedRunAverage": "4.94",
+                          "losses": 4,
+                          "player": {
+                            "firstName": "Elieser",
+                            "lastName": "Hernandez",
+                            "playerId": 658203,
+                            "uniform": "57"
+                          },
+                          "type": {
+                            "name": "starter",
+                            "typeId": 1
+                          },
+                          "wins": 2
+                        }
+                      ],
+                      "record": {
+                        "losses": 71,
+                        "percentage": ".377",
+                        "wins": 43
+                      },
+                      "teamId": 252,
+                      "teamLocationType": {
+                        "name": "home",
+                        "teamLocationTypeId": 1
+                      }
+                    },
+                    {
+                      "abbreviation": "Atl",
+                      "conference": {
+                        "abbreviation": "NL",
+                        "conferenceId": 6,
+                        "name": "National League"
+                      },
+                      "isSplitSquad": false,
+                      "isWinner": false,
+                      "linescoreTotals": {
+                        "errors": 1,
+                        "hits": 5,
+                        "runs": 2
+                      },
+                      "liveState": {
+                        "currentPitcher": null,
+                        "nextUpBatters": []
+                      },
+                      "location": "Atlanta",
+                      "nickname": "Braves",
+                      "pitchers": [
+                        {
+                          "earnedRunAverage": "4.83",
+                          "losses": 5,
+                          "player": {
+                            "firstName": "Dallas",
+                            "lastName": "Keuchel",
+                            "playerId": 501517,
+                            "uniform": "60"
+                          },
+                          "type": {
+                            "name": "lose",
+                            "typeId": 3
+                          },
+                          "wins": 3
+                        },
+                        {
+                          "earnedRunAverage": "4.83",
+                          "losses": 5,
+                          "player": {
+                            "firstName": "Dallas",
+                            "lastName": "Keuchel",
+                            "playerId": 501517,
+                            "uniform": "60"
+                          },
+                          "type": {
+                            "name": "starter",
+                            "typeId": 1
+                          },
+                          "wins": 3
+                        }
+                      ],
+                      "record": {
+                        "losses": 49,
+                        "percentage": ".581",
+                        "wins": 68
+                      },
+                      "teamId": 239,
+                      "teamLocationType": {
+                        "name": "away",
+                        "teamLocationTypeId": 2
+                      }
+                    }
+                  ],
+                  "tvStations": [
+                    {
+                      "callLetters": "FSFL",
+                      "country": {
+                        "abbreviation": "USA",
+                        "countryId": 1,
+                        "name": "United States"
+                      },
+                      "name": "Fox Sports Florida",
+                      "networkType": {
+                        "name": "Regional",
+                        "networkTypeId": 2
+                      },
+                      "tvStationId": 680
+                    },
+                    {
+                      "callLetters": "FSSE",
+                      "country": {
+                        "abbreviation": "USA",
+                        "countryId": 1,
+                        "name": "United States"
+                      },
+                      "name": "Fox Sports Southeast",
+                      "networkType": {
+                        "name": "Regional",
+                        "networkTypeId": 2
+                      },
+                      "tvStationId": 677
+                    }
+                  ],
+                  "venue": {
+                    "city": "Miami",
+                    "country": {
+                      "abbreviation": "USA",
+                      "countryId": 1,
+                      "name": "United States"
+                    },
+                    "name": "Marlins Park",
+                    "state": {
+                      "abbreviation": "FL",
+                      "name": "Florida",
+                      "stateId": 9
+                    },
+                    "venueId": 10257
+                  }
+                },
+                {
+                  "coverageLevel": {
+                    "coverageLevelId": 2,
+                    "details": "STATS Feed",
+                    "name": "Level 2"
+                  },
+                  "eventConference": {
+                    "abbreviation": "AL",
+                    "conferenceId": 5,
+                    "isInterleague": false,
+                    "name": "American League"
+                  },
+                  "eventId": 2104675,
+                  "eventStatus": {
+                    "balls": null,
+                    "currentBatter": null,
+                    "eventStatusId": 4,
+                    "inning": 9,
+                    "inningDivision": null,
+                    "isActive": false,
+                    "name": "Final",
+                    "outs": null,
+                    "runnersOnBase": [],
+                    "strikes": null
+                  },
+                  "isDataConfirmed": {
+                    "score": true
+                  },
+                  "isDoubleheader": false,
+                  "isTba": false,
+                  "seriesId": 422,
+                  "startDate": [
+                    {
+                      "date": 8,
+                      "dateType": "Local",
+                      "full": "2019-08-08T19:10:00",
+                      "hour": 19,
+                      "minute": 10,
+                      "month": 8,
+                      "year": 2019
+                    },
+                    {
+                      "date": 9,
+                      "dateType": "UTC",
+                      "full": "2019-08-09T00:10:00",
+                      "hour": 0,
+                      "minute": 10,
+                      "month": 8,
+                      "year": 2019
+                    }
+                  ],
+                  "teams": [
+                    {
+                      "abbreviation": "Min",
+                      "conference": {
+                        "abbreviation": "AL",
+                        "conferenceId": 5,
+                        "name": "American League"
+                      },
+                      "isSplitSquad": false,
+                      "isWinner": false,
+                      "linescoreTotals": {
+                        "errors": 1,
+                        "hits": 8,
+                        "runs": 5
+                      },
+                      "liveState": {
+                        "currentPitcher": null,
+                        "nextUpBatters": []
+                      },
+                      "location": "Minnesota",
+                      "nickname": "Twins",
+                      "pitchers": [
+                        {
+                          "earnedRunAverage": "4.24",
+                          "losses": 5,
+                          "player": {
+                            "firstName": "Kyle",
+                            "lastName": "Gibson",
+                            "playerId": 500733,
+                            "uniform": "44"
+                          },
+                          "type": {
+                            "name": "lose",
+                            "typeId": 3
+                          },
+                          "wins": 11
+                        },
+                        {
+                          "earnedRunAverage": "4.24",
+                          "losses": 5,
+                          "player": {
+                            "firstName": "Kyle",
+                            "lastName": "Gibson",
+                            "playerId": 500733,
+                            "uniform": "44"
+                          },
+                          "type": {
+                            "name": "starter",
+                            "typeId": 1
+                          },
+                          "wins": 11
+                        }
+                      ],
+                      "record": {
+                        "losses": 45,
+                        "percentage": ".609",
+                        "wins": 70
+                      },
+                      "teamId": 233,
+                      "teamLocationType": {
+                        "name": "home",
+                        "teamLocationTypeId": 1
+                      }
+                    },
+                    {
+                      "abbreviation": "Cle",
+                      "conference": {
+                        "abbreviation": "AL",
+                        "conferenceId": 5,
+                        "name": "American League"
+                      },
+                      "isSplitSquad": false,
+                      "isWinner": true,
+                      "linescoreTotals": {
+                        "errors": 0,
+                        "hits": 7,
+                        "runs": 7
+                      },
+                      "liveState": {
+                        "currentPitcher": null,
+                        "nextUpBatters": []
+                      },
+                      "location": "Cleveland",
+                      "nickname": "Indians",
+                      "pitchers": [
+                        {
+                          "earnedRunAverage": "3.02",
+                          "losses": 2,
+                          "player": {
+                            "firstName": "Mike",
+                            "lastName": "Clevinger",
+                            "playerId": 597956,
+                            "uniform": "52"
+                          },
+                          "type": {
+                            "name": "win",
+                            "typeId": 2
+                          },
+                          "wins": 7
+                        },
+                        {
+                          "earnedRunAverage": "2.28",
+                          "player": {
+                            "firstName": "Brad",
+                            "lastName": "Hand",
+                            "playerId": 454426,
+                            "uniform": "33"
+                          },
+                          "saves": 29,
+                          "type": {
+                            "name": "save",
+                            "typeId": 4
+                          }
+                        },
+                        {
+                          "earnedRunAverage": "3.02",
+                          "losses": 2,
+                          "player": {
+                            "firstName": "Mike",
+                            "lastName": "Clevinger",
+                            "playerId": 597956,
+                            "uniform": "52"
+                          },
+                          "type": {
+                            "name": "starter",
+                            "typeId": 1
+                          },
+                          "wins": 7
+                        }
+                      ],
+                      "record": {
+                        "losses": 46,
+                        "percentage": ".600",
+                        "wins": 69
+                      },
+                      "teamId": 229,
+                      "teamLocationType": {
+                        "name": "away",
+                        "teamLocationTypeId": 2
+                      }
+                    }
+                  ],
+                  "tvStations": [
+                    {
+                      "callLetters": "FSN",
+                      "country": {
+                        "abbreviation": "USA",
+                        "countryId": 1,
+                        "name": "United States"
+                      },
+                      "name": "Fox Sports North - Minnesota",
+                      "networkType": {
+                        "name": "Regional",
+                        "networkTypeId": 2
+                      },
+                      "tvStationId": 755
+                    },
+                    {
+                      "callLetters": "STOh",
+                      "country": {
+                        "abbreviation": "USA",
+                        "countryId": 1,
+                        "name": "United States"
+                      },
+                      "name": "SportsTime Ohio",
+                      "networkType": {
+                        "name": "Regional",
+                        "networkTypeId": 2
+                      },
+                      "tvStationId": 844
+                    }
+                  ],
+                  "venue": {
+                    "city": "Minneapolis",
+                    "country": {
+                      "abbreviation": "USA",
+                      "countryId": 1,
+                      "name": "United States"
+                    },
+                    "name": "Target Field",
+                    "state": {
+                      "abbreviation": "MN",
+                      "name": "Minnesota",
+                      "stateId": 23
+                    },
+                    "venueId": 9024
+                  }
+                },
+                {
+                  "coverageLevel": {
+                    "coverageLevelId": 2,
+                    "details": "STATS Feed",
+                    "name": "Level 2"
+                  },
+                  "eventConference": {
+                    "abbreviation": "NL",
+                    "conferenceId": 6,
+                    "isInterleague": false,
+                    "name": "National League"
+                  },
+                  "eventId": 2105768,
+                  "eventStatus": {
+                    "balls": null,
+                    "currentBatter": null,
+                    "eventStatusId": 4,
+                    "inning": 9,
+                    "inningDivision": null,
+                    "isActive": false,
+                    "name": "Final",
+                    "outs": null,
+                    "runnersOnBase": [],
+                    "strikes": null
+                  },
+                  "isDataConfirmed": {
+                    "score": true
+                  },
+                  "isDoubleheader": false,
+                  "isTba": false,
+                  "seriesId": 774,
+                  "startDate": [
+                    {
+                      "date": 8,
+                      "dateType": "Local",
+                      "full": "2019-08-08T18:45:00",
+                      "hour": 18,
+                      "minute": 45,
+                      "month": 8,
+                      "year": 2019
+                    },
+                    {
+                      "date": 9,
+                      "dateType": "UTC",
+                      "full": "2019-08-09T01:45:00",
+                      "hour": 1,
+                      "minute": 45,
+                      "month": 8,
+                      "year": 2019
+                    }
+                  ],
+                  "teams": [
+                    {
+                      "abbreviation": "SF",
+                      "conference": {
+                        "abbreviation": "NL",
+                        "conferenceId": 6,
+                        "name": "National League"
+                      },
+                      "isSplitSquad": false,
+                      "isWinner": true,
+                      "linescoreTotals": {
+                        "errors": 0,
+                        "hits": 10,
+                        "runs": 5
+                      },
+                      "liveState": {
+                        "currentPitcher": null,
+                        "nextUpBatters": []
+                      },
+                      "location": "San Francisco",
+                      "nickname": "Giants",
+                      "pitchers": [
+                        {
+                          "earnedRunAverage": "3.74",
+                          "losses": 7,
+                          "player": {
+                            "firstName": "Madison",
+                            "lastName": "Bumgarner",
+                            "playerId": 388396,
+                            "uniform": "40"
+                          },
+                          "type": {
+                            "name": "win",
+                            "typeId": 2
+                          },
+                          "wins": 7
+                        },
+                        {
+                          "earnedRunAverage": "3.74",
+                          "losses": 7,
+                          "player": {
+                            "firstName": "Madison",
+                            "lastName": "Bumgarner",
+                            "playerId": 388396,
+                            "uniform": "40"
+                          },
+                          "type": {
+                            "name": "starter",
+                            "typeId": 1
+                          },
+                          "wins": 7
+                        }
+                      ],
+                      "record": {
+                        "losses": 59,
+                        "percentage": ".491",
+                        "wins": 57
+                      },
+                      "teamId": 250,
+                      "teamLocationType": {
+                        "name": "home",
+                        "teamLocationTypeId": 1
+                      }
+                    },
+                    {
+                      "abbreviation": "Phi",
+                      "conference": {
+                        "abbreviation": "NL",
+                        "conferenceId": 6,
+                        "name": "National League"
+                      },
+                      "isSplitSquad": false,
+                      "isWinner": false,
+                      "linescoreTotals": {
+                        "errors": 1,
+                        "hits": 1,
+                        "runs": 0
+                      },
+                      "liveState": {
+                        "currentPitcher": null,
+                        "nextUpBatters": []
+                      },
+                      "location": "Philadelphia",
+                      "nickname": "Phillies",
+                      "pitchers": [
+                        {
+                          "earnedRunAverage": "3.67",
+                          "losses": 3,
+                          "player": {
+                            "firstName": "Aaron",
+                            "lastName": "Nola",
+                            "playerId": 599230,
+                            "uniform": "27"
+                          },
+                          "type": {
+                            "name": "lose",
+                            "typeId": 3
+                          },
+                          "wins": 10
+                        },
+                        {
+                          "earnedRunAverage": "3.67",
+                          "losses": 3,
+                          "player": {
+                            "firstName": "Aaron",
+                            "lastName": "Nola",
+                            "playerId": 599230,
+                            "uniform": "27"
+                          },
+                          "type": {
+                            "name": "starter",
+                            "typeId": 1
+                          },
+                          "wins": 10
+                        }
+                      ],
+                      "record": {
+                        "losses": 56,
+                        "percentage": ".513",
+                        "wins": 59
+                      },
+                      "teamId": 246,
+                      "teamLocationType": {
+                        "name": "away",
+                        "teamLocationTypeId": 2
+                      }
+                    }
+                  ],
+                  "tvStations": [
+                    {
+                      "callLetters": "YouT",
+                      "country": {
+                        "abbreviation": "USA",
+                        "countryId": 1,
+                        "name": "United States"
+                      },
+                      "name": "YouTube TV",
+                      "networkType": {
+                        "name": "National",
+                        "networkTypeId": 1
+                      },
+                      "tvStationId": 903
+                    }
+                  ],
+                  "venue": {
+                    "city": "San Francisco",
+                    "country": {
+                      "abbreviation": "USA",
+                      "countryId": 1,
+                      "name": "United States"
+                    },
+                    "name": "Oracle Park",
+                    "state": {
+                      "abbreviation": "CA",
+                      "name": "California",
+                      "stateId": 5
+                    },
+                    "venueId": 434
+                  }
+                },
+                {
+                  "coverageLevel": {
+                    "coverageLevelId": 2,
+                    "details": "STATS Feed",
+                    "name": "Level 2"
+                  },
+                  "eventConference": {
+                    "abbreviation": "NL",
+                    "conferenceId": 6,
+                    "isInterleague": false,
+                    "name": "National League"
+                  },
+                  "eventId": 2105533,
+                  "eventStatus": {
+                    "balls": null,
+                    "currentBatter": null,
+                    "eventStatusId": 4,
+                    "inning": 9,
+                    "inningDivision": null,
+                    "isActive": false,
+                    "name": "Final",
+                    "outs": null,
+                    "runnersOnBase": [],
+                    "strikes": null
+                  },
+                  "isDataConfirmed": {
+                    "score": true
+                  },
+                  "isDoubleheader": false,
+                  "isTba": false,
+                  "seriesId": 700,
+                  "startDate": [
+                    {
+                      "date": 8,
+                      "dateType": "Local",
+                      "full": "2019-08-08T19:10:00",
+                      "hour": 19,
+                      "minute": 10,
+                      "month": 8,
+                      "year": 2019
+                    },
+                    {
+                      "date": 9,
+                      "dateType": "UTC",
+                      "full": "2019-08-09T02:10:00",
+                      "hour": 2,
+                      "minute": 10,
+                      "month": 8,
+                      "year": 2019
+                    }
+                  ],
+                  "teams": [
+                    {
+                      "abbreviation": "SD",
+                      "conference": {
+                        "abbreviation": "NL",
+                        "conferenceId": 6,
+                        "name": "National League"
+                      },
+                      "isSplitSquad": false,
+                      "isWinner": true,
+                      "linescoreTotals": {
+                        "errors": 0,
+                        "hits": 8,
+                        "runs": 9
+                      },
+                      "liveState": {
+                        "currentPitcher": null,
+                        "nextUpBatters": []
+                      },
+                      "location": "San Diego",
+                      "nickname": "Padres",
+                      "pitchers": [
+                        {
+                          "earnedRunAverage": "5.24",
+                          "losses": 8,
+                          "player": {
+                            "firstName": "Matt",
+                            "lastName": "Strahm",
+                            "playerId": 658557,
+                            "uniform": "55"
+                          },
+                          "type": {
+                            "name": "win",
+                            "typeId": 2
+                          },
+                          "wins": 5
+                        },
+                        {
+                          "earnedRunAverage": "4.51",
+                          "losses": 8,
+                          "player": {
+                            "firstName": "Eric",
+                            "lastName": "Lauer",
+                            "playerId": 738156,
+                            "uniform": "46"
+                          },
+                          "type": {
+                            "name": "starter",
+                            "typeId": 1
+                          },
+                          "wins": 6
+                        }
+                      ],
+                      "record": {
+                        "losses": 61,
+                        "percentage": ".465",
+                        "wins": 53
+                      },
+                      "teamId": 249,
+                      "teamLocationType": {
+                        "name": "home",
+                        "teamLocationTypeId": 1
+                      }
+                    },
+                    {
+                      "abbreviation": "Col",
+                      "conference": {
+                        "abbreviation": "NL",
+                        "conferenceId": 6,
+                        "name": "National League"
+                      },
+                      "isSplitSquad": false,
+                      "isWinner": false,
+                      "linescoreTotals": {
+                        "errors": 3,
+                        "hits": 13,
+                        "runs": 3
+                      },
+                      "liveState": {
+                        "currentPitcher": null,
+                        "nextUpBatters": []
+                      },
+                      "location": "Colorado",
+                      "nickname": "Rockies",
+                      "pitchers": [
+                        {
+                          "earnedRunAverage": "4.06",
+                          "losses": 8,
+                          "player": {
+                            "firstName": "Jon",
+                            "lastName": "Gray",
+                            "playerId": 549112,
+                            "uniform": "55"
+                          },
+                          "type": {
+                            "name": "lose",
+                            "typeId": 3
+                          },
+                          "wins": 10
+                        },
+                        {
+                          "earnedRunAverage": "4.06",
+                          "losses": 8,
+                          "player": {
+                            "firstName": "Jon",
+                            "lastName": "Gray",
+                            "playerId": 549112,
+                            "uniform": "55"
+                          },
+                          "type": {
+                            "name": "starter",
+                            "typeId": 1
+                          },
+                          "wins": 10
+                        }
+                      ],
+                      "record": {
+                        "losses": 63,
+                        "percentage": ".452",
+                        "wins": 52
+                      },
+                      "teamId": 251,
+                      "teamLocationType": {
+                        "name": "away",
+                        "teamLocationTypeId": 2
+                      }
+                    }
+                  ],
+                  "tvStations": [
+                    {
+                      "callLetters": "ATRM",
+                      "country": {
+                        "abbreviation": "USA",
+                        "countryId": 1,
+                        "name": "United States"
+                      },
+                      "name": "ATTSN Rocky Mountain",
+                      "networkType": {
+                        "name": "Regional",
+                        "networkTypeId": 2
+                      },
+                      "tvStationId": 894
+                    },
+                    {
+                      "callLetters": "FSSD",
+                      "country": {
+                        "abbreviation": "USA",
+                        "countryId": 1,
+                        "name": "United States"
+                      },
+                      "name": "Fox Sports San Diego",
+                      "networkType": {
+                        "name": "Regional",
+                        "networkTypeId": 2
+                      },
+                      "tvStationId": 874
+                    }
+                  ],
+                  "venue": {
+                    "city": "San Diego",
+                    "country": {
+                      "abbreviation": "USA",
+                      "countryId": 1,
+                      "name": "United States"
+                    },
+                    "name": "PETCO Park",
+                    "state": {
+                      "abbreviation": "CA",
+                      "name": "California",
+                      "stateId": 5
+                    },
+                    "venueId": 3568
+                  }
+                }
+              ],
+              "name": "Regular Season"
+            }
+          ],
+          "isActive": false,
+          "name": "2019 MLB Season",
+          "season": 2019
+        }
+      },
+      "name": "Baseball",
+      "sportId": 2
+    }
+  ],
+  "endTimestamp": "2020-06-11T13:40:32.8276187Z",
+  "recordCount": 8,
+  "startTimestamp": "2020-06-11T13:40:32.7338627Z",
+  "status": "OK",
+  "timeTaken": 0.09375599999999999
+}

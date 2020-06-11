@@ -3,9 +3,9 @@ import {
     calculateDraftKingsPassingPoints, calculateDraftKingsReceivingPoints, calculateDraftKingsRushingPoints,
     calculateFanduelPassingPoints, calculateFanduelReceivingPoints,
     calculateFanduelRushingPoints, calculateReturnPoints, calculateTwoPointConversionPoints
-} from "./calculateFantasyPoints";
+} from "./calculateNFLFantasyPoints";
 
-describe('calculateFantasyPoints', () => {
+describe('calculateNFLFantasyPoints', () => {
     const statObject = {
         yards: 69,
         touchdowns: 69,
@@ -18,7 +18,6 @@ describe('calculateFantasyPoints', () => {
         safeties: 69,
         pointsAllowed: 69
     };
-
     describe('rushing', () => {
         describe('fanduel case', () => {
             let result: any;

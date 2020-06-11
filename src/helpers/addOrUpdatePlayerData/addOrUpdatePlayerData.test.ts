@@ -19,7 +19,7 @@ describe('addOrUpdatePlayerData', () => {
             result = addOrUpdatePlayerData(fantasyData, statObject, fanduelPoints, draftKingsPoints)
         });
 
-        it('should return expected fantasyData', function () {
+        it('should return expected fantasyData', () => {
             expect(fantasyData).toEqual([
                 {
                     playerId: 123,
@@ -46,7 +46,7 @@ describe('addOrUpdatePlayerData', () => {
             result = addOrUpdatePlayerData(fantasyData, statObject, fanduelPoints, draftKingsPoints)
         });
 
-        it('should return expected fantasyData', function () {
+        it('should return expected fantasyData', () => {
             expect(fantasyData).toEqual([
                 {
                     playerId: 123,

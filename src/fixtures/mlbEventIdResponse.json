@@ -1,0 +1,4784 @@
+{
+  "apiResults": [
+    {
+      "league": {
+        "abbreviation": "MLB",
+        "displayName": "Major League Baseball",
+        "leagueId": 7,
+        "name": "Major League Baseball",
+        "season": {
+          "eventType": [
+            {
+              "eventTypeId": 1,
+              "events": [
+                {
+                  "boxscores": [
+                    {
+                      "playerBattingStats": [
+                        {
+                          "atBats": {
+                            "game": 5,
+                            "season": 423
+                          },
+                          "battingAverage": ".338",
+                          "battingSlot": 1,
+                          "caughtStealing": {
+                            "game": 0,
+                            "season": 2
+                          },
+                          "doubles": {
+                            "game": 1,
+                            "season": 25
+                          },
+                          "flyballs": {
+                            "game": 1,
+                            "season": 80
+                          },
+                          "gameWinningRunsBattedIn": {
+                            "game": 0,
+                            "season": 11
+                          },
+                          "groundIntoDoublePlay": {
+                            "game": 0,
+                            "season": 8
+                          },
+                          "groundballs": {
+                            "game": 1,
+                            "season": 176
+                          },
+                          "hitByPitch": {
+                            "game": 0,
+                            "season": 2
+                          },
+                          "hits": {
+                            "game": 3,
+                            "season": 143
+                          },
+                          "homeRuns": {
+                            "game": 0,
+                            "season": 18
+                          },
+                          "inningEnteredGame": 1,
+                          "intentionalWalks": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "isGameStarted": true,
+                          "leftOnBase": {
+                            "game": 2,
+                            "season": 117
+                          },
+                          "onBasePercentage": ".386",
+                          "pickedOff": {
+                            "game": 0
+                          },
+                          "plateAppearances": {
+                            "game": 5,
+                            "season": 462
+                          },
+                          "player": {
+                            "firstName": "DJ",
+                            "lastName": "LeMahieu",
+                            "playerId": 500845,
+                            "uniform": "26"
+                          },
+                          "positionsPlayed": "1B",
+                          "runnersMovedUp": 0,
+                          "runs": {
+                            "game": 2,
+                            "season": 81
+                          },
+                          "runsBattedIn": {
+                            "game": 2,
+                            "season": 79
+                          },
+                          "sacrificeFlies": {
+                            "game": 0,
+                            "season": 3
+                          },
+                          "sacrificeHits": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "slotIndex": 1,
+                          "sluggingPercentage": ".534",
+                          "stolenBases": {
+                            "game": 0,
+                            "season": 4
+                          },
+                          "strikeouts": {
+                            "game": 1,
+                            "season": 63
+                          },
+                          "substituteDesignation": null,
+                          "substituteResult": null,
+                          "totalBases": {
+                            "game": 4,
+                            "season": 226
+                          },
+                          "triples": {
+                            "game": 0,
+                            "season": 2
+                          },
+                          "twoOutRbi": 0,
+                          "twoOutRispLob": 0,
+                          "walks": {
+                            "game": 0,
+                            "season": 33
+                          }
+                        },
+                        {
+                          "atBats": {
+                            "game": 5,
+                            "season": 219
+                          },
+                          "battingAverage": ".274",
+                          "battingSlot": 2,
+                          "caughtStealing": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "doubles": {
+                            "game": 0,
+                            "season": 9
+                          },
+                          "flyballs": {
+                            "game": 4,
+                            "season": 37
+                          },
+                          "gameWinningRunsBattedIn": {
+                            "game": 0,
+                            "season": 6
+                          },
+                          "groundIntoDoublePlay": {
+                            "game": 0,
+                            "season": 9
+                          },
+                          "groundballs": {
+                            "game": 1,
+                            "season": 62
+                          },
+                          "hitByPitch": {
+                            "game": 0,
+                            "season": 2
+                          },
+                          "hits": {
+                            "game": 0,
+                            "season": 60
+                          },
+                          "homeRuns": {
+                            "game": 0,
+                            "season": 12
+                          },
+                          "inningEnteredGame": 1,
+                          "intentionalWalks": {
+                            "game": 0,
+                            "season": 4
+                          },
+                          "isGameStarted": true,
+                          "leftOnBase": {
+                            "game": 3,
+                            "season": 83
+                          },
+                          "onBasePercentage": ".401",
+                          "pickedOff": {
+                            "game": 0
+                          },
+                          "plateAppearances": {
+                            "game": 5,
+                            "season": 268
+                          },
+                          "player": {
+                            "firstName": "Aaron",
+                            "lastName": "Judge",
+                            "playerId": 549847,
+                            "uniform": "99"
+                          },
+                          "positionsPlayed": "RF",
+                          "runnersMovedUp": 2,
+                          "runs": {
+                            "game": 0,
+                            "season": 41
+                          },
+                          "runsBattedIn": {
+                            "game": 0,
+                            "season": 30
+                          },
+                          "sacrificeFlies": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "sacrificeHits": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "slotIndex": 1,
+                          "sluggingPercentage": ".479",
+                          "stolenBases": {
+                            "game": 0,
+                            "season": 2
+                          },
+                          "strikeouts": {
+                            "game": 0,
+                            "season": 80
+                          },
+                          "substituteDesignation": null,
+                          "substituteResult": null,
+                          "totalBases": {
+                            "game": 0,
+                            "season": 105
+                          },
+                          "triples": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "twoOutRbi": 0,
+                          "twoOutRispLob": 1,
+                          "walks": {
+                            "game": 0,
+                            "season": 45
+                          }
+                        },
+                        {
+                          "atBats": {
+                            "game": 5,
+                            "season": 303
+                          },
+                          "battingAverage": ".323",
+                          "battingSlot": 3,
+                          "caughtStealing": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "doubles": {
+                            "game": 0,
+                            "season": 26
+                          },
+                          "flyballs": {
+                            "game": 4,
+                            "season": 85
+                          },
+                          "gameWinningRunsBattedIn": {
+                            "game": 1,
+                            "season": 4
+                          },
+                          "groundIntoDoublePlay": {
+                            "game": 0,
+                            "season": 10
+                          },
+                          "groundballs": {
+                            "game": 1,
+                            "season": 99
+                          },
+                          "hitByPitch": {
+                            "game": 0,
+                            "season": 4
+                          },
+                          "hits": {
+                            "game": 3,
+                            "season": 98
+                          },
+                          "homeRuns": {
+                            "game": 2,
+                            "season": 16
+                          },
+                          "inningEnteredGame": 1,
+                          "intentionalWalks": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "isGameStarted": true,
+                          "leftOnBase": {
+                            "game": 1,
+                            "season": 110
+                          },
+                          "onBasePercentage": ".367",
+                          "pickedOff": {
+                            "game": 0
+                          },
+                          "plateAppearances": {
+                            "game": 5,
+                            "season": 330
+                          },
+                          "player": {
+                            "firstName": "Gio",
+                            "lastName": "Urshela",
+                            "playerId": 505997,
+                            "uniform": "29"
+                          },
+                          "positionsPlayed": "3B",
+                          "runnersMovedUp": 0,
+                          "runs": {
+                            "game": 3,
+                            "season": 55
+                          },
+                          "runsBattedIn": {
+                            "game": 4,
+                            "season": 59
+                          },
+                          "sacrificeFlies": {
+                            "game": 0,
+                            "season": 4
+                          },
+                          "sacrificeHits": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "slotIndex": 1,
+                          "sluggingPercentage": ".568",
+                          "stolenBases": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "strikeouts": {
+                            "game": 0,
+                            "season": 51
+                          },
+                          "substituteDesignation": null,
+                          "substituteResult": null,
+                          "totalBases": {
+                            "game": 9,
+                            "season": 172
+                          },
+                          "triples": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "twoOutRbi": 0,
+                          "twoOutRispLob": 0,
+                          "walks": {
+                            "game": 0,
+                            "season": 19
+                          }
+                        },
+                        {
+                          "atBats": {
+                            "game": 5,
+                            "season": 179
+                          },
+                          "battingAverage": ".268",
+                          "battingSlot": 4,
+                          "caughtStealing": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "doubles": {
+                            "game": 0,
+                            "season": 7
+                          },
+                          "flyballs": {
+                            "game": 1,
+                            "season": 62
+                          },
+                          "gameWinningRunsBattedIn": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "groundIntoDoublePlay": {
+                            "game": 0,
+                            "season": 4
+                          },
+                          "groundballs": {
+                            "game": 2,
+                            "season": 57
+                          },
+                          "hitByPitch": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "hits": {
+                            "game": 1,
+                            "season": 48
+                          },
+                          "homeRuns": {
+                            "game": 0,
+                            "season": 8
+                          },
+                          "inningEnteredGame": 1,
+                          "intentionalWalks": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "isGameStarted": true,
+                          "leftOnBase": {
+                            "game": 1,
+                            "season": 71
+                          },
+                          "onBasePercentage": ".298",
+                          "pickedOff": {
+                            "game": 0
+                          },
+                          "plateAppearances": {
+                            "game": 5,
+                            "season": 188
+                          },
+                          "player": {
+                            "firstName": "Didi",
+                            "lastName": "Gregorius",
+                            "playerId": 456349,
+                            "uniform": "18"
+                          },
+                          "positionsPlayed": "SS",
+                          "runnersMovedUp": 0,
+                          "runs": {
+                            "game": 1,
+                            "season": 28
+                          },
+                          "runsBattedIn": {
+                            "game": 0,
+                            "season": 31
+                          },
+                          "sacrificeFlies": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "sacrificeHits": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "slotIndex": 1,
+                          "sluggingPercentage": ".453",
+                          "stolenBases": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "strikeouts": {
+                            "game": 0,
+                            "season": 25
+                          },
+                          "substituteDesignation": null,
+                          "substituteResult": null,
+                          "totalBases": {
+                            "game": 1,
+                            "season": 81
+                          },
+                          "triples": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "twoOutRbi": 0,
+                          "twoOutRispLob": 0,
+                          "walks": {
+                            "game": 0,
+                            "season": 8
+                          }
+                        },
+                        {
+                          "atBats": {
+                            "game": 5,
+                            "season": 155
+                          },
+                          "battingAverage": ".335",
+                          "battingSlot": 5,
+                          "caughtStealing": {
+                            "game": 0,
+                            "season": 4
+                          },
+                          "doubles": {
+                            "game": 2,
+                            "season": 13
+                          },
+                          "flyballs": {
+                            "game": 0,
+                            "season": 37
+                          },
+                          "gameWinningRunsBattedIn": {
+                            "game": 0,
+                            "season": 2
+                          },
+                          "groundIntoDoublePlay": {
+                            "game": 0,
+                            "season": 3
+                          },
+                          "groundballs": {
+                            "game": 3,
+                            "season": 48
+                          },
+                          "hitByPitch": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "hits": {
+                            "game": 3,
+                            "season": 52
+                          },
+                          "homeRuns": {
+                            "game": 0,
+                            "season": 7
+                          },
+                          "inningEnteredGame": 1,
+                          "intentionalWalks": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "isGameStarted": true,
+                          "leftOnBase": {
+                            "game": 0,
+                            "season": 53
+                          },
+                          "onBasePercentage": ".411",
+                          "pickedOff": {
+                            "game": 0
+                          },
+                          "plateAppearances": {
+                            "game": 5,
+                            "season": 175
+                          },
+                          "player": {
+                            "firstName": "Cameron",
+                            "lastName": "Maybin",
+                            "playerId": 303002,
+                            "uniform": "38"
+                          },
+                          "positionsPlayed": "LF",
+                          "runnersMovedUp": 0,
+                          "runs": {
+                            "game": 2,
+                            "season": 37
+                          },
+                          "runsBattedIn": {
+                            "game": 1,
+                            "season": 23
+                          },
+                          "sacrificeFlies": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "sacrificeHits": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "slotIndex": 1,
+                          "sluggingPercentage": ".555",
+                          "stolenBases": {
+                            "game": 0,
+                            "season": 7
+                          },
+                          "strikeouts": {
+                            "game": 0,
+                            "season": 41
+                          },
+                          "substituteDesignation": null,
+                          "substituteResult": null,
+                          "totalBases": {
+                            "game": 5,
+                            "season": 86
+                          },
+                          "triples": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "twoOutRbi": 0,
+                          "twoOutRispLob": 0,
+                          "walks": {
+                            "game": 0,
+                            "season": 20
+                          }
+                        },
+                        {
+                          "atBats": {
+                            "game": 5,
+                            "season": 182
+                          },
+                          "battingAverage": ".297",
+                          "battingSlot": 6,
+                          "caughtStealing": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "doubles": {
+                            "game": 0,
+                            "season": 14
+                          },
+                          "flyballs": {
+                            "game": 3,
+                            "season": 38
+                          },
+                          "gameWinningRunsBattedIn": {
+                            "game": 0,
+                            "season": 4
+                          },
+                          "groundIntoDoublePlay": {
+                            "game": 0,
+                            "season": 6
+                          },
+                          "groundballs": {
+                            "game": 0,
+                            "season": 57
+                          },
+                          "hitByPitch": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "hits": {
+                            "game": 2,
+                            "season": 54
+                          },
+                          "homeRuns": {
+                            "game": 1,
+                            "season": 11
+                          },
+                          "inningEnteredGame": 1,
+                          "intentionalWalks": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "isGameStarted": true,
+                          "leftOnBase": {
+                            "game": 1,
+                            "season": 76
+                          },
+                          "onBasePercentage": ".373",
+                          "pickedOff": {
+                            "game": 0
+                          },
+                          "plateAppearances": {
+                            "game": 5,
+                            "season": 204
+                          },
+                          "player": {
+                            "firstName": "Mike",
+                            "lastName": "Tauchman",
+                            "playerId": 737856,
+                            "uniform": "39"
+                          },
+                          "positionsPlayed": "CF",
+                          "runnersMovedUp": 0,
+                          "runs": {
+                            "game": 1,
+                            "season": 38
+                          },
+                          "runsBattedIn": {
+                            "game": 4,
+                            "season": 40
+                          },
+                          "sacrificeFlies": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "sacrificeHits": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "slotIndex": 1,
+                          "sluggingPercentage": ".566",
+                          "stolenBases": {
+                            "game": 0,
+                            "season": 5
+                          },
+                          "strikeouts": {
+                            "game": 1,
+                            "season": 55
+                          },
+                          "substituteDesignation": null,
+                          "substituteResult": null,
+                          "totalBases": {
+                            "game": 5,
+                            "season": 103
+                          },
+                          "triples": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "twoOutRbi": 0,
+                          "twoOutRispLob": 1,
+                          "walks": {
+                            "game": 0,
+                            "season": 22
+                          }
+                        },
+                        {
+                          "atBats": {
+                            "game": 5,
+                            "season": 151
+                          },
+                          "battingAverage": ".272",
+                          "battingSlot": 7,
+                          "caughtStealing": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "doubles": {
+                            "game": 0,
+                            "season": 7
+                          },
+                          "flyballs": {
+                            "game": 1,
+                            "season": 38
+                          },
+                          "gameWinningRunsBattedIn": {
+                            "game": 0,
+                            "season": 4
+                          },
+                          "groundIntoDoublePlay": {
+                            "game": 0,
+                            "season": 3
+                          },
+                          "groundballs": {
+                            "game": 1,
+                            "season": 55
+                          },
+                          "hitByPitch": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "hits": {
+                            "game": 2,
+                            "season": 41
+                          },
+                          "homeRuns": {
+                            "game": 0,
+                            "season": 6
+                          },
+                          "inningEnteredGame": 1,
+                          "intentionalWalks": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "isGameStarted": true,
+                          "leftOnBase": {
+                            "game": 1,
+                            "season": 52
+                          },
+                          "onBasePercentage": ".297",
+                          "pickedOff": {
+                            "game": 0
+                          },
+                          "plateAppearances": {
+                            "game": 5,
+                            "season": 159
+                          },
+                          "player": {
+                            "firstName": "Austin",
+                            "lastName": "Romine",
+                            "playerId": 390355,
+                            "uniform": "28"
+                          },
+                          "positionsPlayed": "C",
+                          "runnersMovedUp": 0,
+                          "runs": {
+                            "game": 0,
+                            "season": 18
+                          },
+                          "runsBattedIn": {
+                            "game": 0,
+                            "season": 28
+                          },
+                          "sacrificeFlies": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "sacrificeHits": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "slotIndex": 1,
+                          "sluggingPercentage": ".437",
+                          "stolenBases": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "strikeouts": {
+                            "game": 1,
+                            "season": 33
+                          },
+                          "substituteDesignation": null,
+                          "substituteResult": null,
+                          "totalBases": {
+                            "game": 2,
+                            "season": 66
+                          },
+                          "triples": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "twoOutRbi": 0,
+                          "twoOutRispLob": 0,
+                          "walks": {
+                            "game": 0,
+                            "season": 6
+                          }
+                        },
+                        {
+                          "atBats": {
+                            "game": 4,
+                            "season": 49
+                          },
+                          "battingAverage": ".184",
+                          "battingSlot": 8,
+                          "caughtStealing": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "doubles": {
+                            "game": 0,
+                            "season": 2
+                          },
+                          "flyballs": {
+                            "game": 1,
+                            "season": 13
+                          },
+                          "gameWinningRunsBattedIn": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "groundIntoDoublePlay": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "groundballs": {
+                            "game": 2,
+                            "season": 15
+                          },
+                          "hitByPitch": {
+                            "game": 1,
+                            "season": 2
+                          },
+                          "hits": {
+                            "game": 0,
+                            "season": 9
+                          },
+                          "homeRuns": {
+                            "game": 0,
+                            "season": 2
+                          },
+                          "inningEnteredGame": 1,
+                          "intentionalWalks": {
+                            "game": 0,
+                            "season": 2
+                          },
+                          "isGameStarted": true,
+                          "leftOnBase": {
+                            "game": 2,
+                            "season": 18
+                          },
+                          "onBasePercentage": ".333",
+                          "pickedOff": {
+                            "game": 0
+                          },
+                          "plateAppearances": {
+                            "game": 5,
+                            "season": 60
+                          },
+                          "player": {
+                            "firstName": "Mike",
+                            "lastName": "Ford",
+                            "playerId": 708447,
+                            "uniform": "74"
+                          },
+                          "positionsPlayed": "DH",
+                          "runnersMovedUp": 0,
+                          "runs": {
+                            "game": 1,
+                            "season": 11
+                          },
+                          "runsBattedIn": {
+                            "game": 0,
+                            "season": 4
+                          },
+                          "sacrificeFlies": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "sacrificeHits": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "slotIndex": 1,
+                          "sluggingPercentage": ".347",
+                          "stolenBases": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "strikeouts": {
+                            "game": 1,
+                            "season": 12
+                          },
+                          "substituteDesignation": null,
+                          "substituteResult": null,
+                          "totalBases": {
+                            "game": 0,
+                            "season": 17
+                          },
+                          "triples": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "twoOutRbi": 0,
+                          "twoOutRispLob": 1,
+                          "walks": {
+                            "game": 0,
+                            "season": 9
+                          }
+                        },
+                        {
+                          "atBats": {
+                            "game": 3,
+                            "season": 24
+                          },
+                          "battingAverage": ".208",
+                          "battingSlot": 9,
+                          "caughtStealing": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "doubles": {
+                            "game": 1,
+                            "season": 1
+                          },
+                          "flyballs": {
+                            "game": 1,
+                            "season": 7
+                          },
+                          "gameWinningRunsBattedIn": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "groundIntoDoublePlay": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "groundballs": {
+                            "game": 0,
+                            "season": 9
+                          },
+                          "hitByPitch": {
+                            "game": 1,
+                            "season": 1
+                          },
+                          "hits": {
+                            "game": 1,
+                            "season": 5
+                          },
+                          "homeRuns": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "inningEnteredGame": 1,
+                          "intentionalWalks": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "isGameStarted": true,
+                          "leftOnBase": {
+                            "game": 1,
+                            "season": 5
+                          },
+                          "onBasePercentage": ".296",
+                          "pickedOff": {
+                            "game": 0
+                          },
+                          "plateAppearances": {
+                            "game": 4,
+                            "season": 27
+                          },
+                          "player": {
+                            "firstName": "Breyvic",
+                            "lastName": "Valera",
+                            "playerId": 546472,
+                            "uniform": "36"
+                          },
+                          "positionsPlayed": "2B",
+                          "runnersMovedUp": 1,
+                          "runs": {
+                            "game": 2,
+                            "season": 4
+                          },
+                          "runsBattedIn": {
+                            "game": 0,
+                            "season": 3
+                          },
+                          "sacrificeFlies": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "sacrificeHits": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "slotIndex": 1,
+                          "sluggingPercentage": ".333",
+                          "stolenBases": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "strikeouts": {
+                            "game": 1,
+                            "season": 3
+                          },
+                          "substituteDesignation": null,
+                          "substituteResult": null,
+                          "totalBases": {
+                            "game": 2,
+                            "season": 8
+                          },
+                          "triples": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "twoOutRbi": 0,
+                          "twoOutRispLob": 0,
+                          "walks": {
+                            "game": 0,
+                            "season": 2
+                          }
+                        }
+                      ],
+                      "playerFieldingStats": [
+                        {
+                          "fieldingDetails": [
+                            {
+                              "assists": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "catcherCaughtStealing": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "doublePlays": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "errors": {
+                                "game": 1,
+                                "season": 1
+                              },
+                              "passedBalls": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "position": {
+                                "abbreviation": "LF",
+                                "name": "Left Fielder",
+                                "positionId": 7
+                              },
+                              "putouts": {
+                                "game": 3,
+                                "season": 42
+                              },
+                              "triplePlays": {
+                                "game": 0,
+                                "season": 0
+                              }
+                            }
+                          ],
+                          "player": {
+                            "firstName": "Cameron",
+                            "lastName": "Maybin",
+                            "playerId": 303002,
+                            "uniform": "38"
+                          }
+                        },
+                        {
+                          "fieldingDetails": [
+                            {
+                              "assists": {
+                                "game": 1,
+                                "season": 21
+                              },
+                              "catcherCaughtStealing": {
+                                "game": 0,
+                                "season": 4
+                              },
+                              "doublePlays": {
+                                "game": 0,
+                                "season": 2
+                              },
+                              "errors": {
+                                "game": 0,
+                                "season": 1
+                              },
+                              "passedBalls": {
+                                "game": 0,
+                                "season": 4
+                              },
+                              "position": {
+                                "abbreviation": "C",
+                                "name": "Catcher",
+                                "positionId": 2
+                              },
+                              "putouts": {
+                                "game": 10,
+                                "season": 390
+                              },
+                              "triplePlays": {
+                                "game": 0,
+                                "season": 0
+                              }
+                            }
+                          ],
+                          "player": {
+                            "firstName": "Austin",
+                            "lastName": "Romine",
+                            "playerId": 390355,
+                            "uniform": "28"
+                          }
+                        },
+                        {
+                          "fieldingDetails": [
+                            {
+                              "assists": {
+                                "game": 0,
+                                "season": 96
+                              },
+                              "catcherCaughtStealing": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "doublePlays": {
+                                "game": 0,
+                                "season": 26
+                              },
+                              "errors": {
+                                "game": 0,
+                                "season": 5
+                              },
+                              "passedBalls": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "position": {
+                                "abbreviation": "SS",
+                                "name": "Shortstop",
+                                "positionId": 6
+                              },
+                              "putouts": {
+                                "game": 4,
+                                "season": 53
+                              },
+                              "triplePlays": {
+                                "game": 0,
+                                "season": 0
+                              }
+                            }
+                          ],
+                          "player": {
+                            "firstName": "Didi",
+                            "lastName": "Gregorius",
+                            "playerId": 456349,
+                            "uniform": "18"
+                          }
+                        },
+                        {
+                          "fieldingDetails": [
+                            {
+                              "assists": {
+                                "game": 0,
+                                "season": 10
+                              },
+                              "catcherCaughtStealing": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "doublePlays": {
+                                "game": 0,
+                                "season": 13
+                              },
+                              "errors": {
+                                "game": 0,
+                                "season": 1
+                              },
+                              "passedBalls": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "position": {
+                                "abbreviation": "1B",
+                                "name": "1st Baseman",
+                                "positionId": 3
+                              },
+                              "putouts": {
+                                "game": 6,
+                                "season": 131
+                              },
+                              "triplePlays": {
+                                "game": 0,
+                                "season": 0
+                              }
+                            }
+                          ],
+                          "player": {
+                            "firstName": "DJ",
+                            "lastName": "LeMahieu",
+                            "playerId": 500845,
+                            "uniform": "26"
+                          }
+                        },
+                        {
+                          "fieldingDetails": [
+                            {
+                              "assists": {
+                                "game": 2,
+                                "season": 168
+                              },
+                              "catcherCaughtStealing": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "doublePlays": {
+                                "game": 0,
+                                "season": 16
+                              },
+                              "errors": {
+                                "game": 0,
+                                "season": 13
+                              },
+                              "passedBalls": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "position": {
+                                "abbreviation": "3B",
+                                "name": "3rd Baseman",
+                                "positionId": 5
+                              },
+                              "putouts": {
+                                "game": 1,
+                                "season": 38
+                              },
+                              "triplePlays": {
+                                "game": 0,
+                                "season": 0
+                              }
+                            }
+                          ],
+                          "player": {
+                            "firstName": "Gio",
+                            "lastName": "Urshela",
+                            "playerId": 505997,
+                            "uniform": "29"
+                          }
+                        },
+                        {
+                          "fieldingDetails": [
+                            {
+                              "assists": {
+                                "game": 1,
+                                "season": 2
+                              },
+                              "catcherCaughtStealing": {
+                                "game": 0,
+                                "season": 1
+                              },
+                              "doublePlays": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "errors": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "passedBalls": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "position": {
+                                "abbreviation": "P",
+                                "name": "Pitcher",
+                                "positionId": 1
+                              },
+                              "putouts": {
+                                "game": 0,
+                                "season": 1
+                              },
+                              "triplePlays": {
+                                "game": 0,
+                                "season": 0
+                              }
+                            }
+                          ],
+                          "player": {
+                            "firstName": "Luis",
+                            "lastName": "Cessa",
+                            "playerId": 506912,
+                            "uniform": "85"
+                          }
+                        },
+                        {
+                          "fieldingDetails": [
+                            {
+                              "assists": {
+                                "game": 3,
+                                "season": 17
+                              },
+                              "catcherCaughtStealing": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "doublePlays": {
+                                "game": 0,
+                                "season": 2
+                              },
+                              "errors": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "passedBalls": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "position": {
+                                "abbreviation": "2B",
+                                "name": "2nd Baseman",
+                                "positionId": 4
+                              },
+                              "putouts": {
+                                "game": 0,
+                                "season": 4
+                              },
+                              "triplePlays": {
+                                "game": 0,
+                                "season": 0
+                              }
+                            }
+                          ],
+                          "player": {
+                            "firstName": "Breyvic",
+                            "lastName": "Valera",
+                            "playerId": 546472,
+                            "uniform": "36"
+                          }
+                        },
+                        {
+                          "fieldingDetails": [
+                            {
+                              "assists": {
+                                "game": 1,
+                                "season": 9
+                              },
+                              "catcherCaughtStealing": {
+                                "game": 0,
+                                "season": 2
+                              },
+                              "doublePlays": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "errors": {
+                                "game": 0,
+                                "season": 2
+                              },
+                              "passedBalls": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "position": {
+                                "abbreviation": "P",
+                                "name": "Pitcher",
+                                "positionId": 1
+                              },
+                              "putouts": {
+                                "game": 0,
+                                "season": 4
+                              },
+                              "triplePlays": {
+                                "game": 0,
+                                "season": 0
+                              }
+                            }
+                          ],
+                          "player": {
+                            "firstName": "Domingo",
+                            "lastName": "German",
+                            "playerId": 548637,
+                            "uniform": "55"
+                          }
+                        },
+                        {
+                          "fieldingDetails": [
+                            {
+                              "assists": {
+                                "game": 0,
+                                "season": 5
+                              },
+                              "catcherCaughtStealing": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "doublePlays": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "errors": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "passedBalls": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "position": {
+                                "abbreviation": "RF",
+                                "name": "Right Fielder",
+                                "positionId": 9
+                              },
+                              "putouts": {
+                                "game": 2,
+                                "season": 104
+                              },
+                              "triplePlays": {
+                                "game": 0,
+                                "season": 0
+                              }
+                            }
+                          ],
+                          "player": {
+                            "firstName": "Aaron",
+                            "lastName": "Judge",
+                            "playerId": 549847,
+                            "uniform": "99"
+                          }
+                        },
+                        {
+                          "fieldingDetails": [
+                            {
+                              "assists": {
+                                "game": 0,
+                                "season": 1
+                              },
+                              "catcherCaughtStealing": {
+                                "game": 0,
+                                "season": 2
+                              },
+                              "doublePlays": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "errors": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "passedBalls": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "position": {
+                                "abbreviation": "P",
+                                "name": "Pitcher",
+                                "positionId": 1
+                              },
+                              "putouts": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "triplePlays": {
+                                "game": 0,
+                                "season": 0
+                              }
+                            }
+                          ],
+                          "player": {
+                            "firstName": "Chad",
+                            "lastName": "Green",
+                            "playerId": 550041,
+                            "uniform": "57"
+                          }
+                        },
+                        {
+                          "fieldingDetails": [
+                            {
+                              "assists": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "catcherCaughtStealing": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "doublePlays": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "errors": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "passedBalls": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "position": {
+                                "abbreviation": "CF",
+                                "name": "Center Fielder",
+                                "positionId": 8
+                              },
+                              "putouts": {
+                                "game": 1,
+                                "season": 13
+                              },
+                              "triplePlays": {
+                                "game": 0,
+                                "season": 0
+                              }
+                            }
+                          ],
+                          "player": {
+                            "firstName": "Mike",
+                            "lastName": "Tauchman",
+                            "playerId": 737856,
+                            "uniform": "39"
+                          }
+                        }
+                      ],
+                      "playerPitchingStats": [
+                        {
+                          "balks": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "balls": 26,
+                          "battersFaced": {
+                            "game": 25,
+                            "season": 453
+                          },
+                          "blownSaves": 0,
+                          "doubles": {
+                            "game": 2,
+                            "season": 16
+                          },
+                          "earnedRunAverage": "4.05",
+                          "earnedRuns": {
+                            "game": 3,
+                            "season": 49
+                          },
+                          "flyOut": {
+                            "game": 6,
+                            "season": 86
+                          },
+                          "flyballs": {
+                            "game": 9,
+                            "season": 111
+                          },
+                          "gamesPitched": {
+                            "starts": 19,
+                            "totalGames": 20
+                          },
+                          "groundIntoDoublePlay": {
+                            "game": 0,
+                            "season": 4
+                          },
+                          "groundOut": {
+                            "game": 5,
+                            "season": 90
+                          },
+                          "groundballs": {
+                            "game": 9,
+                            "season": 123
+                          },
+                          "hitBatsmen": {
+                            "game": 0,
+                            "season": 3
+                          },
+                          "hits": {
+                            "game": 8,
+                            "season": 97
+                          },
+                          "holds": 0,
+                          "homeRuns": {
+                            "game": 2,
+                            "season": 23
+                          },
+                          "inheritedRunners": 0,
+                          "inheritedStranded": 0,
+                          "inningEnteredGame": 1,
+                          "inningsPitched": {
+                            "game": "5.0",
+                            "season": "109.0"
+                          },
+                          "intentionalWalks": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "isBlownSavePitcher": false,
+                          "isCompleteGame": false,
+                          "isHoldingPitcher": false,
+                          "isLosingPitcher": false,
+                          "isNoHitter": false,
+                          "isPerfectGame": false,
+                          "isSavePitcher": false,
+                          "isShutout": false,
+                          "isWinningPitcher": true,
+                          "opponentAtBats": {
+                            "game": 24,
+                            "season": 423
+                          },
+                          "opponentBattingAverage": ".229",
+                          "pickoffs": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "pitchCount": 90,
+                          "player": {
+                            "firstName": "Domingo",
+                            "lastName": "German",
+                            "playerId": 548637,
+                            "uniform": "55"
+                          },
+                          "record": {
+                            "losses": 2,
+                            "wins": 15
+                          },
+                          "runs": {
+                            "game": 4,
+                            "season": 53
+                          },
+                          "sacrificeFlies": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "sacrificeHits": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "saves": 0,
+                          "sequence": 1,
+                          "stolenBases": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "strikeouts": {
+                            "game": 3,
+                            "season": 117
+                          },
+                          "strikes": 64,
+                          "triples": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "walks": {
+                            "game": 1,
+                            "season": 25
+                          },
+                          "walksAndHitsPerInning": "1.12",
+                          "wildPitches": {
+                            "game": 0,
+                            "season": 5
+                          }
+                        },
+                        {
+                          "balks": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "balls": 7,
+                          "battersFaced": {
+                            "game": 5,
+                            "season": 205
+                          },
+                          "blownSaves": 0,
+                          "doubles": {
+                            "game": 1,
+                            "season": 13
+                          },
+                          "earnedRunAverage": "4.93",
+                          "earnedRuns": {
+                            "game": 1,
+                            "season": 25
+                          },
+                          "flyOut": {
+                            "game": 0,
+                            "season": 29
+                          },
+                          "flyballs": {
+                            "game": 0,
+                            "season": 39
+                          },
+                          "gamesPitched": {
+                            "starts": 9,
+                            "totalGames": 39
+                          },
+                          "groundIntoDoublePlay": {
+                            "game": 0,
+                            "season": 2
+                          },
+                          "groundOut": {
+                            "game": 0,
+                            "season": 30
+                          },
+                          "groundballs": {
+                            "game": 0,
+                            "season": 47
+                          },
+                          "hitBatsmen": {
+                            "game": 0,
+                            "season": 5
+                          },
+                          "hits": {
+                            "game": 2,
+                            "season": 55
+                          },
+                          "holds": 4,
+                          "homeRuns": {
+                            "game": 0,
+                            "season": 7
+                          },
+                          "inheritedRunners": 0,
+                          "inheritedStranded": 0,
+                          "inningEnteredGame": 6,
+                          "inningsPitched": {
+                            "game": "1.0",
+                            "season": "45.2"
+                          },
+                          "intentionalWalks": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "isBlownSavePitcher": false,
+                          "isCompleteGame": false,
+                          "isHoldingPitcher": false,
+                          "isLosingPitcher": false,
+                          "isNoHitter": false,
+                          "isPerfectGame": false,
+                          "isSavePitcher": false,
+                          "isShutout": false,
+                          "isWinningPitcher": false,
+                          "opponentAtBats": {
+                            "game": 5,
+                            "season": 186
+                          },
+                          "opponentBattingAverage": ".296",
+                          "pickoffs": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "pitchCount": 21,
+                          "player": {
+                            "firstName": "Chad",
+                            "lastName": "Green",
+                            "playerId": 550041,
+                            "uniform": "57"
+                          },
+                          "record": {
+                            "losses": 3,
+                            "wins": 2
+                          },
+                          "runs": {
+                            "game": 1,
+                            "season": 27
+                          },
+                          "sacrificeFlies": {
+                            "game": 0,
+                            "season": 3
+                          },
+                          "sacrificeHits": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "saves": 2,
+                          "sequence": 2,
+                          "stolenBases": {
+                            "game": 0,
+                            "season": 4
+                          },
+                          "strikeouts": {
+                            "game": 3,
+                            "season": 59
+                          },
+                          "strikes": 14,
+                          "triples": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "walks": {
+                            "game": 0,
+                            "season": 11
+                          },
+                          "walksAndHitsPerInning": "1.45",
+                          "wildPitches": {
+                            "game": 0,
+                            "season": 0
+                          }
+                        },
+                        {
+                          "balks": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "balls": 13,
+                          "battersFaced": {
+                            "game": 12,
+                            "season": 247
+                          },
+                          "blownSaves": 0,
+                          "doubles": {
+                            "game": 0,
+                            "season": 10
+                          },
+                          "earnedRunAverage": "3.70",
+                          "earnedRuns": {
+                            "game": 1,
+                            "season": 24
+                          },
+                          "flyOut": {
+                            "game": 1,
+                            "season": 41
+                          },
+                          "flyballs": {
+                            "game": 2,
+                            "season": 50
+                          },
+                          "gamesPitched": {
+                            "starts": 0,
+                            "totalGames": 30
+                          },
+                          "groundIntoDoublePlay": {
+                            "game": 0,
+                            "season": 5
+                          },
+                          "groundOut": {
+                            "game": 2,
+                            "season": 53
+                          },
+                          "groundballs": {
+                            "game": 3,
+                            "season": 74
+                          },
+                          "hitBatsmen": {
+                            "game": 0,
+                            "season": 2
+                          },
+                          "hits": {
+                            "game": 2,
+                            "season": 53
+                          },
+                          "holds": 3,
+                          "homeRuns": {
+                            "game": 1,
+                            "season": 11
+                          },
+                          "inheritedRunners": 0,
+                          "inheritedStranded": 0,
+                          "inningEnteredGame": 7,
+                          "inningsPitched": {
+                            "game": "3.0",
+                            "season": "58.1"
+                          },
+                          "intentionalWalks": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "isBlownSavePitcher": false,
+                          "isCompleteGame": false,
+                          "isHoldingPitcher": false,
+                          "isLosingPitcher": false,
+                          "isNoHitter": false,
+                          "isPerfectGame": false,
+                          "isSavePitcher": true,
+                          "isShutout": false,
+                          "isWinningPitcher": false,
+                          "opponentAtBats": {
+                            "game": 11,
+                            "season": 221
+                          },
+                          "opponentBattingAverage": ".240",
+                          "pickoffs": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "pitchCount": 43,
+                          "player": {
+                            "firstName": "Luis",
+                            "lastName": "Cessa",
+                            "playerId": 506912,
+                            "uniform": "85"
+                          },
+                          "record": {
+                            "losses": 1,
+                            "wins": 1
+                          },
+                          "runs": {
+                            "game": 1,
+                            "season": 27
+                          },
+                          "sacrificeFlies": {
+                            "game": 0,
+                            "season": 3
+                          },
+                          "sacrificeHits": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "saves": 1,
+                          "sequence": 3,
+                          "stolenBases": {
+                            "game": 0,
+                            "season": 4
+                          },
+                          "strikeouts": {
+                            "game": 5,
+                            "season": 61
+                          },
+                          "strikes": 30,
+                          "triples": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "walks": {
+                            "game": 1,
+                            "season": 21
+                          },
+                          "walksAndHitsPerInning": "1.27",
+                          "wildPitches": {
+                            "game": 0,
+                            "season": 1
+                          }
+                        }
+                      ],
+                      "teamId": 234,
+                      "teamStats": {
+                        "atBats": 42,
+                        "catcherInterference": null,
+                        "caughtStealing": null,
+                        "doublePlays": 0,
+                        "doubles": [
+                          {
+                            "game": 1,
+                            "pitchers": [
+                              {
+                                "allowed": 1,
+                                "firstName": "Thomas",
+                                "lastName": "Pannone",
+                                "playerId": 658922,
+                                "uniform": "45"
+                              }
+                            ],
+                            "player": {
+                              "firstName": "DJ",
+                              "lastName": "LeMahieu",
+                              "playerId": 500845,
+                              "uniform": "26"
+                            },
+                            "season": 25
+                          },
+                          {
+                            "game": 2,
+                            "pitchers": [
+                              {
+                                "allowed": 1,
+                                "firstName": "Zack",
+                                "lastName": "Godley",
+                                "playerId": 503798,
+                                "uniform": "46"
+                              },
+                              {
+                                "allowed": 1,
+                                "firstName": "Buddy",
+                                "lastName": "Boshers",
+                                "playerId": 454539,
+                                "uniform": "67"
+                              }
+                            ],
+                            "player": {
+                              "firstName": "Cameron",
+                              "lastName": "Maybin",
+                              "playerId": 303002,
+                              "uniform": "38"
+                            },
+                            "season": 13
+                          },
+                          {
+                            "game": 1,
+                            "pitchers": [
+                              {
+                                "allowed": 1,
+                                "firstName": "Zack",
+                                "lastName": "Godley",
+                                "playerId": 503798,
+                                "uniform": "46"
+                              }
+                            ],
+                            "player": {
+                              "firstName": "Breyvic",
+                              "lastName": "Valera",
+                              "playerId": 546472,
+                              "uniform": "36"
+                            },
+                            "season": 1
+                          }
+                        ],
+                        "hitBatters": [
+                          {
+                            "batter": {
+                              "firstName": "Breyvic",
+                              "lastName": "Valera",
+                              "playerId": 546472,
+                              "uniform": "36"
+                            },
+                            "game": 1,
+                            "pitcher": {
+                              "firstName": "Thomas",
+                              "lastName": "Pannone",
+                              "playerId": 658922,
+                              "uniform": "45"
+                            }
+                          },
+                          {
+                            "batter": {
+                              "firstName": "Mike",
+                              "lastName": "Ford",
+                              "playerId": 708447,
+                              "uniform": "74"
+                            },
+                            "game": 1,
+                            "pitcher": {
+                              "firstName": "Jason",
+                              "lastName": "Adam",
+                              "playerId": 548332,
+                              "uniform": "48"
+                            }
+                          }
+                        ],
+                        "hits": 15,
+                        "homeRuns": [
+                          {
+                            "details": [
+                              {
+                                "inning": 1,
+                                "menOnBase": 1,
+                                "outs": 1,
+                                "pitcher": {
+                                  "firstName": "Thomas",
+                                  "lastName": "Pannone",
+                                  "playerId": 658922,
+                                  "uniform": "45"
+                                }
+                              },
+                              {
+                                "inning": 3,
+                                "menOnBase": 1,
+                                "outs": 1,
+                                "pitcher": {
+                                  "firstName": "Thomas",
+                                  "lastName": "Pannone",
+                                  "playerId": 658922,
+                                  "uniform": "45"
+                                }
+                              }
+                            ],
+                            "game": 2,
+                            "player": {
+                              "firstName": "Gio",
+                              "lastName": "Urshela",
+                              "playerId": 505997,
+                              "uniform": "29"
+                            },
+                            "season": 16
+                          },
+                          {
+                            "details": [
+                              {
+                                "inning": 3,
+                                "menOnBase": 1,
+                                "outs": 1,
+                                "pitcher": {
+                                  "firstName": "Zack",
+                                  "lastName": "Godley",
+                                  "playerId": 503798,
+                                  "uniform": "46"
+                                }
+                              }
+                            ],
+                            "game": 1,
+                            "player": {
+                              "firstName": "Mike",
+                              "lastName": "Tauchman",
+                              "playerId": 737856,
+                              "uniform": "39"
+                            },
+                            "season": 11
+                          }
+                        ],
+                        "intentionalWalks": null,
+                        "runnersLeftOnBase": 5,
+                        "runs": 12,
+                        "runsBattedIn": 11,
+                        "scoringPositionOpportunities": 14,
+                        "scoringPositionSuccesses": 6,
+                        "stolenBases": null,
+                        "strikeouts": 5,
+                        "totalBases": 28,
+                        "triplePlays": 0,
+                        "twoOutRbi": 0,
+                        "twoOutRispLob": 3,
+                        "walks": 0
+                      }
+                    },
+                    {
+                      "playerBattingStats": [
+                        {
+                          "atBats": {
+                            "game": 5,
+                            "season": 49
+                          },
+                          "battingAverage": ".408",
+                          "battingSlot": 1,
+                          "caughtStealing": {
+                            "game": 0,
+                            "season": 2
+                          },
+                          "doubles": {
+                            "game": 1,
+                            "season": 9
+                          },
+                          "flyballs": {
+                            "game": 1,
+                            "season": 12
+                          },
+                          "gameWinningRunsBattedIn": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "groundIntoDoublePlay": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "groundballs": {
+                            "game": 2,
+                            "season": 15
+                          },
+                          "hitByPitch": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "hits": {
+                            "game": 2,
+                            "season": 20
+                          },
+                          "homeRuns": {
+                            "game": 1,
+                            "season": 4
+                          },
+                          "inningEnteredGame": 1,
+                          "intentionalWalks": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "isGameStarted": true,
+                          "leftOnBase": {
+                            "game": 1,
+                            "season": 18
+                          },
+                          "onBasePercentage": ".453",
+                          "pickedOff": {
+                            "game": 0
+                          },
+                          "plateAppearances": {
+                            "game": 5,
+                            "season": 53
+                          },
+                          "player": {
+                            "firstName": "Bo",
+                            "lastName": "Bichette",
+                            "playerId": 917949,
+                            "uniform": "11"
+                          },
+                          "positionsPlayed": "SS",
+                          "runnersMovedUp": 0,
+                          "runs": {
+                            "game": 1,
+                            "season": 7
+                          },
+                          "runsBattedIn": {
+                            "game": 3,
+                            "season": 7
+                          },
+                          "sacrificeFlies": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "sacrificeHits": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "slotIndex": 1,
+                          "sluggingPercentage": ".837",
+                          "stolenBases": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "strikeouts": {
+                            "game": 1,
+                            "season": 11
+                          },
+                          "substituteDesignation": null,
+                          "substituteResult": null,
+                          "totalBases": {
+                            "game": 6,
+                            "season": 41
+                          },
+                          "triples": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "twoOutRbi": 0,
+                          "twoOutRispLob": 0,
+                          "walks": {
+                            "game": 0,
+                            "season": 4
+                          }
+                        },
+                        {
+                          "atBats": {
+                            "game": 4,
+                            "season": 209
+                          },
+                          "battingAverage": ".211",
+                          "battingSlot": 2,
+                          "caughtStealing": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "doubles": {
+                            "game": 0,
+                            "season": 7
+                          },
+                          "flyballs": {
+                            "game": 2,
+                            "season": 61
+                          },
+                          "gameWinningRunsBattedIn": {
+                            "game": 0,
+                            "season": 3
+                          },
+                          "groundIntoDoublePlay": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "groundballs": {
+                            "game": 0,
+                            "season": 43
+                          },
+                          "hitByPitch": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "hits": {
+                            "game": 0,
+                            "season": 44
+                          },
+                          "homeRuns": {
+                            "game": 0,
+                            "season": 10
+                          },
+                          "inningEnteredGame": 1,
+                          "intentionalWalks": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "isGameStarted": true,
+                          "leftOnBase": {
+                            "game": 1,
+                            "season": 69
+                          },
+                          "onBasePercentage": ".341",
+                          "pickedOff": {
+                            "game": 0
+                          },
+                          "plateAppearances": {
+                            "game": 5,
+                            "season": 253
+                          },
+                          "player": {
+                            "firstName": "Cavan",
+                            "lastName": "Biggio",
+                            "playerId": 738582,
+                            "uniform": "8"
+                          },
+                          "positionsPlayed": "2B",
+                          "runnersMovedUp": 0,
+                          "runs": {
+                            "game": 1,
+                            "season": 39
+                          },
+                          "runsBattedIn": {
+                            "game": 0,
+                            "season": 29
+                          },
+                          "sacrificeFlies": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "sacrificeHits": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "slotIndex": 1,
+                          "sluggingPercentage": ".388",
+                          "stolenBases": {
+                            "game": 0,
+                            "season": 9
+                          },
+                          "strikeouts": {
+                            "game": 2,
+                            "season": 71
+                          },
+                          "substituteDesignation": null,
+                          "substituteResult": null,
+                          "totalBases": {
+                            "game": 0,
+                            "season": 81
+                          },
+                          "triples": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "twoOutRbi": 0,
+                          "twoOutRispLob": 0,
+                          "walks": {
+                            "game": 1,
+                            "season": 42
+                          }
+                        },
+                        {
+                          "atBats": {
+                            "game": 5,
+                            "season": 294
+                          },
+                          "battingAverage": ".279",
+                          "battingSlot": 3,
+                          "caughtStealing": {
+                            "game": 0,
+                            "season": 4
+                          },
+                          "doubles": {
+                            "game": 0,
+                            "season": 18
+                          },
+                          "flyballs": {
+                            "game": 0,
+                            "season": 83
+                          },
+                          "gameWinningRunsBattedIn": {
+                            "game": 0,
+                            "season": 7
+                          },
+                          "groundIntoDoublePlay": {
+                            "game": 0,
+                            "season": 4
+                          },
+                          "groundballs": {
+                            "game": 3,
+                            "season": 92
+                          },
+                          "hitByPitch": {
+                            "game": 0,
+                            "season": 4
+                          },
+                          "hits": {
+                            "game": 2,
+                            "season": 82
+                          },
+                          "homeRuns": {
+                            "game": 0,
+                            "season": 19
+                          },
+                          "inningEnteredGame": 1,
+                          "intentionalWalks": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "isGameStarted": true,
+                          "leftOnBase": {
+                            "game": 3,
+                            "season": 105
+                          },
+                          "onBasePercentage": ".331",
+                          "pickedOff": {
+                            "game": 0
+                          },
+                          "plateAppearances": {
+                            "game": 5,
+                            "season": 321
+                          },
+                          "player": {
+                            "firstName": "Lourdes",
+                            "lastName": "Gurriel Jr.",
+                            "playerId": 908697,
+                            "uniform": "13"
+                          },
+                          "positionsPlayed": "LF",
+                          "runnersMovedUp": 0,
+                          "runs": {
+                            "game": 0,
+                            "season": 50
+                          },
+                          "runsBattedIn": {
+                            "game": 1,
+                            "season": 47
+                          },
+                          "sacrificeFlies": {
+                            "game": 0,
+                            "season": 2
+                          },
+                          "sacrificeHits": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "slotIndex": 1,
+                          "sluggingPercentage": ".548",
+                          "stolenBases": {
+                            "game": 0,
+                            "season": 6
+                          },
+                          "strikeouts": {
+                            "game": 2,
+                            "season": 79
+                          },
+                          "substituteDesignation": null,
+                          "substituteResult": null,
+                          "totalBases": {
+                            "game": 2,
+                            "season": 161
+                          },
+                          "triples": {
+                            "game": 0,
+                            "season": 2
+                          },
+                          "twoOutRbi": 0,
+                          "twoOutRispLob": 2,
+                          "walks": {
+                            "game": 0,
+                            "season": 20
+                          }
+                        },
+                        {
+                          "atBats": {
+                            "game": 0,
+                            "season": 311
+                          },
+                          "battingAverage": ".228",
+                          "battingSlot": 3,
+                          "caughtStealing": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "doubles": {
+                            "game": 0,
+                            "season": 15
+                          },
+                          "flyballs": {
+                            "game": 0,
+                            "season": 80
+                          },
+                          "gameWinningRunsBattedIn": {
+                            "game": 0,
+                            "season": 5
+                          },
+                          "groundIntoDoublePlay": {
+                            "game": 0,
+                            "season": 5
+                          },
+                          "groundballs": {
+                            "game": 0,
+                            "season": 94
+                          },
+                          "hitByPitch": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "hits": {
+                            "game": 0,
+                            "season": 71
+                          },
+                          "homeRuns": {
+                            "game": 0,
+                            "season": 13
+                          },
+                          "inningEnteredGame": 9,
+                          "intentionalWalks": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "isGameStarted": false,
+                          "leftOnBase": {
+                            "game": 0,
+                            "season": 123
+                          },
+                          "onBasePercentage": ".272",
+                          "pickedOff": {
+                            "game": 0
+                          },
+                          "plateAppearances": {
+                            "game": 0,
+                            "season": 334
+                          },
+                          "player": {
+                            "firstName": "Brandon",
+                            "lastName": "Drury",
+                            "playerId": 549169,
+                            "uniform": "3"
+                          },
+                          "positionsPlayed": "PR",
+                          "runnersMovedUp": 0,
+                          "runs": {
+                            "game": 0,
+                            "season": 34
+                          },
+                          "runsBattedIn": {
+                            "game": 0,
+                            "season": 32
+                          },
+                          "sacrificeFlies": {
+                            "game": 0,
+                            "season": 3
+                          },
+                          "sacrificeHits": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "slotIndex": 2,
+                          "sluggingPercentage": ".408",
+                          "stolenBases": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "strikeouts": {
+                            "game": 0,
+                            "season": 87
+                          },
+                          "substituteDesignation": "a",
+                          "substituteResult": "ran for Gurriel Jr. in 9th",
+                          "totalBases": {
+                            "game": 0,
+                            "season": 127
+                          },
+                          "triples": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "twoOutRbi": 0,
+                          "twoOutRispLob": 0,
+                          "walks": {
+                            "game": 0,
+                            "season": 19
+                          }
+                        },
+                        {
+                          "atBats": {
+                            "game": 5,
+                            "season": 322
+                          },
+                          "battingAverage": ".273",
+                          "battingSlot": 4,
+                          "caughtStealing": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "doubles": {
+                            "game": 1,
+                            "season": 20
+                          },
+                          "flyballs": {
+                            "game": 2,
+                            "season": 77
+                          },
+                          "gameWinningRunsBattedIn": {
+                            "game": 0,
+                            "season": 5
+                          },
+                          "groundIntoDoublePlay": {
+                            "game": 0,
+                            "season": 13
+                          },
+                          "groundballs": {
+                            "game": 1,
+                            "season": 124
+                          },
+                          "hitByPitch": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "hits": {
+                            "game": 1,
+                            "season": 88
+                          },
+                          "homeRuns": {
+                            "game": 0,
+                            "season": 13
+                          },
+                          "inningEnteredGame": 1,
+                          "intentionalWalks": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "isGameStarted": true,
+                          "leftOnBase": {
+                            "game": 2,
+                            "season": 121
+                          },
+                          "onBasePercentage": ".344",
+                          "pickedOff": {
+                            "game": 0
+                          },
+                          "plateAppearances": {
+                            "game": 5,
+                            "season": 358
+                          },
+                          "player": {
+                            "firstName": "Vladimir",
+                            "lastName": "Guerrero Jr.",
+                            "playerId": 920245,
+                            "uniform": "27"
+                          },
+                          "positionsPlayed": "3B",
+                          "runnersMovedUp": 0,
+                          "runs": {
+                            "game": 0,
+                            "season": 42
+                          },
+                          "runsBattedIn": {
+                            "game": 0,
+                            "season": 49
+                          },
+                          "sacrificeFlies": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "sacrificeHits": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "slotIndex": 1,
+                          "sluggingPercentage": ".457",
+                          "stolenBases": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "strikeouts": {
+                            "game": 2,
+                            "season": 63
+                          },
+                          "substituteDesignation": null,
+                          "substituteResult": null,
+                          "totalBases": {
+                            "game": 2,
+                            "season": 147
+                          },
+                          "triples": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "twoOutRbi": 0,
+                          "twoOutRispLob": 0,
+                          "walks": {
+                            "game": 0,
+                            "season": 34
+                          }
+                        },
+                        {
+                          "atBats": {
+                            "game": 5,
+                            "season": 439
+                          },
+                          "battingAverage": ".271",
+                          "battingSlot": 5,
+                          "caughtStealing": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "doubles": {
+                            "game": 0,
+                            "season": 23
+                          },
+                          "flyballs": {
+                            "game": 0,
+                            "season": 115
+                          },
+                          "gameWinningRunsBattedIn": {
+                            "game": 0,
+                            "season": 2
+                          },
+                          "groundIntoDoublePlay": {
+                            "game": 0,
+                            "season": 11
+                          },
+                          "groundballs": {
+                            "game": 4,
+                            "season": 134
+                          },
+                          "hitByPitch": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "hits": {
+                            "game": 2,
+                            "season": 119
+                          },
+                          "homeRuns": {
+                            "game": 0,
+                            "season": 18
+                          },
+                          "inningEnteredGame": 1,
+                          "intentionalWalks": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "isGameStarted": true,
+                          "leftOnBase": {
+                            "game": 2,
+                            "season": 153
+                          },
+                          "onBasePercentage": ".304",
+                          "pickedOff": {
+                            "game": 0
+                          },
+                          "plateAppearances": {
+                            "game": 5,
+                            "season": 462
+                          },
+                          "player": {
+                            "firstName": "Freddy",
+                            "lastName": "Galvis",
+                            "playerId": 392933,
+                            "uniform": "16"
+                          },
+                          "positionsPlayed": "DH",
+                          "runnersMovedUp": 0,
+                          "runs": {
+                            "game": 0,
+                            "season": 54
+                          },
+                          "runsBattedIn": {
+                            "game": 0,
+                            "season": 54
+                          },
+                          "sacrificeFlies": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "sacrificeHits": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "slotIndex": 1,
+                          "sluggingPercentage": ".451",
+                          "stolenBases": {
+                            "game": 0,
+                            "season": 4
+                          },
+                          "strikeouts": {
+                            "game": 1,
+                            "season": 110
+                          },
+                          "substituteDesignation": null,
+                          "substituteResult": null,
+                          "totalBases": {
+                            "game": 2,
+                            "season": 198
+                          },
+                          "triples": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "twoOutRbi": 0,
+                          "twoOutRispLob": 0,
+                          "walks": {
+                            "game": 0,
+                            "season": 21
+                          }
+                        },
+                        {
+                          "atBats": {
+                            "game": 4,
+                            "season": 321
+                          },
+                          "battingAverage": ".206",
+                          "battingSlot": 6,
+                          "caughtStealing": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "doubles": {
+                            "game": 0,
+                            "season": 8
+                          },
+                          "flyballs": {
+                            "game": 2,
+                            "season": 94
+                          },
+                          "gameWinningRunsBattedIn": {
+                            "game": 0,
+                            "season": 4
+                          },
+                          "groundIntoDoublePlay": {
+                            "game": 0,
+                            "season": 6
+                          },
+                          "groundballs": {
+                            "game": 1,
+                            "season": 95
+                          },
+                          "hitByPitch": {
+                            "game": 0,
+                            "season": 5
+                          },
+                          "hits": {
+                            "game": 0,
+                            "season": 66
+                          },
+                          "homeRuns": {
+                            "game": 0,
+                            "season": 18
+                          },
+                          "inningEnteredGame": 1,
+                          "intentionalWalks": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "isGameStarted": true,
+                          "leftOnBase": {
+                            "game": 3,
+                            "season": 121
+                          },
+                          "onBasePercentage": ".349",
+                          "pickedOff": {
+                            "game": 0
+                          },
+                          "plateAppearances": {
+                            "game": 5,
+                            "season": 393
+                          },
+                          "player": {
+                            "firstName": "Justin",
+                            "lastName": "Smoak",
+                            "playerId": 454366,
+                            "uniform": "14"
+                          },
+                          "positionsPlayed": "1B",
+                          "runnersMovedUp": 1,
+                          "runs": {
+                            "game": 0,
+                            "season": 43
+                          },
+                          "runsBattedIn": {
+                            "game": 0,
+                            "season": 48
+                          },
+                          "sacrificeFlies": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "sacrificeHits": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "slotIndex": 1,
+                          "sluggingPercentage": ".399",
+                          "stolenBases": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "strikeouts": {
+                            "game": 0,
+                            "season": 79
+                          },
+                          "substituteDesignation": null,
+                          "substituteResult": null,
+                          "totalBases": {
+                            "game": 0,
+                            "season": 128
+                          },
+                          "triples": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "twoOutRbi": 0,
+                          "twoOutRispLob": 0,
+                          "walks": {
+                            "game": 1,
+                            "season": 66
+                          }
+                        },
+                        {
+                          "atBats": {
+                            "game": 4,
+                            "season": 421
+                          },
+                          "battingAverage": ".238",
+                          "battingSlot": 7,
+                          "caughtStealing": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "doubles": {
+                            "game": 0,
+                            "season": 19
+                          },
+                          "flyballs": {
+                            "game": 0,
+                            "season": 115
+                          },
+                          "gameWinningRunsBattedIn": {
+                            "game": 0,
+                            "season": 2
+                          },
+                          "groundIntoDoublePlay": {
+                            "game": 0,
+                            "season": 10
+                          },
+                          "groundballs": {
+                            "game": 1,
+                            "season": 122
+                          },
+                          "hitByPitch": {
+                            "game": 0,
+                            "season": 4
+                          },
+                          "hits": {
+                            "game": 0,
+                            "season": 100
+                          },
+                          "homeRuns": {
+                            "game": 0,
+                            "season": 19
+                          },
+                          "inningEnteredGame": 1,
+                          "intentionalWalks": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "isGameStarted": true,
+                          "leftOnBase": {
+                            "game": 5,
+                            "season": 177
+                          },
+                          "onBasePercentage": ".294",
+                          "pickedOff": {
+                            "game": 0
+                          },
+                          "plateAppearances": {
+                            "game": 4,
+                            "season": 456
+                          },
+                          "player": {
+                            "firstName": "Randal",
+                            "lastName": "Grichuk",
+                            "playerId": 500734,
+                            "uniform": "15"
+                          },
+                          "positionsPlayed": "RF",
+                          "runnersMovedUp": 0,
+                          "runs": {
+                            "game": 0,
+                            "season": 52
+                          },
+                          "runsBattedIn": {
+                            "game": 0,
+                            "season": 50
+                          },
+                          "sacrificeFlies": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "sacrificeHits": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "slotIndex": 1,
+                          "sluggingPercentage": ".428",
+                          "stolenBases": {
+                            "game": 0,
+                            "season": 2
+                          },
+                          "strikeouts": {
+                            "game": 2,
+                            "season": 125
+                          },
+                          "substituteDesignation": null,
+                          "substituteResult": null,
+                          "totalBases": {
+                            "game": 0,
+                            "season": 180
+                          },
+                          "triples": {
+                            "game": 0,
+                            "season": 2
+                          },
+                          "twoOutRbi": 0,
+                          "twoOutRispLob": 3,
+                          "walks": {
+                            "game": 0,
+                            "season": 30
+                          }
+                        },
+                        {
+                          "atBats": {
+                            "game": 4,
+                            "season": 69
+                          },
+                          "battingAverage": ".217",
+                          "battingSlot": 8,
+                          "caughtStealing": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "doubles": {
+                            "game": 0,
+                            "season": 2
+                          },
+                          "flyballs": {
+                            "game": 3,
+                            "season": 11
+                          },
+                          "gameWinningRunsBattedIn": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "groundIntoDoublePlay": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "groundballs": {
+                            "game": 0,
+                            "season": 24
+                          },
+                          "hitByPitch": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "hits": {
+                            "game": 1,
+                            "season": 15
+                          },
+                          "homeRuns": {
+                            "game": 1,
+                            "season": 3
+                          },
+                          "inningEnteredGame": 1,
+                          "intentionalWalks": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "isGameStarted": true,
+                          "leftOnBase": {
+                            "game": 0,
+                            "season": 23
+                          },
+                          "onBasePercentage": ".289",
+                          "pickedOff": {
+                            "game": 0
+                          },
+                          "plateAppearances": {
+                            "game": 4,
+                            "season": 76
+                          },
+                          "player": {
+                            "firstName": "Derek",
+                            "lastName": "Fisher",
+                            "playerId": 597981,
+                            "uniform": "20"
+                          },
+                          "positionsPlayed": "CF",
+                          "runnersMovedUp": 0,
+                          "runs": {
+                            "game": 1,
+                            "season": 11
+                          },
+                          "runsBattedIn": {
+                            "game": 1,
+                            "season": 9
+                          },
+                          "sacrificeFlies": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "sacrificeHits": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "slotIndex": 1,
+                          "sluggingPercentage": ".406",
+                          "stolenBases": {
+                            "game": 0,
+                            "season": 4
+                          },
+                          "strikeouts": {
+                            "game": 1,
+                            "season": 21
+                          },
+                          "substituteDesignation": null,
+                          "substituteResult": null,
+                          "totalBases": {
+                            "game": 4,
+                            "season": 28
+                          },
+                          "triples": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "twoOutRbi": 0,
+                          "twoOutRispLob": 0,
+                          "walks": {
+                            "game": 0,
+                            "season": 7
+                          }
+                        },
+                        {
+                          "atBats": {
+                            "game": 4,
+                            "season": 25
+                          },
+                          "battingAverage": ".280",
+                          "battingSlot": 9,
+                          "caughtStealing": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "doubles": {
+                            "game": 1,
+                            "season": 1
+                          },
+                          "flyballs": {
+                            "game": 1,
+                            "season": 4
+                          },
+                          "gameWinningRunsBattedIn": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "groundIntoDoublePlay": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "groundballs": {
+                            "game": 0,
+                            "season": 8
+                          },
+                          "hitByPitch": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "hits": {
+                            "game": 4,
+                            "season": 7
+                          },
+                          "homeRuns": {
+                            "game": 1,
+                            "season": 2
+                          },
+                          "inningEnteredGame": 1,
+                          "intentionalWalks": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "isGameStarted": true,
+                          "leftOnBase": {
+                            "game": 0,
+                            "season": 9
+                          },
+                          "onBasePercentage": ".280",
+                          "pickedOff": {
+                            "game": 0
+                          },
+                          "plateAppearances": {
+                            "game": 4,
+                            "season": 25
+                          },
+                          "player": {
+                            "firstName": "Reese",
+                            "lastName": "McGuire",
+                            "playerId": 737505,
+                            "uniform": "10"
+                          },
+                          "positionsPlayed": "C",
+                          "runnersMovedUp": 0,
+                          "runs": {
+                            "game": 3,
+                            "season": 4
+                          },
+                          "runsBattedIn": {
+                            "game": 1,
+                            "season": 3
+                          },
+                          "sacrificeFlies": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "sacrificeHits": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "slotIndex": 1,
+                          "sluggingPercentage": ".560",
+                          "stolenBases": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "strikeouts": {
+                            "game": 0,
+                            "season": 7
+                          },
+                          "substituteDesignation": null,
+                          "substituteResult": null,
+                          "totalBases": {
+                            "game": 8,
+                            "season": 14
+                          },
+                          "triples": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "twoOutRbi": 0,
+                          "twoOutRispLob": 0,
+                          "walks": {
+                            "game": 0,
+                            "season": 0
+                          }
+                        }
+                      ],
+                      "playerFieldingStats": [
+                        {
+                          "fieldingDetails": [
+                            {
+                              "assists": {
+                                "game": 0,
+                                "season": 35
+                              },
+                              "catcherCaughtStealing": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "doublePlays": {
+                                "game": 0,
+                                "season": 53
+                              },
+                              "errors": {
+                                "game": 0,
+                                "season": 2
+                              },
+                              "passedBalls": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "position": {
+                                "abbreviation": "1B",
+                                "name": "1st Baseman",
+                                "positionId": 3
+                              },
+                              "putouts": {
+                                "game": 8,
+                                "season": 565
+                              },
+                              "triplePlays": {
+                                "game": 0,
+                                "season": 0
+                              }
+                            }
+                          ],
+                          "player": {
+                            "firstName": "Justin",
+                            "lastName": "Smoak",
+                            "playerId": 454366,
+                            "uniform": "14"
+                          }
+                        },
+                        {
+                          "fieldingDetails": [
+                            {
+                              "assists": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "catcherCaughtStealing": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "doublePlays": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "errors": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "passedBalls": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "position": {
+                                "abbreviation": "P",
+                                "name": "Pitcher",
+                                "positionId": 1
+                              },
+                              "putouts": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "triplePlays": {
+                                "game": 0,
+                                "season": 0
+                              }
+                            }
+                          ],
+                          "player": {
+                            "firstName": "Buddy",
+                            "lastName": "Boshers",
+                            "playerId": 454539,
+                            "uniform": "67"
+                          }
+                        },
+                        {
+                          "fieldingDetails": [
+                            {
+                              "assists": {
+                                "game": 0,
+                                "season": 1
+                              },
+                              "catcherCaughtStealing": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "doublePlays": {
+                                "game": 0,
+                                "season": 1
+                              },
+                              "errors": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "passedBalls": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "position": {
+                                "abbreviation": "RF",
+                                "name": "Right Fielder",
+                                "positionId": 9
+                              },
+                              "putouts": {
+                                "game": 6,
+                                "season": 102
+                              },
+                              "triplePlays": {
+                                "game": 0,
+                                "season": 0
+                              }
+                            }
+                          ],
+                          "player": {
+                            "firstName": "Randal",
+                            "lastName": "Grichuk",
+                            "playerId": 500734,
+                            "uniform": "15"
+                          }
+                        },
+                        {
+                          "fieldingDetails": [
+                            {
+                              "assists": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "catcherCaughtStealing": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "doublePlays": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "errors": {
+                                "game": 1,
+                                "season": 1
+                              },
+                              "passedBalls": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "position": {
+                                "abbreviation": "P",
+                                "name": "Pitcher",
+                                "positionId": 1
+                              },
+                              "putouts": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "triplePlays": {
+                                "game": 0,
+                                "season": 0
+                              }
+                            }
+                          ],
+                          "player": {
+                            "firstName": "Zack",
+                            "lastName": "Godley",
+                            "playerId": 503798,
+                            "uniform": "46"
+                          }
+                        },
+                        {
+                          "fieldingDetails": [
+                            {
+                              "assists": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "catcherCaughtStealing": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "doublePlays": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "errors": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "passedBalls": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "position": {
+                                "abbreviation": "P",
+                                "name": "Pitcher",
+                                "positionId": 1
+                              },
+                              "putouts": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "triplePlays": {
+                                "game": 0,
+                                "season": 0
+                              }
+                            }
+                          ],
+                          "player": {
+                            "firstName": "Jason",
+                            "lastName": "Adam",
+                            "playerId": 548332,
+                            "uniform": "48"
+                          }
+                        },
+                        {
+                          "fieldingDetails": [
+                            {
+                              "assists": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "catcherCaughtStealing": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "doublePlays": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "errors": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "passedBalls": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "position": {
+                                "abbreviation": "CF",
+                                "name": "Center Fielder",
+                                "positionId": 8
+                              },
+                              "putouts": {
+                                "game": 4,
+                                "season": 8
+                              },
+                              "triplePlays": {
+                                "game": 0,
+                                "season": 0
+                              }
+                            }
+                          ],
+                          "player": {
+                            "firstName": "Derek",
+                            "lastName": "Fisher",
+                            "playerId": 597981,
+                            "uniform": "20"
+                          }
+                        },
+                        {
+                          "fieldingDetails": [
+                            {
+                              "assists": {
+                                "game": 0,
+                                "season": 2
+                              },
+                              "catcherCaughtStealing": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "doublePlays": {
+                                "game": 0,
+                                "season": 1
+                              },
+                              "errors": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "passedBalls": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "position": {
+                                "abbreviation": "P",
+                                "name": "Pitcher",
+                                "positionId": 1
+                              },
+                              "putouts": {
+                                "game": 0,
+                                "season": 1
+                              },
+                              "triplePlays": {
+                                "game": 0,
+                                "season": 0
+                              }
+                            }
+                          ],
+                          "player": {
+                            "firstName": "Thomas",
+                            "lastName": "Pannone",
+                            "playerId": 658922,
+                            "uniform": "45"
+                          }
+                        },
+                        {
+                          "fieldingDetails": [
+                            {
+                              "assists": {
+                                "game": 2,
+                                "season": 3
+                              },
+                              "catcherCaughtStealing": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "doublePlays": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "errors": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "passedBalls": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "position": {
+                                "abbreviation": "C",
+                                "name": "Catcher",
+                                "positionId": 2
+                              },
+                              "putouts": {
+                                "game": 4,
+                                "season": 55
+                              },
+                              "triplePlays": {
+                                "game": 0,
+                                "season": 0
+                              }
+                            }
+                          ],
+                          "player": {
+                            "firstName": "Reese",
+                            "lastName": "McGuire",
+                            "playerId": 737505,
+                            "uniform": "10"
+                          }
+                        },
+                        {
+                          "fieldingDetails": [
+                            {
+                              "assists": {
+                                "game": 4,
+                                "season": 106
+                              },
+                              "catcherCaughtStealing": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "doublePlays": {
+                                "game": 0,
+                                "season": 23
+                              },
+                              "errors": {
+                                "game": 0,
+                                "season": 4
+                              },
+                              "passedBalls": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "position": {
+                                "abbreviation": "2B",
+                                "name": "2nd Baseman",
+                                "positionId": 4
+                              },
+                              "putouts": {
+                                "game": 2,
+                                "season": 72
+                              },
+                              "triplePlays": {
+                                "game": 0,
+                                "season": 0
+                              }
+                            }
+                          ],
+                          "player": {
+                            "firstName": "Cavan",
+                            "lastName": "Biggio",
+                            "playerId": 738582,
+                            "uniform": "8"
+                          }
+                        },
+                        {
+                          "fieldingDetails": [
+                            {
+                              "assists": {
+                                "game": 0,
+                                "season": 9
+                              },
+                              "catcherCaughtStealing": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "doublePlays": {
+                                "game": 0,
+                                "season": 1
+                              },
+                              "errors": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "passedBalls": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "position": {
+                                "abbreviation": "LF",
+                                "name": "Left Fielder",
+                                "positionId": 7
+                              },
+                              "putouts": {
+                                "game": 1,
+                                "season": 95
+                              },
+                              "triplePlays": {
+                                "game": 0,
+                                "season": 0
+                              }
+                            }
+                          ],
+                          "player": {
+                            "firstName": "Lourdes",
+                            "lastName": "Gurriel Jr.",
+                            "playerId": 908697,
+                            "uniform": "13"
+                          }
+                        },
+                        {
+                          "fieldingDetails": [
+                            {
+                              "assists": {
+                                "game": 2,
+                                "season": 22
+                              },
+                              "catcherCaughtStealing": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "doublePlays": {
+                                "game": 0,
+                                "season": 5
+                              },
+                              "errors": {
+                                "game": 0,
+                                "season": 4
+                              },
+                              "passedBalls": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "position": {
+                                "abbreviation": "SS",
+                                "name": "Shortstop",
+                                "positionId": 6
+                              },
+                              "putouts": {
+                                "game": 2,
+                                "season": 8
+                              },
+                              "triplePlays": {
+                                "game": 0,
+                                "season": 0
+                              }
+                            }
+                          ],
+                          "player": {
+                            "firstName": "Bo",
+                            "lastName": "Bichette",
+                            "playerId": 917949,
+                            "uniform": "11"
+                          }
+                        },
+                        {
+                          "fieldingDetails": [
+                            {
+                              "assists": {
+                                "game": 0,
+                                "season": 127
+                              },
+                              "catcherCaughtStealing": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "doublePlays": {
+                                "game": 0,
+                                "season": 15
+                              },
+                              "errors": {
+                                "game": 0,
+                                "season": 14
+                              },
+                              "passedBalls": {
+                                "game": 0,
+                                "season": 0
+                              },
+                              "position": {
+                                "abbreviation": "3B",
+                                "name": "3rd Baseman",
+                                "positionId": 5
+                              },
+                              "putouts": {
+                                "game": 0,
+                                "season": 34
+                              },
+                              "triplePlays": {
+                                "game": 0,
+                                "season": 0
+                              }
+                            }
+                          ],
+                          "player": {
+                            "firstName": "Vladimir",
+                            "lastName": "Guerrero Jr.",
+                            "playerId": 920245,
+                            "uniform": "27"
+                          }
+                        }
+                      ],
+                      "playerPitchingStats": [
+                        {
+                          "balks": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "balls": 18,
+                          "battersFaced": {
+                            "game": 14,
+                            "season": 259
+                          },
+                          "blownSaves": 0,
+                          "doubles": {
+                            "game": 1,
+                            "season": 10
+                          },
+                          "earnedRunAverage": "6.83",
+                          "earnedRuns": {
+                            "game": 7,
+                            "season": 44
+                          },
+                          "flyOut": {
+                            "game": 3,
+                            "season": 63
+                          },
+                          "flyballs": {
+                            "game": 5,
+                            "season": 81
+                          },
+                          "gamesPitched": {
+                            "starts": 6,
+                            "totalGames": 28
+                          },
+                          "groundIntoDoublePlay": {
+                            "game": 0,
+                            "season": 3
+                          },
+                          "groundOut": {
+                            "game": 3,
+                            "season": 38
+                          },
+                          "groundballs": {
+                            "game": 4,
+                            "season": 56
+                          },
+                          "hitBatsmen": {
+                            "game": 1,
+                            "season": 4
+                          },
+                          "hits": {
+                            "game": 6,
+                            "season": 58
+                          },
+                          "holds": 1,
+                          "homeRuns": {
+                            "game": 2,
+                            "season": 11
+                          },
+                          "inheritedRunners": 0,
+                          "inheritedStranded": 0,
+                          "inningEnteredGame": 1,
+                          "inningsPitched": {
+                            "game": "2.1",
+                            "season": "58.0"
+                          },
+                          "intentionalWalks": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "isBlownSavePitcher": false,
+                          "isCompleteGame": false,
+                          "isHoldingPitcher": false,
+                          "isLosingPitcher": true,
+                          "isNoHitter": false,
+                          "isPerfectGame": false,
+                          "isSavePitcher": false,
+                          "isShutout": false,
+                          "isWinningPitcher": false,
+                          "opponentAtBats": {
+                            "game": 13,
+                            "season": 229
+                          },
+                          "opponentBattingAverage": ".253",
+                          "pickoffs": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "pitchCount": 55,
+                          "player": {
+                            "firstName": "Thomas",
+                            "lastName": "Pannone",
+                            "playerId": 658922,
+                            "uniform": "45"
+                          },
+                          "record": {
+                            "losses": 5,
+                            "wins": 2
+                          },
+                          "runs": {
+                            "game": 7,
+                            "season": 45
+                          },
+                          "sacrificeFlies": {
+                            "game": 0,
+                            "season": 2
+                          },
+                          "sacrificeHits": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "saves": 0,
+                          "sequence": 1,
+                          "stolenBases": {
+                            "game": 0,
+                            "season": 2
+                          },
+                          "strikeouts": {
+                            "game": 1,
+                            "season": 57
+                          },
+                          "strikes": 37,
+                          "triples": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "walks": {
+                            "game": 0,
+                            "season": 24
+                          },
+                          "walksAndHitsPerInning": "1.41",
+                          "wildPitches": {
+                            "game": 2,
+                            "season": 5
+                          }
+                        },
+                        {
+                          "balks": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "balls": 19,
+                          "battersFaced": {
+                            "game": 14,
+                            "season": 14
+                          },
+                          "blownSaves": 0,
+                          "doubles": {
+                            "game": 2,
+                            "season": 2
+                          },
+                          "earnedRunAverage": "9.00",
+                          "earnedRuns": {
+                            "game": 3,
+                            "season": 3
+                          },
+                          "flyOut": {
+                            "game": 2,
+                            "season": 2
+                          },
+                          "flyballs": {
+                            "game": 3,
+                            "season": 3
+                          },
+                          "gamesPitched": {
+                            "starts": 0,
+                            "totalGames": 1
+                          },
+                          "groundIntoDoublePlay": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "groundOut": {
+                            "game": 3,
+                            "season": 3
+                          },
+                          "groundballs": {
+                            "game": 4,
+                            "season": 4
+                          },
+                          "hitBatsmen": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "hits": {
+                            "game": 5,
+                            "season": 5
+                          },
+                          "holds": 0,
+                          "homeRuns": {
+                            "game": 1,
+                            "season": 1
+                          },
+                          "inheritedRunners": 1,
+                          "inheritedStranded": 0,
+                          "inningEnteredGame": 3,
+                          "inningsPitched": {
+                            "game": "3.0",
+                            "season": "3.0"
+                          },
+                          "intentionalWalks": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "isBlownSavePitcher": false,
+                          "isCompleteGame": false,
+                          "isHoldingPitcher": false,
+                          "isLosingPitcher": false,
+                          "isNoHitter": false,
+                          "isPerfectGame": false,
+                          "isSavePitcher": false,
+                          "isShutout": false,
+                          "isWinningPitcher": false,
+                          "opponentAtBats": {
+                            "game": 14,
+                            "season": 14
+                          },
+                          "opponentBattingAverage": ".357",
+                          "pickoffs": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "pitchCount": 54,
+                          "player": {
+                            "firstName": "Zack",
+                            "lastName": "Godley",
+                            "playerId": 503798,
+                            "uniform": "46"
+                          },
+                          "record": {
+                            "losses": 0,
+                            "wins": 0
+                          },
+                          "runs": {
+                            "game": 3,
+                            "season": 3
+                          },
+                          "sacrificeFlies": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "sacrificeHits": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "saves": 0,
+                          "sequence": 2,
+                          "stolenBases": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "strikeouts": {
+                            "game": 3,
+                            "season": 3
+                          },
+                          "strikes": 35,
+                          "triples": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "walks": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "walksAndHitsPerInning": "1.67",
+                          "wildPitches": {
+                            "game": 0,
+                            "season": 0
+                          }
+                        },
+                        {
+                          "balks": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "balls": 14,
+                          "battersFaced": {
+                            "game": 10,
+                            "season": 23
+                          },
+                          "blownSaves": 0,
+                          "doubles": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "earnedRunAverage": "1.59",
+                          "earnedRuns": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "flyOut": {
+                            "game": 6,
+                            "season": 12
+                          },
+                          "flyballs": {
+                            "game": 6,
+                            "season": 13
+                          },
+                          "gamesPitched": {
+                            "starts": 0,
+                            "totalGames": 4
+                          },
+                          "groundIntoDoublePlay": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "groundOut": {
+                            "game": 1,
+                            "season": 1
+                          },
+                          "groundballs": {
+                            "game": 1,
+                            "season": 2
+                          },
+                          "hitBatsmen": {
+                            "game": 1,
+                            "season": 1
+                          },
+                          "hits": {
+                            "game": 1,
+                            "season": 3
+                          },
+                          "holds": 0,
+                          "homeRuns": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "inheritedRunners": 1,
+                          "inheritedStranded": 1,
+                          "inningEnteredGame": 6,
+                          "inningsPitched": {
+                            "game": "2.2",
+                            "season": "5.2"
+                          },
+                          "intentionalWalks": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "isBlownSavePitcher": false,
+                          "isCompleteGame": false,
+                          "isHoldingPitcher": false,
+                          "isLosingPitcher": false,
+                          "isNoHitter": false,
+                          "isPerfectGame": false,
+                          "isSavePitcher": false,
+                          "isShutout": false,
+                          "isWinningPitcher": false,
+                          "opponentAtBats": {
+                            "game": 9,
+                            "season": 20
+                          },
+                          "opponentBattingAverage": ".150",
+                          "pickoffs": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "pitchCount": 32,
+                          "player": {
+                            "firstName": "Jason",
+                            "lastName": "Adam",
+                            "playerId": 548332,
+                            "uniform": "48"
+                          },
+                          "record": {
+                            "losses": 0,
+                            "wins": 0
+                          },
+                          "runs": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "sacrificeFlies": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "sacrificeHits": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "saves": 0,
+                          "sequence": 3,
+                          "stolenBases": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "strikeouts": {
+                            "game": 0,
+                            "season": 3
+                          },
+                          "strikes": 18,
+                          "triples": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "walks": {
+                            "game": 0,
+                            "season": 2
+                          },
+                          "walksAndHitsPerInning": "0.88",
+                          "wildPitches": {
+                            "game": 0,
+                            "season": 0
+                          }
+                        },
+                        {
+                          "balks": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "balls": 8,
+                          "battersFaced": {
+                            "game": 6,
+                            "season": 23
+                          },
+                          "blownSaves": 0,
+                          "doubles": {
+                            "game": 1,
+                            "season": 3
+                          },
+                          "earnedRunAverage": "11.25",
+                          "earnedRuns": {
+                            "game": 2,
+                            "season": 5
+                          },
+                          "flyOut": {
+                            "game": 2,
+                            "season": 5
+                          },
+                          "flyballs": {
+                            "game": 2,
+                            "season": 6
+                          },
+                          "gamesPitched": {
+                            "starts": 0,
+                            "totalGames": 5
+                          },
+                          "groundIntoDoublePlay": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "groundOut": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "groundballs": {
+                            "game": 2,
+                            "season": 5
+                          },
+                          "hitBatsmen": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "hits": {
+                            "game": 3,
+                            "season": 8
+                          },
+                          "holds": 0,
+                          "homeRuns": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "inheritedRunners": 0,
+                          "inheritedStranded": 0,
+                          "inningEnteredGame": 9,
+                          "inningsPitched": {
+                            "game": "1.0",
+                            "season": "4.0"
+                          },
+                          "intentionalWalks": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "isBlownSavePitcher": false,
+                          "isCompleteGame": false,
+                          "isHoldingPitcher": false,
+                          "isLosingPitcher": false,
+                          "isNoHitter": false,
+                          "isPerfectGame": false,
+                          "isSavePitcher": false,
+                          "isShutout": false,
+                          "isWinningPitcher": false,
+                          "opponentAtBats": {
+                            "game": 6,
+                            "season": 20
+                          },
+                          "opponentBattingAverage": ".400",
+                          "pickoffs": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "pitchCount": 26,
+                          "player": {
+                            "firstName": "Buddy",
+                            "lastName": "Boshers",
+                            "playerId": 454539,
+                            "uniform": "67"
+                          },
+                          "record": {
+                            "losses": 2,
+                            "wins": 0
+                          },
+                          "runs": {
+                            "game": 2,
+                            "season": 5
+                          },
+                          "sacrificeFlies": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "sacrificeHits": {
+                            "game": 0,
+                            "season": 1
+                          },
+                          "saves": 0,
+                          "sequence": 4,
+                          "stolenBases": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "strikeouts": {
+                            "game": 1,
+                            "season": 7
+                          },
+                          "strikes": 18,
+                          "triples": {
+                            "game": 0,
+                            "season": 0
+                          },
+                          "walks": {
+                            "game": 0,
+                            "season": 2
+                          },
+                          "walksAndHitsPerInning": "2.50",
+                          "wildPitches": {
+                            "game": 0,
+                            "season": 1
+                          }
+                        }
+                      ],
+                      "teamId": 238,
+                      "teamStats": {
+                        "atBats": 40,
+                        "catcherInterference": null,
+                        "caughtStealing": null,
+                        "doublePlays": 0,
+                        "doubles": [
+                          {
+                            "game": 1,
+                            "pitchers": [
+                              {
+                                "allowed": 1,
+                                "firstName": "Domingo",
+                                "lastName": "German",
+                                "playerId": 548637,
+                                "uniform": "55"
+                              }
+                            ],
+                            "player": {
+                              "firstName": "Vladimir",
+                              "lastName": "Guerrero Jr.",
+                              "playerId": 920245,
+                              "uniform": "27"
+                            },
+                            "season": 20
+                          },
+                          {
+                            "game": 1,
+                            "pitchers": [
+                              {
+                                "allowed": 1,
+                                "firstName": "Domingo",
+                                "lastName": "German",
+                                "playerId": 548637,
+                                "uniform": "55"
+                              }
+                            ],
+                            "player": {
+                              "firstName": "Reese",
+                              "lastName": "McGuire",
+                              "playerId": 737505,
+                              "uniform": "10"
+                            },
+                            "season": 1
+                          },
+                          {
+                            "game": 1,
+                            "pitchers": [
+                              {
+                                "allowed": 1,
+                                "firstName": "Chad",
+                                "lastName": "Green",
+                                "playerId": 550041,
+                                "uniform": "57"
+                              }
+                            ],
+                            "player": {
+                              "firstName": "Bo",
+                              "lastName": "Bichette",
+                              "playerId": 917949,
+                              "uniform": "11"
+                            },
+                            "season": 9
+                          }
+                        ],
+                        "hitBatters": null,
+                        "hits": 12,
+                        "homeRuns": [
+                          {
+                            "details": [
+                              {
+                                "inning": 5,
+                                "menOnBase": 0,
+                                "outs": 0,
+                                "pitcher": {
+                                  "firstName": "Domingo",
+                                  "lastName": "German",
+                                  "playerId": 548637,
+                                  "uniform": "55"
+                                }
+                              }
+                            ],
+                            "game": 1,
+                            "player": {
+                              "firstName": "Derek",
+                              "lastName": "Fisher",
+                              "playerId": 597981,
+                              "uniform": "20"
+                            },
+                            "season": 3
+                          },
+                          {
+                            "details": [
+                              {
+                                "inning": 5,
+                                "menOnBase": 1,
+                                "outs": 0,
+                                "pitcher": {
+                                  "firstName": "Domingo",
+                                  "lastName": "German",
+                                  "playerId": 548637,
+                                  "uniform": "55"
+                                }
+                              }
+                            ],
+                            "game": 1,
+                            "player": {
+                              "firstName": "Bo",
+                              "lastName": "Bichette",
+                              "playerId": 917949,
+                              "uniform": "11"
+                            },
+                            "season": 4
+                          },
+                          {
+                            "details": [
+                              {
+                                "inning": 8,
+                                "menOnBase": 0,
+                                "outs": 1,
+                                "pitcher": {
+                                  "firstName": "Luis",
+                                  "lastName": "Cessa",
+                                  "playerId": 506912,
+                                  "uniform": "85"
+                                }
+                              }
+                            ],
+                            "game": 1,
+                            "player": {
+                              "firstName": "Reese",
+                              "lastName": "McGuire",
+                              "playerId": 737505,
+                              "uniform": "10"
+                            },
+                            "season": 2
+                          }
+                        ],
+                        "intentionalWalks": null,
+                        "runnersLeftOnBase": 9,
+                        "runs": 6,
+                        "runsBattedIn": 6,
+                        "scoringPositionOpportunities": 10,
+                        "scoringPositionSuccesses": 2,
+                        "stolenBases": null,
+                        "strikeouts": 11,
+                        "totalBases": 24,
+                        "triplePlays": 0,
+                        "twoOutRbi": 0,
+                        "twoOutRispLob": 5,
+                        "walks": 2
+                      }
+                    }
+                  ],
+                  "coverageLevel": {
+                    "coverageLevelId": 2,
+                    "details": "STATS Feed",
+                    "name": "Level 2"
+                  },
+                  "eventConference": {
+                    "abbreviation": "AL",
+                    "conferenceId": 5,
+                    "isInterleague": false,
+                    "name": "American League"
+                  },
+                  "eventId": 2103976,
+                  "eventStatus": {
+                    "balls": null,
+                    "currentBatter": null,
+                    "eventStatusId": 4,
+                    "inning": 9,
+                    "inningDivision": null,
+                    "isActive": false,
+                    "name": "Final",
+                    "outs": null,
+                    "runnersOnBase": [],
+                    "strikes": null
+                  },
+                  "gameDetail": {
+                    "attendance": "34108",
+                    "capacity": "49286",
+                    "gameNotes": null,
+                    "pitcherNotes": null,
+                    "timeOfGame": {
+                      "delayHours": 0,
+                      "delayMinutes": 0,
+                      "hours": 3,
+                      "minutes": 6
+                    },
+                    "umpireCrew": [
+                      {
+                        "umpire": {
+                          "firstName": "Jim",
+                          "lastName": "Wolf",
+                          "umpireId": 20117
+                        },
+                        "umpirePosition": {
+                          "name": "HP",
+                          "umpirePositionId": 2
+                        }
+                      },
+                      {
+                        "umpire": {
+                          "firstName": "Chris",
+                          "lastName": "Segal",
+                          "umpireId": 499245
+                        },
+                        "umpirePosition": {
+                          "name": "1B",
+                          "umpirePositionId": 3
+                        }
+                      },
+                      {
+                        "umpire": {
+                          "firstName": "Dan",
+                          "lastName": "Iassogna",
+                          "umpireId": 20104
+                        },
+                        "umpirePosition": {
+                          "name": "2B",
+                          "umpirePositionId": 4
+                        }
+                      },
+                      {
+                        "umpire": {
+                          "firstName": "Manny",
+                          "lastName": "Gonzalez",
+                          "umpireId": 495741
+                        },
+                        "umpirePosition": {
+                          "name": "3B",
+                          "umpirePositionId": 5
+                        }
+                      }
+                    ],
+                    "weather": {
+                      "description": "Partly Cloudy",
+                      "temperature": 78,
+                      "wind": "15 MPH Left to Right"
+                    }
+                  },
+                  "isDataConfirmed": {
+                    "box": true,
+                    "score": true
+                  },
+                  "isDoubleheader": false,
+                  "isTba": false,
+                  "seriesId": 195,
+                  "startDate": [
+                    {
+                      "date": 8,
+                      "dateType": "Local",
+                      "full": "2019-08-08T19:07:00",
+                      "hour": 19,
+                      "minute": 7,
+                      "month": 8,
+                      "year": 2019
+                    },
+                    {
+                      "date": 8,
+                      "dateType": "UTC",
+                      "full": "2019-08-08T23:07:00",
+                      "hour": 23,
+                      "minute": 7,
+                      "month": 8,
+                      "year": 2019
+                    }
+                  ],
+                  "teams": [
+                    {
+                      "abbreviation": "Tor",
+                      "conference": {
+                        "abbreviation": "AL",
+                        "conferenceId": 5,
+                        "name": "American League"
+                      },
+                      "isSplitSquad": false,
+                      "isWinner": false,
+                      "linescoreTotals": {
+                        "errors": 1,
+                        "hits": 12,
+                        "runs": 6
+                      },
+                      "liveState": {
+                        "currentPitcher": null,
+                        "nextUpBatters": []
+                      },
+                      "location": "Toronto",
+                      "nickname": "Blue Jays",
+                      "pitchers": [
+                        {
+                          "earnedRunAverage": "6.83",
+                          "losses": 5,
+                          "player": {
+                            "firstName": "Thomas",
+                            "lastName": "Pannone",
+                            "playerId": 658922,
+                            "uniform": "45"
+                          },
+                          "type": {
+                            "name": "lose",
+                            "typeId": 3
+                          },
+                          "wins": 2
+                        },
+                        {
+                          "earnedRunAverage": "6.83",
+                          "losses": 5,
+                          "player": {
+                            "firstName": "Thomas",
+                            "lastName": "Pannone",
+                            "playerId": 658922,
+                            "uniform": "45"
+                          },
+                          "type": {
+                            "name": "starter",
+                            "typeId": 1
+                          },
+                          "wins": 2
+                        }
+                      ],
+                      "record": {
+                        "losses": 71,
+                        "percentage": ".398",
+                        "wins": 47
+                      },
+                      "teamId": 238,
+                      "teamLocationType": {
+                        "name": "home",
+                        "teamLocationTypeId": 1
+                      }
+                    },
+                    {
+                      "abbreviation": "NYY",
+                      "conference": {
+                        "abbreviation": "AL",
+                        "conferenceId": 5,
+                        "name": "American League"
+                      },
+                      "isSplitSquad": false,
+                      "isWinner": true,
+                      "linescoreTotals": {
+                        "errors": 1,
+                        "hits": 15,
+                        "runs": 12
+                      },
+                      "liveState": {
+                        "currentPitcher": null,
+                        "nextUpBatters": []
+                      },
+                      "location": "New York",
+                      "nickname": "Yankees",
+                      "pitchers": [
+                        {
+                          "earnedRunAverage": "4.05",
+                          "losses": 2,
+                          "player": {
+                            "firstName": "Domingo",
+                            "lastName": "German",
+                            "playerId": 548637,
+                            "uniform": "55"
+                          },
+                          "type": {
+                            "name": "win",
+                            "typeId": 2
+                          },
+                          "wins": 15
+                        },
+                        {
+                          "earnedRunAverage": "3.70",
+                          "player": {
+                            "firstName": "Luis",
+                            "lastName": "Cessa",
+                            "playerId": 506912,
+                            "uniform": "85"
+                          },
+                          "saves": 1,
+                          "type": {
+                            "name": "save",
+                            "typeId": 4
+                          }
+                        },
+                        {
+                          "earnedRunAverage": "4.05",
+                          "losses": 2,
+                          "player": {
+                            "firstName": "Domingo",
+                            "lastName": "German",
+                            "playerId": 548637,
+                            "uniform": "55"
+                          },
+                          "type": {
+                            "name": "starter",
+                            "typeId": 1
+                          },
+                          "wins": 15
+                        }
+                      ],
+                      "record": {
+                        "losses": 39,
+                        "percentage": ".661",
+                        "wins": 76
+                      },
+                      "teamId": 234,
+                      "teamLocationType": {
+                        "name": "away",
+                        "teamLocationTypeId": 2
+                      }
+                    }
+                  ],
+                  "tvStations": [
+                    {
+                      "callLetters": "YES",
+                      "country": {
+                        "abbreviation": "USA",
+                        "countryId": 1,
+                        "name": "United States"
+                      },
+                      "name": "YES TV - New York",
+                      "networkType": {
+                        "name": "Regional",
+                        "networkTypeId": 2
+                      },
+                      "tvStationId": 691
+                    },
+                    {
+                      "callLetters": "RSN",
+                      "country": {
+                        "abbreviation": "CAN",
+                        "countryId": 2,
+                        "name": "Canada"
+                      },
+                      "name": "Rogers SportsNet",
+                      "networkType": {
+                        "name": "Regional",
+                        "networkTypeId": 2
+                      },
+                      "tvStationId": 686
+                    }
+                  ],
+                  "venue": {
+                    "city": "Toronto",
+                    "country": {
+                      "abbreviation": "CAN",
+                      "countryId": 2,
+                      "name": "Canada"
+                    },
+                    "name": "Rogers Centre",
+                    "state": {
+                      "abbreviation": "ON",
+                      "name": "Ontario",
+                      "stateId": 60
+                    },
+                    "venueId": 405
+                  }
+                }
+              ],
+              "name": "Regular Season"
+            }
+          ],
+          "isActive": false,
+          "name": "2019 MLB Season",
+          "season": 2019
+        }
+      },
+      "name": "Baseball",
+      "sportId": 2
+    }
+  ],
+  "endTimestamp": "2020-06-11T13:48:48.0984393Z",
+  "recordCount": 1,
+  "startTimestamp": "2020-06-11T13:48:48.0720711Z",
+  "status": "OK",
+  "timeTaken": 0.026368199999999998
+}

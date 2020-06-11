@@ -1,13 +1,13 @@
-import {getNflEventIds} from "../helpers/getNflEventIds/getNflEventIds";
-import {getFantasyDataFromNflGame} from "../helpers/getFantasyDataFromNflGame/getFantasyDataFromNflGame";
+import {getEventIdsByWeek} from "../helpers/getEventIdsByWeek/getEventIdsByWeek";
+import {getFantasyDataFromNFLGame} from "../helpers/getFantasyDataFromNflGame/getFantasyDataFromNFLGame";
 import * as _ from 'lodash'
 import * as Bluebird from 'bluebird'
 
 export const getFantasyData = async (event: any) => {
     const {sport, week, season} = event;
-    return getNflEventIds(week, season)
+    return getEventIdsByWeek(week, season)
         .then(eventIds => {
-            return Bluebird.map(eventIds, eventId => getFantasyDataFromNflGame(eventId))
+            return Bluebird.map(eventIds, eventId => getFantasyDataFromNFLGame(eventId))
         })
         .then(fantasyData => {
             return _.flatten(fantasyData)

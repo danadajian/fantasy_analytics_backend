@@ -6,42 +6,42 @@ describe('groupAndCalculateAverages', () => {
         const fantasyData = [
             [
                 {
-                    "DraftKings": 0.8,
-                    "Fanduel": 1.0,
-                    "Name": "Player 1",
-                    "PlayerId": 123
+                    DraftKings: 0.8,
+                    Fanduel: 1.0,
+                    name: "Player 1",
+                    playerId: 123
                 },
                 {
-                    "DraftKings": 69.6,
-                    "Fanduel": 69.6,
-                    "Name": "Player 69",
-                    "PlayerId": 69
+                    DraftKings: 69.6,
+                    Fanduel: 69.6,
+                    name: "Player 69",
+                    playerId: 69
                 },
                 {
-                    "DraftKings": 3.6,
-                    "Fanduel": 2.8,
-                    "Name": "Player 2",
-                    "PlayerId": 456
+                    DraftKings: 3.6,
+                    Fanduel: 2.8,
+                    name: "Player 2",
+                    playerId: 456
                 }
             ],
             [
                 {
-                    "DraftKings": 5.0,
-                    "Fanduel": 9.0,
-                    "Name": "Player 1",
-                    "PlayerId": 123
+                    DraftKings: 5.0,
+                    Fanduel: 9.0,
+                    name: "Player 1",
+                    playerId: 123
                 },
                 {
-                    "DraftKings": 27.8,
-                    "Fanduel": 20.8,
-                    "Name": "Player 2",
-                    "PlayerId": 456
+                    DraftKings: 27.8,
+                    Fanduel: 20.8,
+                    name: "Player 2",
+                    playerId: 456
                 },
                 {
-                    "DraftKings": 3.7,
-                    "Fanduel": 2.7,
-                    "Name": "Player 3",
-                    "PlayerId": 789
+                    DraftKings: 3.7,
+                    Fanduel: 2.7,
+                    name: "Player 3",
+                    playerId: 789
                 }
             ]
         ];
@@ -53,28 +53,28 @@ describe('groupAndCalculateAverages', () => {
         it('should return expected result', () => {
             expect(result).toEqual([
                 {
-                    "DraftKings": 69.6,
-                    "Fanduel": 69.6,
-                    "Name": "Player 69",
-                    "PlayerId": 69
+                    DraftKings: 69.6,
+                    Fanduel: 69.6,
+                    name: "Player 69",
+                    playerId: 69
                 },
                 {
-                    "Name": "Player 2",
-                    "DraftKings": 15.7,
-                    "Fanduel": 11.8,
-                    "PlayerId": 456
+                    name: "Player 2",
+                    DraftKings: 15.7,
+                    Fanduel: 11.8,
+                    playerId: 456
                 },
                 {
-                    "Name": "Player 1",
-                    "DraftKings": 2.9,
-                    "Fanduel": 5.0,
-                    "PlayerId": 123
+                    name: "Player 1",
+                    DraftKings: 2.9,
+                    Fanduel: 5.0,
+                    playerId: 123
                 },
                 {
-                    "DraftKings": 3.7,
-                    "Fanduel": 2.7,
-                    "Name": "Player 3",
-                    "PlayerId": 789
+                    DraftKings: 3.7,
+                    Fanduel: 2.7,
+                    name: "Player 3",
+                    playerId: 789
                 }
             ])
         });

@@ -1,4 +1,4 @@
-import {getNflEventIds} from "./getNflEventIds";
+import {getEventIdsByWeek} from "./getEventIdsByWeek";
 import {callApi} from "../callApi/callApi";
 
 const mockNflScheduleResponse = require('../../fixtures/nflScheduleResponse.json');
@@ -14,7 +14,7 @@ describe('getNflEventIds', () => {
 
         beforeEach(async () => {
             (callApi as jest.Mock).mockResolvedValue(mockNflScheduleResponse);
-            result = await getNflEventIds(week, season)
+            result = await getEventIdsByWeek(week, season)
         });
 
         it('should call callApi with correct params', () => {
@@ -48,7 +48,7 @@ describe('getNflEventIds', () => {
 
         beforeEach(async () => {
             (callApi as jest.Mock).mockResolvedValue({an: 'error'});
-            result = await getNflEventIds(week, season)
+            result = await getEventIdsByWeek(week, season)
         });
 
         it('should call callApi with correct params', () => {

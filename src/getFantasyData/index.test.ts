@@ -1,12 +1,12 @@
 import {getFantasyData} from "./index";
-import {getNflEventIds} from "../helpers/getNflEventIds/getNflEventIds";
-import {getFantasyDataFromNflGame} from "../helpers/getFantasyDataFromNflGame/getFantasyDataFromNflGame";
+import {getFantasyDataFromNFLGame} from "../helpers/getFantasyDataFromNflGame/getFantasyDataFromNFLGame";
+import {getEventIdsByWeek} from "../helpers/getEventIdsByWeek/getEventIdsByWeek";
 
-jest.mock('../helpers/getNflEventIds/getNflEventIds');
+jest.mock('../helpers/getEventIdsByWeek/getEventIdsByWeek');
 jest.mock('../helpers/getFantasyDataFromNflGame/getFantasyDataFromNflGame');
 
-(getNflEventIds as jest.Mock).mockResolvedValue([1, 2, 3]);
-(getFantasyDataFromNflGame as jest.Mock).mockResolvedValue([
+(getEventIdsByWeek as jest.Mock).mockResolvedValue([1, 2, 3]);
+(getFantasyDataFromNFLGame as jest.Mock).mockResolvedValue([
     {some: 'stuff'},
     {some: 'other stuff'}
 ]);
@@ -23,12 +23,12 @@ describe('getFantasyData', () => {
     });
 
     it('should call getNflEventIds with correct params', () => {
-        expect(getNflEventIds).toHaveBeenCalledWith(week, season)
+        expect(getEventIdsByWeek).toHaveBeenCalledWith(week, season)
     });
 
     it.each([1, 2, 3])(
         'should call getFantasyDataFromNflGame with correct params', (eventId) => {
-            expect(getFantasyDataFromNflGame).toHaveBeenCalledWith(eventId)
+            expect(getFantasyDataFromNFLGame).toHaveBeenCalledWith(eventId)
         }
     );
 
