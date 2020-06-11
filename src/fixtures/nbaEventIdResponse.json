@@ -1,0 +1,2083 @@
+{
+  "apiResults": [
+    {
+      "league": {
+        "abbreviation": "NBA",
+        "displayName": "National Basketball Assoc.",
+        "leagueId": 1,
+        "name": "National Basketball Assoc.",
+        "season": {
+          "eventType": [
+            {
+              "eventTypeId": 1,
+              "events": [
+                {
+                  "boxscores": [
+                    {
+                      "playerStats": [
+                        {
+                          "assists": 2,
+                          "blockedShots": 0,
+                          "blocksReceived": 0,
+                          "effectiveFieldGoalPercentage": ".667",
+                          "fieldGoals": {
+                            "attempted": 12,
+                            "made": 6,
+                            "percentage": ".500"
+                          },
+                          "flagrantFouls": 0,
+                          "foulsReceived": 2,
+                          "freeThrowRate": ".167",
+                          "freeThrows": {
+                            "attempted": 2,
+                            "made": 2,
+                            "percentage": "1.000"
+                          },
+                          "isDisqualification": false,
+                          "isEjected": false,
+                          "isGamePlayed": true,
+                          "isGameStarted": true,
+                          "minutesPlayed": 32,
+                          "personalFouls": 0,
+                          "player": {
+                            "firstName": "JJ",
+                            "lastName": "Redick",
+                            "playerId": 172643,
+                            "uniform": "4"
+                          },
+                          "plusMinus": 10,
+                          "points": 18,
+                          "rebounds": {
+                            "defensive": 5,
+                            "offensive": 0,
+                            "total": 5
+                          },
+                          "startingPosition": {
+                            "abbreviation": "G",
+                            "name": "Guard",
+                            "positionId": 3
+                          },
+                          "steals": 0,
+                          "technicalFouls": 0,
+                          "threePointFieldGoals": {
+                            "attempted": 9,
+                            "made": 4,
+                            "percentage": ".444"
+                          },
+                          "totalSecondsPlayed": 1945,
+                          "trueShootingPercentage": ".699",
+                          "turnovers": 0
+                        },
+                        {
+                          "assists": 1,
+                          "blockedShots": 0,
+                          "blocksReceived": 0,
+                          "effectiveFieldGoalPercentage": ".458",
+                          "fieldGoals": {
+                            "attempted": 12,
+                            "made": 5,
+                            "percentage": ".417"
+                          },
+                          "flagrantFouls": 0,
+                          "foulsReceived": 1,
+                          "freeThrowRate": ".000",
+                          "freeThrows": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "isDisqualification": false,
+                          "isEjected": false,
+                          "isGamePlayed": true,
+                          "isGameStarted": false,
+                          "minutesPlayed": 21,
+                          "personalFouls": 2,
+                          "player": {
+                            "firstName": "E'Twaun",
+                            "lastName": "Moore",
+                            "playerId": 398424,
+                            "uniform": "55"
+                          },
+                          "plusMinus": 6,
+                          "points": 11,
+                          "rebounds": {
+                            "defensive": 1,
+                            "offensive": 3,
+                            "total": 4
+                          },
+                          "steals": 0,
+                          "technicalFouls": 0,
+                          "threePointFieldGoals": {
+                            "attempted": 2,
+                            "made": 1,
+                            "percentage": ".500"
+                          },
+                          "totalSecondsPlayed": 1286,
+                          "trueShootingPercentage": ".458",
+                          "turnovers": 0
+                        },
+                        {
+                          "assists": 10,
+                          "blockedShots": 0,
+                          "blocksReceived": 2,
+                          "effectiveFieldGoalPercentage": ".583",
+                          "fieldGoals": {
+                            "attempted": 18,
+                            "made": 10,
+                            "percentage": ".556"
+                          },
+                          "flagrantFouls": 0,
+                          "foulsReceived": 3,
+                          "freeThrowRate": ".056",
+                          "freeThrows": {
+                            "attempted": 1,
+                            "made": 1,
+                            "percentage": "1.000"
+                          },
+                          "isDisqualification": false,
+                          "isEjected": false,
+                          "isGamePlayed": true,
+                          "isGameStarted": true,
+                          "minutesPlayed": 35,
+                          "personalFouls": 1,
+                          "player": {
+                            "firstName": "Jrue",
+                            "lastName": "Holiday",
+                            "playerId": 457576,
+                            "uniform": "11"
+                          },
+                          "plusMinus": 2,
+                          "points": 22,
+                          "rebounds": {
+                            "defensive": 3,
+                            "offensive": 2,
+                            "total": 5
+                          },
+                          "startingPosition": {
+                            "abbreviation": "G",
+                            "name": "Guard",
+                            "positionId": 3
+                          },
+                          "steals": 0,
+                          "technicalFouls": 0,
+                          "threePointFieldGoals": {
+                            "attempted": 4,
+                            "made": 1,
+                            "percentage": ".250"
+                          },
+                          "totalSecondsPlayed": 2089,
+                          "trueShootingPercentage": ".597",
+                          "turnovers": 5
+                        },
+                        {
+                          "assists": 0,
+                          "blockedShots": 0,
+                          "blocksReceived": 0,
+                          "didNotPlay": {
+                            "details": "Right achilles",
+                            "dnpType": {
+                              "dnpTypeId": 2,
+                              "name": "Injury"
+                            },
+                            "reason": "Inactive"
+                          },
+                          "fieldGoals": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "flagrantFouls": 0,
+                          "foulsReceived": 0,
+                          "freeThrowRate": ".000",
+                          "freeThrows": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "isDisqualification": false,
+                          "isEjected": false,
+                          "isGamePlayed": false,
+                          "isGameStarted": false,
+                          "minutesPlayed": 0,
+                          "personalFouls": 0,
+                          "player": {
+                            "firstName": "Darius",
+                            "lastName": "Miller",
+                            "playerId": 469484,
+                            "uniform": "21"
+                          },
+                          "plusMinus": 0,
+                          "points": 0,
+                          "rebounds": {
+                            "defensive": 0,
+                            "offensive": 0,
+                            "total": 0
+                          },
+                          "startingPosition": {
+                            "positionId": 0
+                          },
+                          "steals": 0,
+                          "technicalFouls": 0,
+                          "threePointFieldGoals": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "totalSecondsPlayed": 0,
+                          "turnovers": 0
+                        },
+                        {
+                          "assists": 0,
+                          "blockedShots": 0,
+                          "blocksReceived": 0,
+                          "didNotPlay": {
+                            "details": "Left lower back",
+                            "dnpType": {
+                              "dnpTypeId": 2,
+                              "name": "Injury"
+                            },
+                            "reason": "Inactive"
+                          },
+                          "fieldGoals": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "flagrantFouls": 0,
+                          "foulsReceived": 0,
+                          "freeThrowRate": ".000",
+                          "freeThrows": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "isDisqualification": false,
+                          "isEjected": false,
+                          "isGamePlayed": false,
+                          "isGameStarted": false,
+                          "minutesPlayed": 0,
+                          "personalFouls": 0,
+                          "player": {
+                            "firstName": "Derrick",
+                            "lastName": "Favors",
+                            "playerId": 502808,
+                            "uniform": "22"
+                          },
+                          "plusMinus": 0,
+                          "points": 0,
+                          "rebounds": {
+                            "defensive": 0,
+                            "offensive": 0,
+                            "total": 0
+                          },
+                          "startingPosition": {
+                            "positionId": 0
+                          },
+                          "steals": 0,
+                          "technicalFouls": 0,
+                          "threePointFieldGoals": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "totalSecondsPlayed": 0,
+                          "turnovers": 0
+                        },
+                        {
+                          "assists": 0,
+                          "blockedShots": 0,
+                          "blocksReceived": 0,
+                          "didNotPlay": {
+                            "details": "Coach's Decision",
+                            "dnpType": {
+                              "dnpTypeId": 1,
+                              "name": "Coach's Decision"
+                            },
+                            "reason": "Coach's Decision"
+                          },
+                          "fieldGoals": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "flagrantFouls": 0,
+                          "foulsReceived": 0,
+                          "freeThrowRate": ".000",
+                          "freeThrows": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "isDisqualification": false,
+                          "isEjected": false,
+                          "isGamePlayed": false,
+                          "isGameStarted": false,
+                          "minutesPlayed": 0,
+                          "personalFouls": 0,
+                          "player": {
+                            "firstName": "Josh",
+                            "lastName": "Gray",
+                            "playerId": 708918,
+                            "uniform": "5"
+                          },
+                          "plusMinus": 0,
+                          "points": 0,
+                          "rebounds": {
+                            "defensive": 0,
+                            "offensive": 0,
+                            "total": 0
+                          },
+                          "startingPosition": {
+                            "positionId": 0
+                          },
+                          "steals": 0,
+                          "technicalFouls": 0,
+                          "threePointFieldGoals": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "totalSecondsPlayed": 0,
+                          "turnovers": 0
+                        },
+                        {
+                          "assists": 0,
+                          "blockedShots": 0,
+                          "blocksReceived": 0,
+                          "didNotPlay": {
+                            "details": "Left ankle",
+                            "dnpType": {
+                              "dnpTypeId": 2,
+                              "name": "Injury"
+                            },
+                            "reason": "Injury/Illness"
+                          },
+                          "fieldGoals": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "flagrantFouls": 0,
+                          "foulsReceived": 0,
+                          "freeThrowRate": ".000",
+                          "freeThrows": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "isDisqualification": false,
+                          "isEjected": false,
+                          "isGamePlayed": false,
+                          "isGameStarted": false,
+                          "minutesPlayed": 0,
+                          "personalFouls": 0,
+                          "player": {
+                            "firstName": "Josh",
+                            "lastName": "Hart",
+                            "playerId": 741892,
+                            "uniform": "3"
+                          },
+                          "plusMinus": 0,
+                          "points": 0,
+                          "rebounds": {
+                            "defensive": 0,
+                            "offensive": 0,
+                            "total": 0
+                          },
+                          "startingPosition": {
+                            "positionId": 0
+                          },
+                          "steals": 0,
+                          "technicalFouls": 0,
+                          "threePointFieldGoals": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "totalSecondsPlayed": 0,
+                          "turnovers": 0
+                        },
+                        {
+                          "assists": 0,
+                          "blockedShots": 0,
+                          "blocksReceived": 0,
+                          "didNotPlay": {
+                            "details": "Left ankle",
+                            "dnpType": {
+                              "dnpTypeId": 2,
+                              "name": "Injury"
+                            },
+                            "reason": "Coach's Decision"
+                          },
+                          "fieldGoals": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "flagrantFouls": 0,
+                          "foulsReceived": 0,
+                          "freeThrowRate": ".000",
+                          "freeThrows": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "isDisqualification": false,
+                          "isEjected": false,
+                          "isGamePlayed": false,
+                          "isGameStarted": false,
+                          "minutesPlayed": 0,
+                          "personalFouls": 0,
+                          "player": {
+                            "firstName": "Jahlil",
+                            "lastName": "Okafor",
+                            "playerId": 842301,
+                            "uniform": "8"
+                          },
+                          "plusMinus": 0,
+                          "points": 0,
+                          "rebounds": {
+                            "defensive": 0,
+                            "offensive": 0,
+                            "total": 0
+                          },
+                          "startingPosition": {
+                            "positionId": 0
+                          },
+                          "steals": 0,
+                          "technicalFouls": 0,
+                          "threePointFieldGoals": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "totalSecondsPlayed": 0,
+                          "turnovers": 0
+                        },
+                        {
+                          "assists": 1,
+                          "blockedShots": 1,
+                          "blocksReceived": 0,
+                          "effectiveFieldGoalPercentage": "1.000",
+                          "fieldGoals": {
+                            "attempted": 3,
+                            "made": 2,
+                            "percentage": ".667"
+                          },
+                          "flagrantFouls": 0,
+                          "foulsReceived": 5,
+                          "freeThrowRate": ".667",
+                          "freeThrows": {
+                            "attempted": 4,
+                            "made": 2,
+                            "percentage": ".500"
+                          },
+                          "isDisqualification": false,
+                          "isEjected": false,
+                          "isGamePlayed": true,
+                          "isGameStarted": true,
+                          "minutesPlayed": 34,
+                          "personalFouls": 2,
+                          "player": {
+                            "firstName": "Kenrich",
+                            "lastName": "Williams",
+                            "playerId": 843742,
+                            "uniform": "34"
+                          },
+                          "plusMinus": 4,
+                          "points": 8,
+                          "rebounds": {
+                            "defensive": 10,
+                            "offensive": 3,
+                            "total": 13
+                          },
+                          "startingPosition": {
+                            "abbreviation": "F",
+                            "name": "Forward",
+                            "positionId": 7
+                          },
+                          "steals": 3,
+                          "technicalFouls": 0,
+                          "threePointFieldGoals": {
+                            "attempted": 2,
+                            "made": 2,
+                            "percentage": "1.000"
+                          },
+                          "totalSecondsPlayed": 2037,
+                          "trueShootingPercentage": ".840",
+                          "turnovers": 2
+                        },
+                        {
+                          "assists": 0,
+                          "blockedShots": 0,
+                          "blocksReceived": 0,
+                          "didNotPlay": {
+                            "details": "Coach's Decision",
+                            "dnpType": {
+                              "dnpTypeId": 1,
+                              "name": "Coach's Decision"
+                            },
+                            "reason": "Coach's Decision"
+                          },
+                          "fieldGoals": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "flagrantFouls": 0,
+                          "foulsReceived": 0,
+                          "freeThrowRate": ".000",
+                          "freeThrows": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "isDisqualification": false,
+                          "isEjected": false,
+                          "isGamePlayed": false,
+                          "isGameStarted": false,
+                          "minutesPlayed": 0,
+                          "personalFouls": 0,
+                          "player": {
+                            "firstName": "Zylan",
+                            "lastName": "Cheatham",
+                            "playerId": 846964,
+                            "uniform": "45"
+                          },
+                          "plusMinus": 0,
+                          "points": 0,
+                          "rebounds": {
+                            "defensive": 0,
+                            "offensive": 0,
+                            "total": 0
+                          },
+                          "startingPosition": {
+                            "positionId": 0
+                          },
+                          "steals": 0,
+                          "technicalFouls": 0,
+                          "threePointFieldGoals": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "totalSecondsPlayed": 0,
+                          "turnovers": 0
+                        },
+                        {
+                          "assists": 5,
+                          "blockedShots": 1,
+                          "blocksReceived": 1,
+                          "effectiveFieldGoalPercentage": ".425",
+                          "fieldGoals": {
+                            "attempted": 20,
+                            "made": 8,
+                            "percentage": ".400"
+                          },
+                          "flagrantFouls": 0,
+                          "foulsReceived": 4,
+                          "freeThrowRate": ".200",
+                          "freeThrows": {
+                            "attempted": 4,
+                            "made": 4,
+                            "percentage": "1.000"
+                          },
+                          "isDisqualification": false,
+                          "isEjected": false,
+                          "isGamePlayed": true,
+                          "isGameStarted": true,
+                          "minutesPlayed": 35,
+                          "personalFouls": 0,
+                          "player": {
+                            "firstName": "Brandon",
+                            "lastName": "Ingram",
+                            "playerId": 887665,
+                            "uniform": "14"
+                          },
+                          "plusMinus": 16,
+                          "points": 21,
+                          "rebounds": {
+                            "defensive": 7,
+                            "offensive": 0,
+                            "total": 7
+                          },
+                          "startingPosition": {
+                            "abbreviation": "F",
+                            "name": "Forward",
+                            "positionId": 7
+                          },
+                          "steals": 2,
+                          "technicalFouls": 0,
+                          "threePointFieldGoals": {
+                            "attempted": 5,
+                            "made": 1,
+                            "percentage": ".200"
+                          },
+                          "totalSecondsPlayed": 2073,
+                          "trueShootingPercentage": ".483",
+                          "turnovers": 3
+                        },
+                        {
+                          "assists": 0,
+                          "blockedShots": 0,
+                          "blocksReceived": 0,
+                          "effectiveFieldGoalPercentage": ".750",
+                          "fieldGoals": {
+                            "attempted": 4,
+                            "made": 2,
+                            "percentage": ".500"
+                          },
+                          "flagrantFouls": 0,
+                          "foulsReceived": 2,
+                          "freeThrowRate": ".750",
+                          "freeThrows": {
+                            "attempted": 4,
+                            "made": 3,
+                            "percentage": ".750"
+                          },
+                          "isDisqualification": false,
+                          "isEjected": false,
+                          "isGamePlayed": true,
+                          "isGameStarted": false,
+                          "minutesPlayed": 19,
+                          "personalFouls": 3,
+                          "player": {
+                            "firstName": "Frank",
+                            "lastName": "Jackson",
+                            "playerId": 937667,
+                            "uniform": "15"
+                          },
+                          "plusMinus": 1,
+                          "points": 9,
+                          "rebounds": {
+                            "defensive": 2,
+                            "offensive": 0,
+                            "total": 2
+                          },
+                          "steals": 0,
+                          "technicalFouls": 0,
+                          "threePointFieldGoals": {
+                            "attempted": 4,
+                            "made": 2,
+                            "percentage": ".500"
+                          },
+                          "totalSecondsPlayed": 1155,
+                          "trueShootingPercentage": ".781",
+                          "turnovers": 1
+                        },
+                        {
+                          "assists": 0,
+                          "blockedShots": 0,
+                          "blocksReceived": 0,
+                          "didNotPlay": {
+                            "details": "Right adductor",
+                            "dnpType": {
+                              "dnpTypeId": 2,
+                              "name": "Injury"
+                            },
+                            "reason": "Inactive"
+                          },
+                          "fieldGoals": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "flagrantFouls": 0,
+                          "foulsReceived": 0,
+                          "freeThrowRate": ".000",
+                          "freeThrows": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "isDisqualification": false,
+                          "isEjected": false,
+                          "isGamePlayed": false,
+                          "isGameStarted": false,
+                          "minutesPlayed": 0,
+                          "personalFouls": 0,
+                          "player": {
+                            "firstName": "Lonzo",
+                            "lastName": "Ball",
+                            "playerId": 946714,
+                            "uniform": "2"
+                          },
+                          "plusMinus": 0,
+                          "points": 0,
+                          "rebounds": {
+                            "defensive": 0,
+                            "offensive": 0,
+                            "total": 0
+                          },
+                          "startingPosition": {
+                            "positionId": 0
+                          },
+                          "steals": 0,
+                          "technicalFouls": 0,
+                          "threePointFieldGoals": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "totalSecondsPlayed": 0,
+                          "turnovers": 0
+                        },
+                        {
+                          "assists": 1,
+                          "blockedShots": 0,
+                          "blocksReceived": 0,
+                          "effectiveFieldGoalPercentage": ".250",
+                          "fieldGoals": {
+                            "attempted": 6,
+                            "made": 1,
+                            "percentage": ".167"
+                          },
+                          "flagrantFouls": 0,
+                          "foulsReceived": 0,
+                          "freeThrowRate": ".000",
+                          "freeThrows": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "isDisqualification": false,
+                          "isEjected": false,
+                          "isGamePlayed": true,
+                          "isGameStarted": false,
+                          "minutesPlayed": 16,
+                          "personalFouls": 2,
+                          "player": {
+                            "firstName": "Nickeil",
+                            "lastName": "Alexander-Walker",
+                            "playerId": 1067668,
+                            "uniform": "0"
+                          },
+                          "plusMinus": 5,
+                          "points": 3,
+                          "rebounds": {
+                            "defensive": 4,
+                            "offensive": 0,
+                            "total": 4
+                          },
+                          "steals": 0,
+                          "technicalFouls": 0,
+                          "threePointFieldGoals": {
+                            "attempted": 4,
+                            "made": 1,
+                            "percentage": ".250"
+                          },
+                          "totalSecondsPlayed": 935,
+                          "trueShootingPercentage": ".250",
+                          "turnovers": 2
+                        },
+                        {
+                          "assists": 0,
+                          "blockedShots": 0,
+                          "blocksReceived": 0,
+                          "didNotPlay": {
+                            "details": "Right knee",
+                            "dnpType": {
+                              "dnpTypeId": 2,
+                              "name": "Injury"
+                            },
+                            "reason": "Inactive"
+                          },
+                          "fieldGoals": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "flagrantFouls": 0,
+                          "foulsReceived": 0,
+                          "freeThrowRate": ".000",
+                          "freeThrows": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "isDisqualification": false,
+                          "isEjected": false,
+                          "isGamePlayed": false,
+                          "isGameStarted": false,
+                          "minutesPlayed": 0,
+                          "personalFouls": 0,
+                          "player": {
+                            "firstName": "Zion",
+                            "lastName": "Williamson",
+                            "playerId": 1132025,
+                            "uniform": "1"
+                          },
+                          "plusMinus": 0,
+                          "points": 0,
+                          "rebounds": {
+                            "defensive": 0,
+                            "offensive": 0,
+                            "total": 0
+                          },
+                          "startingPosition": {
+                            "positionId": 0
+                          },
+                          "steals": 0,
+                          "technicalFouls": 0,
+                          "threePointFieldGoals": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "totalSecondsPlayed": 0,
+                          "turnovers": 0
+                        },
+                        {
+                          "assists": 0,
+                          "blockedShots": 3,
+                          "blocksReceived": 1,
+                          "effectiveFieldGoalPercentage": ".375",
+                          "fieldGoals": {
+                            "attempted": 8,
+                            "made": 3,
+                            "percentage": ".375"
+                          },
+                          "flagrantFouls": 0,
+                          "foulsReceived": 2,
+                          "freeThrowRate": ".375",
+                          "freeThrows": {
+                            "attempted": 4,
+                            "made": 3,
+                            "percentage": ".750"
+                          },
+                          "isDisqualification": false,
+                          "isEjected": false,
+                          "isGamePlayed": true,
+                          "isGameStarted": true,
+                          "minutesPlayed": 21,
+                          "personalFouls": 2,
+                          "player": {
+                            "firstName": "Jaxson",
+                            "lastName": "Hayes",
+                            "playerId": 1140887,
+                            "uniform": "10"
+                          },
+                          "plusMinus": 10,
+                          "points": 9,
+                          "rebounds": {
+                            "defensive": 3,
+                            "offensive": 4,
+                            "total": 7
+                          },
+                          "startingPosition": {
+                            "abbreviation": "C",
+                            "name": "Center",
+                            "positionId": 9
+                          },
+                          "steals": 2,
+                          "technicalFouls": 0,
+                          "threePointFieldGoals": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "totalSecondsPlayed": 1237,
+                          "trueShootingPercentage": ".461",
+                          "turnovers": 0
+                        },
+                        {
+                          "assists": 4,
+                          "blockedShots": 0,
+                          "blocksReceived": 0,
+                          "effectiveFieldGoalPercentage": ".450",
+                          "fieldGoals": {
+                            "attempted": 10,
+                            "made": 4,
+                            "percentage": ".400"
+                          },
+                          "flagrantFouls": 0,
+                          "foulsReceived": 4,
+                          "freeThrowRate": ".500",
+                          "freeThrows": {
+                            "attempted": 5,
+                            "made": 5,
+                            "percentage": "1.000"
+                          },
+                          "isDisqualification": false,
+                          "isEjected": false,
+                          "isGamePlayed": true,
+                          "isGameStarted": false,
+                          "minutesPlayed": 27,
+                          "personalFouls": 3,
+                          "player": {
+                            "firstName": "Nicolo",
+                            "lastName": "Melli",
+                            "playerId": 1178793,
+                            "uniform": "20"
+                          },
+                          "plusMinus": 1,
+                          "points": 14,
+                          "rebounds": {
+                            "defensive": 2,
+                            "offensive": 4,
+                            "total": 6
+                          },
+                          "steals": 3,
+                          "technicalFouls": 0,
+                          "threePointFieldGoals": {
+                            "attempted": 6,
+                            "made": 1,
+                            "percentage": ".167"
+                          },
+                          "totalSecondsPlayed": 1643,
+                          "trueShootingPercentage": ".574",
+                          "turnovers": 0
+                        }
+                      ],
+                      "teamId": 3,
+                      "teamStats": {
+                        "assists": 24,
+                        "biggestLead": 17,
+                        "blockedShots": 5,
+                        "defensive3Seconds": 1,
+                        "disqualifications": 0,
+                        "dunks": 4,
+                        "ejections": {
+                          "coach": 0,
+                          "player": 0
+                        },
+                        "fastBreakPoints": 14,
+                        "fieldGoals": {
+                          "attempted": 93,
+                          "made": 41,
+                          "percentage": ".441"
+                        },
+                        "flagrantFouls": 0,
+                        "freeThrows": {
+                          "attempted": 24,
+                          "made": 20,
+                          "percentage": ".833"
+                        },
+                        "hooks": 0,
+                        "jumpshots": 16,
+                        "layups": 11,
+                        "minutes": 240,
+                        "personalFouls": 15,
+                        "points": 115,
+                        "pointsInPaint": 48,
+                        "pointsOffTurnovers": 13,
+                        "rebounds": {
+                          "defensive": 37,
+                          "offensive": 16,
+                          "team": 6,
+                          "total": 53
+                        },
+                        "secondChancePoints": 16,
+                        "steals": 10,
+                        "technicalFouls": {
+                          "bench": 0,
+                          "coach": 0,
+                          "player": 0,
+                          "team": 1
+                        },
+                        "threePointFieldGoals": {
+                          "attempted": 36,
+                          "made": 13,
+                          "percentage": ".361"
+                        },
+                        "timeoutsRemaining": {},
+                        "tipins": 0,
+                        "turnovers": {
+                          "team": 0,
+                          "total": 13
+                        }
+                      }
+                    },
+                    {
+                      "playerStats": [
+                        {
+                          "assists": 0,
+                          "blockedShots": 0,
+                          "blocksReceived": 0,
+                          "didNotPlay": {
+                            "details": "Left foot",
+                            "dnpType": {
+                              "dnpTypeId": 2,
+                              "name": "Injury"
+                            },
+                            "reason": "Inactive"
+                          },
+                          "fieldGoals": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "flagrantFouls": 0,
+                          "foulsReceived": 0,
+                          "freeThrowRate": ".000",
+                          "freeThrows": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "isDisqualification": false,
+                          "isEjected": false,
+                          "isGamePlayed": false,
+                          "isGameStarted": false,
+                          "minutesPlayed": 0,
+                          "personalFouls": 0,
+                          "player": {
+                            "firstName": "Pau",
+                            "lastName": "Gasol",
+                            "playerId": 3494,
+                            "uniform": "16"
+                          },
+                          "plusMinus": 0,
+                          "points": 0,
+                          "rebounds": {
+                            "defensive": 0,
+                            "offensive": 0,
+                            "total": 0
+                          },
+                          "startingPosition": {
+                            "positionId": 0
+                          },
+                          "steals": 0,
+                          "technicalFouls": 0,
+                          "threePointFieldGoals": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "totalSecondsPlayed": 0,
+                          "turnovers": 0
+                        },
+                        {
+                          "assists": 0,
+                          "blockedShots": 1,
+                          "blocksReceived": 3,
+                          "effectiveFieldGoalPercentage": ".357",
+                          "fieldGoals": {
+                            "attempted": 14,
+                            "made": 4,
+                            "percentage": ".286"
+                          },
+                          "flagrantFouls": 0,
+                          "foulsReceived": 1,
+                          "freeThrowRate": ".000",
+                          "freeThrows": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "isDisqualification": false,
+                          "isEjected": false,
+                          "isGamePlayed": true,
+                          "isGameStarted": true,
+                          "minutesPlayed": 24,
+                          "personalFouls": 5,
+                          "player": {
+                            "firstName": "Carmelo",
+                            "lastName": "Anthony",
+                            "playerId": 172890,
+                            "uniform": "00"
+                          },
+                          "plusMinus": -20,
+                          "points": 10,
+                          "rebounds": {
+                            "defensive": 4,
+                            "offensive": 0,
+                            "total": 4
+                          },
+                          "startingPosition": {
+                            "abbreviation": "F",
+                            "name": "Forward",
+                            "positionId": 7
+                          },
+                          "steals": 0,
+                          "technicalFouls": 0,
+                          "threePointFieldGoals": {
+                            "attempted": 3,
+                            "made": 2,
+                            "percentage": ".667"
+                          },
+                          "totalSecondsPlayed": 1417,
+                          "trueShootingPercentage": ".357",
+                          "turnovers": 5
+                        },
+                        {
+                          "assists": 0,
+                          "blockedShots": 0,
+                          "blocksReceived": 0,
+                          "didNotPlay": {
+                            "details": "Coach's Decision",
+                            "dnpType": {
+                              "dnpTypeId": 1,
+                              "name": "Coach's Decision"
+                            },
+                            "reason": "Coach's Decision"
+                          },
+                          "fieldGoals": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "flagrantFouls": 0,
+                          "foulsReceived": 0,
+                          "freeThrowRate": ".000",
+                          "freeThrows": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "isDisqualification": false,
+                          "isEjected": false,
+                          "isGamePlayed": false,
+                          "isGameStarted": false,
+                          "minutesPlayed": 0,
+                          "personalFouls": 0,
+                          "player": {
+                            "firstName": "Anthony",
+                            "lastName": "Tolliver",
+                            "playerId": 229905,
+                            "uniform": "43"
+                          },
+                          "plusMinus": 0,
+                          "points": 0,
+                          "rebounds": {
+                            "defensive": 0,
+                            "offensive": 0,
+                            "total": 0
+                          },
+                          "startingPosition": {
+                            "positionId": 0
+                          },
+                          "steals": 0,
+                          "technicalFouls": 0,
+                          "threePointFieldGoals": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "totalSecondsPlayed": 0,
+                          "turnovers": 0
+                        },
+                        {
+                          "assists": 4,
+                          "blockedShots": 0,
+                          "blocksReceived": 0,
+                          "effectiveFieldGoalPercentage": ".563",
+                          "fieldGoals": {
+                            "attempted": 8,
+                            "made": 3,
+                            "percentage": ".375"
+                          },
+                          "flagrantFouls": 0,
+                          "foulsReceived": 4,
+                          "freeThrowRate": ".250",
+                          "freeThrows": {
+                            "attempted": 2,
+                            "made": 2,
+                            "percentage": "1.000"
+                          },
+                          "isDisqualification": false,
+                          "isEjected": false,
+                          "isGamePlayed": true,
+                          "isGameStarted": false,
+                          "minutesPlayed": 28,
+                          "personalFouls": 2,
+                          "player": {
+                            "firstName": "Kent",
+                            "lastName": "Bazemore",
+                            "playerId": 410764,
+                            "uniform": "24"
+                          },
+                          "plusMinus": -10,
+                          "points": 11,
+                          "rebounds": {
+                            "defensive": 3,
+                            "offensive": 0,
+                            "total": 3
+                          },
+                          "steals": 0,
+                          "technicalFouls": 0,
+                          "threePointFieldGoals": {
+                            "attempted": 5,
+                            "made": 3,
+                            "percentage": ".600"
+                          },
+                          "totalSecondsPlayed": 1680,
+                          "trueShootingPercentage": ".619",
+                          "turnovers": 3
+                        },
+                        {
+                          "assists": 0,
+                          "blockedShots": 0,
+                          "blocksReceived": 0,
+                          "didNotPlay": {
+                            "details": "Back spasms",
+                            "dnpType": {
+                              "dnpTypeId": 2,
+                              "name": "Injury"
+                            },
+                            "reason": "Injury/Illness"
+                          },
+                          "fieldGoals": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "flagrantFouls": 0,
+                          "foulsReceived": 0,
+                          "freeThrowRate": ".000",
+                          "freeThrows": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "isDisqualification": false,
+                          "isEjected": false,
+                          "isGamePlayed": false,
+                          "isGameStarted": false,
+                          "minutesPlayed": 0,
+                          "personalFouls": 0,
+                          "player": {
+                            "firstName": "Damian",
+                            "lastName": "Lillard",
+                            "playerId": 463121,
+                            "uniform": "0"
+                          },
+                          "plusMinus": 0,
+                          "points": 0,
+                          "rebounds": {
+                            "defensive": 0,
+                            "offensive": 0,
+                            "total": 0
+                          },
+                          "startingPosition": {
+                            "positionId": 0
+                          },
+                          "steals": 0,
+                          "technicalFouls": 0,
+                          "threePointFieldGoals": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "totalSecondsPlayed": 0,
+                          "turnovers": 0
+                        },
+                        {
+                          "assists": 0,
+                          "blockedShots": 1,
+                          "blocksReceived": 0,
+                          "effectiveFieldGoalPercentage": ".714",
+                          "fieldGoals": {
+                            "attempted": 7,
+                            "made": 5,
+                            "percentage": ".714"
+                          },
+                          "flagrantFouls": 0,
+                          "foulsReceived": 2,
+                          "freeThrowRate": ".571",
+                          "freeThrows": {
+                            "attempted": 4,
+                            "made": 4,
+                            "percentage": "1.000"
+                          },
+                          "isDisqualification": false,
+                          "isEjected": false,
+                          "isGamePlayed": true,
+                          "isGameStarted": true,
+                          "minutesPlayed": 29,
+                          "personalFouls": 3,
+                          "player": {
+                            "firstName": "Hassan",
+                            "lastName": "Whiteside",
+                            "playerId": 513234,
+                            "uniform": "21"
+                          },
+                          "plusMinus": -3,
+                          "points": 14,
+                          "rebounds": {
+                            "defensive": 10,
+                            "offensive": 4,
+                            "total": 14
+                          },
+                          "startingPosition": {
+                            "abbreviation": "C",
+                            "name": "Center",
+                            "positionId": 9
+                          },
+                          "steals": 0,
+                          "technicalFouls": 0,
+                          "threePointFieldGoals": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "totalSecondsPlayed": 1756,
+                          "trueShootingPercentage": ".799",
+                          "turnovers": 4
+                        },
+                        {
+                          "assists": 5,
+                          "blockedShots": 1,
+                          "blocksReceived": 0,
+                          "effectiveFieldGoalPercentage": ".500",
+                          "fieldGoals": {
+                            "attempted": 22,
+                            "made": 9,
+                            "percentage": ".409"
+                          },
+                          "flagrantFouls": 0,
+                          "foulsReceived": 2,
+                          "freeThrowRate": ".000",
+                          "freeThrows": {
+                            "attempted": 1,
+                            "made": 0,
+                            "percentage": ".000"
+                          },
+                          "isDisqualification": false,
+                          "isEjected": false,
+                          "isGamePlayed": true,
+                          "isGameStarted": true,
+                          "minutesPlayed": 35,
+                          "personalFouls": 2,
+                          "player": {
+                            "firstName": "CJ",
+                            "lastName": "McCollum",
+                            "playerId": 522878,
+                            "uniform": "3"
+                          },
+                          "plusMinus": -9,
+                          "points": 22,
+                          "rebounds": {
+                            "defensive": 2,
+                            "offensive": 2,
+                            "total": 4
+                          },
+                          "startingPosition": {
+                            "abbreviation": "G",
+                            "name": "Guard",
+                            "positionId": 3
+                          },
+                          "steals": 2,
+                          "technicalFouls": 0,
+                          "threePointFieldGoals": {
+                            "attempted": 10,
+                            "made": 4,
+                            "percentage": ".400"
+                          },
+                          "totalSecondsPlayed": 2115,
+                          "trueShootingPercentage": ".490",
+                          "turnovers": 1
+                        },
+                        {
+                          "assists": 4,
+                          "blockedShots": 0,
+                          "blocksReceived": 1,
+                          "effectiveFieldGoalPercentage": ".333",
+                          "fieldGoals": {
+                            "attempted": 12,
+                            "made": 4,
+                            "percentage": ".333"
+                          },
+                          "flagrantFouls": 0,
+                          "foulsReceived": 1,
+                          "freeThrowRate": ".000",
+                          "freeThrows": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "isDisqualification": false,
+                          "isEjected": false,
+                          "isGamePlayed": true,
+                          "isGameStarted": true,
+                          "minutesPlayed": 32,
+                          "personalFouls": 2,
+                          "player": {
+                            "firstName": "Rodney",
+                            "lastName": "Hood",
+                            "playerId": 603106,
+                            "uniform": "5"
+                          },
+                          "plusMinus": -8,
+                          "points": 8,
+                          "rebounds": {
+                            "defensive": 4,
+                            "offensive": 1,
+                            "total": 5
+                          },
+                          "startingPosition": {
+                            "abbreviation": "F",
+                            "name": "Forward",
+                            "positionId": 7
+                          },
+                          "steals": 1,
+                          "technicalFouls": 0,
+                          "threePointFieldGoals": {
+                            "attempted": 2,
+                            "made": 0,
+                            "percentage": ".000"
+                          },
+                          "totalSecondsPlayed": 1901,
+                          "trueShootingPercentage": ".333",
+                          "turnovers": 1
+                        },
+                        {
+                          "assists": 0,
+                          "blockedShots": 0,
+                          "blocksReceived": 0,
+                          "didNotPlay": {
+                            "details": "Left leg",
+                            "dnpType": {
+                              "dnpTypeId": 2,
+                              "name": "Injury"
+                            },
+                            "reason": "Inactive"
+                          },
+                          "fieldGoals": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "flagrantFouls": 0,
+                          "foulsReceived": 0,
+                          "freeThrowRate": ".000",
+                          "freeThrows": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "isDisqualification": false,
+                          "isEjected": false,
+                          "isGamePlayed": false,
+                          "isGameStarted": false,
+                          "minutesPlayed": 0,
+                          "personalFouls": 0,
+                          "player": {
+                            "firstName": "Jusuf",
+                            "lastName": "Nurkic",
+                            "playerId": 830642,
+                            "uniform": "27"
+                          },
+                          "plusMinus": 0,
+                          "points": 0,
+                          "rebounds": {
+                            "defensive": 0,
+                            "offensive": 0,
+                            "total": 0
+                          },
+                          "startingPosition": {
+                            "positionId": 0
+                          },
+                          "steals": 0,
+                          "technicalFouls": 0,
+                          "threePointFieldGoals": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "totalSecondsPlayed": 0,
+                          "turnovers": 0
+                        },
+                        {
+                          "assists": 2,
+                          "blockedShots": 0,
+                          "blocksReceived": 0,
+                          "effectiveFieldGoalPercentage": ".700",
+                          "fieldGoals": {
+                            "attempted": 5,
+                            "made": 3,
+                            "percentage": ".600"
+                          },
+                          "flagrantFouls": 0,
+                          "foulsReceived": 0,
+                          "freeThrowRate": ".000",
+                          "freeThrows": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "isDisqualification": false,
+                          "isEjected": false,
+                          "isGamePlayed": true,
+                          "isGameStarted": false,
+                          "minutesPlayed": 13,
+                          "personalFouls": 0,
+                          "player": {
+                            "firstName": "Mario",
+                            "lastName": "Hezonja",
+                            "playerId": 840595,
+                            "uniform": "44"
+                          },
+                          "plusMinus": -2,
+                          "points": 7,
+                          "rebounds": {
+                            "defensive": 2,
+                            "offensive": 0,
+                            "total": 2
+                          },
+                          "steals": 0,
+                          "technicalFouls": 0,
+                          "threePointFieldGoals": {
+                            "attempted": 1,
+                            "made": 1,
+                            "percentage": "1.000"
+                          },
+                          "totalSecondsPlayed": 765,
+                          "trueShootingPercentage": ".700",
+                          "turnovers": 1
+                        },
+                        {
+                          "assists": 0,
+                          "blockedShots": 0,
+                          "blocksReceived": 0,
+                          "effectiveFieldGoalPercentage": ".500",
+                          "fieldGoals": {
+                            "attempted": 4,
+                            "made": 2,
+                            "percentage": ".500"
+                          },
+                          "flagrantFouls": 0,
+                          "foulsReceived": 0,
+                          "freeThrowRate": ".000",
+                          "freeThrows": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "isDisqualification": false,
+                          "isEjected": false,
+                          "isGamePlayed": true,
+                          "isGameStarted": false,
+                          "minutesPlayed": 19,
+                          "personalFouls": 3,
+                          "player": {
+                            "firstName": "Skal",
+                            "lastName": "Labissiere",
+                            "playerId": 891349,
+                            "uniform": "17"
+                          },
+                          "plusMinus": -8,
+                          "points": 4,
+                          "rebounds": {
+                            "defensive": 2,
+                            "offensive": 0,
+                            "total": 2
+                          },
+                          "steals": 1,
+                          "technicalFouls": 0,
+                          "threePointFieldGoals": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "totalSecondsPlayed": 1124,
+                          "trueShootingPercentage": ".500",
+                          "turnovers": 0
+                        },
+                        {
+                          "assists": 0,
+                          "blockedShots": 0,
+                          "blocksReceived": 0,
+                          "didNotPlay": {
+                            "details": "Left shoulder",
+                            "dnpType": {
+                              "dnpTypeId": 2,
+                              "name": "Injury"
+                            },
+                            "reason": "Inactive"
+                          },
+                          "fieldGoals": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "flagrantFouls": 0,
+                          "foulsReceived": 0,
+                          "freeThrowRate": ".000",
+                          "freeThrows": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "isDisqualification": false,
+                          "isEjected": false,
+                          "isGamePlayed": false,
+                          "isGameStarted": false,
+                          "minutesPlayed": 0,
+                          "personalFouls": 0,
+                          "player": {
+                            "firstName": "Zach",
+                            "lastName": "Collins",
+                            "playerId": 955887,
+                            "uniform": "33"
+                          },
+                          "plusMinus": 0,
+                          "points": 0,
+                          "rebounds": {
+                            "defensive": 0,
+                            "offensive": 0,
+                            "total": 0
+                          },
+                          "startingPosition": {
+                            "positionId": 0
+                          },
+                          "steals": 0,
+                          "technicalFouls": 0,
+                          "threePointFieldGoals": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "totalSecondsPlayed": 0,
+                          "turnovers": 0
+                        },
+                        {
+                          "assists": 0,
+                          "blockedShots": 0,
+                          "blocksReceived": 0,
+                          "effectiveFieldGoalPercentage": "1.500",
+                          "fieldGoals": {
+                            "attempted": 1,
+                            "made": 1,
+                            "percentage": "1.000"
+                          },
+                          "flagrantFouls": 0,
+                          "foulsReceived": 0,
+                          "freeThrowRate": ".000",
+                          "freeThrows": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "isDisqualification": false,
+                          "isEjected": false,
+                          "isGamePlayed": true,
+                          "isGameStarted": false,
+                          "minutesPlayed": 2,
+                          "personalFouls": 0,
+                          "player": {
+                            "firstName": "Gary",
+                            "lastName": "Trent Jr.",
+                            "playerId": 1060908,
+                            "uniform": "2"
+                          },
+                          "plusMinus": 4,
+                          "points": 3,
+                          "rebounds": {
+                            "defensive": 0,
+                            "offensive": 0,
+                            "total": 0
+                          },
+                          "steals": 0,
+                          "technicalFouls": 0,
+                          "threePointFieldGoals": {
+                            "attempted": 1,
+                            "made": 1,
+                            "percentage": "1.000"
+                          },
+                          "totalSecondsPlayed": 129,
+                          "trueShootingPercentage": "1.500",
+                          "turnovers": 1
+                        },
+                        {
+                          "assists": 4,
+                          "blockedShots": 0,
+                          "blocksReceived": 1,
+                          "effectiveFieldGoalPercentage": ".423",
+                          "fieldGoals": {
+                            "attempted": 13,
+                            "made": 4,
+                            "percentage": ".308"
+                          },
+                          "flagrantFouls": 0,
+                          "foulsReceived": 4,
+                          "freeThrowRate": ".154",
+                          "freeThrows": {
+                            "attempted": 4,
+                            "made": 2,
+                            "percentage": ".500"
+                          },
+                          "isDisqualification": false,
+                          "isEjected": false,
+                          "isGamePlayed": true,
+                          "isGameStarted": true,
+                          "minutesPlayed": 36,
+                          "personalFouls": 2,
+                          "player": {
+                            "firstName": "Anfernee",
+                            "lastName": "Simons",
+                            "playerId": 1121307,
+                            "uniform": "1"
+                          },
+                          "plusMinus": -8,
+                          "points": 13,
+                          "rebounds": {
+                            "defensive": 3,
+                            "offensive": 0,
+                            "total": 3
+                          },
+                          "startingPosition": {
+                            "abbreviation": "G",
+                            "name": "Guard",
+                            "positionId": 3
+                          },
+                          "steals": 0,
+                          "technicalFouls": 0,
+                          "threePointFieldGoals": {
+                            "attempted": 5,
+                            "made": 3,
+                            "percentage": ".600"
+                          },
+                          "totalSecondsPlayed": 2161,
+                          "trueShootingPercentage": ".440",
+                          "turnovers": 0
+                        },
+                        {
+                          "assists": 0,
+                          "blockedShots": 0,
+                          "blocksReceived": 0,
+                          "didNotPlay": {
+                            "details": "Coach's Decision",
+                            "dnpType": {
+                              "dnpTypeId": 1,
+                              "name": "Coach's Decision"
+                            },
+                            "reason": "Inactive"
+                          },
+                          "fieldGoals": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "flagrantFouls": 0,
+                          "foulsReceived": 0,
+                          "freeThrowRate": ".000",
+                          "freeThrows": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "isDisqualification": false,
+                          "isEjected": false,
+                          "isGamePlayed": false,
+                          "isGameStarted": false,
+                          "minutesPlayed": 0,
+                          "personalFouls": 0,
+                          "player": {
+                            "firstName": "Jaylen",
+                            "lastName": "Hoard",
+                            "playerId": 1132326,
+                            "uniform": "6"
+                          },
+                          "plusMinus": 0,
+                          "points": 0,
+                          "rebounds": {
+                            "defensive": 0,
+                            "offensive": 0,
+                            "total": 0
+                          },
+                          "startingPosition": {
+                            "positionId": 0
+                          },
+                          "steals": 0,
+                          "technicalFouls": 0,
+                          "threePointFieldGoals": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "totalSecondsPlayed": 0,
+                          "turnovers": 0
+                        },
+                        {
+                          "assists": 0,
+                          "blockedShots": 0,
+                          "blocksReceived": 0,
+                          "didNotPlay": {
+                            "details": "Coach's Decision",
+                            "dnpType": {
+                              "dnpTypeId": 1,
+                              "name": "Coach's Decision"
+                            },
+                            "reason": "Inactive"
+                          },
+                          "fieldGoals": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "flagrantFouls": 0,
+                          "foulsReceived": 0,
+                          "freeThrowRate": ".000",
+                          "freeThrows": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "isDisqualification": false,
+                          "isEjected": false,
+                          "isGamePlayed": false,
+                          "isGameStarted": false,
+                          "minutesPlayed": 0,
+                          "personalFouls": 0,
+                          "player": {
+                            "firstName": "Moses",
+                            "lastName": "Brown",
+                            "playerId": 1134769,
+                            "uniform": "4"
+                          },
+                          "plusMinus": 0,
+                          "points": 0,
+                          "rebounds": {
+                            "defensive": 0,
+                            "offensive": 0,
+                            "total": 0
+                          },
+                          "startingPosition": {
+                            "positionId": 0
+                          },
+                          "steals": 0,
+                          "technicalFouls": 0,
+                          "threePointFieldGoals": {
+                            "attempted": 0,
+                            "made": 0
+                          },
+                          "totalSecondsPlayed": 0,
+                          "turnovers": 0
+                        },
+                        {
+                          "assists": 1,
+                          "blockedShots": 1,
+                          "blocksReceived": 0,
+                          "effectiveFieldGoalPercentage": "1.000",
+                          "fieldGoals": {
+                            "attempted": 6,
+                            "made": 5,
+                            "percentage": ".833"
+                          },
+                          "flagrantFouls": 0,
+                          "foulsReceived": 1,
+                          "freeThrowRate": ".000",
+                          "freeThrows": {
+                            "attempted": 2,
+                            "made": 0,
+                            "percentage": ".000"
+                          },
+                          "isDisqualification": false,
+                          "isEjected": false,
+                          "isGamePlayed": true,
+                          "isGameStarted": false,
+                          "minutesPlayed": 23,
+                          "personalFouls": 4,
+                          "player": {
+                            "firstName": "Nassir",
+                            "lastName": "Little",
+                            "playerId": 1138391,
+                            "uniform": "9"
+                          },
+                          "plusMinus": 9,
+                          "points": 12,
+                          "rebounds": {
+                            "defensive": 7,
+                            "offensive": 4,
+                            "total": 11
+                          },
+                          "steals": 1,
+                          "technicalFouls": 0,
+                          "threePointFieldGoals": {
+                            "attempted": 2,
+                            "made": 2,
+                            "percentage": "1.000"
+                          },
+                          "totalSecondsPlayed": 1352,
+                          "trueShootingPercentage": ".872",
+                          "turnovers": 1
+                        }
+                      ],
+                      "teamId": 22,
+                      "teamStats": {
+                        "assists": 20,
+                        "biggestLead": 4,
+                        "blockedShots": 4,
+                        "defensive3Seconds": 0,
+                        "disqualifications": 0,
+                        "dunks": 1,
+                        "ejections": {
+                          "coach": 0,
+                          "player": 0
+                        },
+                        "fastBreakPoints": 14,
+                        "fieldGoals": {
+                          "attempted": 92,
+                          "made": 40,
+                          "percentage": ".435"
+                        },
+                        "flagrantFouls": 0,
+                        "freeThrows": {
+                          "attempted": 13,
+                          "made": 8,
+                          "percentage": ".615"
+                        },
+                        "hooks": 2,
+                        "jumpshots": 22,
+                        "layups": 8,
+                        "minutes": 240,
+                        "personalFouls": 23,
+                        "points": 104,
+                        "pointsInPaint": 38,
+                        "pointsOffTurnovers": 16,
+                        "rebounds": {
+                          "defensive": 37,
+                          "offensive": 11,
+                          "team": 6,
+                          "total": 48
+                        },
+                        "secondChancePoints": 26,
+                        "steals": 5,
+                        "technicalFouls": {
+                          "bench": 0,
+                          "coach": 0,
+                          "player": 0,
+                          "team": 0
+                        },
+                        "threePointFieldGoals": {
+                          "attempted": 29,
+                          "made": 16,
+                          "percentage": ".552"
+                        },
+                        "timeoutsRemaining": {},
+                        "tipins": 0,
+                        "turnovers": {
+                          "team": 0,
+                          "total": 17
+                        }
+                      }
+                    }
+                  ],
+                  "coverageLevel": {
+                    "coverageLevelId": 3,
+                    "details": "NBA FEED",
+                    "name": "level 1"
+                  },
+                  "eventId": 2177017,
+                  "eventStatus": {
+                    "eventStatusId": 4,
+                    "isActive": false,
+                    "name": "Final",
+                    "period": 4
+                  },
+                  "gameDetail": {
+                    "attendance": "15021",
+                    "capacity": "16867",
+                    "leadChanges": 18,
+                    "referees": [
+                      {
+                        "firstName": "James",
+                        "lastName": "Capers",
+                        "refereeId": 3560
+                      },
+                      {
+                        "firstName": "Ben",
+                        "lastName": "Taylor",
+                        "refereeId": 525497
+                      },
+                      {
+                        "firstName": "Jonathan",
+                        "lastName": "Sterling",
+                        "refereeId": 958789
+                      }
+                    ],
+                    "timeOfGame": {
+                      "hours": 2,
+                      "minutes": 4
+                    },
+                    "timesTied": 6
+                  },
+                  "isDataConfirmed": {
+                    "box": true,
+                    "score": true
+                  },
+                  "isTba": false,
+                  "onCourtInfo": [],
+                  "scheduledPeriods": 4,
+                  "startDate": [
+                    {
+                      "date": 19,
+                      "dateType": "Local",
+                      "full": "2019-11-19T19:00:00",
+                      "hour": 19,
+                      "minute": 0,
+                      "month": 11,
+                      "year": 2019
+                    },
+                    {
+                      "date": 20,
+                      "dateType": "UTC",
+                      "full": "2019-11-20T01:00:00",
+                      "hour": 1,
+                      "minute": 0,
+                      "month": 11,
+                      "year": 2019
+                    }
+                  ],
+                  "teams": [
+                    {
+                      "abbreviation": "NO",
+                      "isWinner": true,
+                      "location": "New Orleans",
+                      "nickname": "Pelicans",
+                      "record": {
+                        "losses": 9,
+                        "percentage": ".357",
+                        "wins": 5
+                      },
+                      "score": 115,
+                      "teamId": 3,
+                      "teamLocationType": {
+                        "name": "home",
+                        "teamLocationTypeId": 1
+                      }
+                    },
+                    {
+                      "abbreviation": "Por",
+                      "isWinner": false,
+                      "location": "Portland",
+                      "nickname": "Trail Blazers",
+                      "record": {
+                        "losses": 10,
+                        "percentage": ".333",
+                        "wins": 5
+                      },
+                      "score": 104,
+                      "teamId": 22,
+                      "teamLocationType": {
+                        "name": "away",
+                        "teamLocationTypeId": 2
+                      }
+                    }
+                  ],
+                  "tvStations": [
+                    {
+                      "callLetters": "NBAt",
+                      "country": {
+                        "abbreviation": "USA",
+                        "countryId": 1,
+                        "name": "United States"
+                      },
+                      "name": "NBATV",
+                      "networkType": {
+                        "name": "National",
+                        "networkTypeId": 1
+                      },
+                      "tvStationId": 98
+                    },
+                    {
+                      "callLetters": "FSNO",
+                      "country": {
+                        "abbreviation": "USA",
+                        "countryId": 1,
+                        "name": "United States"
+                      },
+                      "name": "Fox Sports - New Orleans",
+                      "networkType": {
+                        "name": "Regional",
+                        "networkTypeId": 2
+                      },
+                      "tvStationId": 911
+                    },
+                    {
+                      "callLetters": "NSNW",
+                      "country": {
+                        "abbreviation": "USA",
+                        "countryId": 1,
+                        "name": "United States"
+                      },
+                      "name": "NBC Sports Northwest",
+                      "networkType": {
+                        "name": "Regional",
+                        "networkTypeId": 2
+                      },
+                      "tvStationId": 886
+                    }
+                  ],
+                  "venue": {
+                    "city": "New Orleans",
+                    "country": {
+                      "abbreviation": "USA",
+                      "countryId": 1,
+                      "name": "United States"
+                    },
+                    "name": "Smoothie King Center",
+                    "state": {
+                      "abbreviation": "LA",
+                      "name": "Louisiana",
+                      "stateId": 18
+                    },
+                    "venueId": 3403
+                  }
+                }
+              ],
+              "name": "Regular Season"
+            }
+          ],
+          "isActive": true,
+          "name": "2019-20 NBA Season",
+          "season": 2019
+        }
+      },
+      "name": "Basketball",
+      "sportId": 1
+    }
+  ],
+  "endTimestamp": "2020-06-11T21:20:25.426834Z",
+  "recordCount": 1,
+  "startTimestamp": "2020-06-11T21:20:25.3955814Z",
+  "status": "OK",
+  "timeTaken": 0.0312526
+}

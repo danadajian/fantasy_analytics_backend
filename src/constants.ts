@@ -59,3 +59,20 @@ export const FUMBLE_RECOVERIES_MULTIPLIER = 2;
 export const DEFENSE_TOUCHDOWNS_MULTIPLIER = 6;
 export const SAFETIES_MULTIPLIER = 2;
 export const MAX_WEEKS_IN_SEASON = 17;
+
+//NBA
+export const FD_THREE_PT_MULTIPLIER = 3;
+export const DK_THREE_PT_MULTIPLIER = 0.5;
+export const TWO_PT_MULTIPLIER = 2;
+export const FREE_THROW_MULTIPLIER = 1;
+export const FD_REBOUND_MULTIPLIER = 1.2;
+export const DK_REBOUND_MULTIPLIER = 1.25;
+export const ASSIST_MULTIPLIER = 1.5;
+export const FD_BLOCK_MULTIPLIER = 3;
+export const DK_BLOCK_MULTIPLIER = 2;
+export const FD_STEAL_MULTIPLIER = 3;
+export const DK_STEAL_MULTIPLIER = 2;
+export const FD_TURNOVER_MULTIPLIER = -1;
+export const DK_TURNOVER_MULTIPLIER = -0.5;
+export const DOUBLE_DOUBLE_POINTS = 1.5;
+export const TRIPLE_DOUBLE_POINTS = 3;
