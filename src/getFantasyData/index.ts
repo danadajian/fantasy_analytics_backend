@@ -1,5 +1,5 @@
 import {getEventIdsByWeek} from "../helpers/getEventIdsByWeek/getEventIdsByWeek";
-import {getFantasyDataFromNFLGame} from "../helpers/getFantasyDataFromNflGame/getFantasyDataFromNFLGame";
+import {getFantasyDataFromNFLGame} from "../helpers/getFantasyDataFromNFLGame/getFantasyDataFromNFLGame";
 import * as _ from 'lodash'
 import * as Bluebird from 'bluebird'
 

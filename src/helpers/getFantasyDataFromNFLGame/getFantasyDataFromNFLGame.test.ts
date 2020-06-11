@@ -1,7 +1,7 @@
 import {getFantasyDataFromNFLGame} from "./getFantasyDataFromNFLGame";
 import {callApi} from "../callApi/callApi";
 
-const mockNflEventIdResponse = require('../../fixtures/nflEventIdResponse.json');
+const mockNFLEventIdResponse = require('../../fixtures/nflEventIdResponse.json');
 
 jest.mock('../callApi/callApi');
 
@@ -12,7 +12,7 @@ describe('getFantasyDataFromNFLGame', () => {
         let result: any;
 
         beforeEach(async () => {
-            (callApi as jest.Mock).mockResolvedValue(mockNflEventIdResponse);
+            (callApi as jest.Mock).mockResolvedValue(mockNFLEventIdResponse);
             result = await getFantasyDataFromNFLGame(eventId)
         });
 

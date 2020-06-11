@@ -1,11 +1,11 @@
 import {getEventIdsByDate} from "./getEventIdsByDate";
 import {callApi} from "../helpers/callApi/callApi";
 
-const mockMlbScheduleResponse = require('../fixtures/mlbScheduleResponse.json');
+const mockMLBScheduleResponse = require('../fixtures/mlbScheduleResponse.json');
 
 jest.mock('../helpers/callApi/callApi');
 
-describe('getNflEventIds', () => {
+describe('getEventIdsByDate', () => {
     const sport = 'mlb';
     const season = 'season';
     const date = '2019-08-08';
@@ -14,7 +14,7 @@ describe('getNflEventIds', () => {
         let result: any;
 
         beforeEach(async () => {
-            (callApi as jest.Mock).mockResolvedValue(mockMlbScheduleResponse);
+            (callApi as jest.Mock).mockResolvedValue(mockMLBScheduleResponse);
             result = await getEventIdsByDate(sport, season, date)
         });
 

@@ -1,9 +1,9 @@
 import {getFantasyData} from "./index";
-import {getFantasyDataFromNFLGame} from "../helpers/getFantasyDataFromNflGame/getFantasyDataFromNFLGame";
 import {getEventIdsByWeek} from "../helpers/getEventIdsByWeek/getEventIdsByWeek";
+import {getFantasyDataFromNFLGame} from "../helpers/getFantasyDataFromNFLGame/getFantasyDataFromNFLGame";
 
 jest.mock('../helpers/getEventIdsByWeek/getEventIdsByWeek');
-jest.mock('../helpers/getFantasyDataFromNflGame/getFantasyDataFromNflGame');
+jest.mock('../helpers/getFantasyDataFromNFLGame/getFantasyDataFromNFLGame');
 
 (getEventIdsByWeek as jest.Mock).mockResolvedValue([1, 2, 3]);
 (getFantasyDataFromNFLGame as jest.Mock).mockResolvedValue([
@@ -22,12 +22,12 @@ describe('getFantasyData', () => {
         result = await getFantasyData(event)
     });
 
-    it('should call getNflEventIds with correct params', () => {
+    it('should call getEventIdsByWeek with correct params', () => {
         expect(getEventIdsByWeek).toHaveBeenCalledWith(week, season)
     });
 
     it.each([1, 2, 3])(
-        'should call getFantasyDataFromNflGame with correct params', (eventId) => {
+        'should call getFantasyDataFromNFLGame with correct params', (eventId) => {
             expect(getFantasyDataFromNFLGame).toHaveBeenCalledWith(eventId)
         }
     );
