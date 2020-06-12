@@ -1,11 +1,11 @@
 import {sum} from "../sum/sum";
 import {
-    COMPLETE_GAME_POINTS, COMPLETE_GAME_SHUTOUT_POINTS, DK_DOUBLE_MULTIPLIER, DK_ER_MULTIPLIER, DK_HBP_MULTIPLIER,
+    COMPLETE_GAME_BONUS, COMPLETE_GAME_SHUTOUT_BONUS, DK_DOUBLE_MULTIPLIER, DK_ER_MULTIPLIER, DK_HBP_MULTIPLIER,
     DK_HR_MULTIPLIER, DK_IP_MULTIPLIER, DK_RBI_MULTIPLIER, DK_RUN_MULTIPLIER, DK_SB_MULTIPLIER, DK_STRIKEOUT_MULTIPLIER,
-    DK_TRIPLE_MULTIPLIER, DK_WALK_MULTIPLIER, DK_WIN_POINTS, FD_DOUBLE_MULTIPLIER, FD_ER_MULTIPLIER, FD_HBP_MULTIPLIER,
+    DK_TRIPLE_MULTIPLIER, DK_WALK_MULTIPLIER, DK_PITCHER_WIN_BONUS, FD_DOUBLE_MULTIPLIER, FD_ER_MULTIPLIER, FD_HBP_MULTIPLIER,
     FD_HR_MULTIPLIER, FD_IP_MULTIPLIER, FD_RBI_MULTIPLIER, FD_RUN_MULTIPLIER, FD_SB_MULTIPLIER, FD_STRIKEOUT_MULTIPLIER,
-    FD_TRIPLE_MULTIPLIER, FD_WALK_MULTIPLIER, FD_WIN_POINTS, HIT_AGAINST_MULTIPLIER, HIT_BATSMAN_MULTIPLIER,
-    NO_HITTER_POINTS, QUALITY_START_POINTS, SINGLE_MULTIPLIER, WALK_AGAINST_MULTIPLIER
+    FD_TRIPLE_MULTIPLIER, FD_WALK_MULTIPLIER, FD_PITCHER_WIN_BONUS, HIT_AGAINST_MULTIPLIER, HIT_BATSMAN_MULTIPLIER,
+    NO_HITTER_BONUS, QUALITY_START_BONUS, SINGLE_MULTIPLIER, WALK_AGAINST_MULTIPLIER
 } from "../../constants";
 
 export const calculateFanduelBattingPoints = (battingStatObject) => {
@@ -44,8 +44,8 @@ export const calculateFanduelPitchingPoints = (pitchingStatObject, pitchingStart
     const ipArray = Number(inningsPitched.game).toFixed(1).split('.');
     inningsPitched = Number(ipArray[0]) + Number(ipArray[1]) / 3;
     return sum(
-        isWinningPitcher ? FD_WIN_POINTS : 0,
-        isStartingPitcher && inningsPitched >=6 && earnedRuns.game <=3 ? QUALITY_START_POINTS : 0,
+        isWinningPitcher ? FD_PITCHER_WIN_BONUS : 0,
+        isStartingPitcher && inningsPitched >=6 && earnedRuns.game <=3 ? QUALITY_START_BONUS : 0,
         earnedRuns.game * FD_ER_MULTIPLIER,
         strikeouts.game * FD_STRIKEOUT_MULTIPLIER,
         inningsPitched * FD_IP_MULTIPLIER
@@ -59,13 +59,13 @@ export const calculateDraftKingsPitchingPoints = (pitchingStatObject) => {
     return sum(
         inningsPitched * DK_IP_MULTIPLIER,
         strikeouts.game * DK_STRIKEOUT_MULTIPLIER,
-        isWinningPitcher ? DK_WIN_POINTS : 0,
+        isWinningPitcher ? DK_PITCHER_WIN_BONUS : 0,
         earnedRuns.game * DK_ER_MULTIPLIER,
         hits.game * HIT_AGAINST_MULTIPLIER,
         walks.game * WALK_AGAINST_MULTIPLIER,
         hitBatsmen.game * HIT_BATSMAN_MULTIPLIER,
-        isCompleteGame ? COMPLETE_GAME_POINTS : 0,
-        isCompleteGame && isShutout ? COMPLETE_GAME_SHUTOUT_POINTS : 0,
-        isNoHitter ? NO_HITTER_POINTS : 0
+        isCompleteGame ? COMPLETE_GAME_BONUS : 0,
+        isCompleteGame && isShutout ? COMPLETE_GAME_SHUTOUT_BONUS : 0,
+        isNoHitter ? NO_HITTER_BONUS : 0
     )
 };

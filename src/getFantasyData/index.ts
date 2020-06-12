@@ -2,6 +2,7 @@ import {getEventIds} from "../helpers/getEventIds/getEventIds";
 import {getFantasyDataFromMLBGame} from "../helpers/getFantasyDataFromMLBGame/getFantasyDataFromMLBGame";
 import {getFantasyDataFromNFLGame} from "../helpers/getFantasyDataFromNFLGame/getFantasyDataFromNFLGame";
 import {getFantasyDataFromNBAGame} from "../helpers/getFantasyDataFromNBAGame/getFantasyDataFromNBAGame";
+import {getFantasyDataFromNHLGame} from "../helpers/getFantasyDataFromNHLGame/getFantasyDataFromNHLGame";
 import * as _ from 'lodash'
 import * as Bluebird from 'bluebird'
 
@@ -9,14 +10,14 @@ export const getFantasyData = async (event: any) => {
     const {sport, season, date, week} = event;
     return getEventIds(sport, season, date, week)
         .then(eventIds => {
-            return Bluebird.map(eventIds, eventId => {
-                if (sport === 'mlb')
-                    return getFantasyDataFromMLBGame(eventId)
-                if (sport === 'nfl')
-                    return getFantasyDataFromNFLGame(eventId)
-                if (sport === 'nba')
-                    return getFantasyDataFromNBAGame(eventId)
-            })
+            if (sport === 'mlb')
+                return Bluebird.map(eventIds, eventId => getFantasyDataFromMLBGame(eventId))
+            if (sport === 'nfl')
+                return Bluebird.map(eventIds, eventId => getFantasyDataFromNFLGame(eventId))
+            if (sport === 'nba')
+                return Bluebird.map(eventIds, eventId => getFantasyDataFromNBAGame(eventId))
+            if (sport === 'nhl')
+                return Bluebird.map(eventIds, eventId => getFantasyDataFromNHLGame(eventId))
         })
         .then(fantasyData => {
             return _.flatten(fantasyData)

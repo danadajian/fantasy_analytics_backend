@@ -1,0 +1,3660 @@
+{
+  "apiResults": [
+    {
+      "league": {
+        "abbreviation": "NHL",
+        "displayName": "National Hockey League",
+        "leagueId": 18,
+        "name": "National Hockey League",
+        "season": {
+          "eventType": [
+            {
+              "eventTypeId": 1,
+              "events": [
+                {
+                  "boxscores": [
+                    {
+                      "playerGoaltenderStats": [
+                        {
+                          "cumulativeRecord": {
+                            "losses": 8,
+                            "overtimeLosses": 4,
+                            "wins": 14
+                          },
+                          "goalsAgainst": {
+                            "emptyNetAgainst": 0,
+                            "totalAgainst": 3
+                          },
+                          "isGameStarted": true,
+                          "isLosingGoaltender": false,
+                          "isOTLossGoaltender": true,
+                          "isShutout": false,
+                          "isWinningGoaltender": false,
+                          "player": {
+                            "firstName": "Tuukka",
+                            "lastName": "Rask",
+                            "playerId": 300802,
+                            "uniform": "40"
+                          },
+                          "saves": 38,
+                          "shotsAgainst": 41,
+                          "stintDetails": [
+                            {
+                              "goaltenderSequence": 1,
+                              "periodEntered": 1,
+                              "timeEntered": {
+                                "minutes": 0,
+                                "seconds": 0
+                              }
+                            }
+                          ],
+                          "timePlayed": {
+                            "minutes": 62,
+                            "seconds": 56
+                          }
+                        }
+                      ],
+                      "playerSkaterStats": [
+                        {
+                          "assists": {
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "blocks": 0,
+                          "corsi": 1,
+                          "evenStrengthTimeOnIce": {
+                            "minutes": 19,
+                            "seconds": 37
+                          },
+                          "faceoffs": {
+                            "lost": 12,
+                            "won": 5
+                          },
+                          "fenwick": 1,
+                          "goals": {
+                            "emptyNet": 0,
+                            "gameWinning": 0,
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "hits": 0,
+                          "missedShots": 0,
+                          "penaltyMinutes": 0,
+                          "periodShots": [
+                            {
+                              "period": 2,
+                              "shots": 1
+                            },
+                            {
+                              "period": 3,
+                              "shots": 2
+                            }
+                          ],
+                          "player": {
+                            "firstName": "David",
+                            "lastName": "Krejci",
+                            "playerId": 325618,
+                            "uniform": "46"
+                          },
+                          "plusMinus": 0,
+                          "powerPlayTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 0
+                          },
+                          "shifts": 27,
+                          "shootout": {
+                            "attempts": 0,
+                            "goals": 0
+                          },
+                          "shortHandedTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 20
+                          },
+                          "shotsOnGoal": 3,
+                          "timeOnIce": {
+                            "minutes": 19,
+                            "seconds": 57
+                          },
+                          "turnovers": {
+                            "giveaways": 0,
+                            "takeaways": 0
+                          },
+                          "zoneStarts": {
+                            "defensiveFaceoffs": 5,
+                            "offensiveFaceoffs": 7,
+                            "percentage": "58.33"
+                          }
+                        },
+                        {
+                          "assists": {
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "blocks": 1,
+                          "corsi": 3,
+                          "evenStrengthTimeOnIce": {
+                            "minutes": 9,
+                            "seconds": 44
+                          },
+                          "faceoffs": {
+                            "lost": 1,
+                            "won": 2
+                          },
+                          "fenwick": 2,
+                          "goals": {
+                            "emptyNet": 0,
+                            "gameWinning": 0,
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "hits": 1,
+                          "missedShots": 0,
+                          "penaltyMinutes": 0,
+                          "periodShots": [
+                            {
+                              "period": 1,
+                              "shots": 1
+                            }
+                          ],
+                          "player": {
+                            "firstName": "David",
+                            "lastName": "Backes",
+                            "playerId": 321868,
+                            "uniform": "42"
+                          },
+                          "plusMinus": 0,
+                          "powerPlayTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 0
+                          },
+                          "shifts": 14,
+                          "shootout": {
+                            "attempts": 0,
+                            "goals": 0
+                          },
+                          "shortHandedTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 0
+                          },
+                          "shotsOnGoal": 1,
+                          "timeOnIce": {
+                            "minutes": 9,
+                            "seconds": 44
+                          },
+                          "turnovers": {
+                            "giveaways": 0,
+                            "takeaways": 1
+                          },
+                          "zoneStarts": {
+                            "defensiveFaceoffs": 3,
+                            "offensiveFaceoffs": 2,
+                            "percentage": "40.00"
+                          }
+                        },
+                        {
+                          "assists": {
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "blocks": 1,
+                          "corsi": -1,
+                          "evenStrengthTimeOnIce": {
+                            "minutes": 13,
+                            "seconds": 59
+                          },
+                          "faceoffs": {
+                            "lost": 0,
+                            "won": 0
+                          },
+                          "fenwick": -2,
+                          "goals": {
+                            "emptyNet": 0,
+                            "gameWinning": 0,
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "hits": 0,
+                          "missedShots": 1,
+                          "penaltyMinutes": 0,
+                          "periodShots": [
+                            {
+                              "period": 1,
+                              "shots": 1
+                            },
+                            {
+                              "period": 2,
+                              "shots": 1
+                            }
+                          ],
+                          "player": {
+                            "firstName": "Peter",
+                            "lastName": "Cehlarik",
+                            "playerId": 743270,
+                            "uniform": "22"
+                          },
+                          "plusMinus": 0,
+                          "powerPlayTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 0
+                          },
+                          "shifts": 19,
+                          "shootout": {
+                            "attempts": 0,
+                            "goals": 0
+                          },
+                          "shortHandedTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 0
+                          },
+                          "shotsOnGoal": 2,
+                          "timeOnIce": {
+                            "minutes": 13,
+                            "seconds": 59
+                          },
+                          "turnovers": {
+                            "giveaways": 0,
+                            "takeaways": 0
+                          },
+                          "zoneStarts": {
+                            "defensiveFaceoffs": 3,
+                            "offensiveFaceoffs": 5,
+                            "percentage": "62.50"
+                          }
+                        },
+                        {
+                          "assists": {
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "blocks": 0,
+                          "corsi": -5,
+                          "evenStrengthTimeOnIce": {
+                            "minutes": 12,
+                            "seconds": 47
+                          },
+                          "faceoffs": {
+                            "lost": 2,
+                            "won": 0
+                          },
+                          "fenwick": -1,
+                          "goals": {
+                            "emptyNet": 0,
+                            "gameWinning": 0,
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "hits": 0,
+                          "missedShots": 1,
+                          "penaltyMinutes": 2,
+                          "player": {
+                            "firstName": "Sean",
+                            "lastName": "Kuraly",
+                            "playerId": 610872,
+                            "uniform": "52"
+                          },
+                          "plusMinus": -1,
+                          "powerPlayTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 0
+                          },
+                          "shifts": 17,
+                          "shootout": {
+                            "attempts": 0,
+                            "goals": 0
+                          },
+                          "shortHandedTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 0
+                          },
+                          "shotsOnGoal": 0,
+                          "timeOnIce": {
+                            "minutes": 12,
+                            "seconds": 47
+                          },
+                          "turnovers": {
+                            "giveaways": 0,
+                            "takeaways": 2
+                          },
+                          "zoneStarts": {
+                            "defensiveFaceoffs": 2,
+                            "offensiveFaceoffs": 3,
+                            "percentage": "60.00"
+                          }
+                        },
+                        {
+                          "assists": {
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "blocks": 1,
+                          "corsi": 2,
+                          "evenStrengthTimeOnIce": {
+                            "minutes": 9,
+                            "seconds": 57
+                          },
+                          "faceoffs": {
+                            "lost": 1,
+                            "won": 4
+                          },
+                          "fenwick": 1,
+                          "goals": {
+                            "emptyNet": 0,
+                            "gameWinning": 0,
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "hits": 0,
+                          "missedShots": 0,
+                          "penaltyMinutes": 0,
+                          "player": {
+                            "firstName": "Trent",
+                            "lastName": "Frederic",
+                            "playerId": 920239,
+                            "uniform": "82"
+                          },
+                          "plusMinus": 0,
+                          "powerPlayTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 0
+                          },
+                          "shifts": 13,
+                          "shootout": {
+                            "attempts": 0,
+                            "goals": 0
+                          },
+                          "shortHandedTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 0
+                          },
+                          "shotsOnGoal": 0,
+                          "timeOnIce": {
+                            "minutes": 9,
+                            "seconds": 57
+                          },
+                          "turnovers": {
+                            "giveaways": 0,
+                            "takeaways": 0
+                          },
+                          "zoneStarts": {
+                            "defensiveFaceoffs": 2,
+                            "offensiveFaceoffs": 2,
+                            "percentage": "50.00"
+                          }
+                        },
+                        {
+                          "assists": {
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "blocks": 3,
+                          "corsi": 3,
+                          "evenStrengthTimeOnIce": {
+                            "minutes": 12,
+                            "seconds": 12
+                          },
+                          "faceoffs": {
+                            "lost": 0,
+                            "won": 0
+                          },
+                          "fenwick": 4,
+                          "goals": {
+                            "emptyNet": 0,
+                            "gameWinning": 0,
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "hits": 0,
+                          "missedShots": 1,
+                          "penaltyMinutes": 0,
+                          "player": {
+                            "firstName": "Danton",
+                            "lastName": "Heinen",
+                            "playerId": 831469,
+                            "uniform": "43"
+                          },
+                          "plusMinus": 0,
+                          "powerPlayTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 0
+                          },
+                          "shifts": 16,
+                          "shootout": {
+                            "attempts": 0,
+                            "goals": 0
+                          },
+                          "shortHandedTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 20
+                          },
+                          "shotsOnGoal": 0,
+                          "timeOnIce": {
+                            "minutes": 12,
+                            "seconds": 32
+                          },
+                          "turnovers": {
+                            "giveaways": 0,
+                            "takeaways": 1
+                          },
+                          "zoneStarts": {
+                            "defensiveFaceoffs": 2,
+                            "offensiveFaceoffs": 4,
+                            "percentage": "66.67"
+                          }
+                        },
+                        {
+                          "assists": {
+                            "powerPlay": 1,
+                            "shortHanded": 0,
+                            "total": 1
+                          },
+                          "blocks": 0,
+                          "corsi": -8,
+                          "evenStrengthTimeOnIce": {
+                            "minutes": 19,
+                            "seconds": 5
+                          },
+                          "faceoffs": {
+                            "lost": 0,
+                            "won": 0
+                          },
+                          "fenwick": -8,
+                          "goals": {
+                            "emptyNet": 0,
+                            "gameWinning": 0,
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "hits": 0,
+                          "missedShots": 1,
+                          "penaltyMinutes": 0,
+                          "periodShots": [
+                            {
+                              "period": 1,
+                              "shots": 2
+                            }
+                          ],
+                          "player": {
+                            "firstName": "Torey",
+                            "lastName": "Krug",
+                            "playerId": 652695,
+                            "uniform": "47"
+                          },
+                          "plusMinus": 0,
+                          "powerPlayTimeOnIce": {
+                            "minutes": 1,
+                            "seconds": 18
+                          },
+                          "shifts": 27,
+                          "shootout": {
+                            "attempts": 0,
+                            "goals": 0
+                          },
+                          "shortHandedTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 0
+                          },
+                          "shotsOnGoal": 2,
+                          "timeOnIce": {
+                            "minutes": 20,
+                            "seconds": 23
+                          },
+                          "turnovers": {
+                            "giveaways": 0,
+                            "takeaways": 0
+                          },
+                          "zoneStarts": {
+                            "defensiveFaceoffs": 7,
+                            "offensiveFaceoffs": 7,
+                            "percentage": "50.00"
+                          }
+                        },
+                        {
+                          "assists": {
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "blocks": 3,
+                          "corsi": -6,
+                          "evenStrengthTimeOnIce": {
+                            "minutes": 13,
+                            "seconds": 52
+                          },
+                          "faceoffs": {
+                            "lost": 0,
+                            "won": 0
+                          },
+                          "fenwick": -6,
+                          "goals": {
+                            "emptyNet": 0,
+                            "gameWinning": 0,
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "hits": 2,
+                          "missedShots": 0,
+                          "penaltyMinutes": 0,
+                          "player": {
+                            "firstName": "Kevan",
+                            "lastName": "Miller",
+                            "playerId": 594808,
+                            "uniform": "86"
+                          },
+                          "plusMinus": 0,
+                          "powerPlayTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 0
+                          },
+                          "shifts": 24,
+                          "shootout": {
+                            "attempts": 0,
+                            "goals": 0
+                          },
+                          "shortHandedTimeOnIce": {
+                            "minutes": 1,
+                            "seconds": 11
+                          },
+                          "shotsOnGoal": 0,
+                          "timeOnIce": {
+                            "minutes": 15,
+                            "seconds": 3
+                          },
+                          "turnovers": {
+                            "giveaways": 2,
+                            "takeaways": 1
+                          },
+                          "zoneStarts": {
+                            "defensiveFaceoffs": 6,
+                            "offensiveFaceoffs": 2,
+                            "percentage": "25.00"
+                          }
+                        },
+                        {
+                          "assists": {
+                            "powerPlay": 1,
+                            "shortHanded": 0,
+                            "total": 1
+                          },
+                          "blocks": 1,
+                          "corsi": 0,
+                          "evenStrengthTimeOnIce": {
+                            "minutes": 17,
+                            "seconds": 58
+                          },
+                          "faceoffs": {
+                            "lost": 0,
+                            "won": 0
+                          },
+                          "fenwick": 0,
+                          "goals": {
+                            "emptyNet": 0,
+                            "gameWinning": 0,
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "hits": 0,
+                          "missedShots": 0,
+                          "penaltyMinutes": 2,
+                          "player": {
+                            "firstName": "Brad",
+                            "lastName": "Marchand",
+                            "playerId": 414433,
+                            "uniform": "63"
+                          },
+                          "plusMinus": 1,
+                          "powerPlayTimeOnIce": {
+                            "minutes": 1,
+                            "seconds": 18
+                          },
+                          "shifts": 25,
+                          "shootout": {
+                            "attempts": 0,
+                            "goals": 0
+                          },
+                          "shortHandedTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 29
+                          },
+                          "shotsOnGoal": 0,
+                          "timeOnIce": {
+                            "minutes": 19,
+                            "seconds": 45
+                          },
+                          "turnovers": {
+                            "giveaways": 1,
+                            "takeaways": 1
+                          },
+                          "zoneStarts": {
+                            "defensiveFaceoffs": 10,
+                            "offensiveFaceoffs": 10,
+                            "percentage": "50.00"
+                          }
+                        },
+                        {
+                          "assists": {
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "blocks": 0,
+                          "corsi": -2,
+                          "evenStrengthTimeOnIce": {
+                            "minutes": 21,
+                            "seconds": 27
+                          },
+                          "faceoffs": {
+                            "lost": 0,
+                            "won": 0
+                          },
+                          "fenwick": -6,
+                          "goals": {
+                            "emptyNet": 0,
+                            "gameWinning": 0,
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "hits": 1,
+                          "missedShots": 0,
+                          "penaltyMinutes": 0,
+                          "periodShots": [
+                            {
+                              "period": 1,
+                              "shots": 1
+                            },
+                            {
+                              "period": 3,
+                              "shots": 1
+                            }
+                          ],
+                          "player": {
+                            "firstName": "Brandon",
+                            "lastName": "Carlo",
+                            "playerId": 878156,
+                            "uniform": "25"
+                          },
+                          "plusMinus": 0,
+                          "powerPlayTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 0
+                          },
+                          "shifts": 27,
+                          "shootout": {
+                            "attempts": 0,
+                            "goals": 0
+                          },
+                          "shortHandedTimeOnIce": {
+                            "minutes": 2,
+                            "seconds": 38
+                          },
+                          "shotsOnGoal": 2,
+                          "timeOnIce": {
+                            "minutes": 24,
+                            "seconds": 5
+                          },
+                          "turnovers": {
+                            "giveaways": 1,
+                            "takeaways": 0
+                          },
+                          "zoneStarts": {
+                            "defensiveFaceoffs": 10,
+                            "offensiveFaceoffs": 6,
+                            "percentage": "37.50"
+                          }
+                        },
+                        {
+                          "assists": {
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "blocks": 0,
+                          "evenStrengthTimeOnIce": {
+                            "minutes": 57,
+                            "seconds": 49
+                          },
+                          "faceoffs": {
+                            "lost": 0,
+                            "won": 0
+                          },
+                          "goals": {
+                            "emptyNet": 0,
+                            "gameWinning": 0,
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "hits": 0,
+                          "missedShots": 0,
+                          "penaltyMinutes": 0,
+                          "player": {
+                            "firstName": "Tuukka",
+                            "lastName": "Rask",
+                            "playerId": 300802,
+                            "uniform": "40"
+                          },
+                          "plusMinus": 0,
+                          "powerPlayTimeOnIce": {
+                            "minutes": 1,
+                            "seconds": 18
+                          },
+                          "shifts": 0,
+                          "shootout": {
+                            "attempts": 0,
+                            "goals": 0
+                          },
+                          "shortHandedTimeOnIce": {
+                            "minutes": 3,
+                            "seconds": 49
+                          },
+                          "shotsOnGoal": 0,
+                          "timeOnIce": {
+                            "minutes": 62,
+                            "seconds": 56
+                          },
+                          "turnovers": {
+                            "giveaways": 0,
+                            "takeaways": 0
+                          }
+                        },
+                        {
+                          "assists": {
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "blocks": 0,
+                          "corsi": -1,
+                          "evenStrengthTimeOnIce": {
+                            "minutes": 16,
+                            "seconds": 9
+                          },
+                          "faceoffs": {
+                            "lost": 0,
+                            "won": 0
+                          },
+                          "fenwick": 0,
+                          "goals": {
+                            "emptyNet": 0,
+                            "gameWinning": 0,
+                            "powerPlay": 1,
+                            "shortHanded": 0,
+                            "total": 2
+                          },
+                          "hits": 2,
+                          "missedShots": 4,
+                          "penaltyMinutes": 0,
+                          "periodShots": [
+                            {
+                              "period": 1,
+                              "shots": 2
+                            },
+                            {
+                              "period": 2,
+                              "shots": 1
+                            },
+                            {
+                              "period": 3,
+                              "shots": 2
+                            }
+                          ],
+                          "player": {
+                            "firstName": "David",
+                            "lastName": "Pastrnak",
+                            "playerId": 831092,
+                            "uniform": "88"
+                          },
+                          "plusMinus": 1,
+                          "powerPlayTimeOnIce": {
+                            "minutes": 1,
+                            "seconds": 18
+                          },
+                          "shifts": 23,
+                          "shootout": {
+                            "attempts": 0,
+                            "goals": 0
+                          },
+                          "shortHandedTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 0
+                          },
+                          "shotsOnGoal": 5,
+                          "timeOnIce": {
+                            "minutes": 17,
+                            "seconds": 27
+                          },
+                          "turnovers": {
+                            "giveaways": 3,
+                            "takeaways": 0
+                          },
+                          "zoneStarts": {
+                            "defensiveFaceoffs": 8,
+                            "offensiveFaceoffs": 10,
+                            "percentage": "55.56"
+                          }
+                        },
+                        {
+                          "assists": {
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "blocks": 0,
+                          "corsi": -6,
+                          "evenStrengthTimeOnIce": {
+                            "minutes": 12,
+                            "seconds": 27
+                          },
+                          "faceoffs": {
+                            "lost": 3,
+                            "won": 1
+                          },
+                          "fenwick": -2,
+                          "goals": {
+                            "emptyNet": 0,
+                            "gameWinning": 0,
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "hits": 3,
+                          "missedShots": 0,
+                          "penaltyMinutes": 0,
+                          "player": {
+                            "firstName": "Chris",
+                            "lastName": "Wagner",
+                            "playerId": 555392,
+                            "uniform": "14"
+                          },
+                          "plusMinus": -1,
+                          "powerPlayTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 0
+                          },
+                          "shifts": 16,
+                          "shootout": {
+                            "attempts": 0,
+                            "goals": 0
+                          },
+                          "shortHandedTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 50
+                          },
+                          "shotsOnGoal": 0,
+                          "timeOnIce": {
+                            "minutes": 13,
+                            "seconds": 17
+                          },
+                          "turnovers": {
+                            "giveaways": 1,
+                            "takeaways": 1
+                          },
+                          "zoneStarts": {
+                            "defensiveFaceoffs": 1,
+                            "offensiveFaceoffs": 3,
+                            "percentage": "75.00"
+                          }
+                        },
+                        {
+                          "assists": {
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 1
+                          },
+                          "blocks": 2,
+                          "corsi": 1,
+                          "evenStrengthTimeOnIce": {
+                            "minutes": 19,
+                            "seconds": 17
+                          },
+                          "faceoffs": {
+                            "lost": 0,
+                            "won": 0
+                          },
+                          "fenwick": 7,
+                          "goals": {
+                            "emptyNet": 0,
+                            "gameWinning": 0,
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "hits": 0,
+                          "missedShots": 2,
+                          "penaltyMinutes": 0,
+                          "periodShots": [
+                            {
+                              "period": 1,
+                              "shots": 1
+                            },
+                            {
+                              "period": 3,
+                              "shots": 1
+                            }
+                          ],
+                          "player": {
+                            "firstName": "Zdeno",
+                            "lastName": "Chara",
+                            "playerId": 170750,
+                            "uniform": "33"
+                          },
+                          "plusMinus": 0,
+                          "powerPlayTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 0
+                          },
+                          "shifts": 21,
+                          "shootout": {
+                            "attempts": 0,
+                            "goals": 0
+                          },
+                          "shortHandedTimeOnIce": {
+                            "minutes": 2,
+                            "seconds": 58
+                          },
+                          "shotsOnGoal": 2,
+                          "timeOnIce": {
+                            "minutes": 22,
+                            "seconds": 15
+                          },
+                          "turnovers": {
+                            "giveaways": 1,
+                            "takeaways": 0
+                          },
+                          "zoneStarts": {
+                            "defensiveFaceoffs": 6,
+                            "offensiveFaceoffs": 8,
+                            "percentage": "57.14"
+                          }
+                        },
+                        {
+                          "assists": {
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "blocks": 3,
+                          "corsi": -5,
+                          "evenStrengthTimeOnIce": {
+                            "minutes": 12,
+                            "seconds": 27
+                          },
+                          "faceoffs": {
+                            "lost": 0,
+                            "won": 0
+                          },
+                          "fenwick": -3,
+                          "goals": {
+                            "emptyNet": 0,
+                            "gameWinning": 0,
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "hits": 0,
+                          "missedShots": 1,
+                          "penaltyMinutes": 0,
+                          "periodShots": [
+                            {
+                              "period": 1,
+                              "shots": 1
+                            }
+                          ],
+                          "player": {
+                            "firstName": "Joakim",
+                            "lastName": "Nordstrom",
+                            "playerId": 554554,
+                            "uniform": "20"
+                          },
+                          "plusMinus": -1,
+                          "powerPlayTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 0
+                          },
+                          "shifts": 18,
+                          "shootout": {
+                            "attempts": 0,
+                            "goals": 0
+                          },
+                          "shortHandedTimeOnIce": {
+                            "minutes": 1,
+                            "seconds": 46
+                          },
+                          "shotsOnGoal": 1,
+                          "timeOnIce": {
+                            "minutes": 14,
+                            "seconds": 13
+                          },
+                          "turnovers": {
+                            "giveaways": 1,
+                            "takeaways": 0
+                          },
+                          "zoneStarts": {
+                            "defensiveFaceoffs": 2,
+                            "offensiveFaceoffs": 3,
+                            "percentage": "60.00"
+                          }
+                        },
+                        {
+                          "assists": {
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "blocks": 0,
+                          "corsi": 1,
+                          "evenStrengthTimeOnIce": {
+                            "minutes": 18,
+                            "seconds": 32
+                          },
+                          "faceoffs": {
+                            "lost": 0,
+                            "won": 0
+                          },
+                          "fenwick": -1,
+                          "goals": {
+                            "emptyNet": 0,
+                            "gameWinning": 0,
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "hits": 1,
+                          "missedShots": 0,
+                          "penaltyMinutes": 0,
+                          "periodShots": [
+                            {
+                              "period": 2,
+                              "shots": 1
+                            }
+                          ],
+                          "player": {
+                            "firstName": "Jake",
+                            "lastName": "DeBrusk",
+                            "playerId": 878045,
+                            "uniform": "74"
+                          },
+                          "plusMinus": 0,
+                          "powerPlayTimeOnIce": {
+                            "minutes": 1,
+                            "seconds": 18
+                          },
+                          "shifts": 23,
+                          "shootout": {
+                            "attempts": 0,
+                            "goals": 0
+                          },
+                          "shortHandedTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 0
+                          },
+                          "shotsOnGoal": 1,
+                          "timeOnIce": {
+                            "minutes": 19,
+                            "seconds": 50
+                          },
+                          "turnovers": {
+                            "giveaways": 2,
+                            "takeaways": 0
+                          },
+                          "zoneStarts": {
+                            "defensiveFaceoffs": 6,
+                            "offensiveFaceoffs": 9,
+                            "percentage": "60.00"
+                          }
+                        },
+                        {
+                          "assists": {
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "blocks": 2,
+                          "corsi": 5,
+                          "evenStrengthTimeOnIce": {
+                            "minutes": 22,
+                            "seconds": 13
+                          },
+                          "faceoffs": {
+                            "lost": 0,
+                            "won": 0
+                          },
+                          "fenwick": 11,
+                          "goals": {
+                            "emptyNet": 0,
+                            "gameWinning": 0,
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "hits": 1,
+                          "missedShots": 1,
+                          "penaltyMinutes": 0,
+                          "periodShots": [
+                            {
+                              "period": 2,
+                              "shots": 1
+                            }
+                          ],
+                          "player": {
+                            "firstName": "Charlie",
+                            "lastName": "McAvoy",
+                            "playerId": 920223,
+                            "uniform": "73"
+                          },
+                          "plusMinus": 0,
+                          "powerPlayTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 0
+                          },
+                          "shifts": 28,
+                          "shootout": {
+                            "attempts": 0,
+                            "goals": 0
+                          },
+                          "shortHandedTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 0
+                          },
+                          "shotsOnGoal": 1,
+                          "timeOnIce": {
+                            "minutes": 22,
+                            "seconds": 13
+                          },
+                          "turnovers": {
+                            "giveaways": 0,
+                            "takeaways": 0
+                          },
+                          "zoneStarts": {
+                            "defensiveFaceoffs": 4,
+                            "offensiveFaceoffs": 12,
+                            "percentage": "75.00"
+                          }
+                        },
+                        {
+                          "assists": {
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 1
+                          },
+                          "blocks": 2,
+                          "corsi": -1,
+                          "evenStrengthTimeOnIce": {
+                            "minutes": 16,
+                            "seconds": 9
+                          },
+                          "faceoffs": {
+                            "lost": 17,
+                            "won": 9
+                          },
+                          "fenwick": -2,
+                          "goals": {
+                            "emptyNet": 0,
+                            "gameWinning": 0,
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "hits": 1,
+                          "missedShots": 1,
+                          "penaltyMinutes": 0,
+                          "periodShots": [
+                            {
+                              "period": 2,
+                              "shots": 1
+                            },
+                            {
+                              "period": 3,
+                              "shots": 2
+                            }
+                          ],
+                          "player": {
+                            "firstName": "Patrice",
+                            "lastName": "Bergeron",
+                            "playerId": 230685,
+                            "uniform": "37"
+                          },
+                          "plusMinus": 1,
+                          "powerPlayTimeOnIce": {
+                            "minutes": 1,
+                            "seconds": 18
+                          },
+                          "shifts": 27,
+                          "shootout": {
+                            "attempts": 0,
+                            "goals": 0
+                          },
+                          "shortHandedTimeOnIce": {
+                            "minutes": 1,
+                            "seconds": 54
+                          },
+                          "shotsOnGoal": 3,
+                          "timeOnIce": {
+                            "minutes": 19,
+                            "seconds": 21
+                          },
+                          "turnovers": {
+                            "giveaways": 0,
+                            "takeaways": 0
+                          },
+                          "zoneStarts": {
+                            "defensiveFaceoffs": 13,
+                            "offensiveFaceoffs": 10,
+                            "percentage": "43.48"
+                          }
+                        },
+                        {
+                          "assists": {
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "blocks": 1,
+                          "corsi": 4,
+                          "evenStrengthTimeOnIce": {
+                            "minutes": 19,
+                            "seconds": 19
+                          },
+                          "faceoffs": {
+                            "lost": 0,
+                            "won": 0
+                          },
+                          "fenwick": 0,
+                          "goals": {
+                            "emptyNet": 0,
+                            "gameWinning": 0,
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "hits": 1,
+                          "missedShots": 0,
+                          "penaltyMinutes": 0,
+                          "periodShots": [
+                            {
+                              "period": 1,
+                              "shots": 1
+                            },
+                            {
+                              "period": 2,
+                              "shots": 1
+                            }
+                          ],
+                          "player": {
+                            "firstName": "John",
+                            "lastName": "Moore",
+                            "playerId": 504301,
+                            "uniform": "27"
+                          },
+                          "plusMinus": 0,
+                          "powerPlayTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 0
+                          },
+                          "shifts": 24,
+                          "shootout": {
+                            "attempts": 0,
+                            "goals": 0
+                          },
+                          "shortHandedTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 51
+                          },
+                          "shotsOnGoal": 2,
+                          "timeOnIce": {
+                            "minutes": 20,
+                            "seconds": 10
+                          },
+                          "turnovers": {
+                            "giveaways": 1,
+                            "takeaways": 1
+                          },
+                          "zoneStarts": {
+                            "defensiveFaceoffs": 8,
+                            "offensiveFaceoffs": 7,
+                            "percentage": "46.67"
+                          }
+                        }
+                      ],
+                      "teamId": 4954,
+                      "teamStats": {
+                        "assists": 4,
+                        "blocks": 20,
+                        "giveaways": 13,
+                        "penalties": 2,
+                        "penaltyMinutes": 4,
+                        "penaltyShots": {
+                          "goals": 0,
+                          "shots": 0
+                        },
+                        "powerPlay": {
+                          "goals": 1,
+                          "opportunities": 1
+                        },
+                        "shotsOnGoal": 25
+                      }
+                    },
+                    {
+                      "playerGoaltenderStats": [
+                        {
+                          "cumulativeRecord": {
+                            "losses": 5,
+                            "overtimeLosses": 1,
+                            "wins": 8
+                          },
+                          "goalsAgainst": {
+                            "emptyNetAgainst": 0,
+                            "totalAgainst": 2
+                          },
+                          "isGameStarted": true,
+                          "isLosingGoaltender": false,
+                          "isOTLossGoaltender": false,
+                          "isShutout": false,
+                          "isWinningGoaltender": true,
+                          "player": {
+                            "firstName": "Carter",
+                            "lastName": "Hart",
+                            "playerId": 920353,
+                            "uniform": "79"
+                          },
+                          "saves": 23,
+                          "shotsAgainst": 25,
+                          "stintDetails": [
+                            {
+                              "goaltenderSequence": 1,
+                              "periodEntered": 1,
+                              "timeEntered": {
+                                "minutes": 0,
+                                "seconds": 0
+                              }
+                            }
+                          ],
+                          "timePlayed": {
+                            "minutes": 62,
+                            "seconds": 56
+                          }
+                        }
+                      ],
+                      "playerSkaterStats": [
+                        {
+                          "assists": {
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "blocks": 2,
+                          "corsi": 4,
+                          "evenStrengthTimeOnIce": {
+                            "minutes": 27,
+                            "seconds": 9
+                          },
+                          "faceoffs": {
+                            "lost": 0,
+                            "won": 0
+                          },
+                          "fenwick": 4,
+                          "goals": {
+                            "emptyNet": 0,
+                            "gameWinning": 0,
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "hits": 0,
+                          "missedShots": 0,
+                          "penaltyMinutes": 0,
+                          "periodShots": [
+                            {
+                              "period": 1,
+                              "shots": 2
+                            },
+                            {
+                              "period": 2,
+                              "shots": 1
+                            }
+                          ],
+                          "player": {
+                            "firstName": "Ivan",
+                            "lastName": "Provorov",
+                            "playerId": 878038,
+                            "uniform": "9"
+                          },
+                          "plusMinus": 0,
+                          "powerPlayTimeOnIce": {
+                            "minutes": 2,
+                            "seconds": 41
+                          },
+                          "shifts": 31,
+                          "shootout": {
+                            "attempts": 0,
+                            "goals": 0
+                          },
+                          "shortHandedTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 30
+                          },
+                          "shotsOnGoal": 3,
+                          "timeOnIce": {
+                            "minutes": 30,
+                            "seconds": 20
+                          },
+                          "turnovers": {
+                            "giveaways": 1,
+                            "takeaways": 1
+                          },
+                          "zoneStarts": {
+                            "defensiveFaceoffs": 14,
+                            "offensiveFaceoffs": 13,
+                            "percentage": "48.15"
+                          }
+                        },
+                        {
+                          "assists": {
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "blocks": 4,
+                          "corsi": -6,
+                          "evenStrengthTimeOnIce": {
+                            "minutes": 16,
+                            "seconds": 51
+                          },
+                          "faceoffs": {
+                            "lost": 0,
+                            "won": 0
+                          },
+                          "fenwick": -2,
+                          "goals": {
+                            "emptyNet": 0,
+                            "gameWinning": 0,
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "hits": 2,
+                          "missedShots": 0,
+                          "penaltyMinutes": 0,
+                          "player": {
+                            "firstName": "Robert",
+                            "lastName": "Hagg",
+                            "playerId": 743047,
+                            "uniform": "8"
+                          },
+                          "plusMinus": -1,
+                          "powerPlayTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 0
+                          },
+                          "shifts": 24,
+                          "shootout": {
+                            "attempts": 0,
+                            "goals": 0
+                          },
+                          "shortHandedTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 48
+                          },
+                          "shotsOnGoal": 0,
+                          "timeOnIce": {
+                            "minutes": 17,
+                            "seconds": 39
+                          },
+                          "turnovers": {
+                            "giveaways": 0,
+                            "takeaways": 0
+                          },
+                          "zoneStarts": {
+                            "defensiveFaceoffs": 5,
+                            "offensiveFaceoffs": 3,
+                            "percentage": "37.50"
+                          }
+                        },
+                        {
+                          "assists": {
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "blocks": 0,
+                          "corsi": 4,
+                          "evenStrengthTimeOnIce": {
+                            "minutes": 15,
+                            "seconds": 3
+                          },
+                          "faceoffs": {
+                            "lost": 0,
+                            "won": 0
+                          },
+                          "fenwick": 0,
+                          "goals": {
+                            "emptyNet": 0,
+                            "gameWinning": 0,
+                            "powerPlay": 1,
+                            "shortHanded": 0,
+                            "total": 1
+                          },
+                          "hits": 0,
+                          "missedShots": 1,
+                          "penaltyMinutes": 0,
+                          "periodShots": [
+                            {
+                              "period": 2,
+                              "shots": 2
+                            },
+                            {
+                              "period": 3,
+                              "shots": 1
+                            }
+                          ],
+                          "player": {
+                            "firstName": "Oskar",
+                            "lastName": "Lindblom",
+                            "playerId": 831501,
+                            "uniform": "23"
+                          },
+                          "plusMinus": 0,
+                          "powerPlayTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 17
+                          },
+                          "shifts": 22,
+                          "shootout": {
+                            "attempts": 0,
+                            "goals": 0
+                          },
+                          "shortHandedTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 48
+                          },
+                          "shotsOnGoal": 3,
+                          "timeOnIce": {
+                            "minutes": 16,
+                            "seconds": 8
+                          },
+                          "turnovers": {
+                            "giveaways": 0,
+                            "takeaways": 1
+                          },
+                          "zoneStarts": {
+                            "defensiveFaceoffs": 6,
+                            "offensiveFaceoffs": 5,
+                            "percentage": "45.45"
+                          }
+                        },
+                        {
+                          "assists": {
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "blocks": 1,
+                          "corsi": -5,
+                          "evenStrengthTimeOnIce": {
+                            "minutes": 9,
+                            "seconds": 19
+                          },
+                          "faceoffs": {
+                            "lost": 4,
+                            "won": 2
+                          },
+                          "fenwick": -3,
+                          "goals": {
+                            "emptyNet": 0,
+                            "gameWinning": 0,
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "hits": 0,
+                          "missedShots": 0,
+                          "penaltyMinutes": 0,
+                          "player": {
+                            "firstName": "Mikhail",
+                            "lastName": "Vorobyev",
+                            "playerId": 878246,
+                            "uniform": "24"
+                          },
+                          "plusMinus": 0,
+                          "powerPlayTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 0
+                          },
+                          "shifts": 10,
+                          "shootout": {
+                            "attempts": 0,
+                            "goals": 0
+                          },
+                          "shortHandedTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 0
+                          },
+                          "shotsOnGoal": 0,
+                          "timeOnIce": {
+                            "minutes": 9,
+                            "seconds": 19
+                          },
+                          "turnovers": {
+                            "giveaways": 2,
+                            "takeaways": 1
+                          },
+                          "zoneStarts": {
+                            "defensiveFaceoffs": 1,
+                            "offensiveFaceoffs": 1,
+                            "percentage": "50.00"
+                          }
+                        },
+                        {
+                          "assists": {
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "blocks": 0,
+                          "corsi": -1,
+                          "evenStrengthTimeOnIce": {
+                            "minutes": 13,
+                            "seconds": 49
+                          },
+                          "faceoffs": {
+                            "lost": 3,
+                            "won": 4
+                          },
+                          "fenwick": 0,
+                          "goals": {
+                            "emptyNet": 0,
+                            "gameWinning": 0,
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "hits": 1,
+                          "missedShots": 0,
+                          "penaltyMinutes": 0,
+                          "periodShots": [
+                            {
+                              "period": 2,
+                              "shots": 2
+                            },
+                            {
+                              "period": 3,
+                              "shots": 1
+                            }
+                          ],
+                          "player": {
+                            "firstName": "Nolan",
+                            "lastName": "Patrick",
+                            "playerId": 1057100,
+                            "uniform": "19"
+                          },
+                          "plusMinus": -1,
+                          "powerPlayTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 0
+                          },
+                          "shifts": 21,
+                          "shootout": {
+                            "attempts": 0,
+                            "goals": 0
+                          },
+                          "shortHandedTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 0
+                          },
+                          "shotsOnGoal": 3,
+                          "timeOnIce": {
+                            "minutes": 13,
+                            "seconds": 49
+                          },
+                          "turnovers": {
+                            "giveaways": 1,
+                            "takeaways": 1
+                          },
+                          "zoneStarts": {
+                            "defensiveFaceoffs": 5,
+                            "offensiveFaceoffs": 3,
+                            "percentage": "37.50"
+                          }
+                        },
+                        {
+                          "assists": {
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "blocks": 1,
+                          "corsi": 3,
+                          "evenStrengthTimeOnIce": {
+                            "minutes": 19,
+                            "seconds": 46
+                          },
+                          "faceoffs": {
+                            "lost": 0,
+                            "won": 0
+                          },
+                          "fenwick": 2,
+                          "goals": {
+                            "emptyNet": 0,
+                            "gameWinning": 0,
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "hits": 3,
+                          "missedShots": 0,
+                          "penaltyMinutes": 0,
+                          "periodShots": [
+                            {
+                              "period": 2,
+                              "shots": 3
+                            }
+                          ],
+                          "player": {
+                            "firstName": "Radko",
+                            "lastName": "Gudas",
+                            "playerId": 554520,
+                            "uniform": "3"
+                          },
+                          "plusMinus": 0,
+                          "powerPlayTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 0
+                          },
+                          "shifts": 26,
+                          "shootout": {
+                            "attempts": 0,
+                            "goals": 0
+                          },
+                          "shortHandedTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 30
+                          },
+                          "shotsOnGoal": 3,
+                          "timeOnIce": {
+                            "minutes": 20,
+                            "seconds": 16
+                          },
+                          "turnovers": {
+                            "giveaways": 1,
+                            "takeaways": 0
+                          },
+                          "zoneStarts": {
+                            "defensiveFaceoffs": 11,
+                            "offensiveFaceoffs": 4,
+                            "percentage": "26.67"
+                          }
+                        },
+                        {
+                          "assists": {
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "blocks": 0,
+                          "corsi": -2,
+                          "evenStrengthTimeOnIce": {
+                            "minutes": 9,
+                            "seconds": 9
+                          },
+                          "faceoffs": {
+                            "lost": 0,
+                            "won": 0
+                          },
+                          "fenwick": 0,
+                          "goals": {
+                            "emptyNet": 0,
+                            "gameWinning": 0,
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "hits": 0,
+                          "missedShots": 0,
+                          "penaltyMinutes": 0,
+                          "player": {
+                            "firstName": "Phil",
+                            "lastName": "Varone",
+                            "playerId": 651744,
+                            "uniform": "44"
+                          },
+                          "plusMinus": 0,
+                          "powerPlayTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 0
+                          },
+                          "shifts": 10,
+                          "shootout": {
+                            "attempts": 0,
+                            "goals": 0
+                          },
+                          "shortHandedTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 0
+                          },
+                          "shotsOnGoal": 0,
+                          "timeOnIce": {
+                            "minutes": 9,
+                            "seconds": 9
+                          },
+                          "turnovers": {
+                            "giveaways": 1,
+                            "takeaways": 0
+                          },
+                          "zoneStarts": {
+                            "defensiveFaceoffs": 1,
+                            "offensiveFaceoffs": 1,
+                            "percentage": "50.00"
+                          }
+                        },
+                        {
+                          "assists": {
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "blocks": 0,
+                          "corsi": 9,
+                          "evenStrengthTimeOnIce": {
+                            "minutes": 18,
+                            "seconds": 8
+                          },
+                          "faceoffs": {
+                            "lost": 5,
+                            "won": 10
+                          },
+                          "fenwick": 8,
+                          "goals": {
+                            "emptyNet": 0,
+                            "gameWinning": 0,
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 1
+                          },
+                          "hits": 0,
+                          "missedShots": 0,
+                          "penaltyMinutes": 2,
+                          "periodShots": [
+                            {
+                              "period": 1,
+                              "shots": 1
+                            },
+                            {
+                              "period": 3,
+                              "shots": 1
+                            },
+                            {
+                              "period": 0,
+                              "shots": 1
+                            }
+                          ],
+                          "player": {
+                            "firstName": "Claude",
+                            "lastName": "Giroux",
+                            "playerId": 329656,
+                            "uniform": "28"
+                          },
+                          "plusMinus": 1,
+                          "powerPlayTimeOnIce": {
+                            "minutes": 2,
+                            "seconds": 58
+                          },
+                          "shifts": 26,
+                          "shootout": {
+                            "attempts": 0,
+                            "goals": 0
+                          },
+                          "shortHandedTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 0
+                          },
+                          "shotsOnGoal": 3,
+                          "timeOnIce": {
+                            "minutes": 21,
+                            "seconds": 6
+                          },
+                          "turnovers": {
+                            "giveaways": 0,
+                            "takeaways": 1
+                          },
+                          "zoneStarts": {
+                            "defensiveFaceoffs": 5,
+                            "offensiveFaceoffs": 13,
+                            "percentage": "72.22"
+                          }
+                        },
+                        {
+                          "assists": {
+                            "powerPlay": 1,
+                            "shortHanded": 0,
+                            "total": 1
+                          },
+                          "blocks": 1,
+                          "corsi": 6,
+                          "evenStrengthTimeOnIce": {
+                            "minutes": 20,
+                            "seconds": 26
+                          },
+                          "faceoffs": {
+                            "lost": 7,
+                            "won": 16
+                          },
+                          "fenwick": -2,
+                          "goals": {
+                            "emptyNet": 0,
+                            "gameWinning": 0,
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "hits": 0,
+                          "missedShots": 1,
+                          "penaltyMinutes": 0,
+                          "periodShots": [
+                            {
+                              "period": 1,
+                              "shots": 1
+                            },
+                            {
+                              "period": 3,
+                              "shots": 1
+                            },
+                            {
+                              "period": 0,
+                              "shots": 1
+                            }
+                          ],
+                          "player": {
+                            "firstName": "Sean",
+                            "lastName": "Couturier",
+                            "playerId": 600101,
+                            "uniform": "14"
+                          },
+                          "plusMinus": 1,
+                          "powerPlayTimeOnIce": {
+                            "minutes": 1,
+                            "seconds": 55
+                          },
+                          "shifts": 32,
+                          "shootout": {
+                            "attempts": 0,
+                            "goals": 0
+                          },
+                          "shortHandedTimeOnIce": {
+                            "minutes": 1,
+                            "seconds": 1
+                          },
+                          "shotsOnGoal": 3,
+                          "timeOnIce": {
+                            "minutes": 23,
+                            "seconds": 22
+                          },
+                          "turnovers": {
+                            "giveaways": 0,
+                            "takeaways": 0
+                          },
+                          "zoneStarts": {
+                            "defensiveFaceoffs": 13,
+                            "offensiveFaceoffs": 10,
+                            "percentage": "43.48"
+                          }
+                        },
+                        {
+                          "assists": {
+                            "powerPlay": 1,
+                            "shortHanded": 0,
+                            "total": 2
+                          },
+                          "blocks": 0,
+                          "corsi": 7,
+                          "evenStrengthTimeOnIce": {
+                            "minutes": 18,
+                            "seconds": 11
+                          },
+                          "faceoffs": {
+                            "lost": 0,
+                            "won": 0
+                          },
+                          "fenwick": 4,
+                          "goals": {
+                            "emptyNet": 0,
+                            "gameWinning": 0,
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "hits": 1,
+                          "missedShots": 1,
+                          "penaltyMinutes": 0,
+                          "periodShots": [
+                            {
+                              "period": 2,
+                              "shots": 1
+                            },
+                            {
+                              "period": 3,
+                              "shots": 1
+                            },
+                            {
+                              "period": 0,
+                              "shots": 1
+                            }
+                          ],
+                          "player": {
+                            "firstName": "Jakub",
+                            "lastName": "Voracek",
+                            "playerId": 392948,
+                            "uniform": "93"
+                          },
+                          "plusMinus": 1,
+                          "powerPlayTimeOnIce": {
+                            "minutes": 2,
+                            "seconds": 58
+                          },
+                          "shifts": 25,
+                          "shootout": {
+                            "attempts": 0,
+                            "goals": 0
+                          },
+                          "shortHandedTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 0
+                          },
+                          "shotsOnGoal": 3,
+                          "timeOnIce": {
+                            "minutes": 21,
+                            "seconds": 9
+                          },
+                          "turnovers": {
+                            "giveaways": 1,
+                            "takeaways": 0
+                          },
+                          "zoneStarts": {
+                            "defensiveFaceoffs": 8,
+                            "offensiveFaceoffs": 10,
+                            "percentage": "55.56"
+                          }
+                        },
+                        {
+                          "assists": {
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "blocks": 1,
+                          "corsi": -6,
+                          "evenStrengthTimeOnIce": {
+                            "minutes": 11,
+                            "seconds": 30
+                          },
+                          "faceoffs": {
+                            "lost": 0,
+                            "won": 0
+                          },
+                          "fenwick": -5,
+                          "goals": {
+                            "emptyNet": 0,
+                            "gameWinning": 0,
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "hits": 1,
+                          "missedShots": 0,
+                          "penaltyMinutes": 0,
+                          "player": {
+                            "firstName": "Christian",
+                            "lastName": "Folin",
+                            "playerId": 824587,
+                            "uniform": "26"
+                          },
+                          "plusMinus": 0,
+                          "powerPlayTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 0
+                          },
+                          "shifts": 13,
+                          "shootout": {
+                            "attempts": 0,
+                            "goals": 0
+                          },
+                          "shortHandedTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 0
+                          },
+                          "shotsOnGoal": 0,
+                          "timeOnIce": {
+                            "minutes": 11,
+                            "seconds": 30
+                          },
+                          "turnovers": {
+                            "giveaways": 0,
+                            "takeaways": 0
+                          },
+                          "zoneStarts": {
+                            "defensiveFaceoffs": 1,
+                            "offensiveFaceoffs": 1,
+                            "percentage": "50.00"
+                          }
+                        },
+                        {
+                          "assists": {
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "blocks": 2,
+                          "corsi": -4,
+                          "evenStrengthTimeOnIce": {
+                            "minutes": 17,
+                            "seconds": 29
+                          },
+                          "faceoffs": {
+                            "lost": 2,
+                            "won": 3
+                          },
+                          "fenwick": -3,
+                          "goals": {
+                            "emptyNet": 0,
+                            "gameWinning": 0,
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "hits": 6,
+                          "missedShots": 1,
+                          "penaltyMinutes": 0,
+                          "periodShots": [
+                            {
+                              "period": 1,
+                              "shots": 1
+                            },
+                            {
+                              "period": 2,
+                              "shots": 1
+                            },
+                            {
+                              "period": 3,
+                              "shots": 2
+                            }
+                          ],
+                          "player": {
+                            "firstName": "Scott",
+                            "lastName": "Laughton",
+                            "playerId": 659866,
+                            "uniform": "21"
+                          },
+                          "plusMinus": -1,
+                          "powerPlayTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 0
+                          },
+                          "shifts": 23,
+                          "shootout": {
+                            "attempts": 0,
+                            "goals": 0
+                          },
+                          "shortHandedTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 47
+                          },
+                          "shotsOnGoal": 4,
+                          "timeOnIce": {
+                            "minutes": 18,
+                            "seconds": 16
+                          },
+                          "turnovers": {
+                            "giveaways": 0,
+                            "takeaways": 2
+                          },
+                          "zoneStarts": {
+                            "defensiveFaceoffs": 9,
+                            "offensiveFaceoffs": 2,
+                            "percentage": "18.18"
+                          }
+                        },
+                        {
+                          "assists": {
+                            "powerPlay": 1,
+                            "shortHanded": 0,
+                            "total": 1
+                          },
+                          "blocks": 3,
+                          "corsi": 9,
+                          "evenStrengthTimeOnIce": {
+                            "minutes": 22,
+                            "seconds": 45
+                          },
+                          "faceoffs": {
+                            "lost": 0,
+                            "won": 0
+                          },
+                          "fenwick": 6,
+                          "goals": {
+                            "emptyNet": 0,
+                            "gameWinning": 1,
+                            "powerPlay": 1,
+                            "shortHanded": 0,
+                            "total": 1
+                          },
+                          "hits": 0,
+                          "missedShots": 0,
+                          "penaltyMinutes": 0,
+                          "periodShots": [
+                            {
+                              "period": 3,
+                              "shots": 2
+                            },
+                            {
+                              "period": 0,
+                              "shots": 2
+                            }
+                          ],
+                          "player": {
+                            "firstName": "Travis",
+                            "lastName": "Sanheim",
+                            "playerId": 831082,
+                            "uniform": "6"
+                          },
+                          "plusMinus": 0,
+                          "powerPlayTimeOnIce": {
+                            "minutes": 1,
+                            "seconds": 8
+                          },
+                          "shifts": 29,
+                          "shootout": {
+                            "attempts": 0,
+                            "goals": 0
+                          },
+                          "shortHandedTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 0
+                          },
+                          "shotsOnGoal": 4,
+                          "timeOnIce": {
+                            "minutes": 23,
+                            "seconds": 53
+                          },
+                          "turnovers": {
+                            "giveaways": 1,
+                            "takeaways": 0
+                          },
+                          "zoneStarts": {
+                            "defensiveFaceoffs": 8,
+                            "offensiveFaceoffs": 11,
+                            "percentage": "57.89"
+                          }
+                        },
+                        {
+                          "assists": {
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "blocks": 0,
+                          "corsi": 2,
+                          "evenStrengthTimeOnIce": {
+                            "minutes": 13,
+                            "seconds": 56
+                          },
+                          "faceoffs": {
+                            "lost": 0,
+                            "won": 1
+                          },
+                          "fenwick": 2,
+                          "goals": {
+                            "emptyNet": 0,
+                            "gameWinning": 0,
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "hits": 0,
+                          "missedShots": 0,
+                          "penaltyMinutes": 0,
+                          "periodShots": [
+                            {
+                              "period": 1,
+                              "shots": 1
+                            },
+                            {
+                              "period": 2,
+                              "shots": 2
+                            },
+                            {
+                              "period": 3,
+                              "shots": 1
+                            }
+                          ],
+                          "player": {
+                            "firstName": "James",
+                            "lastName": "van Riemsdyk",
+                            "playerId": 392943,
+                            "uniform": "25"
+                          },
+                          "plusMinus": 0,
+                          "powerPlayTimeOnIce": {
+                            "minutes": 2,
+                            "seconds": 41
+                          },
+                          "shifts": 22,
+                          "shootout": {
+                            "attempts": 0,
+                            "goals": 0
+                          },
+                          "shortHandedTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 0
+                          },
+                          "shotsOnGoal": 4,
+                          "timeOnIce": {
+                            "minutes": 16,
+                            "seconds": 37
+                          },
+                          "turnovers": {
+                            "giveaways": 0,
+                            "takeaways": 2
+                          },
+                          "zoneStarts": {
+                            "defensiveFaceoffs": 4,
+                            "offensiveFaceoffs": 10,
+                            "percentage": "71.43"
+                          }
+                        },
+                        {
+                          "assists": {
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "blocks": 0,
+                          "evenStrengthTimeOnIce": {
+                            "minutes": 57,
+                            "seconds": 49
+                          },
+                          "faceoffs": {
+                            "lost": 0,
+                            "won": 0
+                          },
+                          "goals": {
+                            "emptyNet": 0,
+                            "gameWinning": 0,
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "hits": 0,
+                          "missedShots": 0,
+                          "penaltyMinutes": 0,
+                          "player": {
+                            "firstName": "Carter",
+                            "lastName": "Hart",
+                            "playerId": 920353,
+                            "uniform": "79"
+                          },
+                          "plusMinus": 0,
+                          "powerPlayTimeOnIce": {
+                            "minutes": 3,
+                            "seconds": 49
+                          },
+                          "shifts": 0,
+                          "shootout": {
+                            "attempts": 0,
+                            "goals": 0
+                          },
+                          "shortHandedTimeOnIce": {
+                            "minutes": 1,
+                            "seconds": 18
+                          },
+                          "shotsOnGoal": 0,
+                          "timeOnIce": {
+                            "minutes": 62,
+                            "seconds": 56
+                          },
+                          "turnovers": {
+                            "giveaways": 0,
+                            "takeaways": 0
+                          }
+                        },
+                        {
+                          "assists": {
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "blocks": 1,
+                          "corsi": 2,
+                          "evenStrengthTimeOnIce": {
+                            "minutes": 16,
+                            "seconds": 40
+                          },
+                          "faceoffs": {
+                            "lost": 0,
+                            "won": 0
+                          },
+                          "fenwick": -3,
+                          "goals": {
+                            "emptyNet": 0,
+                            "gameWinning": 0,
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "hits": 1,
+                          "missedShots": 1,
+                          "penaltyMinutes": 0,
+                          "player": {
+                            "firstName": "Andrew",
+                            "lastName": "MacDonald",
+                            "playerId": 340229,
+                            "uniform": "47"
+                          },
+                          "plusMinus": 1,
+                          "powerPlayTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 0
+                          },
+                          "shifts": 21,
+                          "shootout": {
+                            "attempts": 0,
+                            "goals": 0
+                          },
+                          "shortHandedTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 48
+                          },
+                          "shotsOnGoal": 0,
+                          "timeOnIce": {
+                            "minutes": 17,
+                            "seconds": 28
+                          },
+                          "turnovers": {
+                            "giveaways": 0,
+                            "takeaways": 0
+                          },
+                          "zoneStarts": {
+                            "defensiveFaceoffs": 5,
+                            "offensiveFaceoffs": 5,
+                            "percentage": "50.00"
+                          }
+                        },
+                        {
+                          "assists": {
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "blocks": 0,
+                          "corsi": -6,
+                          "evenStrengthTimeOnIce": {
+                            "minutes": 7,
+                            "seconds": 14
+                          },
+                          "faceoffs": {
+                            "lost": 0,
+                            "won": 0
+                          },
+                          "fenwick": -3,
+                          "goals": {
+                            "emptyNet": 0,
+                            "gameWinning": 0,
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "hits": 2,
+                          "missedShots": 0,
+                          "penaltyMinutes": 0,
+                          "player": {
+                            "firstName": "Michael",
+                            "lastName": "Raffl",
+                            "playerId": 736539,
+                            "uniform": "12"
+                          },
+                          "plusMinus": 0,
+                          "powerPlayTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 0
+                          },
+                          "shifts": 9,
+                          "shootout": {
+                            "attempts": 0,
+                            "goals": 0
+                          },
+                          "shortHandedTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 0
+                          },
+                          "shotsOnGoal": 0,
+                          "timeOnIce": {
+                            "minutes": 7,
+                            "seconds": 14
+                          },
+                          "turnovers": {
+                            "giveaways": 1,
+                            "takeaways": 0
+                          },
+                          "zoneStarts": {
+                            "defensiveFaceoffs": 1,
+                            "offensiveFaceoffs": 1,
+                            "percentage": "50.00"
+                          }
+                        },
+                        {
+                          "assists": {
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "blocks": 1,
+                          "corsi": -5,
+                          "evenStrengthTimeOnIce": {
+                            "minutes": 15,
+                            "seconds": 51
+                          },
+                          "faceoffs": {
+                            "lost": 0,
+                            "won": 0
+                          },
+                          "fenwick": -4,
+                          "goals": {
+                            "emptyNet": 0,
+                            "gameWinning": 0,
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "hits": 0,
+                          "missedShots": 0,
+                          "penaltyMinutes": 0,
+                          "periodShots": [
+                            {
+                              "period": 2,
+                              "shots": 3
+                            },
+                            {
+                              "period": 3,
+                              "shots": 1
+                            }
+                          ],
+                          "player": {
+                            "firstName": "Wayne",
+                            "lastName": "Simmonds",
+                            "playerId": 409789,
+                            "uniform": "17"
+                          },
+                          "plusMinus": -1,
+                          "powerPlayTimeOnIce": {
+                            "minutes": 1,
+                            "seconds": 37
+                          },
+                          "shifts": 23,
+                          "shootout": {
+                            "attempts": 0,
+                            "goals": 0
+                          },
+                          "shortHandedTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 0
+                          },
+                          "shotsOnGoal": 4,
+                          "timeOnIce": {
+                            "minutes": 17,
+                            "seconds": 28
+                          },
+                          "turnovers": {
+                            "giveaways": 1,
+                            "takeaways": 1
+                          },
+                          "zoneStarts": {
+                            "defensiveFaceoffs": 7,
+                            "offensiveFaceoffs": 4,
+                            "percentage": "36.36"
+                          }
+                        },
+                        {
+                          "assists": {
+                            "powerPlay": 1,
+                            "shortHanded": 0,
+                            "total": 1
+                          },
+                          "blocks": 1,
+                          "corsi": 4,
+                          "evenStrengthTimeOnIce": {
+                            "minutes": 13,
+                            "seconds": 55
+                          },
+                          "faceoffs": {
+                            "lost": 0,
+                            "won": 0
+                          },
+                          "fenwick": 4,
+                          "goals": {
+                            "emptyNet": 0,
+                            "gameWinning": 0,
+                            "powerPlay": 0,
+                            "shortHanded": 0,
+                            "total": 0
+                          },
+                          "hits": 1,
+                          "missedShots": 1,
+                          "penaltyMinutes": 0,
+                          "periodShots": [
+                            {
+                              "period": 1,
+                              "shots": 2
+                            },
+                            {
+                              "period": 2,
+                              "shots": 2
+                            }
+                          ],
+                          "player": {
+                            "firstName": "Travis",
+                            "lastName": "Konecny",
+                            "playerId": 878055,
+                            "uniform": "11"
+                          },
+                          "plusMinus": 0,
+                          "powerPlayTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 51
+                          },
+                          "shifts": 21,
+                          "shootout": {
+                            "attempts": 0,
+                            "goals": 0
+                          },
+                          "shortHandedTimeOnIce": {
+                            "minutes": 0,
+                            "seconds": 0
+                          },
+                          "shotsOnGoal": 4,
+                          "timeOnIce": {
+                            "minutes": 14,
+                            "seconds": 46
+                          },
+                          "turnovers": {
+                            "giveaways": 0,
+                            "takeaways": 3
+                          },
+                          "zoneStarts": {
+                            "defensiveFaceoffs": 4,
+                            "offensiveFaceoffs": 5,
+                            "percentage": "55.56"
+                          }
+                        }
+                      ],
+                      "teamId": 4968,
+                      "teamStats": {
+                        "assists": 5,
+                        "blocks": 18,
+                        "giveaways": 10,
+                        "penalties": 1,
+                        "penaltyMinutes": 2,
+                        "penaltyShots": {
+                          "goals": 0,
+                          "shots": 1
+                        },
+                        "powerPlay": {
+                          "goals": 2,
+                          "opportunities": 2
+                        },
+                        "shotsOnGoal": 41
+                      }
+                    }
+                  ],
+                  "coverageLevel": {
+                    "coverageLevelId": 1,
+                    "details": "STATS Feed",
+                    "name": "Level 2"
+                  },
+                  "eventId": 2056151,
+                  "eventStatus": {
+                    "eventStatusId": 4,
+                    "isActive": false,
+                    "isPenaltyShot": false,
+                    "isUnderReview": false,
+                    "name": "Final",
+                    "period": 4
+                  },
+                  "gameDetail": {
+                    "attendance": "17565",
+                    "capacity": "17565",
+                    "linesmen": [
+                      {
+                        "firstName": "Kory",
+                        "lastName": "Nagy",
+                        "linesmanId": 953056
+                      },
+                      {
+                        "firstName": "Pierre",
+                        "lastName": "Racicot",
+                        "linesmanId": 168637
+                      }
+                    ],
+                    "referees": [
+                      {
+                        "firstName": "Tom",
+                        "lastName": "Chmielewski",
+                        "refereeId": 794383
+                      },
+                      {
+                        "firstName": "Brian",
+                        "lastName": "Pochmara",
+                        "refereeId": 293949
+                      }
+                    ],
+                    "stars": [
+                      {
+                        "player": {
+                          "firstName": "Travis",
+                          "isTemporaryPlayerId": false,
+                          "lastName": "Sanheim",
+                          "playerId": 831082,
+                          "uniform": "6"
+                        },
+                        "starNumber": 1
+                      },
+                      {
+                        "player": {
+                          "firstName": "David",
+                          "isTemporaryPlayerId": false,
+                          "lastName": "Pastrnak",
+                          "playerId": 831092,
+                          "uniform": "88"
+                        },
+                        "starNumber": 2
+                      },
+                      {
+                        "player": {
+                          "firstName": "Tuukka",
+                          "isTemporaryPlayerId": false,
+                          "lastName": "Rask",
+                          "playerId": 300802,
+                          "uniform": "40"
+                        },
+                        "starNumber": 3
+                      }
+                    ],
+                    "timeOfGame": {
+                      "hours": 2,
+                      "minutes": 34
+                    }
+                  },
+                  "isDataConfirmed": {
+                    "box": true,
+                    "score": true
+                  },
+                  "isTba": false,
+                  "periodDetails": [
+                    {
+                      "goals": [
+                        {
+                          "assists": [
+                            {
+                              "game": 1,
+                              "player": {
+                                "firstName": "Torey",
+                                "lastName": "Krug",
+                                "playerId": 652695,
+                                "sequence": 1,
+                                "uniform": "47"
+                              },
+                              "season": 29
+                            },
+                            {
+                              "game": 1,
+                              "player": {
+                                "firstName": "Brad",
+                                "lastName": "Marchand",
+                                "playerId": 414433,
+                                "sequence": 2,
+                                "uniform": "63"
+                              },
+                              "season": 38
+                            }
+                          ],
+                          "currentScore": {
+                            "awayScore": 0,
+                            "homeScore": 1
+                          },
+                          "goalNumber": {
+                            "game": 1,
+                            "season": 29
+                          },
+                          "onIce": [
+                            {
+                              "players": [
+                                {
+                                  "firstName": "Carter",
+                                  "lastName": "Hart",
+                                  "playerId": 920353,
+                                  "uniform": "79"
+                                },
+                                {
+                                  "firstName": "Oskar",
+                                  "lastName": "Lindblom",
+                                  "playerId": 831501,
+                                  "uniform": "23"
+                                },
+                                {
+                                  "firstName": "Robert",
+                                  "lastName": "Hagg",
+                                  "playerId": 743047,
+                                  "uniform": "8"
+                                },
+                                {
+                                  "firstName": "Sean",
+                                  "lastName": "Couturier",
+                                  "playerId": 600101,
+                                  "uniform": "14"
+                                },
+                                {
+                                  "firstName": "Andrew",
+                                  "lastName": "MacDonald",
+                                  "playerId": 340229,
+                                  "uniform": "47"
+                                }
+                              ],
+                              "teamId": 4968
+                            },
+                            {
+                              "players": [
+                                {
+                                  "firstName": "Jake",
+                                  "lastName": "DeBrusk",
+                                  "playerId": 878045,
+                                  "uniform": "74"
+                                },
+                                {
+                                  "firstName": "David",
+                                  "lastName": "Pastrnak",
+                                  "playerId": 831092,
+                                  "uniform": "88"
+                                },
+                                {
+                                  "firstName": "Torey",
+                                  "lastName": "Krug",
+                                  "playerId": 652695,
+                                  "uniform": "47"
+                                },
+                                {
+                                  "firstName": "Brad",
+                                  "lastName": "Marchand",
+                                  "playerId": 414433,
+                                  "uniform": "63"
+                                },
+                                {
+                                  "firstName": "Tuukka",
+                                  "lastName": "Rask",
+                                  "playerId": 300802,
+                                  "uniform": "40"
+                                },
+                                {
+                                  "firstName": "Patrice",
+                                  "lastName": "Bergeron",
+                                  "playerId": 230685,
+                                  "uniform": "37"
+                                }
+                              ],
+                              "teamId": 4954
+                            }
+                          ],
+                          "player": {
+                            "firstName": "David",
+                            "lastName": "Pastrnak",
+                            "playerId": 831092,
+                            "uniform": "88"
+                          },
+                          "strength": {
+                            "name": "Power-Play",
+                            "strengthId": 702
+                          },
+                          "teamId": 4954,
+                          "time": {
+                            "minutes": 3,
+                            "seconds": 5
+                          }
+                        },
+                        {
+                          "assists": [
+                            {
+                              "game": 1,
+                              "player": {
+                                "firstName": "Jakub",
+                                "lastName": "Voracek",
+                                "playerId": 392948,
+                                "sequence": 1,
+                                "uniform": "93"
+                              },
+                              "season": 30
+                            }
+                          ],
+                          "currentScore": {
+                            "awayScore": 1,
+                            "homeScore": 1
+                          },
+                          "goalNumber": {
+                            "game": 1,
+                            "season": 15
+                          },
+                          "onIce": [
+                            {
+                              "players": [
+                                {
+                                  "firstName": "Carter",
+                                  "lastName": "Hart",
+                                  "playerId": 920353,
+                                  "uniform": "79"
+                                },
+                                {
+                                  "firstName": "Sean",
+                                  "lastName": "Couturier",
+                                  "playerId": 600101,
+                                  "uniform": "14"
+                                },
+                                {
+                                  "firstName": "Radko",
+                                  "lastName": "Gudas",
+                                  "playerId": 554520,
+                                  "uniform": "3"
+                                },
+                                {
+                                  "firstName": "Jakub",
+                                  "lastName": "Voracek",
+                                  "playerId": 392948,
+                                  "uniform": "93"
+                                },
+                                {
+                                  "firstName": "Andrew",
+                                  "lastName": "MacDonald",
+                                  "playerId": 340229,
+                                  "uniform": "47"
+                                },
+                                {
+                                  "firstName": "Claude",
+                                  "lastName": "Giroux",
+                                  "playerId": 329656,
+                                  "uniform": "28"
+                                }
+                              ],
+                              "teamId": 4968
+                            },
+                            {
+                              "players": [
+                                {
+                                  "firstName": "Charlie",
+                                  "lastName": "McAvoy",
+                                  "playerId": 920223,
+                                  "uniform": "73"
+                                },
+                                {
+                                  "firstName": "Sean",
+                                  "lastName": "Kuraly",
+                                  "playerId": 610872,
+                                  "uniform": "52"
+                                },
+                                {
+                                  "firstName": "Chris",
+                                  "lastName": "Wagner",
+                                  "playerId": 555392,
+                                  "uniform": "14"
+                                },
+                                {
+                                  "firstName": "Joakim",
+                                  "lastName": "Nordstrom",
+                                  "playerId": 554554,
+                                  "uniform": "20"
+                                },
+                                {
+                                  "firstName": "Tuukka",
+                                  "lastName": "Rask",
+                                  "playerId": 300802,
+                                  "uniform": "40"
+                                },
+                                {
+                                  "firstName": "Zdeno",
+                                  "lastName": "Chara",
+                                  "playerId": 170750,
+                                  "uniform": "33"
+                                }
+                              ],
+                              "teamId": 4954
+                            }
+                          ],
+                          "player": {
+                            "firstName": "Claude",
+                            "lastName": "Giroux",
+                            "playerId": 329656,
+                            "uniform": "28"
+                          },
+                          "strength": {
+                            "name": "Even",
+                            "strengthId": 701
+                          },
+                          "teamId": 4968,
+                          "time": {
+                            "minutes": 19,
+                            "seconds": 16
+                          }
+                        }
+                      ],
+                      "penalties": [
+                        {
+                          "penaltyMinutes": 2,
+                          "penaltyType": {
+                            "name": "Tripping",
+                            "penaltyTypeId": 7
+                          },
+                          "player": {
+                            "firstName": "Claude",
+                            "lastName": "Giroux",
+                            "playerId": 329656,
+                            "uniform": "28"
+                          },
+                          "teamId": 4968,
+                          "time": {
+                            "minutes": 1,
+                            "seconds": 47
+                          }
+                        }
+                      ],
+                      "period": 1
+                    },
+                    {
+                      "goals": [
+                        {
+                          "assists": [
+                            {
+                              "game": 1,
+                              "player": {
+                                "firstName": "Patrice",
+                                "lastName": "Bergeron",
+                                "playerId": 230685,
+                                "sequence": 1,
+                                "uniform": "37"
+                              },
+                              "season": 28
+                            },
+                            {
+                              "game": 1,
+                              "player": {
+                                "firstName": "Zdeno",
+                                "lastName": "Chara",
+                                "playerId": 170750,
+                                "sequence": 2,
+                                "uniform": "33"
+                              },
+                              "season": 4
+                            }
+                          ],
+                          "currentScore": {
+                            "awayScore": 1,
+                            "homeScore": 2
+                          },
+                          "goalNumber": {
+                            "game": 2,
+                            "season": 30
+                          },
+                          "onIce": [
+                            {
+                              "players": [
+                                {
+                                  "firstName": "Nolan",
+                                  "lastName": "Patrick",
+                                  "playerId": 1057100,
+                                  "uniform": "19"
+                                },
+                                {
+                                  "firstName": "Carter",
+                                  "lastName": "Hart",
+                                  "playerId": 920353,
+                                  "uniform": "79"
+                                },
+                                {
+                                  "firstName": "Robert",
+                                  "lastName": "Hagg",
+                                  "playerId": 743047,
+                                  "uniform": "8"
+                                },
+                                {
+                                  "firstName": "Scott",
+                                  "lastName": "Laughton",
+                                  "playerId": 659866,
+                                  "uniform": "21"
+                                },
+                                {
+                                  "firstName": "Radko",
+                                  "lastName": "Gudas",
+                                  "playerId": 554520,
+                                  "uniform": "3"
+                                },
+                                {
+                                  "firstName": "Wayne",
+                                  "lastName": "Simmonds",
+                                  "playerId": 409789,
+                                  "uniform": "17"
+                                }
+                              ],
+                              "teamId": 4968
+                            },
+                            {
+                              "players": [
+                                {
+                                  "firstName": "Charlie",
+                                  "lastName": "McAvoy",
+                                  "playerId": 920223,
+                                  "uniform": "73"
+                                },
+                                {
+                                  "firstName": "David",
+                                  "lastName": "Pastrnak",
+                                  "playerId": 831092,
+                                  "uniform": "88"
+                                },
+                                {
+                                  "firstName": "Brad",
+                                  "lastName": "Marchand",
+                                  "playerId": 414433,
+                                  "uniform": "63"
+                                },
+                                {
+                                  "firstName": "Tuukka",
+                                  "lastName": "Rask",
+                                  "playerId": 300802,
+                                  "uniform": "40"
+                                },
+                                {
+                                  "firstName": "Patrice",
+                                  "lastName": "Bergeron",
+                                  "playerId": 230685,
+                                  "uniform": "37"
+                                },
+                                {
+                                  "firstName": "Zdeno",
+                                  "lastName": "Chara",
+                                  "playerId": 170750,
+                                  "uniform": "33"
+                                }
+                              ],
+                              "teamId": 4954
+                            }
+                          ],
+                          "player": {
+                            "firstName": "David",
+                            "lastName": "Pastrnak",
+                            "playerId": 831092,
+                            "uniform": "88"
+                          },
+                          "strength": {
+                            "name": "Even",
+                            "strengthId": 701
+                          },
+                          "teamId": 4954,
+                          "time": {
+                            "minutes": 5,
+                            "seconds": 11
+                          }
+                        }
+                      ],
+                      "period": 2
+                    },
+                    {
+                      "goals": [
+                        {
+                          "assists": [
+                            {
+                              "game": 2,
+                              "player": {
+                                "firstName": "Jakub",
+                                "lastName": "Voracek",
+                                "playerId": 392948,
+                                "sequence": 1,
+                                "uniform": "93"
+                              },
+                              "season": 31
+                            },
+                            {
+                              "game": 1,
+                              "player": {
+                                "firstName": "Travis",
+                                "lastName": "Sanheim",
+                                "playerId": 831082,
+                                "sequence": 2,
+                                "uniform": "6"
+                              },
+                              "season": 12
+                            }
+                          ],
+                          "currentScore": {
+                            "awayScore": 2,
+                            "homeScore": 2
+                          },
+                          "goalNumber": {
+                            "game": 1,
+                            "season": 7
+                          },
+                          "onIce": [
+                            {
+                              "players": [
+                                {
+                                  "firstName": "Carter",
+                                  "lastName": "Hart",
+                                  "playerId": 920353,
+                                  "uniform": "79"
+                                },
+                                {
+                                  "firstName": "Oskar",
+                                  "lastName": "Lindblom",
+                                  "playerId": 831501,
+                                  "uniform": "23"
+                                },
+                                {
+                                  "firstName": "Travis",
+                                  "lastName": "Sanheim",
+                                  "playerId": 831082,
+                                  "uniform": "6"
+                                },
+                                {
+                                  "firstName": "Wayne",
+                                  "lastName": "Simmonds",
+                                  "playerId": 409789,
+                                  "uniform": "17"
+                                },
+                                {
+                                  "firstName": "Jakub",
+                                  "lastName": "Voracek",
+                                  "playerId": 392948,
+                                  "uniform": "93"
+                                },
+                                {
+                                  "firstName": "Claude",
+                                  "lastName": "Giroux",
+                                  "playerId": 329656,
+                                  "uniform": "28"
+                                }
+                              ],
+                              "teamId": 4968
+                            },
+                            {
+                              "players": [
+                                {
+                                  "firstName": "Danton",
+                                  "lastName": "Heinen",
+                                  "playerId": 831469,
+                                  "uniform": "43"
+                                },
+                                {
+                                  "firstName": "Kevan",
+                                  "lastName": "Miller",
+                                  "playerId": 594808,
+                                  "uniform": "86"
+                                },
+                                {
+                                  "firstName": "David",
+                                  "lastName": "Krejci",
+                                  "playerId": 325618,
+                                  "uniform": "46"
+                                },
+                                {
+                                  "firstName": "Tuukka",
+                                  "lastName": "Rask",
+                                  "playerId": 300802,
+                                  "uniform": "40"
+                                },
+                                {
+                                  "firstName": "Zdeno",
+                                  "lastName": "Chara",
+                                  "playerId": 170750,
+                                  "uniform": "33"
+                                }
+                              ],
+                              "teamId": 4954
+                            }
+                          ],
+                          "player": {
+                            "firstName": "Oskar",
+                            "lastName": "Lindblom",
+                            "playerId": 831501,
+                            "uniform": "23"
+                          },
+                          "strength": {
+                            "name": "Power-Play",
+                            "strengthId": 702
+                          },
+                          "teamId": 4968,
+                          "time": {
+                            "minutes": 10,
+                            "seconds": 36
+                          }
+                        }
+                      ],
+                      "penalties": [
+                        {
+                          "penaltyMinutes": 2,
+                          "penaltyType": {
+                            "name": "Stick Holding",
+                            "penaltyTypeId": 12
+                          },
+                          "player": {
+                            "firstName": "Sean",
+                            "lastName": "Kuraly",
+                            "playerId": 610872,
+                            "uniform": "52"
+                          },
+                          "teamId": 4954,
+                          "time": {
+                            "minutes": 8,
+                            "seconds": 46
+                          }
+                        }
+                      ],
+                      "period": 3
+                    },
+                    {
+                      "goals": [
+                        {
+                          "assists": [
+                            {
+                              "game": 1,
+                              "player": {
+                                "firstName": "Sean",
+                                "lastName": "Couturier",
+                                "playerId": 600101,
+                                "sequence": 1,
+                                "uniform": "14"
+                              },
+                              "season": 22
+                            },
+                            {
+                              "game": 1,
+                              "player": {
+                                "firstName": "Travis",
+                                "lastName": "Konecny",
+                                "playerId": 878055,
+                                "sequence": 2,
+                                "uniform": "11"
+                              },
+                              "season": 16
+                            }
+                          ],
+                          "currentScore": {
+                            "awayScore": 3,
+                            "homeScore": 2
+                          },
+                          "goalNumber": {
+                            "game": 1,
+                            "season": 5
+                          },
+                          "onIce": [
+                            {
+                              "players": [
+                                {
+                                  "firstName": "Carter",
+                                  "lastName": "Hart",
+                                  "playerId": 920353,
+                                  "uniform": "79"
+                                },
+                                {
+                                  "firstName": "Travis",
+                                  "lastName": "Konecny",
+                                  "playerId": 878055,
+                                  "uniform": "11"
+                                },
+                                {
+                                  "firstName": "Travis",
+                                  "lastName": "Sanheim",
+                                  "playerId": 831082,
+                                  "uniform": "6"
+                                },
+                                {
+                                  "firstName": "Sean",
+                                  "lastName": "Couturier",
+                                  "playerId": 600101,
+                                  "uniform": "14"
+                                },
+                                {
+                                  "firstName": "Wayne",
+                                  "lastName": "Simmonds",
+                                  "playerId": 409789,
+                                  "uniform": "17"
+                                }
+                              ],
+                              "teamId": 4968
+                            },
+                            {
+                              "players": [
+                                {
+                                  "firstName": "Kevan",
+                                  "lastName": "Miller",
+                                  "playerId": 594808,
+                                  "uniform": "86"
+                                },
+                                {
+                                  "firstName": "John",
+                                  "lastName": "Moore",
+                                  "playerId": 504301,
+                                  "uniform": "27"
+                                },
+                                {
+                                  "firstName": "Tuukka",
+                                  "lastName": "Rask",
+                                  "playerId": 300802,
+                                  "uniform": "40"
+                                },
+                                {
+                                  "firstName": "Patrice",
+                                  "lastName": "Bergeron",
+                                  "playerId": 230685,
+                                  "uniform": "37"
+                                }
+                              ],
+                              "teamId": 4954
+                            }
+                          ],
+                          "player": {
+                            "firstName": "Travis",
+                            "lastName": "Sanheim",
+                            "playerId": 831082,
+                            "uniform": "6"
+                          },
+                          "strength": {
+                            "name": "Power-Play",
+                            "strengthId": 702
+                          },
+                          "teamId": 4968,
+                          "time": {
+                            "minutes": 2,
+                            "seconds": 56
+                          }
+                        }
+                      ],
+                      "penalties": [
+                        {
+                          "penaltyMinutes": 2,
+                          "penaltyType": {
+                            "name": "Tripping",
+                            "penaltyTypeId": 7
+                          },
+                          "player": {
+                            "firstName": "Brad",
+                            "lastName": "Marchand",
+                            "playerId": 414433,
+                            "uniform": "63"
+                          },
+                          "teamId": 4954,
+                          "time": {
+                            "minutes": 0,
+                            "seconds": 57
+                          }
+                        }
+                      ],
+                      "period": 4
+                    }
+                  ],
+                  "startDate": [
+                    {
+                      "date": 31,
+                      "dateType": "Local",
+                      "full": "2019-01-31T19:00:00",
+                      "hour": 19,
+                      "minute": 0,
+                      "month": 1,
+                      "year": 2019
+                    },
+                    {
+                      "date": 1,
+                      "dateType": "UTC",
+                      "full": "2019-02-01T00:00:00",
+                      "hour": 0,
+                      "minute": 0,
+                      "month": 2,
+                      "year": 2019
+                    }
+                  ],
+                  "teams": [
+                    {
+                      "abbreviation": "Bos",
+                      "isWinner": false,
+                      "location": "Boston",
+                      "nickname": "Bruins",
+                      "record": {
+                        "losses": 17,
+                        "overtimeLosses": 7,
+                        "wins": 27
+                      },
+                      "score": 2,
+                      "shots": 25,
+                      "teamId": 4954,
+                      "teamLocationType": {
+                        "name": "home",
+                        "teamLocationTypeId": 1
+                      }
+                    },
+                    {
+                      "abbreviation": "Phi",
+                      "isWinner": true,
+                      "location": "Philadelphia",
+                      "nickname": "Flyers",
+                      "record": {
+                        "losses": 23,
+                        "overtimeLosses": 6,
+                        "wins": 22
+                      },
+                      "score": 3,
+                      "shots": 41,
+                      "teamId": 4968,
+                      "teamLocationType": {
+                        "name": "away",
+                        "teamLocationTypeId": 2
+                      }
+                    }
+                  ],
+                  "tvStations": [
+                    {
+                      "callLetters": "NSP+",
+                      "country": {
+                        "abbreviation": "USA",
+                        "countryId": 1,
+                        "name": "United States"
+                      },
+                      "name": "NBC Sports Philadelphia Plus",
+                      "networkType": {
+                        "name": "Regional",
+                        "networkTypeId": 2
+                      },
+                      "tvStationId": 934
+                    },
+                    {
+                      "callLetters": "NESN",
+                      "country": {
+                        "abbreviation": "USA",
+                        "countryId": 1,
+                        "name": "United States"
+                      },
+                      "name": "New England Sports Network",
+                      "networkType": {
+                        "name": "Regional",
+                        "networkTypeId": 2
+                      },
+                      "tvStationId": 174
+                    },
+                    {
+                      "callLetters": "RSN",
+                      "country": {
+                        "abbreviation": "CAN",
+                        "countryId": 2,
+                        "name": "Canada"
+                      },
+                      "name": "Rogers SportsNet",
+                      "networkType": {
+                        "name": "National",
+                        "networkTypeId": 1
+                      },
+                      "tvStationId": 716
+                    },
+                    {
+                      "callLetters": "NHL",
+                      "country": {
+                        "abbreviation": "USA",
+                        "countryId": 1,
+                        "name": "United States"
+                      },
+                      "name": "NHL Network",
+                      "networkType": {
+                        "name": "National",
+                        "networkTypeId": 1
+                      },
+                      "tvStationId": 882
+                    }
+                  ],
+                  "venue": {
+                    "city": "Boston",
+                    "country": {
+                      "abbreviation": "USA",
+                      "countryId": 1,
+                      "name": "United States"
+                    },
+                    "name": "TD Garden",
+                    "state": {
+                      "abbreviation": "MA",
+                      "name": "Massachusetts",
+                      "stateId": 21
+                    },
+                    "venueId": 2
+                  }
+                }
+              ],
+              "name": "Regular Season"
+            }
+          ],
+          "isActive": false,
+          "name": "2018-19 NHL Season",
+          "season": 2018
+        }
+      },
+      "name": "Hockey",
+      "sportId": 3
+    }
+  ],
+  "endTimestamp": "2020-06-11T23:18:25.4837257Z",
+  "recordCount": 1,
+  "startTimestamp": "2020-06-11T23:18:25.4544247Z",
+  "status": "OK",
+  "timeTaken": 0.029300999999999997
+}
