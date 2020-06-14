@@ -10,8 +10,8 @@ describe('getEventIdsByDate', () => {
     describe('non-nfl case', () => {
         const sport = 'mlb';
         const season = 'season';
-        const date = '2019-08-08';
-        const week = undefined;
+        const date = 'date';
+        const week = 'week';
 
         describe('success case', () => {
             let result: any;
@@ -64,7 +64,7 @@ describe('getEventIdsByDate', () => {
     describe('nfl case', () => {
         const sport = 'nfl';
         const season = 'season';
-        const date = undefined;
+        const date = 'date';
         const week = 'week';
 
         describe('success case', () => {
