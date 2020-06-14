@@ -1,15 +1,15 @@
 import {getFantasyData} from "./index";
 import {getEventIds} from "../helpers/getEventIds/getEventIds";
-import {getFantasyDataFromNFLGame} from "../helpers/getFantasyDataFromNFLGame/getFantasyDataFromNFLGame";
-import {getFantasyDataFromMLBGame} from "../helpers/getFantasyDataFromMLBGame/getFantasyDataFromMLBGame";
-import {getFantasyDataFromNBAGame} from "../helpers/getFantasyDataFromNBAGame/getFantasyDataFromNBAGame";
-import {getFantasyDataFromNHLGame} from "../helpers/getFantasyDataFromNHLGame/getFantasyDataFromNHLGame";
+import {getFantasyDataFromNFLGame} from "../helpers/getFantasyDataFromEvent/getFantasyDataFromNFLGame";
+import {getFantasyDataFromMLBGame} from "../helpers/getFantasyDataFromEvent/getFantasyDataFromMLBGame";
+import {getFantasyDataFromNBAGame} from "../helpers/getFantasyDataFromEvent/getFantasyDataFromNBAGame";
+import {getFantasyDataFromNHLGame} from "../helpers/getFantasyDataFromEvent/getFantasyDataFromNHLGame";
 
 jest.mock('../helpers/getEventIds/getEventIds');
-jest.mock('../helpers/getFantasyDataFromMLBGame/getFantasyDataFromMLBGame');
-jest.mock('../helpers/getFantasyDataFromNFLGame/getFantasyDataFromNFLGame');
-jest.mock('../helpers/getFantasyDataFromNBAGame/getFantasyDataFromNBAGame');
-jest.mock('../helpers/getFantasyDataFromNHLGame/getFantasyDataFromNHLGame');
+jest.mock('../helpers/getFantasyDataFromEvent/getFantasyDataFromMLBGame');
+jest.mock('../helpers/getFantasyDataFromEvent/getFantasyDataFromNFLGame');
+jest.mock('../helpers/getFantasyDataFromEvent/getFantasyDataFromNBAGame');
+jest.mock('../helpers/getFantasyDataFromEvent/getFantasyDataFromNHLGame');
 
 (getEventIds as jest.Mock).mockResolvedValue([1, 2, 3]);
 (getFantasyDataFromMLBGame as jest.Mock).mockResolvedValue([

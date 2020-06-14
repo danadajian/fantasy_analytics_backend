@@ -4,6 +4,7 @@ export const SPORT_MAP = {
     nba: 'basketball',
     nhl: 'hockey'
 };
+export const NUMBER_OF_GAMES_FOR_ROLLING_AVG = 5;
 
 //MLB
 export const SINGLE_MULTIPLIER = 3;
@@ -58,7 +59,6 @@ export const DEFENSE_INT_MULTIPLIER = 2;
 export const FUMBLE_RECOVERIES_MULTIPLIER = 2;
 export const DEFENSE_TOUCHDOWNS_MULTIPLIER = 6;
 export const SAFETIES_MULTIPLIER = 2;
-export const MAX_WEEKS_IN_SEASON = 17;
 export const YARDS_BONUS = 3;
 export const POINTS_ALLOWED_RANGES = [
     [-1, 0],

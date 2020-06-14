@@ -1,8 +1,8 @@
 import {getEventIds} from "../helpers/getEventIds/getEventIds";
-import {getFantasyDataFromMLBGame} from "../helpers/getFantasyDataFromMLBGame/getFantasyDataFromMLBGame";
-import {getFantasyDataFromNFLGame} from "../helpers/getFantasyDataFromNFLGame/getFantasyDataFromNFLGame";
-import {getFantasyDataFromNBAGame} from "../helpers/getFantasyDataFromNBAGame/getFantasyDataFromNBAGame";
-import {getFantasyDataFromNHLGame} from "../helpers/getFantasyDataFromNHLGame/getFantasyDataFromNHLGame";
+import {getFantasyDataFromMLBGame} from "../helpers/getFantasyDataFromEvent/getFantasyDataFromMLBGame";
+import {getFantasyDataFromNFLGame} from "../helpers/getFantasyDataFromEvent/getFantasyDataFromNFLGame";
+import {getFantasyDataFromNBAGame} from "../helpers/getFantasyDataFromEvent/getFantasyDataFromNBAGame";
+import {getFantasyDataFromNHLGame} from "../helpers/getFantasyDataFromEvent/getFantasyDataFromNHLGame";
 import * as _ from 'lodash'
 import * as Bluebird from 'bluebird'
 
