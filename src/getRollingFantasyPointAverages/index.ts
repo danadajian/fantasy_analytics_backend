@@ -2,10 +2,11 @@ import {getCurrentData} from "../getCurrentData";
 import {getFantasyData} from "../getFantasyData";
 import {groupAndCalculateAverages} from "./groupAndCalculateAverages";
 import * as Bluebird from "bluebird";
+import {FantasyData} from "../index";
 
-export const getRollingFantasyPointAverages = async (event) => {
+export const getRollingFantasyPointAverages = async (event): Promise<FantasyData[]> => {
     const {site, sport} = event;
-    return getCurrentData(sport)
+    return getCurrentData({sport})
         .then(currentData => {
             let {rollingDateStrings, rollingWeeks, currentSeason} = currentData;
             if (sport === 'nfl') {

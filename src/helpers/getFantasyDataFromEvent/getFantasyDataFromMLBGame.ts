@@ -5,8 +5,9 @@ import {
     calculateDraftKingsBattingPoints, calculateDraftKingsPitchingPoints,
     calculateFanduelBattingPoints, calculateFanduelPitchingPoints
 } from "../calculateFantasyPoints/calculateMLBFantasyPoints";
+import {FantasyData} from "../../index";
 
-export const getFantasyDataFromMLBGame = async (eventId) => {
+export const getFantasyDataFromMLBGame = async (eventId: number): Promise<FantasyData[]> => {
     const sport = 'mlb';
     return callApi(`stats/${SPORT_MAP[sport]}/${sport}/events/${eventId}`, "&box=true")
         .then((response) => {

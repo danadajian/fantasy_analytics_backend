@@ -7,11 +7,12 @@ const mockNFLScheduleResponse = require('../../fixtures/nflScheduleResponse.json
 jest.mock('../callApi/callApi');
 
 describe('getEventIdsByDate', () => {
+    const season = 1969;
+    const date = 'date';
+    const week = 69;
+
     describe('non-nfl case', () => {
         const sport = 'mlb';
-        const season = 'season';
-        const date = 'date';
-        const week = 'week';
 
         describe('success case', () => {
             let result: any;
@@ -63,9 +64,6 @@ describe('getEventIdsByDate', () => {
 
     describe('nfl case', () => {
         const sport = 'nfl';
-        const season = 'season';
-        const date = 'date';
-        const week = 'week';
 
         describe('success case', () => {
             let result: any;

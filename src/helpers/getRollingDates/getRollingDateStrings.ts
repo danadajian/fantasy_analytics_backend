@@ -1,7 +1,7 @@
 import {NUMBER_OF_GAMES_FOR_ROLLING_AVG} from "../../constants";
 
-export const getRollingDateStrings = (date: Date) => {
-    let rollingDateStrings = [];
+export const getRollingDateStrings = (date: Date): string[] => {
+    let rollingDateStrings: string[] = [];
 
     for (let i = 1; i <= NUMBER_OF_GAMES_FOR_ROLLING_AVG; i++) {
         const priorDate = new Date(date);

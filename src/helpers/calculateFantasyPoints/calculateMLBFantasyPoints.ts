@@ -8,7 +8,7 @@ import {
     NO_HITTER_BONUS, QUALITY_START_BONUS, SINGLE_MULTIPLIER, WALK_AGAINST_MULTIPLIER
 } from "../../constants";
 
-export const calculateFanduelBattingPoints = (battingStatObject) => {
+export const calculateFanduelBattingPoints = (battingStatObject): number => {
     const {doubles, hitByPitch, hits, homeRuns, runs, runsBattedIn, stolenBases, triples, walks} = battingStatObject;
     return sum(
         (hits.game - doubles.game - triples.game - homeRuns.game) * SINGLE_MULTIPLIER,
@@ -23,7 +23,7 @@ export const calculateFanduelBattingPoints = (battingStatObject) => {
     )
 };
 
-export const calculateDraftKingsBattingPoints = (battingStatObject) => {
+export const calculateDraftKingsBattingPoints = (battingStatObject): number => {
     const {doubles, hitByPitch, hits, homeRuns, runs, runsBattedIn, stolenBases, triples, walks} = battingStatObject;
     return sum(
         (hits.game - doubles.game - triples.game - homeRuns.game) * SINGLE_MULTIPLIER,
@@ -38,7 +38,7 @@ export const calculateDraftKingsBattingPoints = (battingStatObject) => {
     )
 };
 
-export const calculateFanduelPitchingPoints = (pitchingStatObject, pitchingStarterObject) => {
+export const calculateFanduelPitchingPoints = (pitchingStatObject, pitchingStarterObject): number => {
     const isStartingPitcher = pitchingStarterObject && pitchingStarterObject.player.playerId === pitchingStatObject.player.playerId;
     let {earnedRuns, inningsPitched, isWinningPitcher, strikeouts} = pitchingStatObject;
     const ipArray = Number(inningsPitched.game).toFixed(1).split('.');
@@ -52,7 +52,7 @@ export const calculateFanduelPitchingPoints = (pitchingStatObject, pitchingStart
     )
 };
 
-export const calculateDraftKingsPitchingPoints = (pitchingStatObject) => {
+export const calculateDraftKingsPitchingPoints = (pitchingStatObject): number => {
     let {earnedRuns, hitBatsmen, hits, inningsPitched, isCompleteGame, isNoHitter, isShutout, isWinningPitcher, strikeouts, walks} = pitchingStatObject;
     const ipArray = Number(inningsPitched.game).toFixed(1).split('.');
     inningsPitched = Number(ipArray[0]) + Number(ipArray[1]) / 3;

@@ -30,7 +30,7 @@ jest.mock('../helpers/getFantasyDataFromEvent/getFantasyDataFromNHLGame');
 ]);
 
 describe('getFantasyData', () => {
-    const season = 'season';
+    const season = 1969;
 
     describe('mlb case', () => {
         let result: any;
@@ -67,8 +67,7 @@ describe('getFantasyData', () => {
     describe('nfl case', () => {
         let result: any;
         const sport = 'nfl';
-        const season = 'season';
-        const week = 'week';
+        const week = 69;
         const event = {sport, season, week};
 
         beforeEach(async () => {

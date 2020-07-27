@@ -5,8 +5,9 @@ import {getFantasyDataFromNBAGame} from "../helpers/getFantasyDataFromEvent/getF
 import {getFantasyDataFromNHLGame} from "../helpers/getFantasyDataFromEvent/getFantasyDataFromNHLGame";
 import * as _ from 'lodash'
 import * as Bluebird from 'bluebird'
+import {FantasyData, FantasyLambdaEvent} from "../index";
 
-export const getFantasyData = async (event: any) => {
+export const getFantasyData = async (event: FantasyLambdaEvent): Promise<FantasyData[]> => {
     const {sport, season, date, week} = event;
     return getEventIds(sport, season, date, week)
         .then(eventIds => {

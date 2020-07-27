@@ -30,7 +30,7 @@ describe('getRollingFantasyPointAverages', () => {
         });
 
         it('should call getCurrentWeek lambda with correct params', () => {
-            expect(getCurrentData).toHaveBeenCalledWith(sport)
+            expect(getCurrentData).toHaveBeenCalledWith({sport})
         });
 
         it('should call getFantasyData lambda correct number of times', () => {
@@ -66,7 +66,7 @@ describe('getRollingFantasyPointAverages', () => {
         });
 
         it('should call getCurrentWeek lambda with correct params', () => {
-            expect(getCurrentData).toHaveBeenCalledWith(sport)
+            expect(getCurrentData).toHaveBeenCalledWith({sport})
         });
 
         it('should call getFantasyData lambda correct number of times', () => {

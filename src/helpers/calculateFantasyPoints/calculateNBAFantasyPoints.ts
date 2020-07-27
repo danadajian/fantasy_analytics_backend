@@ -5,7 +5,7 @@ import {
     FD_THREE_PT_MULTIPLIER, FD_TURNOVER_MULTIPLIER, FREE_THROW_MULTIPLIER, TRIPLE_DOUBLE_BONUS, TWO_PT_MULTIPLIER
 } from "../../constants";
 
-export const calculateFanduelPoints = (statObject) => {
+export const calculateFanduelPoints = (statObject): number => {
     const {assists, blockedShots, fieldGoals, freeThrows, rebounds, steals, threePointFieldGoals, turnovers} = statObject;
     return sum(
         threePointFieldGoals.made * FD_THREE_PT_MULTIPLIER,
@@ -19,7 +19,7 @@ export const calculateFanduelPoints = (statObject) => {
     )
 };
 
-export const calculateDraftKingsPoints = (statObject) => {
+export const calculateDraftKingsPoints = (statObject): number => {
     const {assists, blockedShots, points, rebounds, steals, threePointFieldGoals, turnovers} = statObject;
     const statArray = [points, rebounds.total, assists, blockedShots, steals].sort((a, b) =>  b - a);
     const isDoubleDouble = statArray.slice(0, 2).every(stat => stat >= 10);

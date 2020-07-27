@@ -8,8 +8,9 @@ import {
     calculateFanduelPassingPoints, calculateFanduelReceivingPoints,
     calculateFanduelRushingPoints, calculateReturnPoints, calculateTwoPointConversionPoints
 } from "../calculateFantasyPoints/calculateNFLFantasyPoints";
+import {FantasyData} from "../../index";
 
-export const getFantasyDataFromNFLGame = async (eventId) => {
+export const getFantasyDataFromNFLGame = async (eventId: number): Promise<FantasyData[]> => {
     const sport = 'nfl';
     return callApi(`stats/${SPORT_MAP[sport]}/${sport}/events/${eventId}`, "&box=true")
         .then((response) => {

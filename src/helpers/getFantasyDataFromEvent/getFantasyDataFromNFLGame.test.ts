@@ -6,7 +6,7 @@ const mockNFLEventIdResponse = require('../../fixtures/nflEventIdResponse.json')
 jest.mock('../callApi/callApi');
 
 describe('getFantasyDataFromNFLGame', () => {
-    const eventId = 'eventId';
+    const eventId = 123;
 
     describe('success case', () => {
         let result: any;
@@ -17,7 +17,7 @@ describe('getFantasyDataFromNFLGame', () => {
         });
 
         it('should call callApi with correct params', () => {
-            expect(callApi).toHaveBeenCalledWith("stats/football/nfl/events/eventId", "&box=true")
+            expect(callApi).toHaveBeenCalledWith("stats/football/nfl/events/123", "&box=true")
         });
 
         it('should return expected result', () => {
@@ -161,7 +161,7 @@ describe('getFantasyDataFromNFLGame', () => {
         });
 
         it('should call callApi with correct params', () => {
-            expect(callApi).toHaveBeenCalledWith("stats/football/nfl/events/eventId", "&box=true")
+            expect(callApi).toHaveBeenCalledWith("stats/football/nfl/events/123", "&box=true")
         });
 
         it('should return expected result', () => {

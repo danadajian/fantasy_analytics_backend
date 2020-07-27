@@ -1,6 +1,7 @@
 import * as _ from 'lodash'
+import {FantasyData} from "../index";
 
-export const groupAndCalculateAverages = async (fantasyData, site) => {
+export const groupAndCalculateAverages = async (fantasyData: FantasyData[][], site: string): Promise<FantasyData[]> => {
     return _.chain(fantasyData)
         .flatten()
         .groupBy("playerId")
