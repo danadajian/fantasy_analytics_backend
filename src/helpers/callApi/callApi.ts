@@ -7,5 +7,5 @@ export const callApi = async (baseCall: string, params: string): Promise<any> =>
     const url = `http://api.stats.com/v1/${baseCall}?accept=json${params}&api_key=${process.env.API_KEY}&sig=${signature}`;
     return fetch(url)
         .then(response => response.json())
-        .catch((error: Error) => error)
+        .catch((error: Error) => console.log(error))
 };
