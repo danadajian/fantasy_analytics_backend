@@ -34,7 +34,7 @@ describe('getRecentData', () => {
         it('should call getFantasyData with correct params', () => {
             expect(getFantasyData).toHaveBeenCalledWith({
                 sport: 'nfl',
-                week: 69
+                week: 68
             })
         });
 

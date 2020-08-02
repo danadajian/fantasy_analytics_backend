@@ -7,7 +7,7 @@ export const getRecentFantasyData = async (sport: string): Promise<any> => {
             .then((week: number) => {
                 return getFantasyData({
                     sport,
-                    week
+                    week: week - 1
                 })
             })
     }
