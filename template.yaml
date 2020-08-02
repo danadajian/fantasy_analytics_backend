@@ -36,3 +36,20 @@ Resources:
         Key: !Ref CodeKey
       Handler: build/getRollingFantasyPointAverages/index.getRollingFantasyPointAverages
       Runtime: nodejs12.x
+  GetRecentFantasyDataFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri:
+        Bucket: !Ref BucketName
+        Key: !Ref CodeKey
+      Handler: build/getRecentFantasyData/index.getRecentFantasyDataHandler
+      Runtime: nodejs12.x
+      Events:
+        InvocationLevel:
+          Type: Schedule
+          Properties:
+            Schedule: cron(0 10 * * ? *)
+      Environment:
+        Variables:
+          AWS_KEY: !Ref AwsKey
+          AWS_SECRET: !Ref AwsSecret

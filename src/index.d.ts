@@ -7,7 +7,7 @@ export interface FantasyData {
 
 export interface FantasyLambdaEvent {
     sport: string,
-    season: number,
+    season?: number,
     date?: string,
     week?: number
 }
