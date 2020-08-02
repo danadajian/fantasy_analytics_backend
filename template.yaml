@@ -49,7 +49,3 @@ Resources:
           Type: Schedule
           Properties:
             Schedule: cron(0 10 * * ? *)
-      Environment:
-        Variables:
-          AWS_KEY: !Ref AwsKey
-          AWS_SECRET: !Ref AwsSecret
