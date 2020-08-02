@@ -24,7 +24,7 @@ describe('getRecentFantasyDataHandler', () => {
     });
 
     it('should call getFantasyData with correct params', () => {
-        expect(uploadObjectToS3).toHaveBeenCalledWith('recent fantasy data', FANTASY_ANALYTICS_BUCKET_NAME, 'a sportRecentFantasyData')
+        expect(uploadObjectToS3).toHaveBeenCalledWith('recent fantasy data', FANTASY_ANALYTICS_BUCKET_NAME, 'a sportRecentFantasyData.json')
     });
 
     it('should return expected result', () => {
