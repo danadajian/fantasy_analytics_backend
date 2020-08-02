@@ -11,23 +11,22 @@ jest.mock('../aws/aws');
 
 describe('getRecentFantasyDataHandler', () => {
     let result: any;
-    const event = {
-        sport: 'a sport'
-    }
 
     beforeEach(async () => {
-        result = await getRecentFantasyDataHandler(event)
+        result = await getRecentFantasyDataHandler()
     })
 
     it('should not call getCurrentWeek', () => {
-        expect(getRecentFantasyData).toHaveBeenCalledWith('a sport')
+        expect(getRecentFantasyData).toHaveBeenCalledWith('mlb')
+        expect(getRecentFantasyData).toHaveBeenCalledWith('nfl')
+        expect(getRecentFantasyData).toHaveBeenCalledWith('nba')
+        expect(getRecentFantasyData).toHaveBeenCalledWith('nhl')
     });
 
     it('should call getFantasyData with correct params', () => {
-        expect(uploadObjectToS3).toHaveBeenCalledWith('recent fantasy data', FANTASY_ANALYTICS_BUCKET_NAME, 'a sportRecentFantasyData.json')
-    });
-
-    it('should return expected result', () => {
-        expect(result).toEqual('data uploaded')
+        expect(uploadObjectToS3).toHaveBeenCalledWith('recent fantasy data', FANTASY_ANALYTICS_BUCKET_NAME, 'mlbRecentFantasyData.json')
+        expect(uploadObjectToS3).toHaveBeenCalledWith('recent fantasy data', FANTASY_ANALYTICS_BUCKET_NAME, 'nflRecentFantasyData.json')
+        expect(uploadObjectToS3).toHaveBeenCalledWith('recent fantasy data', FANTASY_ANALYTICS_BUCKET_NAME, 'nbaRecentFantasyData.json')
+        expect(uploadObjectToS3).toHaveBeenCalledWith('recent fantasy data', FANTASY_ANALYTICS_BUCKET_NAME, 'nhlRecentFantasyData.json')
     });
 })
