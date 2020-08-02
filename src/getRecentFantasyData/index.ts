@@ -6,6 +6,6 @@ export const getRecentFantasyDataHandler = async (event: any): Promise<any> => {
     const {sport} = event;
     return getRecentFantasyData(sport)
         .then((recentData: any) => {
-            return uploadObjectToS3(recentData, FANTASY_ANALYTICS_BUCKET_NAME, `${sport}RecentFantasyData`)
+            return uploadObjectToS3(recentData, FANTASY_ANALYTICS_BUCKET_NAME, `${sport}RecentFantasyData.json`)
         })
 }
