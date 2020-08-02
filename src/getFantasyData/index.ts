@@ -11,16 +11,16 @@ export const getFantasyData = async (event: FantasyLambdaEvent): Promise<Fantasy
     const {sport, season, date, week} = event;
     return getEventIds(sport, season, date, week)
         .then(eventIds => {
-            if (sport === 'mlb')
-                return Bluebird.map(eventIds, eventId => getFantasyDataFromMLBGame(eventId))
-            if (sport === 'nfl')
-                return Bluebird.map(eventIds, eventId => getFantasyDataFromNFLGame(eventId))
-            if (sport === 'nba')
-                return Bluebird.map(eventIds, eventId => getFantasyDataFromNBAGame(eventId))
-            if (sport === 'nhl')
-                return Bluebird.map(eventIds, eventId => getFantasyDataFromNHLGame(eventId))
+            return Bluebird.map(eventIds, eventId => fantasyDataFunctionMap[sport](eventId))
         })
         .then(fantasyData => {
             return _.flatten(fantasyData)
         })
 };
+
+const fantasyDataFunctionMap = {
+    mlb: getFantasyDataFromMLBGame,
+    nfl: getFantasyDataFromNFLGame,
+    nba: getFantasyDataFromNBAGame,
+    nhl: getFantasyDataFromNHLGame
+}
