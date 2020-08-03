@@ -4,14 +4,19 @@ import {getFantasyDataFromNFLGame} from "../helpers/getFantasyDataFromEvent/getF
 import {getFantasyDataFromMLBGame} from "../helpers/getFantasyDataFromEvent/getFantasyDataFromMLBGame";
 import {getFantasyDataFromNBAGame} from "../helpers/getFantasyDataFromEvent/getFantasyDataFromNBAGame";
 import {getFantasyDataFromNHLGame} from "../helpers/getFantasyDataFromEvent/getFantasyDataFromNHLGame";
+import {getSignature} from "../helpers/getSignature/getSignature";
+import {delay} from "../constants";
 
 jest.mock('../helpers/getEventIds/getEventIds');
+jest.mock('../helpers/getSignature/getSignature');
 jest.mock('../helpers/getFantasyDataFromEvent/getFantasyDataFromMLBGame');
 jest.mock('../helpers/getFantasyDataFromEvent/getFantasyDataFromNFLGame');
 jest.mock('../helpers/getFantasyDataFromEvent/getFantasyDataFromNBAGame');
 jest.mock('../helpers/getFantasyDataFromEvent/getFantasyDataFromNHLGame');
+jest.mock('../constants');
 
 (getEventIds as jest.Mock).mockResolvedValue([1, 2, 3]);
+(getSignature as jest.Mock).mockReturnValue('signature');
 (getFantasyDataFromMLBGame as jest.Mock).mockResolvedValue([
     {some: 'stuff'},
     {some: 'other stuff'}
@@ -28,14 +33,15 @@ jest.mock('../helpers/getFantasyDataFromEvent/getFantasyDataFromNHLGame');
     {some: 'stuff'},
     {some: 'other stuff'}
 ]);
+(delay as jest.Mock).mockImplementation(jest.fn());
 
 describe('getFantasyData', () => {
     const season = 1969;
+    const date = 'date';
 
     describe('mlb case', () => {
         let result: any;
         const sport = 'mlb';
-        const date = 'date';
         const event = {sport, season, date};
 
         beforeEach(async () => {
@@ -46,9 +52,13 @@ describe('getFantasyData', () => {
             expect(getEventIds).toHaveBeenCalledWith(sport, season, date, undefined)
         });
 
+        it('should call getSignature with correct params', () => {
+            expect(getSignature).toHaveBeenCalledWith(process.env.API_KEY, process.env.API_SECRET)
+        });
+
         it.each([1, 2, 3])(
             'should call getFantasyDataFromMLBGame with correct params', (eventId) => {
-                expect(getFantasyDataFromMLBGame).toHaveBeenCalledWith(eventId)
+                expect(getFantasyDataFromMLBGame).toHaveBeenCalledWith(eventId, 'signature')
             }
         );
 
@@ -78,9 +88,13 @@ describe('getFantasyData', () => {
             expect(getEventIds).toHaveBeenCalledWith(sport, season, undefined, week)
         });
 
+        it('should call getSignature with correct params', () => {
+            expect(getSignature).toHaveBeenCalledWith(process.env.API_KEY, process.env.API_SECRET)
+        });
+
         it.each([1, 2, 3])(
             'should call getFantasyDataFromNFLGame with correct params', (eventId) => {
-                expect(getFantasyDataFromNFLGame).toHaveBeenCalledWith(eventId)
+                expect(getFantasyDataFromNFLGame).toHaveBeenCalledWith(eventId, 'signature')
             }
         );
 
@@ -99,7 +113,6 @@ describe('getFantasyData', () => {
     describe('nba case', () => {
         let result: any;
         const sport = 'nba';
-        const date = 'date';
         const event = {sport, season, date};
 
         beforeEach(async () => {
@@ -110,9 +123,13 @@ describe('getFantasyData', () => {
             expect(getEventIds).toHaveBeenCalledWith(sport, season, date, undefined)
         });
 
+        it('should call getSignature with correct params', () => {
+            expect(getSignature).toHaveBeenCalledWith(process.env.API_KEY, process.env.API_SECRET)
+        });
+
         it.each([1, 2, 3])(
             'should call getFantasyDataFromNBAGame with correct params', (eventId) => {
-                expect(getFantasyDataFromNBAGame).toHaveBeenCalledWith(eventId)
+                expect(getFantasyDataFromNBAGame).toHaveBeenCalledWith(eventId, 'signature')
             }
         );
 
@@ -131,7 +148,6 @@ describe('getFantasyData', () => {
     describe('nhl case', () => {
         let result: any;
         const sport = 'nhl';
-        const date = 'date';
         const event = {sport, season, date};
 
         beforeEach(async () => {
@@ -142,9 +158,13 @@ describe('getFantasyData', () => {
             expect(getEventIds).toHaveBeenCalledWith(sport, season, date, undefined)
         });
 
+        it('should call getSignature with correct params', () => {
+            expect(getSignature).toHaveBeenCalledWith(process.env.API_KEY, process.env.API_SECRET)
+        });
+
         it.each([1, 2, 3])(
             'should call getFantasyDataFromNHLGame with correct params', (eventId) => {
-                expect(getFantasyDataFromNHLGame).toHaveBeenCalledWith(eventId)
+                expect(getFantasyDataFromNHLGame).toHaveBeenCalledWith(eventId, 'signature')
             }
         );
 

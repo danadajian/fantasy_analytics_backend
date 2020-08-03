@@ -7,6 +7,8 @@ export const getEventIds = async (sport: string, season: number, date: string, w
     return callApi(`stats/${SPORT_MAP[sport]}/${sport}/events/`, `${seasonParam}${lastParam}`)
         .then(response => {
             return response.apiResults ?
-                response.apiResults[0].league.season.eventType[0].events.map(event => event.eventId) : [];
+                response.apiResults[0].league.season.eventType[0].events
+                    .filter(event => event.eventStatus.name === 'Final')
+                    .map(event => event.eventId) : [];
         })
 };

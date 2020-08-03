@@ -7,10 +7,10 @@ import {
 } from "../calculateFantasyPoints/calculateMLBFantasyPoints";
 import {FantasyData} from "../../index";
 
-export const getFantasyDataFromMLBGame = async (eventId: number): Promise<FantasyData[]> => {
+export const getFantasyDataFromMLBGame = async (eventId: number, signature: string): Promise<FantasyData[]> => {
     const sport = 'mlb';
-    return callApi(`stats/${SPORT_MAP[sport]}/${sport}/events/${eventId}`, "&box=true")
-        .then((response) => {
+    return callApi(`stats/${SPORT_MAP[sport]}/${sport}/events/${eventId}`, "&box=true", signature)
+        .then(response => {
             return response.apiResults[0].league.season.eventType[0].events[0];
         })
         .then(eventData => {

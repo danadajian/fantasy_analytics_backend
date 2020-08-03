@@ -6,12 +6,18 @@ import {getFantasyDataFromNHLGame} from "../helpers/getFantasyDataFromEvent/getF
 import * as _ from 'lodash'
 import * as Bluebird from 'bluebird'
 import {FantasyData, FantasyLambdaEvent} from "../index";
+import {getSignature} from "../helpers/getSignature/getSignature";
+import {delay} from "../constants";
 
 export const getFantasyData = async (event: FantasyLambdaEvent): Promise<FantasyData[]> => {
     const {sport, season, date, week} = event;
     return getEventIds(sport, season, date, week)
         .then((eventIds: number[]) => {
-            return Bluebird.map(eventIds, eventId => fantasyDataFunctionMap[sport](eventId), {concurrency: 1})
+            const signature = getSignature(process.env.API_KEY, process.env.API_SECRET);
+            return Bluebird.map(eventIds, (eventId: number) => {
+                delay(1000);
+                return fantasyDataFunctionMap[sport](eventId, signature)
+            }, {concurrency: 1})
         })
         .then(fantasyData => {
             return _.flatten(fantasyData)

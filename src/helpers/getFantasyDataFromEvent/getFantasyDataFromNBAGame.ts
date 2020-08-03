@@ -4,9 +4,9 @@ import {addOrUpdatePlayerData} from "../addOrUpdatePlayerData/addOrUpdatePlayerD
 import {calculateDraftKingsPoints, calculateFanduelPoints} from "../calculateFantasyPoints/calculateNBAFantasyPoints";
 import {FantasyData} from "../../index";
 
-export const getFantasyDataFromNBAGame = async (eventId: number): Promise<FantasyData[]> => {
+export const getFantasyDataFromNBAGame = async (eventId: number, signature: string): Promise<FantasyData[]> => {
     const sport = 'nba';
-    return callApi(`stats/${SPORT_MAP[sport]}/${sport}/events/${eventId}`, "&box=true")
+    return callApi(`stats/${SPORT_MAP[sport]}/${sport}/events/${eventId}`, "&box=true", signature)
         .then((response) => {
             return response.apiResults[0].league.season.eventType[0].events[0];
         })

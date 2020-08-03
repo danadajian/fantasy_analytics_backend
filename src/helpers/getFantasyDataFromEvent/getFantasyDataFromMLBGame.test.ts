@@ -7,17 +7,18 @@ jest.mock('../callApi/callApi');
 
 describe('getFantasyDataFromMLBGame', () => {
     const eventId = 123;
+    const signature = 'signature'
 
     describe('success case', () => {
         let result: any;
 
         beforeEach(async () => {
             (callApi as jest.Mock).mockResolvedValue(mockMLBEventIdResponse);
-            result = await getFantasyDataFromMLBGame(eventId)
+            result = await getFantasyDataFromMLBGame(eventId, signature)
         });
 
         it('should call callApi with correct params', () => {
-            expect(callApi).toHaveBeenCalledWith("stats/baseball/mlb/events/123", "&box=true")
+            expect(callApi).toHaveBeenCalledWith("stats/baseball/mlb/events/123", "&box=true", signature)
         });
 
         it('should return expected result', () => {
@@ -187,11 +188,11 @@ describe('getFantasyDataFromMLBGame', () => {
 
         beforeEach(async () => {
             (callApi as jest.Mock).mockResolvedValue({an: 'error'});
-            result = await getFantasyDataFromMLBGame(eventId)
+            result = await getFantasyDataFromMLBGame(eventId, signature)
         });
 
         it('should call callApi with correct params', () => {
-            expect(callApi).toHaveBeenCalledWith("stats/baseball/mlb/events/123", "&box=true")
+            expect(callApi).toHaveBeenCalledWith("stats/baseball/mlb/events/123", "&box=true", signature)
         });
 
         it('should return expected result', () => {
