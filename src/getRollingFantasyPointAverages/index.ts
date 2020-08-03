@@ -11,10 +11,10 @@ export const getRollingFantasyPointAverages = async (event): Promise<FantasyData
             let {rollingDateStrings, rollingWeeks, currentSeason} = currentData;
             if (sport === 'nfl') {
                 return Bluebird.map(rollingWeeks,
-                        week => getFantasyData({sport, week, season: currentSeason}))
+                        week => getFantasyData({sport, week, season: currentSeason}), {concurrency: 1})
             } else {
                 return Bluebird.map(rollingDateStrings,
-                        date => getFantasyData({sport, date, season: currentSeason}))
+                        date => getFantasyData({sport, date, season: currentSeason}), {concurrency: 1})
             }
         })
         .then(allFantasyData => {
