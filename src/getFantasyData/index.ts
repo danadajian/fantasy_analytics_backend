@@ -16,9 +16,9 @@ export const getFantasyData = async (event: FantasyLambdaEvent): Promise<Fantasy
             logger.info(`Found eventIds for ${sport}: ${eventIds}`);
             const signature = getSignature(process.env.API_KEY, process.env.API_SECRET);
             return Bluebird.map(eventIds, (eventId: number) => {
-                delay(API_DELAY_MS);
                 logger.info(`Getting data for eventId: ${eventId}`);
-                return fantasyDataFunctionMap[sport](eventId, signature)
+                return delay(API_DELAY_MS)
+                    .then(() => fantasyDataFunctionMap[sport](eventId, signature));
             }, {concurrency: 1})
         })
         .then(fantasyData => {

@@ -5,7 +5,7 @@ import {getFantasyDataFromMLBGame} from "../helpers/getFantasyDataFromEvent/getF
 import {getFantasyDataFromNBAGame} from "../helpers/getFantasyDataFromEvent/getFantasyDataFromNBAGame";
 import {getFantasyDataFromNHLGame} from "../helpers/getFantasyDataFromEvent/getFantasyDataFromNHLGame";
 import {getSignature} from "../helpers/getSignature/getSignature";
-import {delay} from "../constants";
+import {API_DELAY_MS, delay} from "../constants";
 
 jest.mock('../helpers/getEventIds/getEventIds');
 jest.mock('../helpers/getSignature/getSignature');
@@ -33,7 +33,7 @@ jest.mock('../constants');
     {some: 'stuff'},
     {some: 'other stuff'}
 ]);
-(delay as jest.Mock).mockImplementation(jest.fn());
+(delay as jest.Mock).mockResolvedValue('delay complete');
 
 describe('getFantasyData', () => {
     const season = 1969;
@@ -54,6 +54,10 @@ describe('getFantasyData', () => {
 
         it('should call getSignature with correct params', () => {
             expect(getSignature).toHaveBeenCalledWith(process.env.API_KEY, process.env.API_SECRET)
+        });
+
+        it('should call delay with correct params', () => {
+            expect(delay).toHaveBeenCalledWith(API_DELAY_MS)
         });
 
         it.each([1, 2, 3])(
@@ -92,6 +96,10 @@ describe('getFantasyData', () => {
             expect(getSignature).toHaveBeenCalledWith(process.env.API_KEY, process.env.API_SECRET)
         });
 
+        it('should call delay with correct params', () => {
+            expect(delay).toHaveBeenCalledWith(API_DELAY_MS)
+        });
+
         it.each([1, 2, 3])(
             'should call getFantasyDataFromNFLGame with correct params', (eventId) => {
                 expect(getFantasyDataFromNFLGame).toHaveBeenCalledWith(eventId, 'signature')
@@ -127,6 +135,10 @@ describe('getFantasyData', () => {
             expect(getSignature).toHaveBeenCalledWith(process.env.API_KEY, process.env.API_SECRET)
         });
 
+        it('should call delay with correct params', () => {
+            expect(delay).toHaveBeenCalledWith(API_DELAY_MS)
+        });
+
         it.each([1, 2, 3])(
             'should call getFantasyDataFromNBAGame with correct params', (eventId) => {
                 expect(getFantasyDataFromNBAGame).toHaveBeenCalledWith(eventId, 'signature')
@@ -160,6 +172,10 @@ describe('getFantasyData', () => {
 
         it('should call getSignature with correct params', () => {
             expect(getSignature).toHaveBeenCalledWith(process.env.API_KEY, process.env.API_SECRET)
+        });
+
+        it('should call delay with correct params', () => {
+            expect(delay).toHaveBeenCalledWith(API_DELAY_MS)
         });
 
         it.each([1, 2, 3])(
