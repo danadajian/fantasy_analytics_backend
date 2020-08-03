@@ -29,8 +29,4 @@ describe('getRecentFantasyDataHandler', () => {
         expect(uploadObjectToS3).toHaveBeenCalledWith('recent fantasy data', FANTASY_ANALYTICS_BUCKET_NAME, 'nbaRecentFantasyData.json')
         expect(uploadObjectToS3).toHaveBeenCalledWith('recent fantasy data', FANTASY_ANALYTICS_BUCKET_NAME, 'nhlRecentFantasyData.json')
     });
-
-    it('should return expected result', () => {
-        expect(result).toEqual('Fantasy data uploaded.')
-    });
 })
