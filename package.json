@@ -12,18 +12,18 @@
     "@types/dotenv": "^8.2.0",
     "@types/jest": "^26.0.7",
     "@types/lodash": "^4.14.158",
-    "@types/logger": "^0.0.0",
     "@types/node": "^12.0.0",
     "@types/node-fetch": "^2.5.7",
+    "@types/winston": "^2.4.4",
     "aws-sdk": "latest",
     "bluebird": "^3.7.2",
     "dotenv": "^8.2.0",
     "jest": "^26.1.0",
     "lodash": "^4.17.19",
-    "logger": "^0.0.1",
     "node-fetch": "^2.6.0",
     "ts-jest": "^26.1.3",
-    "typescript": "^3.9.5"
+    "typescript": "^3.9.5",
+    "winston": "^3.3.3"
   },
   "jest": {
     "transform": {
