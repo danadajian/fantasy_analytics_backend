@@ -7,7 +7,7 @@ import * as _ from 'lodash'
 import * as Bluebird from 'bluebird'
 import {FantasyData, FantasyLambdaEvent} from "../index";
 import {getSignature} from "../helpers/getSignature/getSignature";
-import {delay} from "../constants";
+import {API_DELAY_MS, delay} from "../constants";
 
 export const getFantasyData = async (event: FantasyLambdaEvent): Promise<FantasyData[]> => {
     const {sport, season, date, week} = event;
@@ -15,7 +15,7 @@ export const getFantasyData = async (event: FantasyLambdaEvent): Promise<Fantasy
         .then((eventIds: number[]) => {
             const signature = getSignature(process.env.API_KEY, process.env.API_SECRET);
             return Bluebird.map(eventIds, (eventId: number) => {
-                delay(1000);
+                delay(API_DELAY_MS);
                 return fantasyDataFunctionMap[sport](eventId, signature)
             }, {concurrency: 1})
         })

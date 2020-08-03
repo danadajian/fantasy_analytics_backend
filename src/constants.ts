@@ -130,4 +130,5 @@ export const SHOT_BONUS = 3;
 export const BLOCK_BONUS = 3;
 export const GOALS_AND_ASSIST_BONUS = 3;
 
+export const API_DELAY_MS = 3000;
 export const delay = (ms: number) => new Promise(res => setTimeout(res, ms));
