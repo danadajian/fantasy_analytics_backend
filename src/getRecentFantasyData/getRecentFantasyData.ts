@@ -14,7 +14,8 @@ export const getRecentFantasyData = async (sport: string): Promise<any> => {
     else {
         const today = new Date(new Date().toLocaleString("en-US", {timeZone: "America/New_York"}));
         today.setDate(today.getDate() - 1);
-        const date = today.toISOString().slice(0, 10)
+        const date = today.toISOString().slice(0, 10);
+        console.log(sport, date);
         return getFantasyData({
             sport,
             date

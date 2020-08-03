@@ -10,7 +10,7 @@ import {FantasyData, FantasyLambdaEvent} from "../index";
 export const getFantasyData = async (event: FantasyLambdaEvent): Promise<FantasyData[]> => {
     const {sport, season, date, week} = event;
     return getEventIds(sport, season, date, week)
-        .then(eventIds => {
+        .then((eventIds: number[]) => {
             return Bluebird.map(eventIds, eventId => fantasyDataFunctionMap[sport](eventId), {concurrency: 1})
         })
         .then(fantasyData => {
