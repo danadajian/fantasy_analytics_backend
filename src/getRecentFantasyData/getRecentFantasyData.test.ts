@@ -18,7 +18,6 @@ jest.spyOn(global, 'Date').mockImplementation(() => {
     }
 });
 
-
 describe('getRecentData', () => {
     describe('nfl case', () => {
         let result: any;
@@ -39,7 +38,12 @@ describe('getRecentData', () => {
         });
 
         it('should return expected result', () => {
-            expect(result).toEqual('fantasy data')
+            expect(result).toEqual([
+                {
+                    week: 68,
+                    fantasyData: 'fantasy data'
+                }
+            ])
         });
     })
 
@@ -62,7 +66,12 @@ describe('getRecentData', () => {
         });
 
         it('should return expected result', () => {
-            expect(result).toEqual('fantasy data')
+            expect(result).toEqual([
+                {
+                    date: '2020-04-19',
+                    fantasyData: 'fantasy data'
+                }
+            ])
         });
     })
 
