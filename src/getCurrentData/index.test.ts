@@ -1,10 +1,10 @@
 import {getCurrentData} from "./index";
-import {getRollingDateStrings} from "../helpers/getRollingDates/getRollingDateStrings";
+import {getRollingDateStrings} from "../helpers/getRollingDateStrings/getRollingDateStrings";
 import {getCurrentWeek} from "../helpers/getCurrentWeek/getCurrentWeek";
 import {getCurrentSeason} from "../helpers/getCurrentSeason/getCurrentSeason";
 import {getRollingWeeks} from "../helpers/getRollingWeeks/getRollingWeeks";
 
-jest.mock('../helpers/getRollingDates/getRollingDateStrings');
+jest.mock('../helpers/getRollingDateStrings/getRollingDateStrings');
 jest.mock('../helpers/getRollingWeeks/getRollingWeeks');
 jest.mock('../helpers/getCurrentWeek/getCurrentWeek');
 jest.mock('../helpers/getCurrentSeason/getCurrentSeason');
@@ -13,12 +13,6 @@ jest.mock('../helpers/getCurrentSeason/getCurrentSeason');
 (getRollingWeeks as jest.Mock).mockResolvedValue([69, 420]);
 (getCurrentWeek as jest.Mock).mockResolvedValue(69);
 (getCurrentSeason as jest.Mock).mockResolvedValue(1969);
-
-const date = new Date();
-// @ts-ignore
-jest.spyOn(global, 'Date').mockImplementation(() => {
-    return date
-});
 
 describe('getCurrentData', () => {
     let result: any;
@@ -34,7 +28,7 @@ describe('getCurrentData', () => {
     });
 
     it('should call getRollingDateStrings with correct params', () => {
-        expect(getRollingDateStrings).toHaveBeenCalledWith(date)
+        expect(getRollingDateStrings).toHaveBeenCalled()
     });
 
     it('should call getRollingWeeks with correct params', () => {

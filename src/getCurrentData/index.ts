@@ -1,6 +1,6 @@
 import {getCurrentWeek} from "../helpers/getCurrentWeek/getCurrentWeek";
 import {getCurrentSeason} from "../helpers/getCurrentSeason/getCurrentSeason";
-import {getRollingDateStrings} from "../helpers/getRollingDates/getRollingDateStrings";
+import {getRollingDateStrings} from "../helpers/getRollingDateStrings/getRollingDateStrings";
 import {getRollingWeeks} from "../helpers/getRollingWeeks/getRollingWeeks";
 import {CurrentData} from "../index";
 
@@ -10,7 +10,7 @@ export const getCurrentData = async (event: any): Promise<CurrentData> => {
     return getCurrentWeek(sport)
         .then(currentWeek => {
             return Promise.all([
-                getRollingDateStrings(new Date()),
+                getRollingDateStrings(),
                 getRollingWeeks(currentWeek),
                 currentWeek,
                 getCurrentSeason(sport)

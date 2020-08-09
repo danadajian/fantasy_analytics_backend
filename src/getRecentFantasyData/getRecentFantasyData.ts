@@ -1,5 +1,7 @@
 import {getFantasyData} from "../getFantasyData";
 import {getCurrentWeek} from "../helpers/getCurrentWeek/getCurrentWeek";
+import {FantasyData} from "../index";
+import {getPastDateString} from "../helpers/getPastDateString/getPastDateString";
 
 export const getRecentFantasyData = async (sport: string): Promise<any> => {
     if (sport === 'nfl') {
@@ -21,16 +23,11 @@ export const getRecentFantasyData = async (sport: string): Promise<any> => {
                 ]
             })
     } else {
-        const today = new Date(new Date().toLocaleString("en-US", {timeZone: "America/New_York"}));
-        today.setDate(today.getDate() - 1);
-        const date = today.toISOString().slice(0, 10);
-        return Promise.all([
-            date,
-            getFantasyData({
-                sport,
-                date
-            })
-        ]).then(([date, fantasyData]) => {
+        const date = getPastDateString(1);
+        return getFantasyData({
+            sport,
+            date
+        }).then((fantasyData: FantasyData[]) => {
             return [
                 {
                     date,

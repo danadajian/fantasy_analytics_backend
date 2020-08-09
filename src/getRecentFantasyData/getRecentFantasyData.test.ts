@@ -1,22 +1,15 @@
 import {getRecentFantasyData} from "./getRecentFantasyData";
 import {getCurrentWeek} from "../helpers/getCurrentWeek/getCurrentWeek";
 import {getFantasyData} from "../getFantasyData";
+import {getPastDateString} from "../helpers/getPastDateString/getPastDateString";
 
 jest.mock('../helpers/getCurrentWeek/getCurrentWeek');
 jest.mock('../getFantasyData');
+jest.mock('../helpers/getPastDateString/getPastDateString');
 
 (getCurrentWeek as jest.Mock).mockResolvedValue(69);
 (getFantasyData as jest.Mock).mockResolvedValue('fantasy data');
-
-// @ts-ignore
-jest.spyOn(global, 'Date').mockImplementation(() => {
-    return {
-        toLocaleString: jest.fn(() => '4/20/2020, 04:20:00 PM'),
-        toISOString: jest.fn(() => '2020-04-19T04:20:69'),
-        getDate: jest.fn(),
-        setDate: jest.fn()
-    }
-});
+(getPastDateString as jest.Mock).mockReturnValue('2020-04-19');
 
 describe('getRecentData', () => {
     describe('nfl case', () => {
@@ -28,6 +21,10 @@ describe('getRecentData', () => {
 
         it('should call getCurrentWeek', () => {
             expect(getCurrentWeek).toHaveBeenCalledWith('nfl')
+        });
+
+        it('should not call getPastDateString', () => {
+            expect(getPastDateString).not.toHaveBeenCalled()
         });
 
         it('should call getFantasyData with correct params', () => {
@@ -56,6 +53,10 @@ describe('getRecentData', () => {
 
         it('should not call getCurrentWeek', () => {
             expect(getCurrentWeek).not.toHaveBeenCalled()
+        });
+
+        it('should call getPastDateString with correct params', () => {
+            expect(getPastDateString).toHaveBeenCalledWith(1)
         });
 
         it('should call getFantasyData with correct params', () => {
