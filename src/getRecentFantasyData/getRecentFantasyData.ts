@@ -1,6 +1,6 @@
 import {getFantasyData} from "../getFantasyData";
 import {getCurrentWeek} from "../helpers/getCurrentWeek/getCurrentWeek";
-import {FantasyData} from "../index";
+import {FantasyData} from "../types";
 import {getPastDateString} from "../helpers/getPastDateString/getPastDateString";
 
 export const getRecentFantasyData = async (sport: string): Promise<any> => {

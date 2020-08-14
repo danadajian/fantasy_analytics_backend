@@ -1,4 +1,4 @@
-import {sum} from "../sum/sum";
+import * as _ from 'lodash';
 import {
     BLOCK_BONUS, DK_ASSIST_MULTIPLIER, DK_BLOCKED_SHOTS_MULTIPLIER, DK_GOAL_MULTIPLIER, DK_GOALIE_SAVE_MULTIPLIER,
     DK_GOALIE_SHUTOUT_BONUS, DK_GOALIE_WIN_POINTS, DK_GOALS_AGAINST_MULTIPLIER, DK_SHOT_MULTIPLIER,
@@ -8,31 +8,31 @@ import {
     SHORT_HANDED_MULTIPLIER, SHOT_BONUS
 } from "../../constants";
 
-export const calculateFanduelGoaliePoints = (statObject) => {
+export const calculateFanduelGoaliePoints = (statObject): number => {
     const {goalsAgainst, isShutout, isWinningGoaltender, saves} = statObject;
-    return sum(
+    return _.chain([
         isWinningGoaltender ? FD_GOALIE_WIN_POINTS : 0,
         goalsAgainst.totalAgainst * FD_GOALS_AGAINST_MULTIPLIER,
         saves * FD_GOALIE_SAVE_MULTIPLIER,
         isShutout ? FD_GOALIE_SHUTOUT_BONUS : 0
-    )
+    ]).sum().round(2).value()
 };
 
-export const calculateDraftKingsGoaliePoints = (statObject) => {
+export const calculateDraftKingsGoaliePoints = (statObject): number => {
     const {goalsAgainst, isOTLossGoaltender, isShutout, isWinningGoaltender, saves} = statObject;
-    return sum(
+    return _.chain([
         isWinningGoaltender ? DK_GOALIE_WIN_POINTS : 0,
         goalsAgainst.totalAgainst * DK_GOALS_AGAINST_MULTIPLIER,
         saves * DK_GOALIE_SAVE_MULTIPLIER,
         isShutout ? DK_GOALIE_SHUTOUT_BONUS : 0,
         isOTLossGoaltender ? OVERTIME_LOSS_BONUS : 0,
         saves >= 35 ? GOALIE_SAVE_BONUS : 0
-    )
+    ]).sum().round(2).value()
 };
 
-export const calculateFanduelSkaterPoints = (statObject) => {
+export const calculateFanduelSkaterPoints = (statObject): number => {
     const {assists, blocks, goals, shotsOnGoal} = statObject;
-    return sum(
+    return _.chain([
         goals.total * FD_GOAL_MULTIPLIER,
         assists.total * FD_ASSIST_MULTIPLIER,
         shotsOnGoal * FD_SHOT_MULTIPLIER,
@@ -41,12 +41,12 @@ export const calculateFanduelSkaterPoints = (statObject) => {
         assists.shortHanded * SHORT_HANDED_MULTIPLIER,
         assists.powerPlay * POWER_PLAY_MULTIPLIER,
         blocks * FD_BLOCKED_SHOTS_MULTIPLIER
-    )
+    ]).sum().round(2).value()
 };
 
-export const calculateDraftKingsSkaterPoints = (statObject) => {
+export const calculateDraftKingsSkaterPoints = (statObject): number => {
     const {assists, blocks, goals, shootout, shotsOnGoal} = statObject;
-    return sum(
+    return _.chain([
         goals.total * DK_GOAL_MULTIPLIER,
         assists.total * DK_ASSIST_MULTIPLIER,
         shotsOnGoal * DK_SHOT_MULTIPLIER,
@@ -58,5 +58,5 @@ export const calculateDraftKingsSkaterPoints = (statObject) => {
         shotsOnGoal >= 5 ? SHOT_BONUS : 0,
         blocks >= 3 ? BLOCK_BONUS : 0,
         goals.total + assists.total >= 3 ? GOALS_AND_ASSIST_BONUS : 0
-    )
+    ]).sum().round(2).value()
 };

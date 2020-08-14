@@ -1,5 +1,6 @@
 import {getFantasyDataFromMLBGame} from "./getFantasyDataFromMLBGame";
 import {callApi} from "../callApi/callApi";
+import * as _ from 'lodash';
 
 const mockMLBEventIdResponse = require('../../fixtures/mlbEventIdResponse.json');
 
@@ -22,7 +23,7 @@ describe('getFantasyDataFromMLBGame', () => {
         });
 
         it('should return expected result', () => {
-            expect(result).toEqual([
+            expect(_.sortBy(result, 'name')).toEqual(_.sortBy([
                 {
                     "DraftKings": 19,
                     "Fanduel": 25.4,
@@ -179,7 +180,7 @@ describe('getFantasyDataFromMLBGame', () => {
                     "name": "Buddy Boshers",
                     "playerId": 454539
                 }
-            ])
+            ], 'name'))
         });
     });
 

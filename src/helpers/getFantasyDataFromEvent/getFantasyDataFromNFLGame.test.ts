@@ -1,5 +1,6 @@
 import {getFantasyDataFromNFLGame} from "./getFantasyDataFromNFLGame";
 import {callApi} from "../callApi/callApi";
+import * as _ from 'lodash';
 
 const mockNFLEventIdResponse = require('../../fixtures/nflEventIdResponse.json');
 
@@ -22,7 +23,7 @@ describe('getFantasyDataFromNFLGame', () => {
         });
 
         it('should return expected result', () => {
-            expect(result).toEqual([
+            expect(_.sortBy(result, 'name')).toEqual(_.sortBy([
                 {
                     "DraftKings": 9.6,
                     "Fanduel": 6.6,
@@ -149,7 +150,7 @@ describe('getFantasyDataFromNFLGame', () => {
                     "name": "Packers D/ST",
                     "playerId": 335
                 }
-            ])
+            ], 'name'))
         });
     });
 
