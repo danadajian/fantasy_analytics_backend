@@ -10,9 +10,9 @@ export const getFantasyDataWithPercentiles = async (fantasyData: FantasyData[], 
 
     return Bluebird.map(filteredFantasyData, (playerData: FantasyData) => {
         const actual = playerData.Fanduel;
-        const playerPoolPosition = playerPool.find(player => player.playerId === playerData.playerId).position;
+        const position = playerPool.find(player => player.playerId === playerData.playerId).position;
         const playerIdsWithMatchingPositions = playerPool
-            .filter(player => player.position === playerPoolPosition)
+            .filter(player => player.position === position)
             .map(player => player.playerId);
         const sortedFilteredPoints = sortedFantasyData
             .filter((player: FantasyData) => playerIdsWithMatchingPositions.includes(player.playerId))
@@ -22,6 +22,7 @@ export const getFantasyDataWithPercentiles = async (fantasyData: FantasyData[], 
         const overallRank = sortedPoints.indexOf(actual) + 1;
         return {
             ...playerData,
+            position,
             positionPercentile: positionRank / sortedFilteredPoints.length * 100,
             overallPercentile: overallRank / sortedPoints.length * 100
         }
