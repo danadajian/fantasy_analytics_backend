@@ -9,8 +9,9 @@ export const getFantasyDataWithAnalytics = async (recentFantasyData: RecentFanta
             return {
                 date,
                 fantasyData: fantasyDataWithPercentiles,
-                avgPositionPercentile: _.meanBy(fantasyDataWithPercentiles, 'positionPercentile'),
-                avgOverallPercentile: _.meanBy(fantasyDataWithPercentiles, 'overallPercentile')
+                avgPositionPercentile: _.chain(fantasyDataWithPercentiles).meanBy('positionPercentile').round(1).value(),
+                avgOverallPercentile: _.chain(fantasyDataWithPercentiles).meanBy('overallPercentile').round(1).value(),
+                positions: _.uniq(playerPool.map(player => player.position))
             }
         });
 }

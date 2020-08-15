@@ -22,6 +22,10 @@ describe('getFantasyDataPercentiles', () => {
         {
             playerId: 5,
             Fanduel: 5
+        },
+        {
+            playerId: 6,
+            Fanduel: 6
         }
     ];
     const playerPool = [

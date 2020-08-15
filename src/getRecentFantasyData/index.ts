@@ -14,7 +14,7 @@ export const getRecentFantasyDataHandler = async (): Promise<any> => {
         return Promise.all([
             getRecentFantasyData(sport),
             retrieveObjectFromS3(FANTASY_ANALYTICS_BUCKET_NAME, `${sport}RecentFantasyData.json`).catch(() => []),
-            retrieveObjectFromS3(DFS_PIPELINE_BUCKET_NAME, `${sport}PlayerPool.json`),
+            retrieveObjectFromS3(DFS_PIPELINE_BUCKET_NAME, `${sport}PlayerPool.json`).catch(() => []),
         ]).then(([recentFantasyData, existingFantasyData, playerPool]) => {
             return Promise.all([
                 existingFantasyData,

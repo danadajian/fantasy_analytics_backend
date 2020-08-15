@@ -3,12 +3,16 @@ import * as Bluebird from "bluebird";
 import * as _ from 'lodash';
 
 export const getFantasyDataWithPercentiles = async (fantasyData: FantasyData[], playerPool: any[]): Promise<any[]> => {
-    const sortedFantasyData = _.sortBy(fantasyData, 'Fanduel');
-    return Bluebird.map(fantasyData, (playerData: FantasyData) => {
+    const filteredFantasyData = fantasyData
+        .filter((playerData: FantasyData) => playerPool
+        .map(player => player.playerId).includes(playerData.playerId));
+    const sortedFantasyData = _.sortBy(filteredFantasyData, 'Fanduel');
+
+    return Bluebird.map(filteredFantasyData, (playerData: FantasyData) => {
         const actual = playerData.Fanduel;
-        const playerPosition = playerPool.find(player => player.playerId === playerData.playerId).position;
+        const playerPoolPosition = playerPool.find(player => player.playerId === playerData.playerId).position;
         const playerIdsWithMatchingPositions = playerPool
-            .filter(player => player.position === playerPosition)
+            .filter(player => player.position === playerPoolPosition)
             .map(player => player.playerId);
         const sortedFilteredPoints = sortedFantasyData
             .filter((player: FantasyData) => playerIdsWithMatchingPositions.includes(player.playerId))
