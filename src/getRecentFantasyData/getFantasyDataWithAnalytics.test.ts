@@ -10,16 +10,10 @@ jest.mock('lodash');
 
 describe('getFantasyDataWithAnalytics', () => {
     let result: any;
-    const recentFantasyData = [
-        {
-            date: 'a date',
-            fantasyData: 'fantasy data'
-        },
-        {
-            date: 'another date',
-            fantasyData: 'more fantasy data'
-        }
-    ];
+    const recentFantasyData = {
+        date: 'a date',
+        fantasyData: 'fantasy data'
+    };
     const playerPool = 'player pool';
 
     beforeEach(async () => {
@@ -29,7 +23,6 @@ describe('getFantasyDataWithAnalytics', () => {
 
     it('should call getFantasyDataWithPercentiles with correct params', () => {
         expect(getFantasyDataWithPercentiles).toHaveBeenCalledWith('fantasy data', playerPool);
-        expect(getFantasyDataWithPercentiles).toHaveBeenCalledWith('more fantasy data', playerPool);
     });
 
     it('should call meanBy with correct params', () => {
@@ -38,19 +31,11 @@ describe('getFantasyDataWithAnalytics', () => {
     });
 
     it('should return expected result', () => {
-        expect(result).toEqual([
-            {
-                date: 'a date',
-                fantasyData: 'fantasyDataWithPercentiles',
-                avgPositionPercentile: 'percentile avg',
-                avgOverallPercentile: 'percentile avg'
-            },
-            {
-                date: 'another date',
-                fantasyData: 'fantasyDataWithPercentiles',
-                avgPositionPercentile: 'percentile avg',
-                avgOverallPercentile: 'percentile avg'
-            }
-        ])
+        expect(result).toEqual({
+            date: 'a date',
+            fantasyData: 'fantasyDataWithPercentiles',
+            avgPositionPercentile: 'percentile avg',
+            avgOverallPercentile: 'percentile avg'
+        })
     });
 })

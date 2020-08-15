@@ -1,9 +1,9 @@
 import {getFantasyData} from "../getFantasyData";
 import {getCurrentWeek} from "../helpers/getCurrentWeek/getCurrentWeek";
-import {FantasyData} from "../types";
+import {FantasyData, RecentFantasyData} from "../types";
 import {getPastDateString} from "../helpers/getPastDateString/getPastDateString";
 
-export const getRecentFantasyData = async (sport: string): Promise<any> => {
+export const getRecentFantasyData = async (sport: string): Promise<RecentFantasyData> => {
     if (sport === 'nfl') {
         return getCurrentWeek(sport)
             .then((week: number) => {
@@ -15,12 +15,10 @@ export const getRecentFantasyData = async (sport: string): Promise<any> => {
                     })
                 ])
             }).then(([week, fantasyData]) => {
-                return [
-                    {
-                        week,
-                        fantasyData
-                    }
-                ]
+                return {
+                    week,
+                    fantasyData
+                }
             })
     } else {
         const date = getPastDateString(1);
@@ -28,12 +26,10 @@ export const getRecentFantasyData = async (sport: string): Promise<any> => {
             sport,
             date
         }).then((fantasyData: FantasyData[]) => {
-            return [
-                {
-                    date,
-                    fantasyData
-                }
-            ]
+            return {
+                date,
+                fantasyData
+            }
         })
     }
 }

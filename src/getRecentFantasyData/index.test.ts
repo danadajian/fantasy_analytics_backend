@@ -8,12 +8,12 @@ jest.mock('./getRecentFantasyData');
 jest.mock('./getFantasyDataWithAnalytics');
 jest.mock('../aws/aws');
 
-(getRecentFantasyData as jest.Mock).mockResolvedValue(['recent fantasy data']);
+(getRecentFantasyData as jest.Mock).mockResolvedValue('recent fantasy data');
 (retrieveObjectFromS3 as jest.Mock).mockImplementation(async (bucketName: string) => {
     return bucketName === FANTASY_ANALYTICS_BUCKET_NAME ? ['existing fantasy data'] : 'player pool'
 });
 (uploadObjectToS3 as jest.Mock).mockResolvedValue('data uploaded');
-(getFantasyDataWithAnalytics as jest.Mock).mockResolvedValue(['recent fantasy data with analytics']);
+(getFantasyDataWithAnalytics as jest.Mock).mockResolvedValue('recent fantasy data with analytics');
 
 describe('getRecentFantasyDataHandler', () => {
     let result: any;
@@ -29,7 +29,7 @@ describe('getRecentFantasyDataHandler', () => {
     });
 
     it('should call getFantasyDataWithAnalytics with correct params', () => {
-        expect(getFantasyDataWithAnalytics).toHaveBeenCalledWith(['recent fantasy data'], 'player pool');
+        expect(getFantasyDataWithAnalytics).toHaveBeenCalledWith('recent fantasy data', 'player pool');
     });
 
     it.each(['mlb', 'nfl', 'nba', 'nhl'])('should call uploadObjectToS3 with correct params', (sport: string) => {

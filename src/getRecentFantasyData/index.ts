@@ -21,7 +21,7 @@ export const getRecentFantasyDataHandler = async (): Promise<any> => {
                 getFantasyDataWithAnalytics(recentFantasyData, playerPool)
             ])
         }).then(([existingFantasyData, recentFantasyDataWithAnalytics]) => {
-            const combinedFantasyData = existingFantasyData.concat(recentFantasyDataWithAnalytics);
+            const combinedFantasyData = existingFantasyData.concat([recentFantasyDataWithAnalytics]);
             logger.info(`Uploading ${sport} fantasy data of length ${combinedFantasyData.length} to S3...`)
             return uploadObjectToS3(combinedFantasyData, FANTASY_ANALYTICS_BUCKET_NAME, `${sport}RecentFantasyData.json`)
         })

@@ -35,12 +35,10 @@ describe('getRecentData', () => {
         });
 
         it('should return expected result', () => {
-            expect(result).toEqual([
-                {
-                    week: 68,
-                    fantasyData: 'fantasy data'
-                }
-            ])
+            expect(result).toEqual({
+                week: 68,
+                fantasyData: 'fantasy data'
+            })
         });
     })
 
@@ -67,12 +65,10 @@ describe('getRecentData', () => {
         });
 
         it('should return expected result', () => {
-            expect(result).toEqual([
-                {
-                    date: '2020-04-19',
-                    fantasyData: 'fantasy data'
-                }
-            ])
+            expect(result).toEqual({
+                date: '2020-04-19',
+                fantasyData: 'fantasy data'
+            })
         });
     })
 
