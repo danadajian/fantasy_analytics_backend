@@ -1,5 +1,5 @@
 import * as _ from 'lodash'
-import {FantasyData} from "../types";
+import {FantasyData} from "@dadajian/shared-fantasy-constants";
 
 export const groupAndCalculateAverages = async (fantasyData: FantasyData[][], site: string): Promise<FantasyData[]> => {
     return _.chain(fantasyData)

@@ -1,7 +1,7 @@
 import {getFantasyData} from "../getFantasyData";
 import {getCurrentWeek} from "../helpers/getCurrentWeek/getCurrentWeek";
-import {FantasyData, RecentFantasyData} from "../types";
 import {getPastDateString} from "../helpers/getPastDateString/getPastDateString";
+import {FantasyData, RecentFantasyData} from "@dadajian/shared-fantasy-constants";
 
 export const getRecentFantasyData = async (sport: string): Promise<RecentFantasyData> => {
     if (sport === 'nfl') {

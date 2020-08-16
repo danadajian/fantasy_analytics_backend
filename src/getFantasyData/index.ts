@@ -5,9 +5,10 @@ import {getFantasyDataFromNBAGame} from "../helpers/getFantasyDataFromEvent/getF
 import {getFantasyDataFromNHLGame} from "../helpers/getFantasyDataFromEvent/getFantasyDataFromNHLGame";
 import * as _ from 'lodash'
 import * as Bluebird from 'bluebird'
-import {FantasyData, FantasyLambdaEvent} from "../types";
+import {FantasyLambdaEvent} from "../types";
 import {getSignature} from "../helpers/getSignature/getSignature";
 import {API_DELAY_MS, delay, logger} from "../constants";
+import {FantasyData} from "@dadajian/shared-fantasy-constants";
 
 export const getFantasyData = async (event: FantasyLambdaEvent): Promise<FantasyData[]> => {
     const {sport, season, date, week} = event;

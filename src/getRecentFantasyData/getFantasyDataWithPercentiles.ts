@@ -1,6 +1,6 @@
-import {FantasyData} from "../types";
 import * as Bluebird from "bluebird";
 import * as _ from 'lodash';
+import {FantasyData} from "@dadajian/shared-fantasy-constants";
 
 export const getFantasyDataWithPercentiles = async (fantasyData: FantasyData[], playerPool: any[]): Promise<any[]> => {
     const filteredFantasyData = fantasyData

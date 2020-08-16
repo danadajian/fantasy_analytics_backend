@@ -1,6 +1,6 @@
-import {RecentFantasyData} from "../types";
 import * as _ from 'lodash';
 import {getFantasyDataWithPercentiles} from "./getFantasyDataWithPercentiles";
+import {RecentFantasyData} from "@dadajian/shared-fantasy-constants";
 
 export const getFantasyDataWithAnalytics = async (recentFantasyData: RecentFantasyData, playerPool: any[]) => {
     const {date, fantasyData} = recentFantasyData;

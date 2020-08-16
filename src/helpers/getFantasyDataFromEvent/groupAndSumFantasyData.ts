@@ -1,5 +1,5 @@
-import {FantasyData} from "../../types";
 import * as _ from "lodash";
+import {FantasyData} from "@dadajian/shared-fantasy-constants";
 
 export const groupAndSumFantasyData = (fantasyData: FantasyData[]) => {
     return _.chain(fantasyData)
