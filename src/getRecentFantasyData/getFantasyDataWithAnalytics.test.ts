@@ -29,42 +29,71 @@ const fantasyDataWithPercentiles = [
         overallPercentile: 5
     }
 ];
+const playerPool = [
+    {
+        position: 'pos1'
+    },
+    {
+        position: 'pos1'
+    },
+    {
+        position: 'pos2'
+    }
+];
 (getFantasyDataWithPercentiles as jest.Mock).mockResolvedValue(fantasyDataWithPercentiles);
 
 describe('getFantasyDataWithAnalytics', () => {
-    let result: any;
-    const recentFantasyData = {
-        date: 'a date',
-        fantasyData: 'fantasy data'
-    };
-    const playerPool = [
-        {
-            position: 'pos1'
-        },
-        {
-            position: 'pos1'
-        },
-        {
-            position: 'pos2'
-        }
-    ];
-
-    beforeEach(async () => {
-        // @ts-ignore
-        result = await getFantasyDataWithAnalytics(recentFantasyData, playerPool)
-    });
-
-    it('should call getFantasyDataWithPercentiles with correct params', () => {
-        expect(getFantasyDataWithPercentiles).toHaveBeenCalledWith('fantasy data', playerPool);
-    });
-
-    it('should return expected result', () => {
-        expect(result).toEqual({
+    describe('date case', () => {
+        let result: any;
+        const recentFantasyData = {
             date: 'a date',
-            fantasyData: fantasyDataWithPercentiles,
-            avgPositionPercentile: 2.3,
-            avgOverallPercentile: 3.3,
-            positions: ['pos1', 'pos2']
-        })
+            fantasyData: 'fantasy data'
+        };
+
+        beforeEach(async () => {
+            // @ts-ignore
+            result = await getFantasyDataWithAnalytics(recentFantasyData, playerPool)
+        });
+
+        it('should call getFantasyDataWithPercentiles with correct params', () => {
+            expect(getFantasyDataWithPercentiles).toHaveBeenCalledWith('fantasy data', playerPool);
+        });
+
+        it('should return expected result', () => {
+            expect(result).toEqual({
+                date: 'a date',
+                fantasyData: fantasyDataWithPercentiles,
+                avgPositionPercentile: 2.3,
+                avgOverallPercentile: 3.3,
+                positions: ['pos1', 'pos2']
+            })
+        });
+    });
+
+    describe('week case', () => {
+        let result: any;
+        const recentFantasyData = {
+            week: 'a week',
+            fantasyData: 'fantasy data'
+        };
+
+        beforeEach(async () => {
+            // @ts-ignore
+            result = await getFantasyDataWithAnalytics(recentFantasyData, playerPool)
+        });
+
+        it('should call getFantasyDataWithPercentiles with correct params', () => {
+            expect(getFantasyDataWithPercentiles).toHaveBeenCalledWith('fantasy data', playerPool);
+        });
+
+        it('should return expected result', () => {
+            expect(result).toEqual({
+                week: 'a week',
+                fantasyData: fantasyDataWithPercentiles,
+                avgPositionPercentile: 2.3,
+                avgOverallPercentile: 3.3,
+                positions: ['pos1', 'pos2']
+            })
+        });
     });
 })

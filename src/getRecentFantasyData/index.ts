@@ -21,9 +21,11 @@ export const getRecentFantasyDataHandler = async (): Promise<any> => {
                 getFantasyDataWithAnalytics(recentFantasyData, playerPool)
             ])
         }).then(([existingFantasyData, recentFantasyDataWithAnalytics]) => {
-            const combinedFantasyData = existingFantasyData.concat([recentFantasyDataWithAnalytics]);
-            logger.info(`Uploading ${sport} fantasy data of length ${combinedFantasyData.length} to S3...`)
-            return uploadObjectToS3(combinedFantasyData, FANTASY_ANALYTICS_BUCKET_NAME, `${sport}RecentFantasyData.json`)
+            if (existingFantasyData.length > 0) {
+                const combinedFantasyData = existingFantasyData.concat([recentFantasyDataWithAnalytics]);
+                logger.info(`Adding ${sport} fantasy data of length ${existingFantasyData.length} to S3...`)
+                return uploadObjectToS3(combinedFantasyData, FANTASY_ANALYTICS_BUCKET_NAME, `${sport}RecentFantasyData.json`)
+            }
         })
     }, {concurrency: 1});
 }
